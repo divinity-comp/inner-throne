@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_LEVEL0_LABEL; ?>
+This may output something like: Free
+( or whatever Label you've configured for Level #0 )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_LEVEL0_LABEL" /]

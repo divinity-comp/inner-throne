@@ -1,0 +1,44 @@
+/*tabbed metabox */
+
+ul.captionpix-metabox-tabs { display: inline-block; margin:0 0 -4px; padding: 0; color: #000000;}
+ul.captionpix-metabox-tabs li {list-style: none; display: inline; font-size: 11px; }
+ul.captionpix-metabox-tabs li.tab a { 
+  text-decoration: none; 
+  border-top: 1px #AAAAAA solid;
+  border-left: 1px #AAAAAA solid;
+  border-right: 1px #AAAAAA solid;
+}
+ul.captionpix-metabox-tabs li.tab a.active { 
+  color: #000000;
+  background-color: #FDF6DC;
+  border-bottom: none;  
+}
+ul.captionpix-metabox-tabs li.link a:hover { text-decoration: underline; }
+ul.captionpix-metabox-tabs li.tab.hidden { display: none; background-color: gray}
+ul.captionpix-metabox-tabs li.tab a.has_error { background-color: red; color: white; }
+ul.captionpix-metabox-tabs li a:focus { outline: none; box-shadow:none; }
+ul.captionpix-metabox-tabs li.tab a { display: block; float: left; margin-right: 4px; padding: 5px 12px;
+	font-weight: bold; text-decoration: none; zoom: 1; outline: none;
+	border-radius: 2px 2px 0 0; -webkit-border-radius: 2px 2px 0 0; -moz-border-radius: 2px 2px 0 0; 
+	background-color: #E8E8E8; color: #A8A8A8 ; 
+}
+
+
+ul.captionpix-metabox-tabs li.tab a:hover { 
+   color: #000000;
+}
+.captionpix-metabox .metabox-content {
+	background: url(images/icon-64.jpg) right bottom no-repeat,  linear-gradient(to bottom,#FDF6DC, #E7E5DB); 
+	min-height: 60px;
+	padding-bottom:50px;
+  border: 1px #AAAAAA solid;	
+}
+
+.captionpix-metabox div.tab-content { 
+	padding: 10px 15px; 
+	opacity: 90%;
+}
+
+.captionpix-metabox .form-table th, .captionpix-metabox .form-table td {
+    padding: 5px;
+}

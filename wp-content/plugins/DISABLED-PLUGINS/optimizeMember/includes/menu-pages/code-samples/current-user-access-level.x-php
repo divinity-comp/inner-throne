@@ -1,0 +1,39 @@
+<?php if (OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LEVEL === 4){ ?>
+	A Member has an Access Level of 4.
+<?php } else if (OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LEVEL === 3){ ?>
+	A Member has an Access Level of 3.
+<?php } else if (OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LEVEL === 2){ ?>
+	A Member has an Access Level of 2.
+<?php } else if (OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LEVEL === 1){ ?>
+	A Member has an Access Level of 1.
+<?php } else if(OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LEVEL === 0){ ?>
+	A User is logged in as a Free Subscriber.
+<?php } else if(OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LEVEL === -1){ ?>
+	A User is not logged in at all.
+<?php } ?>
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmIf current_user_is(optimizemember_level4)]
+	Some premium content for Level 4 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level3)]
+	Some premium content for Level 3 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level2)]
+	Some premium content for Level 2 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level1)]
+	Some premium content for Level 1 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level0)]
+	Some content for Free Subscribers.
+[/opmIf]
+
+[opmIf !is_user_logged_in()]
+	Some public content.
+[/opmIf]

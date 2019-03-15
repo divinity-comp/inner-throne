@@ -1,0 +1,168 @@
+.head_cell{
+	float:left;
+	width:10em;
+	height: 20px;
+	background-color:#F0F0F0;
+	padding-top: 5px;
+}
+.head_file_name{
+	float:left;
+	width:30em;
+	height: 20px;
+	background-color:#F0F0F0;
+	padding-top: 5px;
+	padding-left: 2px;
+}
+.item_cell{
+	float:left;
+	width:10em;
+	height: 20px;
+	background-color:#F8F8F8 ;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+.item_file_name{
+	float:left;
+	width:30em;
+	height: 20px;
+	background-color:#F8F8F8 ;
+	padding-top: 5px;
+	padding-left: 2px;
+	margin-top: 5px;
+}
+#wpimage_loading{
+	float: left;
+	clear: left;
+}
+.wpimage_req_btn, .wpimage_req, .wpimage_req_bulk {
+	border: none;
+	color: #222;
+	padding: 5px 15px;
+	font-size: 12px;
+	background: #ffc942;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.wpimage_req_btn:hover, .wpimage_req:hover, .wpimage_req_bulk:hover {
+	color: #fff;
+}
+
+.wpimage_req_bulk {
+	font-size: 16px;
+}
+.buttonWrap {
+	position: relative;
+	margin-bottom: 5px;
+}
+.apiValid {
+	left: 0;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	top: 3px;
+	position: absolute;
+}
+.apiInvalid {
+	left: 0;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	top: 2px;
+	position: absolute;
+}
+p.apiStatus {
+	padding-left: 26px;
+	position: relative;
+	width: 400px;
+}
+.wpimageSpinner {
+	display: none;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 5px;
+	background: url('../images/spinner.gif') no-repeat 0 0;
+}
+.wpimageBulkSpinner {
+	display: none;
+	padding: 0;
+	margin: 0;
+	width: 16px;
+	height: 16px;
+	background: url('../images/spinner.gif') no-repeat 0 0;
+}
+.visible {
+	display: inline-block;
+}
+.wpimageErrorWrap {
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+.noSavings {
+	margin-left: 2px;
+}
+.wpimageError {
+	margin-left: 2px;
+	font-weight: bold;
+	color: #dd3d36;
+}
+.wpimageBulkHeader {
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#wpimage-bulk-modal {
+	position: absolute !important;
+	top: 100px;	
+	width: 785px;
+}
+#wpimage-bulk-modal label {
+	margin-bottom: 11px;
+}
+#wpimage-bulk {
+	width: 780px;	
+	margin: 0 auto;
+	margin-bottom: 10px;	
+	border-spacing: 1px;
+	border-collapse: separate;
+}
+.wpimage-bulk-header td {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 4px 0 4px 2px;
+}
+td.wpimage-compressedsize {
+	text-align: left;
+}
+tr.wpimage-item-row td {
+	padding: 2px;
+	height: 20px;
+}
+span.wpimage-bulk-choose-type {
+	font-weight: bold;
+	margin-right: 5px;
+}
+#wpimage-bulk-type-lossy {
+	margin-right: 5px;
+}
+.close-wpimage-bulk {
+	font-size: 12px;
+	margin-left: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.radiosWrap {
+	display: inline-block;
+	margin: 0 0 5px 4px;
+}
+.wpimage-bulk-small {
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 0 4px 4px;
+}
+
+

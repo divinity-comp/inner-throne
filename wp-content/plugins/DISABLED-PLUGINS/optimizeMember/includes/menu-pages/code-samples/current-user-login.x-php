@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_CURRENT_USER_LOGIN; ?>
+This may output something like: johnsmith22
+( or whatever their login/username is )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_LOGIN" /]

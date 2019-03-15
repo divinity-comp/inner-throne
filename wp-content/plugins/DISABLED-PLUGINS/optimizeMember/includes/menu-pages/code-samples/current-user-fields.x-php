@@ -1,0 +1,30 @@
+<?php $fields = json_decode(OPTIMIZEMEMBER_CURRENT_USER_FIELDS, true); ?>
+<?php echo $fields["first_name"]; ?> <?php echo $fields["last_name"]; ?>
+This would output the first and last name for the current user.
+
+Custom Fields are also included in the JSON decoded array.
+<?php print_r(json_decode(OPTIMIZEMEMBER_CURRENT_USER_FIELDS, true)); ?>
+( Displays a full list of all associative array elements. )
+
+---- s2member Shortcode Equivalents ----
+
+[opmGet user_field="id" /]
+[opmGet user_field="ip" /]
+[opmGet user_field="reg_ip" /]
+[opmGet user_field="email" /]
+[opmGet user_field="login" /]
+[opmGet user_field="first_name" /]
+[opmGet user_field="last_name" /]
+[opmGet user_field="display_name" /]
+[opmGet user_field="optimizemember_custom" /]
+[opmGet user_field="optimizemember_subscr_id" /]
+[opmGet user_field="optimizemember_subscr_or_wp_id" /]
+[opmGet user_field="optimizemember_subscr_gateway" /]
+[opmGet user_field="my_custom_field_id" /]
+[opmGet user_field="any other WP_User property" /]
+
+Or, to include the JSON encoded array in a JavaScript routine.
+<script type="text/javascript">
+	var fieldsObj = [opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_FIELDS" /];
+	document.write(fieldsObj.display_name);
+</script>

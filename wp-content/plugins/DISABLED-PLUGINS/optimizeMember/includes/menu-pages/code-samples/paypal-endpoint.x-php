@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_PAYPAL_ENDPOINT; ?>
+This will output the PayPal endpoint domain: www.paypal.com
+( if sandbox testing is enabled, it will output www.sandbox.paypal.com )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_PAYPAL_ENDPOINT" /]

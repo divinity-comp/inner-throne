@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Recent Posts From Category\n"
+"POT-Creation-Date: 2014-09-07 18:13+0100\n"
+"PO-Revision-Date: 2014-09-07 18:13+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-recent-posts-from-category.php:102
+msgid "WP Recent Posts From Category"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:103
+msgid ""
+"Select the desired options and click the \"Generate shortcode\" button, then "
+"copy the generated shortcode and paste it in a text widget, in a post or in "
+"a page."
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:104
+msgid "Shortcode Generator"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:109
+msgid "Category to display"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:114
+msgid "Children categories"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:119
+msgid "Number of posts"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:124
+msgid "Excerpt"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:129
+msgid "Author and date"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:134
+msgid "Container's class"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:140
+msgid "Generate Shortcode"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:143
+msgid "Credits"
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:145
+msgid ""
+"\"WP Recent Posts From Category\" is a plugin by <a href=\"http://www."
+"danieledesantis.net/\" target=\"_blank\" title=\"Daniele De Santis\">Daniele "
+"De Santis</a>."
+msgstr ""
+
+#: ../wp-recent-posts-from-category.php:171
+msgid "Settings"
+msgstr ""

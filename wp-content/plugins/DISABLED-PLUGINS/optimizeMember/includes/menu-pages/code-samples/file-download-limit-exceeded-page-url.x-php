@@ -1,0 +1,7 @@
+<?php if (OPTIMIZEMEMBER_CURRENT_USER_DOWNLOADS_CURRENTLY > OPTIMIZEMEMBER_CURRENT_USER_DOWNLOADS_ALLOWED){ ?>
+  Limit Exceeded, <a href="<?php echo OPTIMIZEMEMBER_FILE_DOWNLOAD_LIMIT_EXCEEDED_PAGE_URL; ?>">click here for details</a>.
+<?php } ?>
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_FILE_DOWNLOAD_LIMIT_EXCEEDED_PAGE_URL" /]

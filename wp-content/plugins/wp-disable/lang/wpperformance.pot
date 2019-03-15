@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Disable\n"
+"Report-Msgid-Bugs-To: http://flexiblemegamenu.com\n"
+"POT-Creation-Date: 2017-10-11 04:58+0200\n"
+"PO-Revision-Date: 2017-10-11 04:58+0200\n"
+"Last-Translator: _Language-Team:\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cache/local-ga.js\n"
+
+#: lib/class-optimisationio-dashboard.php:15
+#: lib/class-optimisationio-dashboard.php:579
+msgid "n/a"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:16
+msgid "Install"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:17
+msgid "Activate"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:18
+msgid "Deactivate"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:19
+msgid "Changes you made may not be saved."
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:39
+msgid "Optimisation.io"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:282
+msgid "Invalid import arguments"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:375
+msgid "Settings imported successfully"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:379
+msgid "Imported invalid data"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:397
+msgid "Invalid export arguments"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:446
+msgid "Can't find saved data to export"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:452
+msgid "Failed data verification"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:480
+msgid "Improve WordPress performance by disabling unused items."
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:481
+msgid "Simple efficient WordPress caching."
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:482
+msgid "Image Compression and resizing - Setup under the Tools menu"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:610
+msgid "Saved"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:629
+msgid "Original DB"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:630
+msgid "New DB"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:631
+msgid "Savings"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:634
+msgid "Pages average load time"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:637
+msgid "Cache"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:638
+msgid "Gravatars Cache"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:731
+msgid "Offload Google Analytics"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:733
+msgid "Import"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:734
+msgid "Export"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:746
+msgid ""
+"Copy into textarea the encoded string of add-ons settings you have exported"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:751
+msgid "Import settings"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:753
+msgid "Clear"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:757
+msgid ""
+"Select the add-οns whose settings you want to include in the exported data"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:771
+msgid "Export current settings"
+msgstr ""
+
+#: lib/class-optimisationio-dashboard.php:773
+msgid "Copy to clipboard"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:465
+msgid "GA Code"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:469
+msgid "Save GA in (please ensure you remove any other GA tracking)"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:480
+msgid "Use adjusted bounce rate?"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:484
+msgid "Change enqueue order? (Default = 0)"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:494
+msgid "Track logged in Administrators?"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:497
+msgid "Remove script from wp-cron?"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:569
+msgid "Requests"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:571
+msgid "WooCommerce"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:573
+msgid "Tags"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:574
+msgid "Admin"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:575
+msgid "Others"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:583
+msgid "Disable Emojis"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:587
+msgid "Remove Querystrings"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:591
+msgid "Disable Embeds"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:595
+msgid "Disable Google Maps"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:599
+#, php-format
+msgid "Exclude pages from %1$s Disable Google Maps %2$s filter"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:606
+msgid "Disable Referral Spam"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:610
+msgid "DNS prefetch"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:615
+msgid "Prefetch host list"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:618
+msgid "One domain by line"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:623
+#, php-format
+msgid "Minimize requests and load %1$sGoogle Fonts%2$s asynchronous"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:627
+#, php-format
+msgid "Minimize requests and load %1$sFont Awesome%2$s asynchronous"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:631
+msgid "Disable WordPress password strength meter js on non related pages"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:635
+msgid "Disable Dashicons when user disables admin toolbar when viewing site"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:643
+msgid "Disable WooCommerce scripts and CSS on non WooCommerce pages"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:648
+msgid "Disable WooCommerce Reviews"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:653
+msgid "Defer WooCommerce Cart Fragments"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:658
+msgid "Disable WooCommerce password strength meter js on non related pages"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:666
+msgid "Remove RSD (Really Simple Discovery) tag"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:670
+msgid "Remove Shortlink Tag"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:674
+msgid "Remove Wordpress API from header"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:678
+msgid "Remove Windows Live Writer tag"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:682
+msgid "Remove Wordpress Generator Tag"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:689
+msgid "Posts revisions number"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:694
+#: lib/class-wpperformance-admin.php:782
+#: lib/class-wpperformance-admin.php:818
+msgid "WordPress default"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:735
+msgid "Disable Autosave"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:739
+msgid "Disable admin notices"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:743
+msgid "Disable author pages"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:747
+msgid "Disable all comments"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:751
+msgid "Disable comments on certain post types"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:758
+#, php-format
+msgid "Disable comments on post type \"%1$s%2$s%3$s\""
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:765
+msgid "Close comments after 28 days"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:769
+msgid "Paginate comments at 20"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:773
+msgid "Remove links from comments"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:777
+msgid "Heartbeat frequency"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:780
+msgid "seconds"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:814
+msgid "Heartbeat locations"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:819
+msgid "Disable everywhere"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:820
+msgid "Disable on dashboard page"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:821
+msgid "Allow only on post edit pages"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:842
+msgid "Disable pingbacks and trackbacks"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:846
+msgid "Disable feeds"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:852
+msgid "Redirect feed requests to corresponding HTML content"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:857
+msgid "Issue a \"Page Not Found (404)\" error for feed requests"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:863
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:867
+msgid "Disable Gravatars"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:871
+msgid "Enable spam comments cleaner"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:875
+msgid "Delete spam comments"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:879
+msgid "Once Hourly"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:880
+msgid "Twice Daily"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:881
+msgid "Once Daily"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:882 wpperformance.php:144
+msgid "Once Weekly"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:883 wpperformance.php:149
+msgid "Twice Monthly"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:884 wpperformance.php:154
+msgid "Once Monthly"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:904
+#, php-format
+msgid "Next spam delete: %s"
+msgstr ""
+
+#: lib/class-wpperformance-admin.php:908
+msgid "Delete spam comments now"
+msgstr ""
+
+#: views/optimisationio-dashboard.php:17
+msgid "Request manual optimisation"
+msgstr ""
+
+#: views/optimisationio-dashboard.php:20
+msgid "Support"
+msgstr ""
+
+#: views/optimisationio-dashboard.php:27
+msgid "Remove Excess Bloat"
+msgstr ""
+
+#: views/optimisationio-dashboard.php:28
+msgid "Compress Images"
+msgstr ""
+
+#: views/optimisationio-dashboard.php:29
+msgid "Cache & Database"
+msgstr ""
+
+#: views/optimisationio-dashboard.php:75
+msgid "Coming Soon"
+msgstr ""

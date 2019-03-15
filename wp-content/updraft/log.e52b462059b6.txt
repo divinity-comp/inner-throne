@@ -1,0 +1,567 @@
+0000.018 () Opened log file at time: Wed, 06 Mar 2019 10:07:14 +0000 on https://vr4nchb9ktq.c.updraftclone.com
+0000.022 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.6 WP: 4.9.9 PHP: 7.1.27 (cli, Linux vr4nchb9ktq.c.updraftclone.com 3.10.0-957.5.1.el7.x86_64 #1 SMP Fri Feb 1 14:54:57 UTC 2019 x86_64) MySQL: 10.2.22-MariaDB WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 27.5M | 30M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.022 () Free space on disk containing Updraft's temporary directory: 18681.9 MB
+0000.047 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (, i:0;)
+0000.047 () Max packet size: 16 MB
+0000.332 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_replacesiteurl":true,"delete_during_restore":true}
+0000.335 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.349 () Entity: db
+0000.349 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-db.gz, type=db, info=a:0:{}, last_one=)
+0000.349 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-db.gz, 7.1 Mb)
+0000.358 () Database successfully unpacked
+0000.368 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.369 () Using direct MySQL access; value of use_mysqli is: 1
+0000.420 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (, i:0;)
+0000.420 () Max packet size: 16 MB
+0000.420 () Entering maintenance mode
+0000.420 () Enabling Maintenance mode&#8230;
+0000.420 () Backup created by: 2.16.6.24
+0000.420 () Backup of: https://www.inner-throne.com
+0000.439 () Content URL: https://www.inner-throne.com/wp-content
+0000.439 () Uploads URL: https://www.inner-throne.com/wp-content/uploads
+0000.439 () Old table prefix: cw_
+0000.439 () Site information: multisite=0
+0000.441 () New table prefix: cw_
+0000.457 () Processing table (InnoDB): cw_options
+0000.751 () Restoring prior UD configuration (table: cw_options; keys: 94)
+0001.296 () Search and replacing table: cw_options: rows: 1509
+0001.371 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0001.371 () Incomplete object detected in database: FS_Plugin_Plan; Search and replace will be skipped for these entries
+0001.371 () Incomplete object detected in database: FS_Site; Search and replace will be skipped for these entries
+0001.372 () Incomplete object detected in database: FS_User; Search and replace will be skipped for these entries
+0001.426 () Incomplete object detected in database: UTCW_PopularityStrategy; Search and replace will be skipped for these entries
+0001.597 () Processing table (InnoDB): cw_users
+0001.657 () Search and replacing table: cw_users: rows: 216
+0001.669 () Processing table (InnoDB): cw_usermeta
+0002.648 () Search and replacing table: cw_usermeta: rows: 43225
+0002.769 () Searching and replacing reached row: 5000
+0002.883 () Searching and replacing reached row: 10000
+0002.997 () Searching and replacing reached row: 15000
+0003.115 () Searching and replacing reached row: 20000
+0003.236 () Searching and replacing reached row: 25000
+0003.367 () Searching and replacing reached row: 30000
+0003.500 () Searching and replacing reached row: 35000
+0003.638 () Searching and replacing reached row: 40000
+0003.746 () Processing table (InnoDB): cw_commentmeta
+0003.945 () Search and replacing table: cw_commentmeta: rows: 1822
+0007.330 () Processing table (InnoDB): cw_comments
+0007.641 () Search and replacing table: cw_comments: rows: 1357
+0007.652 () Database queries processed: 50 in 7.28 seconds
+0007.737 () Processing table (InnoDB): cw_links
+0007.772 () Search and replacing table: cw_links: rows: 0
+0007.772 () Processing table (InnoDB): cw_postmeta
+0009.621 () Search and replacing table: cw_postmeta: rows: 1342
+0012.991 () Processing table (InnoDB): cw_posts
+0013.776 () Database queries processed: 100 in 13.40 seconds
+0014.155 () Skipping search/replace on GUID column in posts table
+0014.157 () Search and replacing table: cw_posts: rows: 3866
+0017.198 () Processing table (MyISAM): cw_rcp_customers
+0017.210 () Search and replacing table: cw_rcp_customers: rows: 198
+0017.217 () Processing table (MyISAM): cw_rcp_membershipmeta
+0017.222 () Search and replacing table: cw_rcp_membershipmeta: rows: 0
+0017.222 () Processing table (MyISAM): cw_rcp_memberships
+0017.238 () Search and replacing table: cw_rcp_memberships: rows: 203
+0017.257 () Processing table (MyISAM): cw_rcp_queue
+0017.273 () Search and replacing table: cw_rcp_queue: rows: 1
+0017.273 () Processing table (InnoDB): cw_term_relationships
+0017.323 () Skipping this table: data in this table (cw_term_relationships) should not be search/replaced
+0017.323 () Processing table (InnoDB): cw_term_taxonomy
+0017.374 () Search and replacing table: cw_term_taxonomy: rows: 272
+0017.382 () Processing table (MyISAM): cw_termmeta
+0017.396 () Search and replacing table: cw_termmeta: rows: 48
+0017.399 () Processing table (InnoDB): cw_terms
+0017.431 () Search and replacing table: cw_terms: rows: 272
+0017.438 () Processing table (MyISAM): cw_yoast_seo_links
+0017.499 () Search and replacing table: cw_yoast_seo_links: rows: 1768
+0017.648 () Processing table (MyISAM): cw_yoast_seo_meta
+0017.706 () Database queries processed: 150 in 17.33 seconds
+0017.708 () Search and replacing table: cw_yoast_seo_meta: rows: 6613
+0017.778 () Searching and replacing reached row: 5000
+0017.807 () Processing table (InnoDB): cw_affiliate_wp_affiliatemeta
+0017.824 () Search and replacing table: cw_affiliate_wp_affiliatemeta: rows: 0
+0017.824 () Processing table (InnoDB): cw_affiliate_wp_affiliates
+0017.849 () Search and replacing table: cw_affiliate_wp_affiliates: rows: 45
+0017.852 () Processing table (InnoDB): cw_affiliate_wp_creatives
+0017.873 () Search and replacing table: cw_affiliate_wp_creatives: rows: 0
+0017.873 () Processing table (InnoDB): cw_affiliate_wp_referrals
+0017.917 () Search and replacing table: cw_affiliate_wp_referrals: rows: 12
+0017.944 () Processing table (InnoDB): cw_affiliate_wp_visits
+0017.980 () Search and replacing table: cw_affiliate_wp_visits: rows: 346
+0019.053 () Processing table (MyISAM): cw_bbp_messages_2p0
+0019.059 () Search and replacing table: cw_bbp_messages_2p0: rows: 17
+0019.060 () Processing table (MyISAM): cw_bbp_messages_2p0_meta
+0019.065 () Search and replacing table: cw_bbp_messages_2p0_meta: rows: 15
+0019.066 () Processing table (MyISAM): cw_bv_fw_requests
+0019.071 () Search and replacing table: cw_bv_fw_requests: rows: 4
+0019.072 () Processing table (MyISAM): cw_bv_ip_store
+0019.078 () Search and replacing table: cw_bv_ip_store: rows: 0
+0019.078 () Processing table (MyISAM): cw_bv_lp_requests
+0019.083 () Search and replacing table: cw_bv_lp_requests: rows: 1
+0019.084 () Processing table (MyISAM): cw_edd_customermeta
+0019.091 () Search and replacing table: cw_edd_customermeta: rows: 82
+0019.093 () Processing table (InnoDB): cw_edd_customers
+0019.122 () Search and replacing table: cw_edd_customers: rows: 145
+0019.128 () Processing table (MyISAM): cw_edd_subscriptions
+0019.138 () Search and replacing table: cw_edd_subscriptions: rows: 53
+0019.142 () Processing table (MyISAM): cw_huge_itgallery_gallerys
+0019.147 () Search and replacing table: cw_huge_itgallery_gallerys: rows: 2
+0019.147 () Processing table (MyISAM): cw_huge_itgallery_images
+0019.153 () Search and replacing table: cw_huge_itgallery_images: rows: 13
+0019.156 () Processing table (MyISAM): cw_image_compression_details
+0019.161 () Search and replacing table: cw_image_compression_details: rows: 0
+0019.161 () Processing table (MyISAM): cw_image_compression_settings
+0019.166 () Search and replacing table: cw_image_compression_settings: rows: 1
+0019.166 () Processing table (MyISAM): cw_mepr_events
+0019.171 () Database queries processed: 200 in 18.80 seconds
+0019.172 () Search and replacing table: cw_mepr_events: rows: 2
+0019.173 () Processing table (MyISAM): cw_mepr_jobs
+0019.178 () Search and replacing table: cw_mepr_jobs: rows: 0
+0019.178 () Processing table (MyISAM): cw_mepr_members
+0019.188 () Search and replacing table: cw_mepr_members: rows: 134
+0019.198 () Processing table (MyISAM): cw_mepr_rule_access_conditions
+0019.203 () Search and replacing table: cw_mepr_rule_access_conditions: rows: 0
+0019.203 () Processing table (MyISAM): cw_mepr_subscriptions
+0019.209 () Search and replacing table: cw_mepr_subscriptions: rows: 0
+0019.209 () Processing table (MyISAM): cw_mepr_tax_rate_locations
+0019.214 () Search and replacing table: cw_mepr_tax_rate_locations: rows: 0
+0019.214 () Processing table (MyISAM): cw_mepr_tax_rates
+0019.219 () Search and replacing table: cw_mepr_tax_rates: rows: 0
+0019.219 () Processing table (MyISAM): cw_mepr_transactions
+0019.225 () Search and replacing table: cw_mepr_transactions: rows: 1
+0019.226 () Processing table (InnoDB): cw_opanda_leads
+0019.256 () Search and replacing table: cw_opanda_leads: rows: 0
+0019.256 () Processing table (InnoDB): cw_opanda_leads_fields
+0019.286 () Search and replacing table: cw_opanda_leads_fields: rows: 0
+0019.286 () Processing table (InnoDB): cw_opanda_stats_v2
+0019.355 () Search and replacing table: cw_opanda_stats_v2: rows: 1605
+0019.402 () Processing table (InnoDB): cw_phppc_functions
+0019.426 () Search and replacing table: cw_phppc_functions: rows: 1
+0019.426 () Processing table (MyISAM): cw_rcp_discounts
+0019.433 () Search and replacing table: cw_rcp_discounts: rows: 0
+0019.433 () Processing table (MyISAM): cw_rcp_payment_meta
+0019.437 () Search and replacing table: cw_rcp_payment_meta: rows: 0
+0019.437 () Processing table (MyISAM): cw_rcp_payments
+0019.442 () Search and replacing table: cw_rcp_payments: rows: 3
+0019.442 () Processing table (MyISAM): cw_rcp_subscription_level_meta
+0019.449 () Search and replacing table: cw_rcp_subscription_level_meta: rows: 30
+0019.450 () Processing table (MyISAM): cw_restrict_content_pro
+0019.455 () Search and replacing table: cw_restrict_content_pro: rows: 6
+0019.456 () Processing table (InnoDB): cw_rg_form
+0019.474 () Search and replacing table: cw_rg_form: rows: 9
+0019.475 () Processing table (InnoDB): cw_rg_form_meta
+0019.506 () Database queries processed: 250 in 19.13 seconds
+0019.508 () Search and replacing table: cw_rg_form_meta: rows: 10
+0019.516 () Processing table (InnoDB): cw_rg_form_view
+0019.716 () Search and replacing table: cw_rg_form_view: rows: 7932
+0019.846 () Searching and replacing reached row: 5000
+0019.922 () Processing table (InnoDB): cw_rg_incomplete_submissions
+0019.967 () Search and replacing table: cw_rg_incomplete_submissions: rows: 0
+0019.968 () Processing table (InnoDB): cw_rg_lead
+0020.024 () Search and replacing table: cw_rg_lead: rows: 145
+0020.629 () Processing table (InnoDB): cw_rg_lead_detail
+0020.679 () Search and replacing table: cw_rg_lead_detail: rows: 634
+0020.695 () Processing table (InnoDB): cw_rg_lead_detail_long
+0020.729 () Search and replacing table: cw_rg_lead_detail_long: rows: 62
+0020.731 () Processing table (InnoDB): cw_rg_lead_meta
+0020.757 () Search and replacing table: cw_rg_lead_meta: rows: 78
+0020.760 () Processing table (InnoDB): cw_rg_lead_notes
+0020.784 () Search and replacing table: cw_rg_lead_notes: rows: 0
+0020.784 () Processing table (MyISAM): cw_snp_log
+0020.790 () Search and replacing table: cw_snp_log: rows: 0
+0020.790 () Processing table (InnoDB): cw_snp_stats
+0020.812 () Search and replacing table: cw_snp_stats: rows: 0
+0020.812 () Processing table (InnoDB): cw_stripe_payments
+0020.829 () Search and replacing table: cw_stripe_payments: rows: 0
+0020.829 () Processing table (InnoDB): cw_subscribe_reloaded_subscribers
+0020.863 () Search and replacing table: cw_subscribe_reloaded_subscribers: rows: 21
+0020.865 () Processing table (InnoDB): cw_taxonomymeta
+0020.899 () Search and replacing table: cw_taxonomymeta: rows: 187
+0020.902 () Processing table (MyISAM): cw_wfBadLeechers
+0020.909 () Search and replacing table: cw_wfBadLeechers: rows: 0
+0020.909 () Processing table (MyISAM): cw_wfBlockedCommentLog
+0020.914 () Search and replacing table: cw_wfBlockedCommentLog: rows: 0
+0020.914 () Processing table (MyISAM): cw_wfBlockedIPLog
+0020.920 () Search and replacing table: cw_wfBlockedIPLog: rows: 123
+0020.925 () Processing table (MyISAM): cw_wfBlocks
+0020.934 () Search and replacing table: cw_wfBlocks: rows: 0
+0020.934 () Processing table (MyISAM): cw_wfBlocks7
+0020.939 () Search and replacing table: cw_wfBlocks7: rows: 0
+0020.939 () Processing table (MyISAM): cw_wfBlocksAdv
+0020.943 () Search and replacing table: cw_wfBlocksAdv: rows: 0
+0020.943 () Processing table (MyISAM): cw_wfConfig
+0020.965 () Search and replacing table: cw_wfConfig: rows: 246
+0020.973 () Processing table (MyISAM): cw_wfCrawlers
+0020.979 () Search and replacing table: cw_wfCrawlers: rows: 45
+0020.981 () Processing table (MyISAM): cw_wfFileChanges
+0020.987 () Search and replacing table: cw_wfFileChanges: rows: 0
+0020.987 () Processing table (MyISAM): cw_wfFileMods
+0021.266 () Search and replacing table: cw_wfFileMods: rows: 16830
+0021.474 () Searching and replacing reached row: 5000
+0021.662 () Searching and replacing reached row: 10000
+0021.847 () Searching and replacing reached row: 15000
+0021.920 () Processing table (MyISAM): cw_wfHits
+0022.011 () Skipping this table: data in this table (cw_wfHits) should not be search/replaced
+0022.011 () Processing table (MyISAM): cw_wfHoover
+0022.021 () Search and replacing table: cw_wfHoover: rows: 0
+0022.021 () Processing table (MyISAM): cw_wfIssues
+0022.029 () Search and replacing table: cw_wfIssues: rows: 7
+0022.030 () Processing table (MyISAM): cw_wfKnownFileList
+0022.128 () Search and replacing table: cw_wfKnownFileList: rows: 16830
+0022.212 () Searching and replacing reached row: 5000
+0022.294 () Searching and replacing reached row: 10000
+0022.375 () Searching and replacing reached row: 15000
+0022.408 () Processing table (MyISAM): cw_wfLeechers
+0022.431 () Search and replacing table: cw_wfLeechers: rows: 1544
+0022.471 () Processing table (MyISAM): cw_wfLockedOut
+0022.478 () Search and replacing table: cw_wfLockedOut: rows: 0
+0022.478 () Processing table (MyISAM): cw_wfLocs
+0022.483 () Search and replacing table: cw_wfLocs: rows: 2
+0022.484 () Processing table (MyISAM): cw_wfLogins
+0022.497 () Search and replacing table: cw_wfLogins: rows: 424
+0022.511 () Processing table (MyISAM): cw_wfNet404s
+0022.516 () Search and replacing table: cw_wfNet404s: rows: 1
+0022.517 () Processing table (MyISAM): cw_wfNotifications
+0022.526 () Search and replacing table: cw_wfNotifications: rows: 149
+0022.554 () Processing table (MyISAM): cw_wfPendingIssues
+0022.561 () Search and replacing table: cw_wfPendingIssues: rows: 0
+0022.561 () Processing table (MyISAM): cw_wfReverseCache
+0022.566 () Search and replacing table: cw_wfReverseCache: rows: 4
+0022.566 () Processing table (MyISAM): cw_wfSNIPCache
+0022.572 () Search and replacing table: cw_wfSNIPCache: rows: 0
+0022.572 () Processing table (MyISAM): cw_wfScanners
+0022.580 () Search and replacing table: cw_wfScanners: rows: 422
+0022.592 () Processing table (MyISAM): cw_wfStatus
+0022.615 () Search and replacing table: cw_wfStatus: rows: 961
+0022.641 () Processing table (MyISAM): cw_wfThrottleLog
+0022.646 () Search and replacing table: cw_wfThrottleLog: rows: 0
+0022.646 () Processing table (MyISAM): cw_wfVulnScanners
+0022.651 () Search and replacing table: cw_wfVulnScanners: rows: 0
+0022.651 () Processing table (MyISAM): cw_wll_login_attempts
+0022.655 () Search and replacing table: cw_wll_login_attempts: rows: 0
+0022.655 () Processing table (MyISAM): cw_wlm_api_queue
+0022.661 () Search and replacing table: cw_wlm_api_queue: rows: 0
+0022.661 () Processing table (MyISAM): cw_wlm_contentlevel_options
+0022.666 () Search and replacing table: cw_wlm_contentlevel_options: rows: 0
+0022.666 () Processing table (MyISAM): cw_wlm_contentlevels
+0022.678 () Search and replacing table: cw_wlm_contentlevels: rows: 312
+0022.685 () Processing table (MyISAM): cw_wlm_email_queue
+0022.692 () Search and replacing table: cw_wlm_email_queue: rows: 0
+0022.692 () Processing table (MyISAM): cw_wlm_emailbroadcast
+0022.697 () Search and replacing table: cw_wlm_emailbroadcast: rows: 0
+0022.697 () Processing table (MyISAM): cw_wlm_options
+0022.704 () Search and replacing table: cw_wlm_options: rows: 100
+0022.707 () Processing table (MyISAM): cw_wlm_user_options
+0022.712 () Search and replacing table: cw_wlm_user_options: rows: 0
+0022.712 () Processing table (MyISAM): cw_wlm_userlevel_options
+0022.721 () Search and replacing table: cw_wlm_userlevel_options: rows: 164
+0022.725 () Processing table (MyISAM): cw_wlm_userlevels
+0022.731 () Search and replacing table: cw_wlm_userlevels: rows: 82
+0022.734 () Processing table (MyISAM): cw_wpfront_ure_content_shortcodes
+0022.739 () Search and replacing table: cw_wpfront_ure_content_shortcodes: rows: 0
+0022.739 () Processing table (MyISAM): cw_wpfront_ure_login_redirect
+0022.746 () Search and replacing table: cw_wpfront_ure_login_redirect: rows: 1
+0022.746 () Processing table (MyISAM): cw_wpfront_ure_menu_editor
+0022.751 () Search and replacing table: cw_wpfront_ure_menu_editor: rows: 0
+0022.751 () Processing table (InnoDB): cw_wpfront_ure_options
+0022.779 () Search and replacing table: cw_wpfront_ure_options: rows: 33
+0022.781 () Processing table (MyISAM): cw_wpfront_ure_post_type_permissions
+0022.798 () Search and replacing table: cw_wpfront_ure_post_type_permissions: rows: 234
+0022.806 () Processing table (MyISAM): cw_wpmcleaner
+0022.817 () Unlocking database and leaving maintenance mode
+0022.817 () Disabling Maintenance mode&#8230;
+0022.819 () Search and replacing table: cw_wpmcleaner: rows: 0
+0022.819 () Finished: lines processed: 447 in 22.45 seconds
+0022.820 () Cleaning up rubbish...
+0022.821 () Begin search and replace (updraftplus_restored_db)
+0022.821 () [Database-replace-site-url] Database: search and replace site URL
+0022.821 () Restored pre-migration site ID for this installation
+0022.834 () Database search and replace: replace https://www.inner-throne.com/wp-content in backup dump with http://vr4nchb9ktq.c.updraftclone.com/wp-content
+0022.834 () Database search and replace: replace https://www.inner-throne.com in backup dump with https://vr4nchb9ktq.c.updraftclone.com
+0022.834 () Database search and replace: replace http://www.inner-throne.com/wp-content in backup dump with http://vr4nchb9ktq.c.updraftclone.com/wp-content
+0022.834 () Database search and replace: replace http://www.inner-throne.com in backup dump with https://vr4nchb9ktq.c.updraftclone.com
+0022.835 () Search and replacing table: cw_affiliate_wp_affiliatemeta: already done
+0022.835 () Search and replacing table: cw_affiliate_wp_affiliates: already done
+0022.835 () Search and replacing table: cw_affiliate_wp_creatives: already done
+0022.835 () Search and replacing table: cw_affiliate_wp_referrals: already done
+0022.835 () Search and replacing table: cw_affiliate_wp_visits: already done
+0022.835 () Search and replacing table: cw_bbp_messages_2p0: already done
+0022.835 () Search and replacing table: cw_bbp_messages_2p0_meta: already done
+0022.835 () Search and replacing table: cw_bv_fw_requests: already done
+0022.835 () Search and replacing table: cw_bv_ip_store: already done
+0022.835 () Search and replacing table: cw_bv_lp_requests: already done
+0022.835 () Search and replacing table: cw_commentmeta: already done
+0022.835 () Search and replacing table: cw_comments: already done
+0022.835 () Search and replacing table: cw_edd_customermeta: already done
+0022.835 () Search and replacing table: cw_edd_customers: already done
+0022.836 () Search and replacing table: cw_edd_subscriptions: already done
+0022.836 () Search and replacing table: cw_huge_itgallery_gallerys: already done
+0022.836 () Search and replacing table: cw_huge_itgallery_images: already done
+0022.836 () Search and replacing table: cw_image_compression_details: already done
+0022.836 () Search and replacing table: cw_image_compression_settings: already done
+0022.836 () Search and replacing table: cw_links: already done
+0022.836 () Search and replacing table: cw_mepr_events: already done
+0022.836 () Search and replacing table: cw_mepr_jobs: already done
+0022.836 () Search and replacing table: cw_mepr_members: already done
+0022.836 () Search and replacing table: cw_mepr_rule_access_conditions: already done
+0022.836 () Search and replacing table: cw_mepr_subscriptions: already done
+0022.836 () Search and replacing table: cw_mepr_tax_rate_locations: already done
+0022.836 () Search and replacing table: cw_mepr_tax_rates: already done
+0022.836 () Search and replacing table: cw_mepr_transactions: already done
+0022.836 () Search and replacing table: cw_opanda_leads: already done
+0022.836 () Search and replacing table: cw_opanda_leads_fields: already done
+0022.836 () Search and replacing table: cw_opanda_stats_v2: already done
+0022.836 () Search and replacing table: cw_options: already done
+0022.836 () Search and replacing table: cw_phppc_functions: already done
+0022.836 () Search and replacing table: cw_postmeta: already done
+0022.836 () Search and replacing table: cw_posts: already done
+0022.836 () Search and replacing table: cw_rcp_customers: already done
+0022.836 () Search and replacing table: cw_rcp_discounts: already done
+0022.836 () Search and replacing table: cw_rcp_membershipmeta: already done
+0022.836 () Search and replacing table: cw_rcp_memberships: already done
+0022.836 () Search and replacing table: cw_rcp_payment_meta: already done
+0022.836 () Search and replacing table: cw_rcp_payments: already done
+0022.836 () Search and replacing table: cw_rcp_queue: already done
+0022.836 () Search and replacing table: cw_rcp_subscription_level_meta: already done
+0022.836 () Search and replacing table: cw_restrict_content_pro: already done
+0022.836 () Search and replacing table: cw_rg_form: already done
+0022.836 () Search and replacing table: cw_rg_form_meta: already done
+0022.836 () Search and replacing table: cw_rg_form_view: already done
+0022.836 () Search and replacing table: cw_rg_incomplete_submissions: already done
+0022.836 () Search and replacing table: cw_rg_lead: already done
+0022.836 () Search and replacing table: cw_rg_lead_detail: already done
+0022.836 () Search and replacing table: cw_rg_lead_detail_long: already done
+0022.836 () Search and replacing table: cw_rg_lead_meta: already done
+0022.836 () Search and replacing table: cw_rg_lead_notes: already done
+0022.837 () Search and replacing table: cw_snp_log: already done
+0022.837 () Search and replacing table: cw_snp_stats: already done
+0022.837 () Search and replacing table: cw_stripe_payments: already done
+0022.837 () Search and replacing table: cw_subscribe_reloaded_subscribers: already done
+0022.837 () Search and replacing table: cw_taxonomymeta: already done
+0022.837 () Search and replacing table: cw_term_relationships: already done
+0022.837 () Search and replacing table: cw_term_taxonomy: already done
+0022.837 () Search and replacing table: cw_termmeta: already done
+0022.837 () Search and replacing table: cw_terms: already done
+0022.837 () Search and replacing table: cw_usermeta: already done
+0022.837 () Search and replacing table: cw_users: already done
+0022.837 () Search and replacing table: cw_wfBadLeechers: already done
+0022.837 () Search and replacing table: cw_wfBlockedCommentLog: already done
+0022.837 () Search and replacing table: cw_wfBlockedIPLog: already done
+0022.837 () Search and replacing table: cw_wfBlocks: already done
+0022.837 () Search and replacing table: cw_wfBlocks7: already done
+0022.837 () Search and replacing table: cw_wfBlocksAdv: already done
+0022.837 () Search and replacing table: cw_wfConfig: already done
+0022.837 () Search and replacing table: cw_wfCrawlers: already done
+0022.837 () Search and replacing table: cw_wfFileChanges: already done
+0022.837 () Search and replacing table: cw_wfFileMods: already done
+0022.837 () Search and replacing table: cw_wfHits: already done
+0022.837 () Search and replacing table: cw_wfHoover: already done
+0022.837 () Search and replacing table: cw_wfIssues: already done
+0022.837 () Search and replacing table: cw_wfKnownFileList: already done
+0022.837 () Search and replacing table: cw_wfLeechers: already done
+0022.837 () Search and replacing table: cw_wfLockedOut: already done
+0022.837 () Search and replacing table: cw_wfLocs: already done
+0022.837 () Search and replacing table: cw_wfLogins: already done
+0022.837 () Search and replacing table: cw_wfNet404s: already done
+0022.837 () Search and replacing table: cw_wfNotifications: already done
+0022.837 () Search and replacing table: cw_wfPendingIssues: already done
+0022.837 () Search and replacing table: cw_wfReverseCache: already done
+0022.837 () Search and replacing table: cw_wfSNIPCache: already done
+0022.837 () Search and replacing table: cw_wfScanners: already done
+0022.838 () Search and replacing table: cw_wfStatus: already done
+0022.838 () Search and replacing table: cw_wfThrottleLog: already done
+0022.838 () Search and replacing table: cw_wfVulnScanners: already done
+0022.838 () Search and replacing table: cw_wll_login_attempts: already done
+0022.838 () Search and replacing table: cw_wlm_api_queue: already done
+0022.838 () Search and replacing table: cw_wlm_contentlevel_options: already done
+0022.838 () Search and replacing table: cw_wlm_contentlevels: already done
+0022.838 () Search and replacing table: cw_wlm_email_queue: already done
+0022.838 () Search and replacing table: cw_wlm_emailbroadcast: already done
+0022.838 () Search and replacing table: cw_wlm_options: already done
+0022.838 () Search and replacing table: cw_wlm_user_options: already done
+0022.838 () Search and replacing table: cw_wlm_userlevel_options: already done
+0022.838 () Search and replacing table: cw_wlm_userlevels: already done
+0022.838 () Search and replacing table: cw_wpfront_ure_content_shortcodes: already done
+0022.838 () Search and replacing table: cw_wpfront_ure_login_redirect: already done
+0022.838 () Search and replacing table: cw_wpfront_ure_menu_editor: already done
+0022.838 () Search and replacing table: cw_wpfront_ure_options: already done
+0022.838 () Search and replacing table: cw_wpfront_ure_post_type_permissions: already done
+0022.838 () Search and replacing table: cw_wpmcleaner: already done
+0022.838 () Search and replacing table: cw_yoast_seo_links: already done
+0022.838 () Search and replacing table: cw_yoast_seo_meta: already done
+0022.845 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-db.gz: OK
+0022.855 () Entity: plugins
+0022.855 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0022.855 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins.zip, 97.4 MB)
+0022.857 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins.zip to /var/www/html/wp-content/upgrade/3b5624f1/ using UpdraftPlus_ZipArchive, starting index 0
+0023.726 () Unzip progress: 3690 out of 18879 files (17.7 KB, plugins/akismet/LICENSE.txt)
+0023.935 () Unzip progress: 4691 out of 18879 files (15.8 MB, plugins/advanced-custom-fields-pro/lang/acf-ja.po)
+0024.289 () Unzip progress: 5692 out of 18879 files (34.6 MB, plugins/wp-analytify-pro/languages/index.php)
+0024.427 () Unzip progress: 6693 out of 18879 files (43.1 MB, plugins/optimizePressPlugin-disable/lib/images/previews/content_layouts/index.php)
+0024.678 () Unzip progress: 7694 out of 18879 files (55.8 MB, plugins/optimizePressPlugin-disable/lib/js/jquery/jquery.countdown.min.js)
+0024.771 () Unzip progress: 8695 out of 18879 files (57.1 MB, plugins/optimizePressPlugin-disable/lib/assets/images/feature_block/icons/212.png)
+0024.877 () Unzip progress: 9696 out of 18879 files (63.7 MB, plugins/optimizePressPlugin-disable/lib/assets/images/membership_order_button/bg_img_4/previews/bg_yellow.png)
+0025.204 () Unzip progress: 10697 out of 18879 files (80.6 MB, plugins/wps-hide-login/vendor/composer/autoload_static.php)
+0025.336 () Unzip progress: 11698 out of 18879 files (86.5 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ResponseClassException.php)
+0025.667 () Unzip progress: 12699 out of 18879 files (104.3 MB, plugins/fusion-builder/inc/templates/previews/fusion-progress-preview.php)
+0025.889 () Unzip progress: 13700 out of 18879 files (122.5 MB, plugins/fusion-builder/assets/images/iLightbox/social_icons/readernaut_32.png)
+0026.143 () Unzip progress: 14701 out of 18879 files (135.8 MB, plugins/sociallocker-next-premium/bizpanda/libs/factory/bootstrap/includes/functions.php)
+0026.558 () Unzip progress: 15702 out of 18879 files (168.3 MB, plugins/the-events-calendar/common/lang/tribe-common-sl_SI.po)
+0026.918 () Unzip progress: 16703 out of 18879 files (193.5 MB, plugins/the-events-calendar/src/deprecated/TribeEventsCacheListener.php)
+0027.098 () Unzip progress: 17704 out of 18879 files (203.5 MB, plugins/bbpress/includes/admin/metaboxes.php)
+0027.372 () Unzip progress: 18705 out of 18879 files (224.4 MB, plugins/DISABLED-PLUGINS/google-calendar-events/vendor/composer/installers/src/Composer/Installers/GravInstaller.php)
+0027.432 () Unzip progress: 18879 out of 18879 files (229.8 MB, plugins/DISABLED-PLUGINS/affiliate-wp/includes/admin/tools/export/class-export.php)
+0027.443 () Moving old data: filesystem method / updraft_dir is potentially possible
+0027.443 () Moving old data: can potentially use wp_filesystem method / -old
+0027.443 () Moving old data out of the way...
+0027.657 () Top-level entities being moved: akismet, index.php, hello.php, updraftplus
+0027.659 () Moving unpacked backup into place...
+0028.925 () Top-level entities being moved: DISABLED-PLUGINS, advanced-custom-fields-pro, akismet, bbp-messages, bbp-private-groups, bbp-toolkit, bbpress, bbpress-notify-nospam, blank-slate, blogvault-real-time-backup, cometchat, contentstudio-plugin, cookie-notice, duplicate-page, easy-digital-downloads, easy-wp-smtp, edd-auto-register, edd-checkout-fields-disable, edd-disable-purchase-receipt, edd-downloads-as-services, edd-email-templates, edd-pdf-invoices, edd-recurring, edd-stripe, edd-terms-per-product, edd-variable-pricing-descriptions, edd-zapier, enable-media-replace, fly-dynamic-image-resizer, force-regenerate-thumbnails, fusion-builder, fusion-core, fusion_cptt, gd-bbpress-attachments, gravityforms, heartbeat-control, image-upload-for-bbpress, imsanity, media-cleaner, menu-items-visibility-control, mepr-i18n, optimizePressPlugin-disable, post-type-switcher, query-monitor, rcp-custom-redirects, recent-posts-widget-extended, recently-registered, resize-image-after-upload, restrict-content-pro, restrict-content-pro-bbpress.latest-stable, restrict-content-pro-csv-user-import, shortpixel-image-optimiser, show-hidden-post-meta, simple-comment-editing, simple-image-sizes, social-warfare, social-warfare-pro, sociallocker-next-premium, stops-core-theme-and-plugin-updates, the-events-calendar, the-events-calendar-shortcode, tinymce-advanced, ultimate-tag-cloud-widget, updraftplus, when-last-login, wordpress-seo, wp-analytify, wp-analytify-pro, wp-disable, wp-image-compression, wp-optimize, wp-rocket, wp-rocket-no-cache-for-admins, wp-sweep, wp-user-avatar, wp-user-avatar-pro, wp-zapier, wpforms-lite, wpfront-user-role-editor-personal-pro, wps-hide-login, ryit-greatself.php, cbqe-restrict-content-pro.php
+0028.938 () Cleaning up rubbish...
+0028.947 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins.zip: OK
+0028.955 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins2.zip, type=plugins, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0028.956 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins2.zip, 29.4 MB)
+0028.956 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins2.zip to /var/www/html/wp-content/upgrade/f2c3d885/ using UpdraftPlus_ZipArchive, starting index 0
+0029.429 () Unzip progress: 1002 out of 7823 files (12 MB, plugins/DISABLED-PLUGINS/optimizeMember/optimizeMember-pro/includes/templates/shortcodes/authnet-registration-form-shortcode.php)
+0029.585 () Unzip progress: 2003 out of 7823 files (23.2 MB, plugins/DISABLED-PLUGINS/foobox-image-lightbox/free/css/foobox.free.min.css)
+0029.730 () Unzip progress: 3004 out of 7823 files (29.4 MB, plugins/DISABLED-PLUGINS/arscode-ninja-popups/admin/updates.php)
+0030.023 () Unzip progress: 4005 out of 7823 files (40.8 MB, plugins/DISABLED-PLUGINS/subscribe-to-comments-reloaded/includes/js/stcr-tinyMCE.js)
+0030.183 () Unzip progress: 5006 out of 7823 files (48.4 MB, plugins/tinymce-advanced/mce/emoticons/img/icon_wink.gif)
+0030.303 () Unzip progress: 6007 out of 7823 files (50.5 MB, plugins/restrict-content-pro/includes/libraries/anet_php_sdk/jms/serializer/tests/Metadata/Driver/xml/GroupsTrim.xml)
+0030.560 () Unzip progress: 7008 out of 7823 files (59.2 MB, plugins/restrict-content-pro/.gitignore)
+0030.734 () Unzip progress: 7823 out of 7823 files (71.6 MB, plugins/wordpress-seo/vendor_prefixed/ruckusing/lib/Ruckusing/Task/Base.php)
+0030.739 () Moving unpacked backup into place...
+0031.315 () Top-level entities being moved: DISABLED-PLUGINS, bbp-toolkit, blogvault-real-time-backup, cookie-notice, force-regenerate-thumbnails, fusion-core, fusion_cptt, restrict-content-pro, shortpixel-image-optimiser, tinymce-advanced, wordpress-seo, wp-image-compression, wp-rocket, wp-rocket-no-cache-for-admins, wpfront-user-role-editor-personal-pro, error_log, index.php, ryit-fellowship.php
+0031.651 () Cleaning up rubbish...
+0031.656 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-plugins2.zip: OK
+0031.665 () Entity: themes
+0031.665 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-themes.zip, type=themes, info=a:2:{s:4:"path";s:31:"/var/www/html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0031.666 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-themes.zip, 12.1 MB)
+0031.666 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-themes.zip to /var/www/html/wp-content/upgrade/313e0ac9/ using UpdraftPlus_ZipArchive, starting index 0
+0032.024 () Unzip progress: 1002 out of 2050 files (16.7 MB, themes/Avada/includes/lib/inc/redux/framework/uninstall.php)
+0032.236 () Unzip progress: 2003 out of 2050 files (29.4 MB, themes/Avada/assets/css/media/max-sh-cbp.css)
+0032.245 () Unzip progress: 2050 out of 2050 files (29.5 MB, themes/Avada/assets/css/media/max-sh-640.min.css)
+0032.247 () Moving old data: filesystem method / updraft_dir is potentially possible
+0032.247 () Moving old data: can potentially use wp_filesystem method / -old
+0032.247 () Moving old data out of the way...
+0032.269 () Top-level entities being moved: twentysixteen, index.php, twentyseventeen, twentyfifteen
+0032.270 () Moving unpacked backup into place...
+0032.399 () Top-level entities being moved: Avada, Avada-Child-Theme, Avada-Child-Theme-old, sales-page, twentyfifteen, index.php, style.css
+0032.400 () Cleaning up rubbish...
+0032.402 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-themes.zip: OK
+0032.413 () Entity: uploads
+0032.413 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0032.413 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads.zip, 97.8 MB)
+0032.413 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads.zip to /var/www/html/wp-content/upgrade/64a8a13d/ using UpdraftPlus_ZipArchive, starting index 0
+0033.294 () Unzip progress: 1002 out of 1914 files (50.6 MB, uploads/2018/02/jgs-dragoncliff-panorama-669x272.jpg)
+0033.695 () Unzip progress: 1914 out of 1914 files (98.5 MB, uploads/2018/01/jgs-stag-and-hare-empty-panorama-800x450.jpg)
+0033.696 () Moving old data: filesystem method / updraft_dir is potentially possible
+0033.696 () Moving old data: can potentially use wp_filesystem method / -old
+0033.696 () Moving old data out of the way...
+0033.696 () Moving unpacked backup into place...
+0033.819 () Cleaning up rubbish...
+0033.832 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads.zip: OK
+0033.836 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0033.836 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads2.zip, 99.5 MB)
+0033.837 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads2.zip to /var/www/html/wp-content/upgrade/8dd46aa5/ using UpdraftPlus_ZipArchive, starting index 0
+0034.583 () Unzip progress: 1002 out of 1610 files (52.5 MB, uploads/2018/11/nm-700x441.jpg)
+0034.889 () Unzip progress: 1610 out of 1610 files (99.3 MB, uploads/2016/04/image-600x450.jpeg)
+0034.890 () Moving unpacked backup into place...
+0035.032 () Cleaning up rubbish...
+0035.047 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads2.zip: OK
+0035.058 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads3.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0035.058 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads3.zip, 95.7 MB)
+0035.058 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads3.zip to /var/www/html/wp-content/upgrade/16607e23/ using UpdraftPlus_ZipArchive, starting index 0
+0035.927 () Unzip progress: 1002 out of 1417 files (51.8 MB, uploads/2016/04/IMG_8793.jpg)
+0036.179 () Unzip progress: 1417 out of 1417 files (95.6 MB, uploads/2016/09/IMG_8925-460x295.jpg)
+0036.180 () Moving unpacked backup into place...
+0036.311 () Cleaning up rubbish...
+0036.323 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads3.zip: OK
+0036.332 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads4.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0036.332 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads4.zip, 99.4 MB)
+0036.332 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads4.zip to /var/www/html/wp-content/upgrade/088b32a4/ using UpdraftPlus_ZipArchive, starting index 0
+0037.145 () Unzip progress: 1002 out of 1849 files (56.2 MB, uploads/2016/05/Portland-Triad-177x142.jpg)
+0037.470 () Unzip progress: 1849 out of 1849 files (99.4 MB, uploads/2014/12/throne-room-460x295.jpg)
+0037.471 () Moving unpacked backup into place...
+0037.651 () Cleaning up rubbish...
+0037.665 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads4.zip: OK
+0037.675 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads5.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0037.676 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads5.zip, 115.1 MB)
+0037.676 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads5.zip to /var/www/html/wp-content/upgrade/dc9e53ff/ using UpdraftPlus_ZipArchive, starting index 0
+0038.411 () Unzip progress: 1002 out of 1248 files (79.1 MB, uploads/2014/11/ecover-3d-66x66.png)
+0038.710 () Unzip progress: 1248 out of 1248 files (136.8 MB, uploads/2019/03/confidence.jpg)
+0038.711 () Moving unpacked backup into place...
+0038.824 () Cleaning up rubbish...
+0038.838 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads5.zip: OK
+0038.844 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads6.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0038.844 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads6.zip, 109.1 MB)
+0038.844 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads6.zip to /var/www/html/wp-content/upgrade/fc025e4e/ using UpdraftPlus_ZipArchive, starting index 0
+0039.513 () Unzip progress: 151 out of 201 files (106.4 MB, uploads/2015/06/RYIT-teleseminar-29June2015.mp3)
+0039.531 () Unzip progress: 201 out of 201 files (109 MB, uploads/2015/06/ryit-skeleton-700x441.jpg)
+0039.531 () Moving unpacked backup into place...
+0039.548 () Cleaning up rubbish...
+0039.562 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads6.zip: OK
+0039.570 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads7.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0039.570 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads7.zip, 104.5 MB)
+0039.570 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads7.zip to /var/www/html/wp-content/upgrade/5d43d3cb/ using UpdraftPlus_ZipArchive, starting index 0
+0040.166 () Unzip progress: 273 out of 334 files (103.3 MB, uploads/2015/07/RYIT-teleseminar-13July2015.mp3)
+0040.184 () Unzip progress: 334 out of 334 files (104.6 MB, uploads/2015/07/july2015-journey-is-over-200x100.jpg)
+0040.185 () Moving unpacked backup into place...
+0040.216 () Cleaning up rubbish...
+0040.230 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads7.zip: OK
+0040.241 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads8.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0040.241 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads8.zip, 112.9 MB)
+0040.241 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads8.zip to /var/www/html/wp-content/upgrade/e12eb31c/ using UpdraftPlus_ZipArchive, starting index 0
+0040.959 () Unzip progress: 502 out of 544 files (111.6 MB, uploads/2015/08/2015-08-13-Vanguard-gathering.mp3)
+0040.973 () Unzip progress: 544 out of 544 files (112.8 MB, uploads/2015/08/flame-panorama-320x202.jpg)
+0040.973 () Moving unpacked backup into place...
+0041.021 () Cleaning up rubbish...
+0041.036 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads8.zip: OK
+0041.045 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads9.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0041.045 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads9.zip, 112.5 MB)
+0041.045 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads9.zip to /var/www/html/wp-content/upgrade/26db52b9/ using UpdraftPlus_ZipArchive, starting index 0
+0041.780 () Unzip progress: 301 out of 354 files (110.8 MB, uploads/2015/08/2015-08-20-Vanguard-gathering.mp3)
+0041.798 () Unzip progress: 354 out of 354 files (112.6 MB, uploads/2015/08/eivind-karl-otto-beach-768x433.jpg)
+0041.799 () Moving unpacked backup into place...
+0041.832 () Cleaning up rubbish...
+0041.846 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads9.zip: OK
+0041.851 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads10.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0041.851 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads10.zip, 113.4 MB)
+0041.851 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads10.zip to /var/www/html/wp-content/upgrade/2c08d5ba/ using UpdraftPlus_ZipArchive, starting index 0
+0042.491 () Unzip progress: 359 out of 366 files (113.3 MB, uploads/2015/09/2015-09-17-vanguard-gathering.mp3)
+0042.503 () Unzip progress: 366 out of 366 files (113.4 MB, uploads/2015/09/ryit-thumbnail-940x400.jpg)
+0042.504 () Moving unpacked backup into place...
+0042.535 () Cleaning up rubbish...
+0042.550 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads10.zip: OK
+0042.563 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads11.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0042.564 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads11.zip, 99.3 MB)
+0042.564 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads11.zip to /var/www/html/wp-content/upgrade/a2cc9fb4/ using UpdraftPlus_ZipArchive, starting index 0
+0043.511 () Unzip progress: 1002 out of 1427 files (79.4 MB, uploads/2015/11/Viking-Whole-177x142.jpeg)
+0043.662 () Unzip progress: 1427 out of 1427 files (99.9 MB, uploads/2017/12/banner-brotherhood-iridescence-177x142.jpg)
+0043.663 () Moving unpacked backup into place...
+0043.805 () Cleaning up rubbish...
+0043.817 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads11.zip: OK
+0043.827 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads12.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0043.827 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads12.zip, 86 MB)
+0043.827 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads12.zip to /var/www/html/wp-content/upgrade/1f8d8d84/ using UpdraftPlus_ZipArchive, starting index 0
+0044.518 () Unzip progress: 1002 out of 1578 files (53.3 MB, uploads/2017/03/parchment-sep-150x26.jpg)
+0044.830 () Unzip progress: 1578 out of 1578 files (98.3 MB, uploads/2017/11/ryit-constellation-work-66x66.jpg)
+0044.831 () Moving unpacked backup into place...
+0044.984 () Cleaning up rubbish...
+0044.996 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads12.zip: OK
+0045.009 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads13.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0045.009 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads13.zip, 4.6 MB)
+0045.009 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads13.zip to /var/www/html/wp-content/upgrade/fd824fa6/ using UpdraftPlus_ZipArchive, starting index 0
+0045.322 () Unzip progress: 178 out of 178 files (49 MB, uploads/pb_backupbuddy/status-7j1xiraorz_sum_2daq2tuk1gf73oh.txt)
+0045.323 () Moving unpacked backup into place...
+0045.338 () Cleaning up rubbish...
+0045.339 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-uploads13.zip: OK
+0045.360 () Entity: others
+0045.360 () restore_backup(backup_file=backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-others.zip, type=others, info=a:2:{s:4:"path";s:24:"/var/www/html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0045.360 () Unpacking backup... (backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-others.zip, 0.5 MB)
+0045.360 () Unzipping backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-others.zip to /var/www/html/wp-content/upgrade/6c17ac58/ using UpdraftPlus_ZipArchive, starting index 0
+0045.382 () Unzip progress: 33 out of 33 files (1.2 MB, wp-rocket-config/.htaccess)
+0045.383 () advanced-cache.php: Skipping cache file (does not already exist)
+0045.384 () Cleaning up rubbish...
+0045.384 () Delete zip during restore active; removing backup file: backup_2019-03-06-1040_Reclaim_your_Inner_Throne_An_ar_7330a0c675db-others.zip: OK
+0045.632 () Restore successful!
+0045.632 () Restore successful

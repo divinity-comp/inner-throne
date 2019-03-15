@@ -1,0 +1,61 @@
+# This German Language File: Copyright (C) 2012 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Restrict Content Pro bbPress Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer bbPress Plugin und WordPress sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Content Pro - bbPress v0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/restrict-content-pro-bbpress\n"
+"POT-Creation-Date: 2012-09-12 11:52:06+0100\n"
+"PO-Revision-Date: 2012-09-12 14:05+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ rcp-bbpress
+#: includes/feedback-filters.php:7
+msgid "You must be a premium user to view this content."
+msgstr "Sie müssen ein Premium-Mitglied sein, um diesen Inhalt abrufen zu können."
+
+#@ rcp_bbpress
+#: includes/metaboxes.php:6
+msgid "Restrict this Forum"
+msgstr "Zugang zu diesem Forum beschränken"
+
+#@ rcp_bbpress
+#: includes/metaboxes.php:11
+#: includes/metaboxes.php:25
+msgid "Paid Only?"
+msgstr "Nur Abonnenten?"
+
+#@ rcp_bbpress
+#: includes/metaboxes.php:14
+msgid "Restrict this forum to paid users only"
+msgstr "Zugang zu diesem Forum auf zahlende Benutzer beschränken"
+
+#@ rcp_bbpress
+#: includes/metaboxes.php:20
+msgid "Restrict this Topic"
+msgstr "Zugang zu diesem Thema beschränken"
+
+#@ rcp_bbpress
+#: includes/metaboxes.php:28
+msgid "Restrict this topic to paid users only"
+msgstr "Zugang zu diesem Thema auf zahlende Benutzer beschränken"
+
+#@ rcp_bbpress
+#: includes/reply-functions.php:8
+msgid "You must be a premium user to view this content"
+msgstr "Sie müssen ein Premium-Mitglied sein, um diesen Inhalt abrufen zu können."
+

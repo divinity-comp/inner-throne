@@ -1,0 +1,127 @@
+		.bs-callout-info { border-left-color:#1b809e; }
+		.bs-callout {
+			padding: 20px;
+			margin: 20px 0;
+			border: 1px solid #eee;
+			border-left-width: 5px;
+			border-radius: 3px;
+		}
+		.alert {
+			padding: 15px;
+			margin-bottom: 20px;
+			border: 1px solid transparent;
+			border-radius: 4px;
+		}
+		.alert-success {
+			color: #3c763d;
+			background-color: #dff0d8;
+			border-color: #d6e9c6;
+		}
+		.alert-danger {
+			color: #a94442;
+			background-color: #f2dede;
+			border-color: #ebccd1;
+		}
+		.text-primary { color: #337ab7; }
+		.btn-danger {
+			color: #fff;
+			background-color: #d9534f;
+			border-color: #d43f3a;
+		}
+		.btn-link {
+			font-weight: 400;
+			color: #333333;
+			border-radius: 0;
+			border: 0;
+			background-color: transparent;
+		}
+		.ver {
+			float:right;
+			color: #bbb;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			margin: 0 10px 10px 0;
+			font-size: .9em;
+			line-height: 1;
+		}
+		.text-danger {
+			color: #a94442;
+		}
+		#bulk-change-role-container {
+			border: 1px solid #ccc;
+			padding: 20px;
+			margin-top: 30px;
+			background-color: #fff;
+			margin-right: 20px;
+			position: relative;
+		}
+		#bulk-change-role-container p {
+			padding-top: 0;
+			margin-top: 0;
+		}
+		#form-actions {
+			margin-top: 20px;
+			border-top: 1px solid #d9d9d9;
+			padding-top: 15px;
+		}
+		#bulk-change-role-container h3 {
+			padding-top: 0;
+			margin-top: 0;
+		}
+		#form-actions button.btn {
+			display: inline-block;
+			padding: 6px 12px;
+			margin-bottom: 0;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.42857143;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			-ms-touch-action: manipulation;
+			touch-action: manipulation;
+			cursor: pointer;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			background-image: none;
+			border: 1px solid transparent;
+			border-radius: 4px;
+		}
+		#form-actions button.btn-success {
+			color: #fff;
+			background-color: #5cb85c;
+			border-color: #4cae4c;
+		}
+		#form-actions button.btn-disabled {
+			zoom: 1;
+			filter: alpha(opacity=50);
+			opacity: 0.5;
+		}
+		#ps-roles select { 
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+		}
+	
+		.cf:before,
+		.cf:after {
+		    content: " "; /* 1 */
+		    display: table; /* 2 */
+		}
+		.cf:after {
+		    clear: both;
+		}
+		/**
+		 * For IE 6/7 only
+		 * Include this rule to trigger hasLayout and contain floats.
+		 */
+		.cf {
+		    *zoom: 1;
+		}
+		.col-1-2 { width: 50%; float: left; }
+		.col-1-3 { width: 33.33%; float: left; }
+		.col-1-4 { width: 25%; float: left; }

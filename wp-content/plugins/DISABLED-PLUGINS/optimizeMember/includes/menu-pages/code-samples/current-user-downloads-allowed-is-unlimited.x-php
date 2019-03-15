@@ -1,0 +1,6 @@
+You are allowed to download <?php echo (OPTIMIZEMEMBER_CURRENT_USER_DOWNLOADS_ALLOWED_IS_UNLIMITED) ? 'Unlimited' : OPTIMIZEMEMBER_LEVEL2_FILE_DOWNLOADS_ALLOWED; ?> files
+every <?php OPTIMIZEMEMBER_LEVEL2_FILE_DOWNLOADS_ALLOWED_DAYS; ?> days.
+
+---- OptimizeMember Shortcode Equivalent ----
+
+There is NO equivalent for this logic yet.

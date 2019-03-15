@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_CURRENT_USER_EMAIL; ?>
+This may output something like: johnsmith@example.com
+( or whatever their email address is )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_EMAIL" /]

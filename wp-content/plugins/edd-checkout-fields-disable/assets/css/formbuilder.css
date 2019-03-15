@@ -1,0 +1,165 @@
+.cfm-hide {
+    display: none
+}
+#cfm-metabox-editor {
+    background: #fff
+}
+#cfm-metabox-editor .handlediv {
+    display: none
+}
+#cfm-metabox-editor .hndle {
+    display: none
+}
+#cfm-metabox-editor .cfm-updated {
+    background-color: #ffffe0;
+    border: 1px solid #e6db55;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 5px 0 15px;
+    font-weight: bold;
+}
+#cfm-metabox-fields h2 {
+    margin: 0
+}
+#cfm-metabox-fields .edd-checkout-fields-buttons {
+    margin-bottom: 10px
+}
+#cfm-metabox-fields button {
+    margin-bottom: 5px
+}
+#cfm-metabox-fields .cfm-loading {
+    width: 16px;
+    height: 16px;
+    background: url('../img/wpspin_light.gif') no-repeat;
+}
+#cfm-metabox-fields .cfm-loading.hide {
+    display: none
+}
+.edd-checkout-fields-editor {
+    font-size: 12px;
+    margin: 0;
+}
+.edd-checkout-fields-editor li {
+    background: #F9F9F9;
+    margin-bottom: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+}
+.edd-checkout-fields-editor li.ui-state-highlight {
+    border: 1px dashed #DDD;
+    min-height: 50px;
+    background: #eee;
+}
+.edd-checkout-fields-editor li.edd_email .required-field {
+    display: none
+}
+.edd-checkout-fields-editor li .cfm-legend {
+    background: #f1f1f1;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ececec), to(#f9f9f9));
+    background-image: -webkit-linear-gradient(bottom, #ececec, #f9f9f9);
+    background-image: -moz-linear-gradient(bottom, #ececec, #f9f9f9);
+    background-image: -o-linear-gradient(bottom, #ececec, #f9f9f9);
+    background-image: linear-gradient(to top, #ececec, #f9f9f9);
+    color: #464646;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    padding: 7px 10px;
+}
+.edd-checkout-fields-editor li .cfm-legend:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.edd-checkout-fields-editor li .cfm-legend:hover {
+    cursor: move
+}
+.edd-checkout-fields-editor li .cfm-legend .cfm-label {
+    float: left;
+    width: 70%;
+}
+.edd-checkout-fields-editor li .cfm-legend .cfm-actions {
+    float: right
+}
+.edd-checkout-fields-editor li .cfm-legend .cfm-actions a {
+    font-size: 11px;
+    padding: 2px 5px;
+}
+.edd-checkout-fields-editor li .cfm-legend .cfm-actions a.cfm-remove {
+    background: transparent url(../img/delete.png) no-repeat 70% 50%;
+    color: #f00;
+    width: 16px;
+    text-indent: -9999px;
+    display: inline-block;
+}
+.edd-checkout-fields-editor li .cfm-legend .cfm-actions a.cfm-toggle {
+    background: transparent url(../img/arrows.png) no-repeat 0 2px;
+    width: 10px;
+    text-indent: -9999px;
+    display: inline-block;
+}
+.edd-checkout-fields-editor li .edd-checkout-fields-holder {
+    padding: 10px
+}
+.edd-checkout-fields-editor li .edd-checkout-fields-rows {
+    padding-bottom: 3px
+}
+.edd-checkout-fields-editor li .edd-checkout-fields-rows:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.edd-checkout-fields-editor li .edd-checkout-fields-rows label {
+    float: left;
+    width: 30%;
+    font-size: 12px;
+}
+.edd-checkout-fields-editor li .edd-checkout-fields-rows textarea {
+    width: 60%
+}
+.edd-checkout-fields-editor li .edd-checkout-fields-rows .edd-checkout-fields-sub-fields {
+    width: 65%;
+    float: left;
+}
+.edd-checkout-fields-editor li .edd-checkout-fields-rows .edd-checkout-fields-sub-fields label {
+    float: none;
+    display: inline-block;
+    width: auto;
+}
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+#post-body-content{
+	display: none;
+}
+#cfm-metabox-fields{
+    position: fixed;
+}
+#major-publishing-actions {
+	padding: 0 !important;
+	background: #FFF !important;
+	border-top: none !important;
+}
+#icon-edit{
+	display: none;
+}
+#cfm-metabox-fields {
+	z-index: 9999;
+}
+#publishing-action {
+	margin-bottom: 5px;
+	}
+.hndle {
+	padding-left: 20px !important;
+}
+.cfm-button{
+	width:100px;
+	margin-right:10px !important;
+	margin-left:5px  !important;
+}
+#message {
+	margin-top: 10px;
+}
+.add-new-h2{
+	display: none !important;
+}

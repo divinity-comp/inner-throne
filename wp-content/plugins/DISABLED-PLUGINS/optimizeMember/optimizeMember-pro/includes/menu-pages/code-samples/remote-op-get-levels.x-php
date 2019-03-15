@@ -1,0 +1,15 @@
+<?php
+$op["op"] = "get_levels"; // The Remote Operation you're calling upon.
+
+$op["api_key"] = "[API Key]"; // Check your Dashboard for this value.
+	// See: `optimizeMember -> API / Scripting -> Remote Operations API -› API Key`
+
+$post_data = stream_context_create (array ("http" => array ("method" => "POST", "header" => "Content-type: application/x-www-form-urlencoded", "content" => "optimizemember_pro_remote_op=" . urlencode (serialize ($op)))));
+
+$result = trim (file_get_contents ("http://www.example.com/?optimizemember_pro_remote_op=1", false, $post_data));
+
+if (!empty ($result) && !preg_match ("/^Error\:/i", $result) && is_array ($levels = @unserialize ($result)))
+	echo "Success. Membership levels: " . print_r($levels, true);
+else
+	echo "API error reads: " . $result;
+?>

@@ -1,0 +1,596 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Capability Manager Enhanced"
+msgstr ""
+
+#. Short description.
+msgid "A simple way to manage WordPress roles and capabilities."
+msgstr ""
+
+#. Screenshot description.
+msgid "Users Menu."
+msgstr ""
+
+#. Screenshot description.
+msgid "View or Modify capabilities for a role."
+msgstr ""
+
+#. Screenshot description.
+msgid "Network: copy role to existing or future sites."
+msgstr ""
+
+#. Screenshot description.
+msgid "Actions on roles."
+msgstr ""
+
+#. Screenshot description.
+msgid "Permissions Menu (Press Permit integration)."
+msgstr ""
+
+#. Screenshot description.
+msgid "View or Modify capabilities for a role (with Press Permit Pro)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Force type-specific capabilities (Press Permit integration)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Backup/Restore tool."
+msgstr ""
+
+#. Found in description header.
+msgid "Features:"
+msgstr ""
+
+#. Found in description header.
+msgid "Languages included:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create roles"
+msgstr ""
+
+#. Found in description list item.
+msgid "Manage role capabilities"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports negation: set any capability to granted, not granted, or blocked"
+msgstr ""
+
+#. Found in description list item.
+msgid "Copy any role all network sites"
+msgstr ""
+
+#. Found in description list item.
+msgid "Mark any role for auto-copy to future network sites"
+msgstr ""
+
+#. Found in description list item.
+msgid "Backup and restore Roles and Capabilities to revert your last changes."
+msgstr ""
+
+#. Found in description list item.
+msgid "Revert Roles and Capabilities to WordPress defaults. "
+msgstr ""
+
+#. Found in description list item.
+msgid "Only users with 'manage_capabilities' can manage them. This capability is created at install time and assigned to Administrators."
+msgstr ""
+
+#. Found in description list item.
+msgid "Administrator role cannot be deleted."
+msgstr ""
+
+#. Found in description list item.
+msgid "Non-administrators can only manage roles or users with same or lower capabilities."
+msgstr ""
+
+#. Found in description list item.
+msgid "by post type"
+msgstr ""
+
+#. Found in description list item.
+msgid "by operation (read/edit/delete)"
+msgstr ""
+
+#. Found in description list item.
+msgid "by origin (WP core or plugin)"
+msgstr ""
+
+#. Found in description list item.
+msgid "easily specify which post types require type-specific capability definitions"
+msgstr ""
+
+#. Found in description list item.
+msgid "show capabilities which Press Permit adds to the role by supplemental type-specific role assignment"
+msgstr ""
+
+#. Found in description list item.
+msgid "English"
+msgstr ""
+
+#. Found in description list item.
+msgid "Catalan"
+msgstr ""
+
+#. Found in description list item.
+msgid "Spanish"
+msgstr ""
+
+#. Found in description list item.
+msgid "Belorussian <em>by <a href=\"http://antsar.info/\" rel=\"nofollow\">Ilyuha</a></em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "German <em>by <a href=\"http://great-solution.de/\" rel=\"nofollow\">Carsten Tauber</a></em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Italian <em>by <a href=\"http://gidibao.net\" rel=\"nofollow\">Gianni Diurno</a></em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Russian <em>by <a href=\"http://www.fatcow.com\" rel=\"nofollow\">Marcis Gasuns</a></em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Swedish *by <a href=\"http://jenswedin.com/\" rel=\"nofollow\">Jens Wedin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "POT file for easy translation to other languages included."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Capability Manager Enhanced provides a simple way to manage WordPress role definitions (Subscriber, Editor, etc.). View or change the capabilities of any role, add new roles, copy existing roles into new ones, and add new capabilities to existing roles. Now supports capability negation and role networking."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Role management can also be delegated:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Enhanced and supported by <a href=\"http://agapetry.net\">Kevin Behrens</a> since July 2012. The original Capability Manager author, Jordi Canals, has not updated the plugin since early 2010. Since he was unreachable by web or email, I decided to take on the project myself."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The main change from the original plugin is an improved UI which organizes capabilities:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Capability Manager Enhanced also adds <a href=\"http://wordpress.org/plugins/press-permit-core\">Press Permit</a> plugin integration:"
+msgstr ""
+
+#. Found in installation header.
+msgid "System Requirements"
+msgstr ""
+
+#. Found in installation header.
+msgid "Installing the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>Requires PHP 5.2</strong>. Older versions of PHP are obsolete and expose your site to security risks."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Verify the plugin is compatible with your WordPress Version. If not, plugin will not load."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip the plugin archive."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the plugin's folder to the WordPress plugins directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Manage the capabilities on the 'Capabilities' page on Users menu."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Enjoy your plugin!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : Revert menu captions to previous behavior (\"Permissions &gt; Role Capabilities\" if Press Permit Core is active, otherwise \"Users &gt; Capabilities\")"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Correct some irregularities in CME admin menu item display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : User editing was improperly blocked in some cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Non-administrators' user editing capabilities were blocked if Press Permit Core was also active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Non-administrators could not edit other users with their role (define constant CME_LEGACY_USER_EDIT_FILTER to retain previous behavior)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Non-administrators could not assign their role to other users (define constant CME_LEGACY_USER_EDIT_FILTER to retain previous behavior)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lang : Changed text domain for language pack conformance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : On single-site installations, non-Administrators with delete_users capability could give new users an Administrator role (since 1.5.2) "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Deletion of a third party plugin role could cause users to be demoted to Subscriber inappropriately"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit Core - Permission Group refresh was not triggered if Press Permit Core is inactive when CME deletes a role definition"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Support third party display of available capabilities via capsman_get_capabilities or members_get_capabilities filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : If user_level of Administrator role was cleared, non-Administrators with user editing capabilities could create/edit/delete Administrators.  Administrator role is now implicitly treated as level 10."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : CSS caused formatting issues around wp-admin Update button on some installations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Perf : Don't output wp-admin CSS on non-CME screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lang : Fixed erroneous text_domain argument for numerous strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lang : Updated .pot and .po files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Network Super Administrators without an Administrator role on a particular site could not assign an Administrator role to other users of that site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Non-administrators with user editing capabilities could give new users a role with a higher level than their own (including Administrator)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature : Support negative capabilities (storage to wp_roles array with false value)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature : Multisite - Copy a role definition to all current sites on a network"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature : Multisite - Copy a role definition to new (future) sites on a network"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature : Backup / Restore tool requires \"restore_roles\" capability or super admin status"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Role reset to WP defaults did not work, caused a PHP error / white screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : Clarified English captions on Backup Tool screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Term deletion capability was not included in taxonomies grid even if defined"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : jQuery notices for deprecated methods on Edit Role screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit - if a role is marked as hidden, also default it for use by PP Pro as a Pattern Role (when PP Collaborative Editing is activated and Advanced Settings enabled)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : Press Permit promotional message includes link to display further info"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Perf :  Eliminated unused framework code (reduced typical wp-admin memory usage by 0.6 MB)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Failure to save capability changes, on some versions of PHP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit - PHP Warning on role save"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit - PHP Warning on \"Force Type-Specific Capabilities\" settings update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit - \"supplemental only\" option stored redundant entries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit - green background around capabilities which "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Maint  : Stop using $GLOBALS superglobal"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change : Reduced download size by moving screenshots to assets folder of project folder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Role capabilities were not updated / refreshed properly on multisite installations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature : If create_posts capabilities are defined, organize checkboxes into a column alongside edit_posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature : \"Use create_posts capability\" checkbox in sidebar auto-defines create_posts capabilities (requires Press Permit)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : bbPress + Press Permit - Modified bbPress role capabilities were not redisplayed following save, required reload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : bbPress + Press Permit - Adding a capability via the \"Add Cap\" textbox caused the checkbox to be available but not selected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit - \"supplemental only\" option was always enabled for newly created and copied roles, regardless of checkbox setting near Create/Copy button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : bbPress + Press Permit - \"Add Capability\" form failed when used on a bbPress role, caused creation of an invalid role"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit - flagging of roles as \"supplemental assignment only\" was not saved"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : bbPress 2.2 (supports customization of dynamic forum role capabilities)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat : Press Permit + bbPress - customized role capabilities were not properly maintained on bbPress activation / deactivation, in some scenarios"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Role update and copy failed if currently stored capability array is corrupted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Capabilities were needlessly re-saved on role load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Capability labels in \"Other WordPress\" section did not toggle checkbox selection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Press Permit integration: If capability is granted by the role's Permit Group, highlight it as green with a descriptive caption title, but leave checkbox enabled for display/editing of role defintion setting (previous behavior caused capability to be stripped out of WP role definition under some PP configurations)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : On translated sites, roles could not be edited"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Menu item change to \"Role Capabilities\" broke existing translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : Separate checkbox was displayed for cap-&gt;edit_published_posts even if it was defined to the be same as cap-&gt;edit_posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Press Permit integration: automatically store a backup copy of each role's last saved capability set so they can be reinstated if necessary (currently for bbPress)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language: updated .pot file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Press Permit integration: roles can be marked for supplemental assignment only (and suppressed from WP role assignment dropdown, requires PP 1.0-beta1.4)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "https compatibility: use content_url(), plugins_url()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Press Permit integration: if role definitions are reset to WP defaults, also repopulate PP capabilities (pp_manage_settings, etc.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Organized capabilities UI by post type and operation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Editing UI separates WP core capabilities and 3rd party capabilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clarified sidebar captions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't allow a non-Administrator to add or remove a capability they don't have"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed : PHP Warnings for unchecked capabilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Press Permit integration: externally (dis)enable Post Types, Taxonomies for PP filtering (which forces type-specific capability definitions)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show capabilities which Press Permit adds to the role by supplemental type-specific role assignment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reduce memory usage by loading framework and plugin code only when needed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Swedish translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where administrators could not create or manage other administrators."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cannot edit users with more capabilities than current user."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cannot assign to users a role with more capabilities than current user."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Solved an incompatibility with Chameleon theme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Migrated to the new Alkivia Framework."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed license to GPL version 2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to WP 2.9.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Italian translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added German and Belorussian translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Russian translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Coding Standards."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected internal links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Framework."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backup/restore tool."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Role deletion added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some code improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Alkivia Framework."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First public version."
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I grant capabilities for a custom post type"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have configured a role to edit a custom post type. Why do the users still see \"You are not allowed the edit this post?\" when they try to save/submit a new post?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Even after I added capabilities, WordPress is not working the way I want"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find more information about this plugin, usage and support ?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "If you need help, <a href=\"http://wordpress.org/tags/capsman-enhanced\">ask in the Support forum</a>.  If your issue pertains to the enforcement of assigned capabilities, I am not the primary support avenue.  In many cases, I will offer a suggestion, but please don't give me negative feedback for not providing free consulting."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The custom post type must be defined to impose type-specific capability requirements.  This is normally done by setting the \"capability type\" property equal to the post type name."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Probably because your custom post type definition not having map_meta_cap set true. If you are calling register_post_type manually, just add this property to the options array. Unfortunately, none of the free CPT plugins deal with this important detail."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Keep in mind that this plugin's purpose is to conveniently view and modify the capabilities array stored for each WordPress role.  It is not responsible for the implementation of those capabilities by the WordPress core or other plugins."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "License"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid ""
+"Copyright 2009, 2010 Jordi Canals\n"
+"Copyright 2013-2015, Kevin Behrens"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "You should have received a copy of the GNU General Public License along with this program. If not, see <a href=\"http://www.gnu.org/licenses/\">http://www.gnu.org/licenses/</a>."
+msgstr ""

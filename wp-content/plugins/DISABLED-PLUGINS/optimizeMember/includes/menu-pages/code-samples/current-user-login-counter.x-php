@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_CURRENT_USER_LOGIN_COUNTER; ?>
+This may output something like: 47
+( the number of times the User has logged into your site )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_LOGIN_COUNTER" /].

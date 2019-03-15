@@ -1,0 +1,555 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP USER AVATAR PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-03 17:35+0530\n"
+"PO-Revision-Date: 2016-04-03 17:35+0530\n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: Flipper Code <hello@flippercode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SearchPath-0: /applications/xampp/xamppfiles/htdocs/gold/wp-content/"
+"plugins/wp-user-avatar-pro\n"
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-abstract-wpua-storage.php:86
+msgid "Please set your storage meta properly"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-abstract-wpua-storage.php:90
+msgid "User not found."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-avatar.php:287
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-shortcode.php:212
+msgid "Profile updated."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-shortcode.php:236
+msgid "Update Profile"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:15
+msgid "Insert"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:15
+msgid "[avatar_upload]"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:16
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:210
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:249
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:250
+msgid "WP User Avatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:85
+msgid "Title:"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:89
+msgid "Description:"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:94
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:99
+msgid "What to do :"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:102
+msgid "Upload Avatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:103
+msgid "Show Avatar(s)"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:109
+msgid "Show:"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:112
+msgid "Current User"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:113
+msgid "Latest Users"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:119
+msgid "How Many Avatars:"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:125
+msgid "Show Name"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:131
+msgid "Link to Profile"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class-wp-user-avatar-widget.php:138
+msgid "Show Bio"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.controller.php:140
+msgid " updated successfully."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.controller.php:141
+msgid " added successfully. You can manage your "
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.tabular.php:222
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.tabular.php:399
+msgid "Selected "
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.tabular.php:236
+msgid "Manage "
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.tabular.php:562
+msgid "Filter"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.tabular.php:622
+msgid "Select Page"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.template.php:482
+msgid "Choose Marker Image"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/class.template.php:489
+msgid "Remove Marker Image"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/storage/class-wpua-aws-storage.php:21
+msgid "Api key & secret key is required."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/storage/class-wpua-aws-storage.php:24
+msgid "Bucket name is required."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/storage/class-wpua-directory-storage.php:21
+msgid " not exits."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/storage/class-wpua-dropbox-storage.php:18
+msgid "Dropbox access token is required."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/storage/class-wpua-media-storage.php:59
+msgid ""
+"Media avatar could't uploading please check you have right permission for "
+"uploads folder."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:79
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:88
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:93
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:152
+msgid "Avatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:90
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:96
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:155
+msgid "Image"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:190
+msgid "Do you like WP User Avatar?"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/core/wpua-functions.php:190
+msgid "Try our Google Maps Plugin."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/model.settings.php:28
+msgid "Settings"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/model.settings.php:69
+msgid "Setting(s) saved successfully."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:36
+msgid "General Settings"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:38
+msgid "Display on Registration Page"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:42
+msgid "Allow to upload Avatar at registration page"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:46
+msgid "Hide Webcam"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:50
+msgid "Hide webcam option on upload avatar window"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:54
+msgid "Hide Media"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:58
+msgid "Hide media manager option on upload avatar window"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:62
+msgid "Avatar Settings"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:68
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:424
+msgid "Media Uploader"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:69
+msgid "Custom Directory"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:70
+msgid "Amazon S3 Storage"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:71
+msgid "Dropbox Storage"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:74
+msgid "Avatar Storage"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:83
+msgid "Folder Path"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:85
+msgid ""
+"Upload directory for Avatar. Default folder is wp-content/uploads/wp-user-"
+"avatar/ "
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:93
+msgid "Access Key"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:95
+msgid ""
+"Amazon Web Services Access Key. Follow instruction given <a href=\"http://"
+"docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/"
+"AWSCredentials.html\">here</a>. "
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:103
+msgid "Secret Key"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:105
+msgid ""
+"Amazon Web Services Secret Key. Follow instruction given <a href=\"http://"
+"docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/"
+"AWSCredentials.html\">here</a>."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:113
+msgid "Bucket Name"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:115
+msgid "Enter bucket name."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:124
+msgid ""
+"Step 1 : Create a dropbox application <a target=\"_blank\" href=\"https://"
+"www.dropbox.com/developers/apps/create\">here </a>"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:125
+msgid ""
+"Step 2 : Go to your <a target=\"_blank\" href=\"https://www.dropbox.com/"
+"developers/apps\">application</a>"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:126
+msgid "Step 3 : Configure your application and get generated access token."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:133
+msgid "Access Token"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:135
+msgid "Dropbox app generated access token."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:144
+msgid "Folder Name"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:146
+msgid ""
+"Enter for folder name where to upload avatar. Leave empty to upload in app "
+"root."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:155
+msgid "Upload File Size"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:157
+#, php-format
+msgid "Maximum upload file size: %d%s."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:163
+msgid "Upload File Width"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:165
+msgid "Maximum upload file width. Leave it blank for no limit."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:169
+msgid "Upload File Height"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:171
+msgid "Maximum upload file height. Leave it blank for no limit."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:178
+msgid "Avatar Width"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:180
+msgid "Avatar width in pixels."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:185
+msgid "Avatar Height"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:187
+msgid "Avatar height in pixels."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:193
+msgid "Resize avatars on upload"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:197
+msgid "Check if resize your cropped image to fit the above width and height."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:201
+msgid "Show Avatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:205
+msgid "Uncheck to hide the avatar."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:210
+msgid "Choose Image: Default Avatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:210
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:428
+msgid "Choose Image"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:211
+msgid "Mystery Man"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:212
+msgid "Blank"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:213
+msgid "Gravatar Logo"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:214
+msgid "Identicon"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:215
+msgid "Wavatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:216
+msgid "MonsterID"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:217
+msgid "Retro"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:221
+msgid "Default Avatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:233
+msgid "Gravatar Setting"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:240
+msgid "Disable Gravatar"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:244
+msgid "Disable Gravatar and use only local avatars"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:249
+msgid "G — Suitable for all audiences"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:250
+msgid "PG — Possibly offensive, usually for audiences 13 and above"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:251
+msgid "R — Intended for adult audiences above 17"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:252
+msgid "X — Even more mature than above"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:255
+msgid "Maximum Rating"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:264
+msgid "Apperance Settings"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:270
+msgid "Editor Theme"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:273
+msgid "Choose color for the icons and modal window."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:280
+msgid "Advanced Settings"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:288
+msgid "Add Link to Profile Image"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:291
+msgid "Add a link to user profile."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:297
+msgid "Profile Link"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:300
+msgid "Use {website_url} or custom link eg. http://www.flippercode.com"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/modules/settings/views/manage.php:307
+msgid "Save Setting"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:357
+msgid "Are you sure to delete item?"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:406
+#, php-format
+msgid "File uploading limits:  Size %s"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:408
+#, php-format
+msgid "Width %d px"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:412
+#, php-format
+msgid "Height: %d px"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:416
+msgid "File Type is not valid."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:417
+msgid "Valid File Type is jpeg, png and gif."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:419
+msgid "File Size is too big"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:421
+msgid "Oops! Seems you didn't select any image."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:422
+msgid "It's easy. Click within dotted area."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:423
+msgid "Upload Image"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:425
+msgid "Drop image here or click to upload."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:426
+msgid "Select your image, crop and save it."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:427
+msgid "Close"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:429
+msgid "Use Camera"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:430
+msgid "Media Manager is turned ON."
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:431
+msgid "Click within dotted area to choose image from media manager"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:432
+msgid "Update Avatar"
+msgstr ""
+
+
+#: /applications/xampp/xamppfiles/htdocs/gold/wp-content/plugins/wp-user-avatar-pro/wp-user-avatar-pro.php:433
+msgid "Save Image"
+msgstr ""

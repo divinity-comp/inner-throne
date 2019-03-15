@@ -1,0 +1,603 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads 0 PDF Invoices\n"
+"POT-Creation-Date: 2014-10-21 14:51-0600\n"
+"PO-Revision-Date: 2014-10-21 14:51-0600\n"
+"Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
+"Language-Team: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: edd-pdf-invoices.php:105 edd-pdf-invoices.php:117
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: edd-pdf-invoices.php:317
+#, php-format
+msgid ""
+"You must install %sEasy Digital Downloads%s for the PDF Invoices Add-On to "
+"work."
+msgstr ""
+"Lataa ensin %sEasy Digital Downloads%s -lisäosa, jotta voit käyttää PDF "
+"Invoices -lisäosaa."
+
+#: edd-pdf-invoices.php:321
+#, fuzzy
+msgid ""
+"The Easy Digital Downloads PDF Invoices plugin requires at least Easy "
+"Digital Downloads Version 1.7. Please update Easy Digital Downloads for the "
+"PDF Invoices Add-On to work correctly."
+msgstr ""
+"PDF Invoices -lisäosa vaatii ainakin version 1.2.2  Easy Digital Downloads -"
+"lisäosasta. Päivitä  Easy Digital Downloads uusimaan versioon."
+
+#: edd-pdf-invoices.php:325
+#, php-format
+msgid ""
+"Please visit the %sPDF Invoice Settings%s to configure the plugin. Currently "
+"the settings have not been configured correctly therefore you will may "
+"issues when trying to generate invoices."
+msgstr ""
+"Asetuksissa on jotakin vikaa, voit käydä korjaamassa niitä %sPDF Invoice -"
+"asetuksissa%s."
+
+#: edd-pdf-invoices.php:349 edd-pdf-invoices.php:385 edd-pdf-invoices.php:405
+#: includes/email-template-tag.php:40
+msgid "Download Invoice"
+msgstr "Lataa kuitti"
+
+#: edd-pdf-invoices.php:365 edd-pdf-invoices.php:404
+#: includes/templates/template-minimal.php:53
+#: includes/templates/template-colors.php:142
+#: includes/templates/template-default.php:48
+#: includes/templates/template-blue-stripe.php:54
+#: includes/templates/template-lines.php:55
+msgid "Invoice"
+msgstr "Maksun kuitti"
+
+#: edd-pdf-invoices.php:471
+msgid "The invoice that you requested was not found."
+msgstr "Pyytämääsi kuittia ei löytynyt."
+
+#: edd-pdf-invoices.php:471
+msgid "Invoice Not Found"
+msgstr "Kuittia ei löytynyt"
+
+#: edd-pdf-invoices.php:523 edd-pdf-invoices.php:567
+#, fuzzy
+msgid "Invoice "
+msgstr "Kuitti #"
+
+#: edd-pdf-invoices.php:524 edd-pdf-invoices.php:568
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads -lisäosa"
+
+#: includes/settings.php:30
+msgid "Email Logo"
+msgstr "Sähköposti logo"
+
+#: includes/settings.php:31
+msgid "Upload or choose a logo to be displayed at the top of the email"
+msgstr "Lataa ja valitse logo, joka näytetään sähköpostin yläosassa"
+
+#: includes/settings.php:57
+msgid "PDF Invoice Settings"
+msgstr "PDF Invoice -asetukset"
+
+#: includes/settings.php:58
+msgid "Configure the PDF invoice settings"
+msgstr "Muokkaa PDF Invoice -asetuksia"
+
+#: includes/settings.php:63
+msgid "Disable Invoices for Free Downloads"
+msgstr ""
+
+#: includes/settings.php:64
+msgid ""
+"Check this box to disable invoices from being generated for free downloads."
+msgstr ""
+
+#: includes/settings.php:69
+msgid "Invoice Template"
+msgstr "Kuitin mallipohja"
+
+#: includes/settings.php:70
+msgid "Choose a template for the invoice"
+msgstr "Valitse mallipohja kuittiin"
+
+#: includes/settings.php:73
+msgid "Default"
+msgstr "Oletus"
+
+#: includes/settings.php:74 includes/email-templates.php:29
+msgid "Blue Stripe"
+msgstr "Blue Stripe"
+
+#: includes/settings.php:75 includes/email-templates.php:30
+msgid "Lines"
+msgstr "Viivat"
+
+#: includes/settings.php:76 includes/email-templates.php:31
+msgid "Minimal"
+msgstr "Minimaalinen"
+
+#: includes/settings.php:77 includes/email-templates.php:32
+msgid "Traditional"
+msgstr "Perinteinen"
+
+#: includes/settings.php:78
+msgid "Blue"
+msgstr "Sininen"
+
+#: includes/settings.php:79
+msgid "Green"
+msgstr "Vihreä"
+
+#: includes/settings.php:80
+msgid "Orange"
+msgstr "Oranssi"
+
+#: includes/settings.php:81
+msgid "Pink"
+msgstr "Pinkki"
+
+#: includes/settings.php:82
+msgid "Purple"
+msgstr "Violetti"
+
+#: includes/settings.php:83
+msgid "Red"
+msgstr "Punainen"
+
+#: includes/settings.php:84
+msgid "Yellow"
+msgstr "Keltainen"
+
+#: includes/settings.php:89
+msgid "Characters not displaying correctly?"
+msgstr "Jotkin merkit eivät näy oikein?"
+
+#: includes/settings.php:90
+msgid ""
+"Check to enable the Free Sans/Free Serif font replacing Open Sans/Helvetica/"
+"Times. Only do this if you have characters which do not display correctly (e."
+"g. Greek characters)"
+msgstr ""
+"Valitse tämä, jos haluat käyttää ilmaista Sans/Free Serif -fonttia, joka "
+"korvaa Open Sans/Helvetica/Times-fontin. Valitse tämä vain, jos jotkin "
+"merkit eivät näy oikein. Esim. ääkköset."
+
+#: includes/settings.php:95
+msgid "Logo Upload"
+msgstr "Logon lataus"
+
+#: includes/settings.php:96
+msgid ""
+"Upload your logo here which will show up on the invoice. If the logo is "
+"greater than 90px in height, it will not be shown. On the Traditional "
+"template, if the logo is greater than 80px in height, it will not be shown. "
+"Also note that the logo will be output at 96 dpi."
+msgstr ""
+"Lataa tähän kuittiin tuleva logo. Jos logo on yli 90px korkea, sitä ei "
+"näytetä. \"Perinteinen\" mallipohjassa maksimikorkeus on 80px. Logon dpi on "
+"96."
+
+#: includes/settings.php:101
+msgid "Company Name"
+msgstr "Yrityksen nimi"
+
+#: includes/settings.php:102
+msgid "Enter the company name that will be shown on the invoice."
+msgstr "Kirjoita yrityksen nimi, joka näytetään kuitissa."
+
+#: includes/settings.php:109
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/settings.php:110
+msgid "Enter the name that will be shown on the invoice."
+msgstr "Kirjoita kuittiin tuleva nimi."
+
+#: includes/settings.php:117
+msgid "Address Line 1"
+msgstr "Osoiterivi 1"
+
+#: includes/settings.php:118
+msgid "Enter the first address line that will appear on the invoice."
+msgstr "Kirjoita osoite 1."
+
+#: includes/settings.php:125
+msgid "Address Line 2"
+msgstr "Osoiterivi 2"
+
+#: includes/settings.php:126
+msgid "Enter the second address line that will appear on the invoice."
+msgstr "Kirjoita osoite 2."
+
+#: includes/settings.php:133
+msgid "City, State and Zip Code"
+msgstr "Postinumero ja postitoimipaikka"
+
+#: includes/settings.php:134
+msgid "Enter the city, state and zip code that will appear on the invoice."
+msgstr "Kirjoita kuittiin tuleva postinumero ja postitoimipaikka."
+
+#: includes/settings.php:141
+msgid "Email Address"
+msgstr "Sähköposti"
+
+#: includes/settings.php:142
+msgid "Enter the email address that will appear on the invoice."
+msgstr "Kirjoita kuittiin tuleva sähköpostiosoite."
+
+#: includes/settings.php:149
+msgid "Show website address?"
+msgstr "Näytä www-osoite?"
+
+#: includes/settings.php:150
+msgid "Check this box if you would like your website address to be shown."
+msgstr "Valitse tämä, jos haluat näyttää sivustosi www-osoitteen kuitissa."
+
+#: includes/settings.php:155
+msgid "Header Message"
+msgstr "Viesti kuitin yläosaan"
+
+#: includes/settings.php:156
+msgid ""
+"Enter the message you would like to be shown on the header of the invoice. "
+"Please note that the header will not show up on the Blue Stripe and "
+"Traditional template."
+msgstr ""
+"Kirjoita viesti, jonka haluat näkyviin kuitin yläosaan. Huom! Kuitin yläosa "
+"ei tule näkyviin \"Blue Stripe\" tai \"perinteinen\" mallipohjissa."
+
+#: includes/settings.php:163
+msgid "Footer Message"
+msgstr "Viesti kuitin alaosaan"
+
+#: includes/settings.php:164
+msgid ""
+"Enter the message you would like to be shown on the footer of the invoice."
+msgstr "Kirjoita viesti, jonka haluat näkyviin kuitin alaosaan."
+
+#: includes/settings.php:171
+msgid "Template Tags"
+msgstr "Käytettävät tunnisteet"
+
+#: includes/settings.php:172
+msgid ""
+"The following template tags will work for the Header and Footer message as "
+"well as the Additional Notes:"
+msgstr ""
+"Voit käyttää seuraavia tunnisteita kuitin ylä -tai alaosassa, ja myös "
+"lisähuomauksissa:"
+
+#: includes/settings.php:173
+msgid "{page} - Page Number"
+msgstr "{page} - Sivunumero"
+
+#: includes/settings.php:174
+msgid "{sitename} - Site Name"
+msgstr "{sitename} - Sivuston nimi"
+
+#: includes/settings.php:175
+msgid "{today} - Date of Invoice Generation"
+msgstr "{today} - Kuitin tekopäivä"
+
+#: includes/settings.php:176
+msgid "{date} - Invoice Date"
+msgstr "{date} - Maksun päivämäärä"
+
+#: includes/settings.php:177
+msgid "{invoice_id} - Invoice ID"
+msgstr "{invoice_id} - Maksun numero"
+
+#: includes/settings.php:182 includes/templates/template-minimal.php:251
+#: includes/templates/template-colors.php:386
+#: includes/templates/template-default.php:291
+#: includes/templates/template-blue-stripe.php:276
+#: includes/templates/template-lines.php:272
+msgid "Additional Notes"
+msgstr "Lisähuomautukset"
+
+#: includes/settings.php:183
+msgid ""
+"Enter any messages you would to be displayed at the end of the invoice. Only "
+"plain text is currently supported. Any HTML will not be shown on the invoice."
+msgstr ""
+"Kirjoita viesti minkä haluat näkyviin kuitin alaosassa. Vain pelkkä teksti "
+"on tällä hetkellä sallittu, kaikki HTML-muotoilut poistetaan."
+
+#: includes/email-templates.php:28
+msgid "Invoice Default"
+msgstr "Oletuskuitti"
+
+#: includes/email-templates.php:33
+msgid "Invoice Blue"
+msgstr "Sininen kuitti"
+
+#: includes/email-templates.php:34
+msgid "Invoice Green"
+msgstr "Vihreä kuitti"
+
+#: includes/email-templates.php:35
+msgid "Invoice Orange"
+msgstr "Oranssi kuitti"
+
+#: includes/email-templates.php:36
+msgid "Invoice Pink"
+msgstr "Pinkki kuitti"
+
+#: includes/email-templates.php:37
+msgid "Invoice Purple"
+msgstr "Violetti kuitti"
+
+#: includes/email-templates.php:38
+msgid "Invoice Red"
+msgstr "Punainen kuitti"
+
+#: includes/email-templates.php:39
+msgid "Invoice Yellow"
+msgstr "Keltainen kuitti"
+
+#: includes/email-templates.php:63 includes/email-templates.php:110
+#: includes/email-templates.php:156 includes/email-templates.php:202
+#: includes/email-templates.php:241 includes/email-templates.php:357
+msgid "Receipt"
+msgstr "Kuitti"
+
+#: includes/i18n.php:16
+msgid "Easy Digital Downloads - PDF Invoices"
+msgstr "Easy Digital Downloads - PDF Invoices"
+
+#: includes/i18n.php:19
+msgid ""
+"Creates PDF Invoices for each purchase available to both admins and customers"
+msgstr ""
+"Luo PDF-kuitin jokaisesta ostosta sekä sivuston ylläpitäjälle että ostajalle"
+
+#: includes/i18n.php:22
+msgid "Sunny Ratilal"
+msgstr "Sunny Ratilal"
+
+#: includes/email-template-tag.php:61
+msgid "PDF Invoice Template Tags"
+msgstr "PDF Invoice -tunnisteet"
+
+#: includes/email-template-tag.php:62
+msgid "Creates a link to a downloadable invoice"
+msgstr "Luo linkin ladattavaan kuittiin"
+
+#: includes/templates/template-minimal.php:63
+#: includes/templates/template-colors.php:207
+#: includes/templates/template-default.php:105
+#: includes/templates/template-blue-stripe.php:66
+#: includes/templates/template-lines.php:67
+msgid "Invoice ID"
+msgstr "Maksun numero"
+
+#: includes/templates/template-minimal.php:68
+#: includes/templates/template-colors.php:212
+#: includes/templates/template-default.php:110
+#: includes/templates/template-blue-stripe.php:71
+#: includes/templates/template-lines.php:72
+msgid "Purchase Key"
+msgstr "Maksun avain"
+
+#: includes/templates/template-minimal.php:73
+#: includes/templates/template-colors.php:217
+#: includes/templates/template-default.php:115
+#: includes/templates/template-blue-stripe.php:76
+#: includes/templates/template-lines.php:77
+msgid "Payment Status"
+msgstr "Maksun tila"
+
+#: includes/templates/template-minimal.php:78
+#: includes/templates/template-colors.php:222
+#: includes/templates/template-default.php:120
+#: includes/templates/template-blue-stripe.php:81
+#: includes/templates/template-lines.php:82
+msgid "Payment Method"
+msgstr "Maksutapa"
+
+#: includes/templates/template-minimal.php:134
+#: includes/templates/template-minimal.php:138
+#: includes/templates/template-blue-stripe.php:149
+#: includes/templates/template-blue-stripe.php:153
+#: includes/templates/template-lines.php:154
+#: includes/templates/template-lines.php:158
+msgid "Item"
+msgstr "Tuote"
+
+#: includes/templates/template-minimal.php:135
+#: includes/templates/template-traditional.php:158
+#: includes/templates/template-blue-stripe.php:150
+#: includes/templates/template-lines.php:155
+msgid "Quantity"
+msgstr ""
+
+#: includes/templates/template-minimal.php:136
+#: includes/templates/template-minimal.php:139
+#: includes/templates/template-traditional.php:159
+#: includes/templates/template-traditional.php:162
+#: includes/templates/template-blue-stripe.php:151
+#: includes/templates/template-blue-stripe.php:154
+#: includes/templates/template-lines.php:156
+#: includes/templates/template-lines.php:159
+msgid "Price"
+msgstr "Hinta"
+
+#: includes/templates/template-minimal.php:170
+#: includes/templates/template-traditional.php:201
+#: includes/templates/template-colors.php:282
+#: includes/templates/template-default.php:184
+#: includes/templates/template-blue-stripe.php:187
+#: includes/templates/template-lines.php:192
+msgid "None"
+msgstr "Ei mitään"
+
+#: includes/templates/template-minimal.php:221
+#: includes/templates/template-traditional.php:252
+#: includes/templates/template-colors.php:342
+#: includes/templates/template-default.php:247
+#: includes/templates/template-blue-stripe.php:239
+#: includes/templates/template-lines.php:244
+msgid "Subtotal"
+msgstr "Välisumma"
+
+#: includes/templates/template-minimal.php:223
+#: includes/templates/template-traditional.php:255
+#: includes/templates/template-colors.php:345
+#: includes/templates/template-default.php:250
+#: includes/templates/template-blue-stripe.php:241
+#: includes/templates/template-lines.php:246
+msgid "Tax"
+msgstr "Vero"
+
+#: includes/templates/template-minimal.php:242
+#: includes/templates/template-traditional.php:275
+#: includes/templates/template-colors.php:366
+#: includes/templates/template-default.php:270
+#: includes/templates/template-blue-stripe.php:267
+#: includes/templates/template-lines.php:263
+msgid "Discount Used"
+msgstr "Alennus"
+
+#: includes/templates/template-minimal.php:243
+#: includes/templates/template-traditional.php:287
+#: includes/templates/template-colors.php:378
+#: includes/templates/template-default.php:282
+#: includes/templates/template-blue-stripe.php:268
+#: includes/templates/template-lines.php:264
+msgid "Total Due"
+msgstr "Yhteensä"
+
+#: includes/templates/template-traditional.php:60
+msgid "INVOICE"
+msgstr "Kuitti"
+
+#: includes/templates/template-traditional.php:71
+msgid "INVOICE ID"
+msgstr "Maksun numero"
+
+#: includes/templates/template-traditional.php:76
+msgid "PURCHASE KEY"
+msgstr "Maksun avain"
+
+#: includes/templates/template-traditional.php:81
+msgid "PAYMENT STATUS"
+msgstr "Maksun tila"
+
+#: includes/templates/template-traditional.php:86
+msgid "PAYMENT METHOD"
+msgstr "Maksutapa"
+
+#: includes/templates/template-traditional.php:93
+msgid "FROM:"
+msgstr "Keneltä:"
+
+#: includes/templates/template-traditional.php:123
+msgid "TO:"
+msgstr "Kenelle:"
+
+#: includes/templates/template-traditional.php:147
+msgid "INVOICE ITEMS"
+msgstr "Kuitin tuotteet"
+
+#: includes/templates/template-traditional.php:157
+#: includes/templates/template-traditional.php:161
+msgid "Product Name"
+msgstr "Tuotteen nimi"
+
+#: includes/templates/template-traditional.php:296
+msgid "ADDITIONAL NOTES:"
+msgstr "Lisähuomautukset:"
+
+#: includes/templates/template-traditional.php:308
+msgid "THANK YOU FOR YOUR BUSINESS!"
+msgstr "Kiitos!"
+
+#: includes/templates/template-colors.php:147
+#: includes/templates/template-default.php:52
+msgid "From"
+msgstr "Keneltä"
+
+#: includes/templates/template-colors.php:183
+#: includes/templates/template-default.php:80
+msgid "To"
+msgstr "Kenelle"
+
+#: includes/templates/template-colors.php:200
+#: includes/templates/template-default.php:98
+msgid "Invoice Date"
+msgstr "Maksun pvm"
+
+#: includes/templates/template-colors.php:232
+#: includes/templates/template-default.php:131
+msgid "Invoice Items"
+msgstr "Tuotteet"
+
+#: includes/templates/template-colors.php:242
+#: includes/templates/template-colors.php:246
+#: includes/templates/template-default.php:142
+#: includes/templates/template-default.php:146
+msgid "PRODUCT NAME"
+msgstr "Tuotteen nimi"
+
+#: includes/templates/template-colors.php:243
+#: includes/templates/template-default.php:143
+msgid "QUANTITY"
+msgstr ""
+
+#: includes/templates/template-colors.php:244
+#: includes/templates/template-colors.php:247
+#: includes/templates/template-default.php:144
+#: includes/templates/template-default.php:147
+msgid "PRICE"
+msgstr "Hinta"
+
+#: includes/templates/template-colors.php:326
+#: includes/templates/template-default.php:229
+msgid "Invoice Totals"
+msgstr "Maksun saldo"
+
+#~ msgid "License Key"
+#~ msgstr "Lisenssiavain"
+
+#~ msgid "Enter your license key for the PDF Invoices Add-On."
+#~ msgstr "Kirjoita PDF Invoices -lisäosan lisenssiavain."
+
+#~ msgid "Password Protection"
+#~ msgstr "Salasanasuojaus"
+
+#~ msgid "Enter a password that users require to open/modify the PDF invoice"
+#~ msgstr ""
+#~ "Kirjoita salasana, joka käyttäjien on kirjoitettava avatakseen kuitin"
+
+#~ msgid "Disable Modify Capability"
+#~ msgstr "Ota muokkaa-toiminto pois päältä"
+
+#~ msgid ""
+#~ "Check to disable the ability to modify the PDF invoice using a PDF editor "
+#~ "(e.g. Adobe Acrobat X Pro)"
+#~ msgstr ""
+#~ "Valitse tämä, jos haluat ottaa pois päältä PDF:n muokkaa-toiminnon (esim. "
+#~ "Adobe Acrobat X Pro)"
+
+#~ msgid "Disable Copy Capability"
+#~ msgstr "Ota kopioi-toiminto pois päältä"
+
+#~ msgid ""
+#~ "Check to disable the ability to select the text in the PDF invoice and to "
+#~ "copy it to the clipboard"
+#~ msgstr ""
+#~ "Valitse tämä, jos haluat ottaa pois päältä PDF:n valitse teksti ja kopioi-"
+#~ "toiminnon"

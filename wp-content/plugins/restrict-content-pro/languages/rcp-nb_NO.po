@@ -1,0 +1,3993 @@
+# Copyright (C) 2016 Restrict Content Pro Team
+# This file is distributed under the same license as the Restrict Content Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Content Pro 2.6.5\n"
+"Report-Msgid-Bugs-To: https://restrictcontentpro.com/\n"
+"POT-Creation-Date: 2016-09-05 00:26+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-19 08:39+0200\n"
+"Language-Team: Restrict Content Pro <support@restrictcontentpro.com>\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Last-Translator: \n"
+"Language: nb_NO\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: RCP_Plugin_Updater.php:186
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Det er en ny versjon %1$s tilgjengelig. %2$sSe versjon %3$s detaljer%4$s."
+
+#: RCP_Plugin_Updater.php:194
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"En ny versjon av %1$s er tilgjengelig. %2$sSe versjon %3$s detaljer%4$s "
+"eller %5$oppdater nå%6$s."
+
+#: RCP_Plugin_Updater.php:337 includes/admin/class-rcp-add-on-updater.php:276
+msgid "You do not have permission to install plugin updates"
+msgstr "Du har ikke rettigheter til å installere moduler"
+
+#: RCP_Plugin_Updater.php:337 includes/admin/class-rcp-add-on-updater.php:276
+#: includes/admin/settings/settings.php:1163 includes/class-rcp-export.php:187
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:149
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:116
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:130
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:142
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:209
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:223
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:244
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:279
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:293
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:333
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:112
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:128
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:155
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:62
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:123
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:238
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:312
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:343
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:371
+#: includes/gateways/gateway-functions.php:230
+#: includes/gateways/stripe/functions.php:135
+#: includes/gateways/stripe/functions.php:174
+#: includes/gateways/stripe/functions.php:191
+#: includes/gateways/stripe/functions.php:208
+#: includes/gateways/stripe/functions.php:224
+#: includes/gateways/stripe/functions.php:240
+#: includes/gateways/stripe/functions.php:249
+#: includes/gateways/stripe/functions.php:324
+#: includes/gateways/stripe/functions.php:341
+#: includes/gateways/stripe/functions.php:358
+#: includes/gateways/stripe/functions.php:374
+#: includes/gateways/stripe/functions.php:390
+#: includes/gateways/stripe/functions.php:399
+#: includes/gateways/stripe/functions.php:487
+#: includes/gateways/stripe/functions.php:497
+#: includes/gateways/stripe/functions.php:534
+#: includes/gateways/stripe/functions.php:551
+#: includes/gateways/stripe/functions.php:567
+#: includes/gateways/stripe/functions.php:583
+#: includes/gateways/stripe/functions.php:592
+#: includes/integrations/class-rcp-wp-approve-user.php:177
+#: includes/integrations/class-rcp-wp-approve-user.php:207
+#: includes/member-functions.php:981 includes/member-functions.php:998
+#: includes/member-functions.php:1014 includes/member-functions.php:1030
+#: includes/member-functions.php:1039 includes/member-functions.php:1112
+msgid "Error"
+msgstr "Feil"
+
+#: includes/admin/add-ons.php:24
+msgid "Add-ons for Restrict Content Pro"
+msgstr "Utvidelser til Restrict Content Pro"
+
+#: includes/admin/add-ons.php:26 includes/admin/add-ons.php:59
+msgid "Browse all add-ons"
+msgstr "Se alle utvidelser"
+
+#: includes/admin/add-ons.php:29
+msgid ""
+"These add-ons <em><strong>add functionality</strong></em> to your Restrict "
+"Content Pro-powered site."
+msgstr ""
+"Disse utvidelsene <em><strong>legger til funksjonalitet</strong></em> til "
+"din Restrict Content Pro-baserte nettside."
+
+#: includes/admin/add-ons.php:51
+msgid ""
+"Pro add-ons are only available with a Professional or Ultimate license. If "
+"you already have one of these licenses, simply <a href=\"%s\">log in to your "
+"account</a> to download any of these add-ons."
+msgstr ""
+"Pro utvidelser er kun tilgjengelige med Professional eller Ultimate lisens. "
+"Dersom du allerede har en av disse lisensene, kan du <a href=«%s»>logge inn "
+"på din konto</a> og laste ned hvilken som helst av disse utvidelsene."
+
+#: includes/admin/add-ons.php:52
+msgid ""
+"If you have a Personal or Plus license, you can easily upgrade from your "
+"account page to <a href=\"%s\">get access to all of these add-ons</a>!"
+msgstr ""
+"Dersom du har Personal eller Plus lisens, kan du enkelt oppgradere fra "
+"kontoen din for å <a href=«%s»>få tilgang til disse utvidelsene</a>!"
+
+#: includes/admin/add-ons.php:54
+msgid "Our official free add-ons are available to all license holders!"
+msgstr ""
+"Våre offisielle gratis utvidelser er tilgjengelige til alle som har lisens!"
+
+#: includes/admin/add-ons.php:95
+msgid ""
+"There was an error retrieving the add-ons list from the server. Please try "
+"again later."
+msgstr ""
+"Det skjedde en feil når vi forsøkte å hente listen over utvidelser fra "
+"serveren. Vennligst prøv igjen senere."
+
+#: includes/admin/admin-ajax-actions.php:59
+msgid "No users found"
+msgstr "Ingen brukere ble funnet"
+
+#: includes/admin/admin-notices.php:12
+msgid "You should now configure your Restrict Content Pro settings"
+msgstr "Du kan nå konfigurere Restrict Content Pro-innstillingene dine"
+
+#: includes/admin/admin-notices.php:16
+msgid "The Restrict Content Pro database needs to be updated: "
+msgstr "Restrict Content Pro-databasen må oppdateres: "
+
+#: includes/admin/admin-notices.php:16
+msgid "upgrade now"
+msgstr "oppgrader nå"
+
+#: includes/admin/admin-notices.php:20
+msgid "The Restrict Content Pro database has been updated"
+msgstr "Restrict Content Pro-databasen har blitt oppdatert"
+
+#: includes/admin/admin-notices.php:24
+msgid ""
+"Your license key for Restrict Content Pro has expired. Please renew your "
+"license to re-enable automatic updates."
+msgstr ""
+"Lisensnøkkelen din for Restrict Conten Pro har utløpt. Vennligst forny "
+"lisensen din for å reaktivere automatiske oppdateringer."
+
+#: includes/admin/admin-notices.php:26
+msgid ""
+"Please <a href=\"%s\">enter and activate</a> your license key for Restrict "
+"Content Pro to enable automatic updates."
+msgstr ""
+"Vennligst <a href=«%s»>legg inn og aktiver</a> lisensnøkkelen din slik at "
+"Restrict Content Pro kan aktivere automatiske oppdateringer."
+
+#: includes/admin/admin-notices.php:31
+msgid ""
+"You are using an outdated version of the Stripe integration for Restrict "
+"Content Pro. Please <a href=\"%s\">deactivate</a> the add-on version to "
+"configure the new version."
+msgstr ""
+"Du bruker en utdatert versjon av Stripe integrasjonen for Restrict Conten "
+"Pro. Vennligst <a href=«%s»>deaktiver</a> utvidelsesversjonen for å "
+"konfigurere den nye versjonen."
+
+#: includes/admin/admin-notices.php:36
+msgid ""
+"You are using an outdated version of the PayPal Pro / Express integration "
+"for Restrict Content Pro. Please <a href=\"%s\">deactivate</a> the add-on "
+"version to configure the new version."
+msgstr ""
+"Du bruker en utdatert versjon av PayPal Pro / Express integration for "
+"Restrict Content Pro. Vennligst <a href=«%s»>deaktiver</a> "
+"utvidelsesversjonen for å konfigurere den nye versjonen."
+
+#: includes/admin/admin-notices.php:43
+msgid "Payment deleted"
+msgstr "Betalingen er slettet"
+
+#: includes/admin/admin-notices.php:48
+msgid "Payment added"
+msgstr "Betaling lagt til"
+
+#: includes/admin/admin-notices.php:53
+msgid "Payment creation failed"
+msgstr "Betaling mislyktes"
+
+#: includes/admin/admin-notices.php:59
+msgid "Payment updated"
+msgstr "Betaling oppdatert"
+
+#: includes/admin/admin-notices.php:64
+msgid "Payment update failed"
+msgstr "Oppdatering av betaling mislytes"
+
+#: includes/admin/admin-notices.php:69
+msgid "Database upgrade complete"
+msgstr "Oppgradering av database vellykket"
+
+#: includes/admin/admin-notices.php:74
+msgid "The user's subscription has been added"
+msgstr "Medlemskapet er lagt til"
+
+#: includes/admin/admin-notices.php:79
+msgid "The user's subscription could not be added"
+msgstr "Medlemskapet kunne ikke legges til"
+
+#: includes/admin/admin-notices.php:85
+msgid "Member updated"
+msgstr "Medlem oppdatert"
+
+#: includes/admin/admin-notices.php:90
+msgid "Member accounts updated"
+msgstr "Medlemskontoer er oppdatert"
+
+#: includes/admin/admin-notices.php:95
+msgid "Member's payment profile cancelled successfully"
+msgstr "Betalingsprofilen er kansellert"
+
+#: includes/admin/admin-notices.php:100
+msgid "Subscription level added"
+msgstr "Abonnementsnivå lagt til"
+
+#: includes/admin/admin-notices.php:105
+msgid "Subscription level updated"
+msgstr "Abonnementsnivå oppdatert"
+
+#: includes/admin/admin-notices.php:110
+msgid "Subscription level could not be added"
+msgstr "Abonnementsnivå kunne ikke lagres"
+
+#: includes/admin/admin-notices.php:116
+msgid "Subscription level could not be updated"
+msgstr "Abonnementsnivå kunne ikke oppdateres"
+
+#: includes/admin/admin-notices.php:122
+msgid "Subscription level fields are required"
+msgstr "Abonnements nivå felter er påkrevd"
+
+#: includes/admin/admin-notices.php:128
+msgid "Discount code created"
+msgstr "Kupong kode opprettet"
+
+#: includes/admin/admin-notices.php:133
+msgid "The discount code could not be created due to an error"
+msgstr "Rabattkoden ble ikke laget grunnet en feil"
+
+#: includes/admin/admin-pages.php:14 includes/admin/admin-pages.php:20
+msgid "Restrict Content Pro Settings"
+msgstr "Restrict Content Pro innstillinger"
+
+#: includes/admin/admin-pages.php:14
+msgid "Restrict"
+msgstr "Begrens"
+
+#: includes/admin/admin-pages.php:15
+msgid "Members"
+msgstr "Medlemmer"
+
+#: includes/admin/admin-pages.php:16 includes/admin/categories.php:67
+#: includes/admin/subscriptions/subscription-levels.php:12
+msgid "Subscription Levels"
+msgstr "Abonnementsplaner"
+
+#: includes/admin/admin-pages.php:17
+msgid "Discounts"
+msgstr "Rabatter"
+
+#: includes/admin/admin-pages.php:17
+#: includes/admin/discounts/discount-codes.php:12
+#: includes/class-rcp-export-members.php:46
+msgid "Discount Codes"
+msgstr "Rabattkoder"
+
+#: includes/admin/admin-pages.php:18 includes/admin/members/edit-member.php:155
+#: includes/admin/payments/payments-page.php:23
+#: includes/admin/settings/settings.php:35
+msgid "Payments"
+msgstr "Betalinger"
+
+#: includes/admin/admin-pages.php:19
+msgid "Reports"
+msgstr "Rapporter"
+
+#: includes/admin/admin-pages.php:20
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/admin/admin-pages.php:21
+msgid "Export Member Data"
+msgstr "Eksporter medlemmer"
+
+#: includes/admin/admin-pages.php:21 includes/admin/export.php:8
+msgid "Export"
+msgstr "Eksport"
+
+#: includes/admin/admin-pages.php:22 includes/libraries/class-wp-logging.php:69
+msgid "Logs"
+msgstr "Logger"
+
+#: includes/admin/admin-pages.php:23
+msgid "Tools"
+msgstr "Verktøy"
+
+#: includes/admin/admin-pages.php:24
+msgid "Help"
+msgstr "Hjelp"
+
+#: includes/admin/admin-pages.php:25
+msgid "Add-ons"
+msgstr "Utvidelser"
+
+#: includes/admin/categories.php:45
+msgid "Paid Only?"
+msgstr "Kun betalt?"
+
+#: includes/admin/categories.php:49
+msgid "Restrict items in this category to paid subscribers only?"
+msgstr "Begrens artikler i denne kategorien til kun betalende medlemmer?"
+
+#: includes/admin/categories.php:54
+#: includes/admin/subscriptions/edit-subscription.php:34
+#: includes/admin/subscriptions/subscription-levels.php:18
+#: includes/admin/subscriptions/subscription-levels.php:50
+#: includes/admin/subscriptions/subscription-levels.php:92
+#: includes/admin/subscriptions/subscription-levels.php:127
+msgid "Access Level"
+msgstr "Tilgangsnivå"
+
+#: includes/admin/categories.php:62
+msgid "Access level required to view content in this category."
+msgstr "Tilgang er nødvendig for å se innhold i denne kategorien."
+
+#: includes/admin/categories.php:75
+msgid ""
+"Subscription levels allowed to view content in this category. Leave "
+"unchecked for all."
+msgstr ""
+"Abonnementsnivåer tillat for å se innhold i denne kategorien. Fjern alle "
+"valg om alt skal være tilgjengelig."
+
+#: includes/admin/class-rcp-add-on-updater.php:186
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"En ny versjon av %1$er tilgjengelig. <a target=«_blank» class=«thickbox» "
+"href=«%2$s»>Se versjon %3$s detaljer</a>."
+
+#: includes/admin/class-rcp-add-on-updater.php:193
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"En ny versjon av %1$er tilgjengelig. <a target=«_blank» class=«thickbox» "
+"href=«%2$s»>Se versjon %3$s detaljer</a>. eller <a href=«%4$s»>oppdater nå</"
+"a>."
+
+#: includes/admin/discounts/discount-codes.php:17
+#: includes/admin/discounts/discount-codes.php:37
+#: includes/admin/discounts/discount-codes.php:89
+#: includes/admin/discounts/discount-codes.php:111
+#: includes/admin/settings/settings.php:859
+#: includes/admin/subscriptions/edit-subscription.php:16
+#: includes/admin/subscriptions/subscription-levels.php:16
+#: includes/admin/subscriptions/subscription-levels.php:33
+#: includes/admin/subscriptions/subscription-levels.php:90
+#: includes/admin/subscriptions/subscription-levels.php:109
+msgid "Name"
+msgstr "Navn"
+
+#: includes/admin/discounts/discount-codes.php:18
+#: includes/admin/discounts/discount-codes.php:53
+#: includes/admin/discounts/discount-codes.php:90
+#: includes/admin/discounts/discount-codes.php:120
+#: includes/admin/subscriptions/edit-subscription.php:25
+#: includes/admin/subscriptions/subscription-levels.php:17
+#: includes/admin/subscriptions/subscription-levels.php:49
+#: includes/admin/subscriptions/subscription-levels.php:91
+#: includes/admin/subscriptions/subscription-levels.php:118
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/admin/discounts/discount-codes.php:19
+#: includes/admin/discounts/discount-codes.php:54
+#: includes/admin/discounts/discount-codes.php:91
+#: includes/admin/discounts/discount-codes.php:129
+msgid "Code"
+msgstr "Kode"
+
+#: includes/admin/discounts/discount-codes.php:20
+#: includes/admin/discounts/discount-codes.php:92
+#: includes/admin/discounts/discount-codes.php:159
+#: includes/admin/discounts/edit-discount.php:63
+#: includes/admin/members/members-page.php:140
+#: includes/admin/members/members-page.php:197
+#: includes/admin/members/members-page.php:217
+#: includes/admin/payments/payments-page.php:66
+#: includes/admin/payments/payments-page.php:104
+#: includes/admin/payments/payments-page.php:122
+#: includes/class-rcp-export-members.php:42
+#: includes/class-rcp-export-payments.php:38 includes/member-functions.php:547
+#: includes/member-functions.php:587 includes/user-page-columns.php:4
+#: templates/paypal-express-confirm.php:11
+#: templates/register-total-details.php:14 templates/subscription.php:16
+#: templates/subscription.php:57
+msgid "Subscription"
+msgstr "Medlemskap"
+
+#: includes/admin/discounts/discount-codes.php:21
+#: includes/admin/discounts/discount-codes.php:64
+#: includes/admin/discounts/discount-codes.php:93
+#: includes/admin/discounts/discount-codes.php:150
+#: includes/admin/payments/edit-payment.php:29
+#: includes/admin/payments/new-payment.php:23
+#: includes/admin/payments/payments-page.php:68
+#: includes/admin/payments/payments-page.php:106
+#: includes/admin/payments/payments-page.php:124
+#: includes/class-rcp-export-payments.php:39 includes/member-functions.php:552
+#: includes/member-functions.php:554 includes/member-functions.php:591
+#: templates/register-total-details.php:15 templates/subscription.php:58
+msgid "Amount"
+msgstr "Sum"
+
+#: includes/admin/discounts/discount-codes.php:22
+#: includes/admin/discounts/discount-codes.php:65
+#: includes/admin/discounts/discount-codes.php:94
+#: includes/admin/discounts/discount-codes.php:138
+#: includes/admin/payments/payments-page.php:69
+#: includes/admin/payments/payments-page.php:107
+#: includes/admin/payments/payments-page.php:125
+msgid "Type"
+msgstr "Type"
+
+#: includes/admin/discounts/discount-codes.php:23
+#: includes/admin/discounts/discount-codes.php:66
+#: includes/admin/discounts/discount-codes.php:95
+#: includes/admin/members/edit-member.php:24
+#: includes/admin/members/members-page.php:141
+#: includes/admin/members/members-page.php:198
+#: includes/admin/members/members-page.php:218
+#: includes/admin/payments/edit-payment.php:56
+#: includes/admin/payments/new-payment.php:50
+#: includes/admin/payments/payments-page.php:71
+#: includes/admin/payments/payments-page.php:109
+#: includes/admin/payments/payments-page.php:127
+#: includes/admin/subscriptions/edit-subscription.php:81
+#: includes/admin/subscriptions/subscription-levels.php:188
+#: includes/class-rcp-export-members.php:45 includes/user-page-columns.php:5
+#: templates/subscription.php:15
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/discounts/discount-codes.php:24
+#: includes/admin/discounts/discount-codes.php:75
+#: includes/admin/discounts/discount-codes.php:96
+msgid "Uses"
+msgstr "Forsøk"
+
+#: includes/admin/discounts/discount-codes.php:25
+#: includes/admin/discounts/discount-codes.php:76
+#: includes/admin/discounts/discount-codes.php:97
+msgid "Uses Left"
+msgstr "Gjenværende forsøk"
+
+#: includes/admin/discounts/discount-codes.php:26
+#: includes/admin/discounts/discount-codes.php:77
+#: includes/admin/discounts/discount-codes.php:98
+#: includes/admin/members/members-page.php:143
+#: includes/admin/members/members-page.php:200
+#: includes/admin/members/members-page.php:220
+#: includes/class-rcp-export-members.php:44 templates/subscription.php:20
+msgid "Expiration"
+msgstr "Utgår"
+
+#: includes/admin/discounts/discount-codes.php:41
+#: includes/admin/members/members-page.php:191
+#: includes/admin/payments/payments-page.php:91
+#: includes/admin/subscriptions/subscription-levels.php:37
+msgid "ID:"
+msgstr ""
+
+#: includes/admin/discounts/discount-codes.php:42
+#: includes/admin/payments/payments-page.php:97
+#: includes/admin/subscriptions/subscription-levels.php:38
+msgid "Edit"
+msgstr "Endre"
+
+#: includes/admin/discounts/discount-codes.php:44
+#: includes/admin/subscriptions/subscription-levels.php:40
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: includes/admin/discounts/discount-codes.php:46
+#: includes/admin/subscriptions/subscription-levels.php:42
+msgid "Activate"
+msgstr "Aktiver"
+
+#: includes/admin/discounts/discount-codes.php:48
+#: includes/admin/logs-list-table.php:108
+#: includes/admin/payments/payments-page.php:99
+#: includes/admin/subscriptions/subscription-levels.php:44
+msgid "Delete"
+msgstr "Slett"
+
+#: includes/admin/discounts/discount-codes.php:51
+#: includes/admin/members/members-page.php:195
+#: includes/admin/payments/payments-page.php:102
+#: includes/admin/subscriptions/subscription-levels.php:47
+msgid "Show more details"
+msgstr "Se flere detaljer"
+
+#: includes/admin/discounts/discount-codes.php:60
+#: includes/admin/discounts/discount-codes.php:166
+#: includes/admin/discounts/edit-discount.php:70
+msgid "All Levels"
+msgstr "Alle nivåer"
+
+#: includes/admin/discounts/discount-codes.php:65
+#: includes/admin/discounts/discount-codes.php:142
+msgid "Percentage"
+msgstr "Prosent"
+
+#: includes/admin/discounts/discount-codes.php:65
+msgid "Flat"
+msgstr "Kroner"
+
+#: includes/admin/discounts/discount-codes.php:69
+#: includes/admin/settings/settings.php:69
+msgid "active"
+msgstr "aktivert"
+
+#: includes/admin/discounts/discount-codes.php:69
+msgid "disabled"
+msgstr "deaktivert"
+
+#: includes/admin/discounts/discount-codes.php:71
+msgid "expired"
+msgstr "utgått"
+
+#: includes/admin/discounts/discount-codes.php:77
+#: includes/admin/subscriptions/subscription-levels.php:50
+msgid "none"
+msgstr "ingen"
+
+#: includes/admin/discounts/discount-codes.php:84
+msgid "No discount codes added yet."
+msgstr "Ingen rabattkuponger er utstedt."
+
+#: includes/admin/discounts/discount-codes.php:105
+msgid "Add New Discount"
+msgstr "Legg til rabattkupong"
+
+#: includes/admin/discounts/discount-codes.php:115
+msgid "The name of this discount"
+msgstr "Rabattnavn"
+
+#: includes/admin/discounts/discount-codes.php:124
+msgid "The description of this discount code"
+msgstr "Beskrivelse av rabattkoden"
+
+#: includes/admin/discounts/discount-codes.php:133
+msgid "Enter a code for this discount, such as 10PERCENT"
+msgstr "Skriv inn en kode for rabatten, eksempelvis 10PROSENT"
+
+#: includes/admin/discounts/discount-codes.php:143
+msgid "Flat amount"
+msgstr "Kroner"
+
+#: includes/admin/discounts/discount-codes.php:145
+msgid "The kind of discount to apply for this discount."
+msgstr "Type rabatt."
+
+#: includes/admin/discounts/discount-codes.php:154
+msgid "The amount of this discount code."
+msgstr "Mengde rabatt for denne rabattkoden."
+
+#: includes/admin/discounts/discount-codes.php:174
+#: includes/admin/discounts/edit-discount.php:78
+msgid "The subscription levels this discount code can be used for."
+msgstr "Abonnemementsnivåer denne koden gjelder for."
+
+#: includes/admin/discounts/discount-codes.php:179
+#: includes/admin/members/edit-member.php:67
+#: includes/admin/members/members-page.php:285
+msgid "Expiration date"
+msgstr "Gyldig til dato"
+
+#: includes/admin/discounts/discount-codes.php:183
+msgid ""
+"Enter the expiration date for this discount code in the format of yyyy-mm-"
+"dd. For no expiration, leave blank"
+msgstr ""
+"Skriv inn utgangsdato i formatet yyyy-mm-dd. La stå tom dersom du ikke "
+"ønsker utgangsdato"
+
+#: includes/admin/discounts/discount-codes.php:188
+msgid "Max Uses"
+msgstr "Maks antall"
+
+#: includes/admin/discounts/discount-codes.php:192
+msgid ""
+"The maximum number of times this discount can be used. Leave blank for "
+"unlimited."
+msgstr ""
+"Maks antall ganger rabattkoden kan brukes. La stå tomt for ubegrenset antall."
+
+#: includes/admin/discounts/discount-codes.php:200
+msgid "Add Discount Code"
+msgstr "Legg til rabattkupong"
+
+#: includes/admin/discounts/edit-discount.php:5
+msgid "Edit Discount Code:"
+msgstr "Endre rabattkupong:"
+
+#: includes/admin/discounts/edit-discount.php:7
+#: includes/admin/members/edit-member.php:12
+#: includes/admin/members/members-page.php:185
+#: includes/admin/payments/edit-payment.php:10
+#: includes/admin/payments/new-payment.php:4
+#: includes/admin/subscriptions/edit-subscription.php:8
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/admin/discounts/edit-discount.php:15
+msgid " Name"
+msgstr " Navn"
+
+#: includes/admin/discounts/edit-discount.php:19
+msgid " The name of this discount"
+msgstr " Kupongens navn"
+
+#: includes/admin/discounts/edit-discount.php:24
+msgid " Description"
+msgstr " Beskrivelse"
+
+#: includes/admin/discounts/edit-discount.php:28
+msgid " The description of this discount code"
+msgstr " Kupongens beskrivelse"
+
+#: includes/admin/discounts/edit-discount.php:33
+msgid " Code"
+msgstr " Kupongkode"
+
+#: includes/admin/discounts/edit-discount.php:37
+msgid " Enter a code for this discount, such as 10PERCENT"
+msgstr " Skriv inn en kode for rabatten, eksempelvis 10PROSENT"
+
+#: includes/admin/discounts/edit-discount.php:42
+msgid " Type"
+msgstr ""
+
+#: includes/admin/discounts/edit-discount.php:46
+msgid " Percentage"
+msgstr " Prosent"
+
+#: includes/admin/discounts/edit-discount.php:47
+msgid " Flat amount"
+msgstr " Kroner"
+
+#: includes/admin/discounts/edit-discount.php:49
+msgid " The kind of discount to apply for this discount."
+msgstr " Type rabatt."
+
+#: includes/admin/discounts/edit-discount.php:54
+msgid " Amount"
+msgstr " Beløp"
+
+#: includes/admin/discounts/edit-discount.php:58
+msgid " The amount of this discount code."
+msgstr " Sum rabatt."
+
+#: includes/admin/discounts/edit-discount.php:83
+msgid " Expiration date"
+msgstr " Utløpsdato"
+
+#: includes/admin/discounts/edit-discount.php:87
+msgid ""
+" Enter the expiration date for this discount code in the format of yyyy-mm-"
+"dd. Leave blank for no expiration"
+msgstr ""
+" Skriv inn utgangsdato i formatet yyyy-mm-dd. La stå tom dersom du ikke "
+"ønsker utgangsdato"
+
+#: includes/admin/discounts/edit-discount.php:92
+msgid " Status"
+msgstr " Status"
+
+#: includes/admin/discounts/edit-discount.php:96
+msgid " Active"
+msgstr " Aktiv"
+
+#: includes/admin/discounts/edit-discount.php:97
+msgid " Disabled"
+msgstr " Avslått"
+
+#: includes/admin/discounts/edit-discount.php:99
+msgid " The status of this discount code."
+msgstr " Status for denne kupongkode."
+
+#: includes/admin/discounts/edit-discount.php:104
+msgid " Max Uses"
+msgstr " Kan brukes maksimalt"
+
+#: includes/admin/discounts/edit-discount.php:108
+msgid ""
+" The maximum number of times this discount can be used. Leave blank for "
+"unlimited."
+msgstr ""
+" Maks antall ganger rabattkoden kan brukes. La stå tomt for ubegrenset "
+"antall."
+
+#: includes/admin/discounts/edit-discount.php:117
+msgid " Update Discount"
+msgstr " Oppdater Rabatt"
+
+#: includes/admin/export.php:12
+msgid "Members Export"
+msgstr "Eksporter medlemmer"
+
+#: includes/admin/export.php:13
+msgid ""
+"Download member data as a CSV file. This is useful for tasks such as "
+"importing batch users into MailChimp, or other systems."
+msgstr ""
+"Last ned CSV-fil med medlemsdaata. Dette er nyttig for masseimport i "
+"MailChimp og andre systemer."
+
+#: includes/admin/export.php:17
+msgid "All"
+msgstr "Alle"
+
+#: includes/admin/export.php:27
+msgid "Choose the subscription to export members from"
+msgstr "Velg medlemsnivå du ønsker å eksportere fra"
+
+#: includes/admin/export.php:29 includes/admin/members/members-page.php:65
+#: includes/admin/subscriptions/edit-subscription.php:85
+#: includes/admin/subscriptions/subscription-levels.php:192
+#: includes/member-functions.php:445
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/admin/export.php:30 includes/admin/members/members-page.php:70
+#: includes/member-functions.php:451 includes/misc-functions.php:606
+msgid "Pending"
+msgstr "Venter"
+
+#: includes/admin/export.php:31 includes/admin/members/members-page.php:75
+#: includes/member-functions.php:448
+msgid "Expired"
+msgstr "Utgått"
+
+#: includes/admin/export.php:32 includes/admin/members/members-page.php:80
+#: includes/member-functions.php:454
+msgid "Cancelled"
+msgstr "Kansellert"
+
+#: includes/admin/export.php:33 includes/admin/members/members-page.php:85
+#: includes/admin/subscriptions/subscription-levels.php:64
+#: includes/admin/subscriptions/subscription-levels.php:169
+#: includes/member-functions.php:457
+msgid "Free"
+msgstr "Gratis"
+
+#: includes/admin/export.php:35
+msgid "Choose the status to export"
+msgstr "Velg kategori du ønsker å eksportere"
+
+#: includes/admin/export.php:37
+msgid "Maximum number of members to export"
+msgstr "Maks antall medlemmer til eksport"
+
+#: includes/admin/export.php:39
+msgid "The number of members to skip"
+msgstr "Antall medlemmer du ønsker å hoppe over"
+
+#: includes/admin/export.php:41
+msgid ""
+"If you need to export a large number of members, export them in batches "
+"using the max and offset options"
+msgstr ""
+"Dersom du trenger å eksportere mange medlemmer, kan du gjøre det i flere "
+"omganger med maks og offset (forskjøvet) valg"
+
+#: includes/admin/export.php:43
+msgid "Download Member CSV"
+msgstr "Last ned CSV med medlemmer"
+
+#: includes/admin/export.php:47
+msgid "Payments Export"
+msgstr "Eksporter betalinger"
+
+#: includes/admin/export.php:48
+msgid ""
+"Download payment data as a CSV file. Use this file for your own record "
+"keeping or tracking."
+msgstr ""
+"Last ned betalingsinformasjon som CSV-fil. Bruk filen for "
+"betalingsoversikter, etc."
+
+#: includes/admin/export.php:52
+msgid "All years"
+msgstr "Alle år"
+
+#: includes/admin/export.php:64
+msgid "All months"
+msgstr "Alle måneder"
+
+#: includes/admin/export.php:71
+msgid "Download Payments CSV"
+msgstr "Last ned betalingsinformasjon som CSV"
+
+#: includes/admin/help/help-menus-setup-old.php:17
+#: includes/admin/help/help-menus-setup-old.php:33
+#: includes/admin/help/help-menus-setup-old.php:49
+#: includes/admin/help/help-menus-setup-old.php:65
+#: includes/admin/help/help-menus-setup-old.php:72
+#: includes/admin/help/help-menus-setup.php:22
+#: includes/admin/help/help-menus-setup.php:53
+#: includes/admin/help/help-menus-setup.php:84
+#: includes/admin/help/help-menus-setup.php:115
+#: includes/admin/help/help-menus-setup.php:125
+#: includes/admin/settings/settings.php:34
+#: includes/admin/settings/settings.php:56
+#: includes/admin/settings/settings.php:552
+msgid "General"
+msgstr "Generelt"
+
+#: includes/admin/help/help-menus-setup-old.php:20
+#: includes/admin/help/help-menus-setup-old.php:36
+#: includes/admin/help/help-menus-setup.php:29
+#: includes/admin/help/help-menus-setup.php:60
+msgid "Adding Subscriptions"
+msgstr "Legge til abonnenter"
+
+#: includes/admin/help/help-menus-setup-old.php:23
+#: includes/admin/help/help-menus-setup.php:36
+msgid "Member Details"
+msgstr "Medlemsdetaljer"
+
+#: includes/admin/help/help-menus-setup-old.php:26
+#: includes/admin/help/help-menus-setup.php:43
+msgid "Editing Members"
+msgstr "Rediger medlemmer"
+
+#: includes/admin/help/help-menus-setup-old.php:39
+#: includes/admin/help/help-menus-setup.php:67
+msgid "Editing Subscriptions"
+msgstr "Rediger abonnementer"
+
+#: includes/admin/help/help-menus-setup-old.php:42
+#: includes/admin/help/help-menus-setup.php:74
+msgid "Deleting Subscriptions"
+msgstr "Slett abonnenter"
+
+#: includes/admin/help/help-menus-setup-old.php:52
+#: includes/admin/help/help-menus-setup.php:91
+msgid "Adding Discounts"
+msgstr "Legg til rabatter"
+
+#: includes/admin/help/help-menus-setup-old.php:55
+#: includes/admin/help/help-menus-setup.php:98
+msgid "Editing Discounts"
+msgstr "Rediger rabatter"
+
+#: includes/admin/help/help-menus-setup-old.php:58
+#: includes/admin/help/help-menus-setup.php:105
+msgid "Using Discounts"
+msgstr "Bruk av rabatter"
+
+#: includes/admin/help/help-menus-setup-old.php:75
+#: includes/admin/help/help-menus-setup.php:132
+msgid "Messages"
+msgstr "Meldinger"
+
+#: includes/admin/help/help-menus-setup-old.php:78
+#: includes/admin/help/help-menus-setup.php:139
+#: includes/gateways/class-rcp-payment-gateways.php:62
+#: includes/gateways/class-rcp-payment-gateways.php:67
+#: includes/gateways/class-rcp-payment-gateways.php:125
+msgid "PayPal"
+msgstr ""
+
+#: includes/admin/help/help-menus-setup-old.php:81
+#: includes/admin/help/help-menus-setup.php:146
+msgid "Signup Forms"
+msgstr "Innmeldingsskjemaer"
+
+#: includes/admin/help/help-menus-setup-old.php:84
+#: includes/admin/help/help-menus-setup.php:153
+#: includes/admin/settings/settings.php:36
+msgid "Emails"
+msgstr "Eposter"
+
+#: includes/admin/help/help-menus-setup-old.php:87
+#: includes/admin/help/help-menus-setup.php:160
+#: includes/admin/settings/settings.php:38
+msgid "Misc"
+msgstr "Diverse"
+
+#: includes/admin/help/help-menus-setup-old.php:90
+#: includes/admin/help/help-menus-setup.php:167
+msgid "Logging"
+msgstr "Logger"
+
+#: includes/admin/logs-list-table.php:54
+msgid "View logs for this user"
+msgstr "Se denne brukerens logger"
+
+#: includes/admin/logs-list-table.php:58
+msgid "at"
+msgstr ""
+
+#: includes/admin/logs-list-table.php:90
+msgid "Log Error"
+msgstr "Feil i logg"
+
+#: includes/admin/logs-list-table.php:91
+msgid "Log Message"
+msgstr "Loggbeskjed"
+
+#: includes/admin/logs-list-table.php:92
+#: includes/admin/members/members-page.php:139
+#: includes/admin/members/members-page.php:170
+#: includes/admin/members/members-page.php:216
+#: includes/admin/payments/edit-payment.php:18
+#: includes/admin/payments/new-payment.php:12
+#: includes/admin/payments/payments-page.php:65
+#: includes/admin/payments/payments-page.php:82
+#: includes/admin/payments/payments-page.php:121
+msgid "User"
+msgstr "Bruker"
+
+#: includes/admin/logs-list-table.php:93
+#: includes/admin/payments/payments-page.php:67
+#: includes/admin/payments/payments-page.php:105
+#: includes/admin/payments/payments-page.php:123
+#: includes/class-rcp-export-payments.php:44 includes/class-rcp-export.php:68
+#: includes/member-functions.php:546 includes/member-functions.php:586
+#: templates/subscription.php:59
+msgid "Date"
+msgstr "Dato"
+
+#: includes/admin/logs.php:10
+msgid "RCP Error Logs"
+msgstr "RCP feil-logger"
+
+#: includes/admin/members/edit-member.php:10
+msgid "Edit Member:"
+msgstr "Rediger medlem:"
+
+#: includes/admin/members/edit-member.php:16
+#: includes/admin/members/members-page.php:188
+msgid "Switch to User"
+msgstr "Bytt til Bruker"
+
+#: includes/admin/members/edit-member.php:36
+msgid ""
+"An Active status is required to access paid content. Members with a status "
+"of Cancelled may continue to access paid content until the expiration date "
+"on their account is reached."
+msgstr ""
+"En aktiv-status er påkrevd for å få tilgang til betalt innhold. Medlemmer "
+"med status som Kansellert kan fortsette å få tilgang til betalt innhold før "
+"utgangsdato for kontoen."
+
+#: includes/admin/members/edit-member.php:37
+msgid "The status of this user's subscription"
+msgstr "Brukerens medlemskapsstatus"
+
+#: includes/admin/members/edit-member.php:42
+#: includes/admin/members/members-page.php:268
+msgid "Subscription Level"
+msgstr "Abonnementsnivå"
+
+#: includes/admin/members/edit-member.php:52
+msgid "Choose the subscription level for this user"
+msgstr "Velg abonnementsnivå for denne brukeren"
+
+#: includes/admin/members/edit-member.php:57
+#: includes/class-rcp-export-members.php:43
+#: includes/class-rcp-export-payments.php:43 includes/member-functions.php:549
+#: includes/member-functions.php:589
+msgid "Subscription Key"
+msgstr "Medlemskode"
+
+#: includes/admin/members/edit-member.php:61
+msgid ""
+"This key is used for reference purposes and may be shown on payment and "
+"subscription records in your merchant accounts."
+msgstr ""
+"Medlemskoden brukes til å referere og kan bli vist i betalings- og "
+"abonnementsoversikter."
+
+#: includes/admin/members/edit-member.php:62
+msgid "The member's subscription key. This cannot be changed."
+msgstr "Medlemmets medlemskode. Koden kan ikke endres."
+
+#: includes/admin/members/edit-member.php:73
+#: includes/admin/members/members-page.php:291
+msgid "Never expires?"
+msgstr "Utgår aldri?"
+
+#: includes/admin/members/edit-member.php:75
+msgid ""
+"This is the date the member will lose access to content if their membership "
+"is not renewed."
+msgstr ""
+"Dette er datoen medlemmet vil miste tilgang til innhold dersom medlemskapet "
+"ikke fornyes."
+
+#: includes/admin/members/edit-member.php:76
+#: includes/admin/members/members-page.php:293
+msgid "Enter the expiration date for this user in the format of yyyy-mm-dd"
+msgstr "Skriv inn utløpsdatoen for denne bruker i formatet yyyy-mm-dd"
+
+#: includes/admin/members/edit-member.php:81
+#: includes/class-rcp-export-members.php:47
+msgid "Payment Profile ID"
+msgstr "Betalingsprofil ID"
+
+#: includes/admin/members/edit-member.php:85
+msgid "This is the customer's payment profile ID in the payment processor"
+msgstr "Dette er kundens betalingsprofil ID i betalingsprosessoren"
+
+#: includes/admin/members/edit-member.php:90
+#: includes/admin/members/members-page.php:142
+#: includes/admin/members/members-page.php:199
+#: includes/admin/members/members-page.php:219
+#: includes/class-rcp-export-members.php:48
+msgid "Recurring"
+msgstr "Gjentagende"
+
+#: includes/admin/members/edit-member.php:95
+msgid "Is this user's subscription recurring?"
+msgstr "Skal brukerens medlemskap fornyes automatisk?"
+
+#: includes/admin/members/edit-member.php:97
+msgid ""
+"If checked, this member has a recurring subscription. Only customers with "
+"recurring memberships will be given the option to cancel their membership on "
+"their subscription details page."
+msgstr ""
+"Ved avkrysning skal medlemmet fornye medlemskapet automatisk. Kun kunder med "
+"gjentagende medlemskap vil få mulighet til å stoppe medlemskapet på "
+"abonnementsdetalj-siden."
+
+#: includes/admin/members/edit-member.php:102
+msgid "Trialing"
+msgstr "Prøveperiode"
+
+#: includes/admin/members/edit-member.php:107
+msgid "Does this user have a trial membership?"
+msgstr "Har denne brukeren en prøveperiode?"
+
+#: includes/admin/members/edit-member.php:109
+msgid ""
+"Members are limited to a single trial membership. Once a trial has been "
+"used, the member may not sign up for another trial membership."
+msgstr ""
+"Medlemmer begrenses til å kun ha en prøveperiode. Når prøveperioden er over, "
+"kan ikke brukeren registrere seg for en ny."
+
+#: includes/admin/members/edit-member.php:114
+msgid "Sign Up Method"
+msgstr "Innmeldingsmetode"
+
+#: includes/admin/members/edit-member.php:119
+msgid "User Signup"
+msgstr "Brukerinnmelding"
+
+#: includes/admin/members/edit-member.php:120
+msgid "Added by admin manually"
+msgstr "Lagt til manuelt av administrator"
+
+#: includes/admin/members/edit-member.php:122
+msgid "Was this a real signup or a membership given to the user"
+msgstr "Var dette en reell innmelding eller et medlemskap gitt til brukeren"
+
+#: includes/admin/members/edit-member.php:127
+msgid "User Notes"
+msgstr "Brukernotater"
+
+#: includes/admin/members/edit-member.php:131
+msgid "Use this area to record notes about this user if needed"
+msgstr "Bruk dette området til å skrive notater om denne brukeren"
+
+#: includes/admin/members/edit-member.php:136
+msgid "Discount codes used"
+msgstr "Bruk kuponger"
+
+#: includes/admin/members/edit-member.php:148
+#: includes/discount-functions.php:265
+msgid "None"
+msgstr "Ingen"
+
+#: includes/admin/members/edit-member.php:165
+msgid "Update User Subscription"
+msgstr "Oppdater brukerens abonnement"
+
+#: includes/admin/members/members-page.php:11
+msgid " Paid Subscribers"
+msgstr " Oversikt over abonnementer"
+
+#: includes/admin/members/members-page.php:62
+msgid "Status: "
+msgstr ""
+
+#: includes/admin/members/members-page.php:64
+msgid "View all active subscribers"
+msgstr "Se alle aktive brukere"
+
+#: includes/admin/members/members-page.php:69
+msgid "View all pending subscribers"
+msgstr "Se alle ventende brukere"
+
+#: includes/admin/members/members-page.php:74
+msgid "View all expired subscribers"
+msgstr "Se alle utgåtte brukere"
+
+#: includes/admin/members/members-page.php:79
+msgid "View all cancelled subscribers"
+msgstr "Se alle avbestilte brukere"
+
+#: includes/admin/members/members-page.php:84
+msgid "View all free members"
+msgstr "Se alle gratismedlemmer"
+
+#: includes/admin/members/members-page.php:91
+msgid "Search Members"
+msgstr "Søk medlemmer"
+
+#: includes/admin/members/members-page.php:95
+msgid "Search members"
+msgstr "Søk medlemmer"
+
+#: includes/admin/members/members-page.php:102
+msgid "All Subscriptions"
+msgstr "Alle Abonnementer"
+
+#: includes/admin/members/members-page.php:111
+msgid "Newest First"
+msgstr "Nyeste først"
+
+#: includes/admin/members/members-page.php:112
+msgid "Oldest First"
+msgstr "Eldste først"
+
+#: includes/admin/members/members-page.php:116
+#: includes/admin/reports/reports-page.php:805
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/members/members-page.php:121
+msgid "Select bulk action"
+msgstr "Velg massehandling"
+
+#: includes/admin/members/members-page.php:123
+msgid "Bulk Actions"
+msgstr "Massehandlinger"
+
+#: includes/admin/members/members-page.php:124
+msgid "Mark as Active"
+msgstr "Merk som Aktiv"
+
+#: includes/admin/members/members-page.php:125
+msgid "Mark as Expired"
+msgstr "Merk som Utgått"
+
+#: includes/admin/members/members-page.php:126
+msgid "Revoke Access"
+msgstr "Sperr tilgang"
+
+#: includes/admin/members/members-page.php:128
+msgid "New Expiration Date"
+msgstr "Ny utløpsdato"
+
+#: includes/admin/members/members-page.php:129 templates/register-single.php:67
+#: templates/register.php:92
+msgid "Apply"
+msgstr "Bruk"
+
+#: includes/admin/members/members-page.php:136
+#: includes/admin/members/members-page.php:213
+msgid "Select All"
+msgstr "Velg alle"
+
+#: includes/admin/members/members-page.php:144
+#: includes/admin/members/members-page.php:201
+#: includes/admin/members/members-page.php:221
+#: includes/admin/subscriptions/edit-subscription.php:93
+#: includes/admin/subscriptions/subscription-levels.php:200
+msgid "User Role"
+msgstr "Rolle"
+
+#: includes/admin/members/members-page.php:172
+#: includes/admin/members/members-page.php:180
+msgid "Edit Member"
+msgstr "Endre Medlem"
+
+#: includes/admin/members/members-page.php:182
+msgid "View User's Profile"
+msgstr "Se brukerens profil"
+
+#: includes/admin/members/members-page.php:182
+msgid "Edit User Account"
+msgstr "Rediger brukerkonto"
+
+#: includes/admin/members/members-page.php:199
+msgid "yes"
+msgstr "ja"
+
+#: includes/admin/members/members-page.php:199
+msgid "no"
+msgstr "nei"
+
+#: includes/admin/members/members-page.php:207
+msgid "No subscribers found"
+msgstr "Ingen brukere funnet"
+
+#: includes/admin/members/members-page.php:236
+#: includes/admin/payments/payments-page.php:143
+msgid "&laquo; Previous"
+msgstr "Forrige"
+
+#: includes/admin/members/members-page.php:237
+#: includes/admin/payments/payments-page.php:144
+msgid "Next &raquo;"
+msgstr "Neste &raquo;"
+
+#: includes/admin/members/members-page.php:249
+msgid "Add New Subscription (for existing user)"
+msgstr "Legg til nytt Medlemsnivå (for eksisterende bruker)"
+
+#: includes/admin/members/members-page.php:250
+msgid ""
+"If you wish to create a brand new account, that may be done from Users "
+"&rarr; Add New. <br/><strong>Note</strong>: this will not create a payment "
+"profile for the member. That must be done manually through your merchant "
+"account."
+msgstr ""
+"Ønsker du å lage en helt ny konto, kan det gjøres fra Brukere &rarr; Legg "
+"til ny. <br/><strong>NB</strong>: Dette vil ikke lage en betalingsprofil for "
+"brukeren. Det må gjøres manuelt."
+
+#: includes/admin/members/members-page.php:257 templates/login.php:12
+#: templates/register-single.php:29 templates/register.php:28
+msgid "Username"
+msgstr "Brukernavn"
+
+#: includes/admin/members/members-page.php:263
+msgid "Begin typing the user name to add a subscription to."
+msgstr "Begynn å skrive brukernavnet for å velge abonnement for denne bruker."
+
+#: includes/admin/members/members-page.php:272
+msgid "--choose--"
+msgstr "--velg--"
+
+#: includes/admin/members/members-page.php:279
+msgid ""
+"The subscription level determines the content the member has access to. "
+"<strong>Note</strong>: adding a subscription level to a member will not "
+"create a payment profile in your merchant account."
+msgstr ""
+"Abonnementsnivået bestemmer hvilket innhold medlemmet har tilgang til. "
+"<strong>NB</strong>: Å legge til abonnementsnivå vil ikke lage en "
+"betalingsprofil for brukeren. Det må gjøres manuelt."
+
+#: includes/admin/members/members-page.php:280
+msgid "Choose the subscription level for this user."
+msgstr "Velg abonnementsnivå for denne bruker."
+
+#: includes/admin/members/members-page.php:300
+msgid "Add User Subscription"
+msgstr "Legg til Abonnement"
+
+#: includes/admin/metabox-view.php:16
+msgid "Member access options"
+msgstr "Medlemstilgang valg"
+
+#: includes/admin/metabox-view.php:18
+msgid "Select who should have access to this content."
+msgstr "Velg hvem som skal ha tilgang til dette innholdet."
+
+#: includes/admin/metabox-view.php:19
+msgid ""
+"<strong>Subscription level</strong>: a subscription level refers to a "
+"membership option. For example, you might have a Gold, Silver, and Bronze "
+"membership level. <br/><br/><strong>Access Level</strong>: refers to a "
+"tiered system where a member's ability to view content is determined by the "
+"access level assigned to their account. A member with an access level of 5 "
+"can view content assigned to access levels of 5 and lower."
+msgstr ""
+"<strong>Abonnementsnivå</strong>: et abonnementsnivå refererer til "
+"medlemskapsvalg. For eksempel kan du ha Gull, Sølv og Bronse "
+"medlemskapsnivåer. <br/><br/><strong>Tilgangsnivå</strong>: Refererer til et "
+"lagdelt system hvor medlemmets mulighet til å se innhold defineres av "
+"hvilket tilgangsnivå som er tildelt deres konto. Et medlem med tilgangsnivå "
+"5 kan ha tilgang til å se innhold tilegnet nivå 5 og lavere."
+
+#: includes/admin/metabox-view.php:23
+msgid "Everyone"
+msgstr "Alle"
+
+#: includes/admin/metabox-view.php:24
+msgid "Members of subscription level(s)"
+msgstr "Brukere av abonnementsnivå(er)"
+
+#: includes/admin/metabox-view.php:25
+msgid "Members with an access level"
+msgstr "Brukere med tilgangsnivå"
+
+#: includes/admin/metabox-view.php:26
+msgid "Members with a certain role"
+msgstr "Brukere med en spesifikk rolle"
+
+#: includes/admin/metabox-view.php:33
+msgid "Members of any subscription level(s)"
+msgstr "Brukere med hvilket som helst abonnementsnivå"
+
+#: includes/admin/metabox-view.php:37
+msgid "Members of any paid subscription level(s)"
+msgstr "Brukere med hvilket som helst betalt abonnementsnivå"
+
+#: includes/admin/metabox-view.php:41
+msgid "Members of specific subscription levels"
+msgstr "Brukere med spesifikke abonnementsnivå"
+
+#: includes/admin/metabox-view.php:56
+msgid "%s and higher"
+msgstr "%s og høyere"
+
+#: includes/admin/metabox-view.php:63
+msgid "Require member to have capabilities from this user role or higher."
+msgstr "Krev at medlemmet har denne brukerrollen eller høyere."
+
+#: includes/admin/metabox-view.php:75
+msgid "Additional options"
+msgstr "Tilleggsvalg"
+
+#: includes/admin/metabox-view.php:79
+msgid "Show excerpt to members without access to this content."
+msgstr "Se utdrag til medlemmer uten."
+
+#: includes/admin/metabox-view.php:85
+msgid "Hide this content and excerpt from RSS feeds."
+msgstr "Skjul innhold og utdrag fra RSS feeder."
+
+#: includes/admin/metabox-view.php:90
+msgid ""
+"Optionally use [restrict paid=\"true\"] ... [/restrict] shortcode to "
+"restrict partial content. %sView documentation for additional options%s."
+msgstr ""
+"Alternativt, bruk [restrict paid=«true»] … [/restrict] shortcode for å "
+"skjule deler av innholdet. %sSe dokumentasjon for tillegsmuligheter%s."
+
+#: includes/admin/metabox.php:14
+msgid "Restrict this content"
+msgstr "Begrens dette innholdet"
+
+#: includes/admin/payments/edit-payment.php:8
+msgid "Edit Payment"
+msgstr "Rediger betaling"
+
+#: includes/admin/payments/edit-payment.php:24
+msgid "The user name this payment belongs to."
+msgstr "Brukernavnet betalingen tilhører."
+
+#: includes/admin/payments/edit-payment.php:32
+#: includes/admin/payments/new-payment.php:26
+msgid "Please enter a payment amount in the format of 1.99"
+msgstr "Vennligst formater sum slik: 99.50"
+
+#: includes/admin/payments/edit-payment.php:33
+#: includes/admin/payments/new-payment.php:27
+msgid "The amount of this payment"
+msgstr "Sum for denne betalingen"
+
+#: includes/admin/payments/edit-payment.php:38
+#: includes/admin/payments/new-payment.php:32
+msgid "Payment Date"
+msgstr "Betalingsdato"
+
+#: includes/admin/payments/edit-payment.php:42
+msgid "The date for this payment in the format of yyyy-mm-dd"
+msgstr "Betalingsdato skrives inn slik: yyyy-mm-dd"
+
+#: includes/admin/payments/edit-payment.php:47
+#: includes/admin/payments/new-payment.php:41
+#: includes/admin/payments/payments-page.php:70
+#: includes/admin/payments/payments-page.php:108
+#: includes/admin/payments/payments-page.php:126
+#: includes/member-functions.php:550 includes/member-functions.php:590
+msgid "Transaction ID"
+msgstr "Transaksjons ID"
+
+#: includes/admin/payments/edit-payment.php:51
+msgid "The transaction ID for this payment, if any"
+msgstr "Transaksjons ID for denne betalingen, dersom det finnes"
+
+#: includes/admin/payments/edit-payment.php:60
+#: includes/admin/payments/new-payment.php:54 includes/misc-functions.php:619
+msgid "Complete"
+msgstr "Betalt"
+
+#: includes/admin/payments/edit-payment.php:61
+#: includes/admin/payments/new-payment.php:55 includes/misc-functions.php:612
+msgid "Refunded"
+msgstr "Tilbakebetalt"
+
+#: includes/admin/payments/edit-payment.php:63
+#: includes/admin/payments/new-payment.php:57
+msgid "The status of this payment."
+msgstr "Betalingsstatus."
+
+#: includes/admin/payments/edit-payment.php:71
+msgid "Update Payment"
+msgstr "Oppdater betaling"
+
+#: includes/admin/payments/new-payment.php:2
+#: includes/admin/payments/new-payment.php:64
+#: includes/admin/payments/payments-page.php:25
+msgid "Create Payment"
+msgstr "Legg til betaling"
+
+#: includes/admin/payments/new-payment.php:18
+msgid "Begin typing the user name to add a payment record for."
+msgstr "Skriv inn brukernavnet du ønsker å legge inn betaling for."
+
+#: includes/admin/payments/new-payment.php:36
+msgid "Enter the date for this payment in the format of yyyy-mm-dd"
+msgstr "Skriv inn betalingsdato slik: yyyy-mm-dd"
+
+#: includes/admin/payments/new-payment.php:45
+msgid "Enter the transaction ID for this payment, if any"
+msgstr "Skriv inn transaksjons ID for betalingen, dersom det finnes"
+
+#: includes/admin/payments/payments-page.php:53
+#: includes/admin/payments/payments-page.php:56
+msgid "Search Payments"
+msgstr "Søk blant betalinger"
+
+#: includes/admin/payments/payments-page.php:58
+msgid "Total Earnings"
+msgstr "Totalt inntjent"
+
+#: includes/admin/payments/payments-page.php:60
+msgid "View all payments"
+msgstr "Se alle betalinger"
+
+#: includes/admin/payments/payments-page.php:60
+msgid "Reset User Filter"
+msgstr "Tilbakestill brukerfilter"
+
+#: includes/admin/payments/payments-page.php:83
+msgid "View payments by this user"
+msgstr "Se betalinger fra denne brukeren"
+
+#: includes/admin/payments/payments-page.php:93
+msgid "View Member"
+msgstr "Se brukeren"
+
+#: includes/admin/payments/payments-page.php:95
+msgid "View Invoice"
+msgstr "Se faktura"
+
+#: includes/admin/payments/payments-page.php:116
+msgid "No payments recorded yet"
+msgstr "Ingen betalinger er registrert ennå"
+
+#: includes/admin/reports/reports-page.php:15
+#: includes/admin/reports/reports-page.php:190
+msgid "Earnings"
+msgstr "Inntekter"
+
+#: includes/admin/reports/reports-page.php:16
+#: includes/admin/reports/reports-page.php:427
+msgid "Refunds"
+msgstr "Tilbakebetalinger"
+
+#: includes/admin/reports/reports-page.php:17
+#: includes/admin/reports/reports-page.php:655
+msgid "Signups"
+msgstr "Innmeldinger"
+
+#: includes/admin/reports/reports-page.php:255
+msgid "Earnings Report"
+msgstr "Inntektsrapport"
+
+#: includes/admin/reports/reports-page.php:261
+msgid "Total earnings for period shown: "
+msgstr "Totalt inntjent i perioden vist: "
+
+#: includes/admin/reports/reports-page.php:492
+msgid "Refunds Report"
+msgstr "Tilbakebetalingsrapport"
+
+#: includes/admin/reports/reports-page.php:498
+msgid "Total refunds for period shown: "
+msgstr "Totalt tilbakebetalt for perioden: "
+
+#: includes/admin/reports/reports-page.php:716
+msgid "Signups Report"
+msgstr "Innmeldingsrapport"
+
+#: includes/admin/reports/reports-page.php:722
+msgid "Total signups for period shown: "
+msgstr "Totalt antall innmeldinger i perioden vist: "
+
+#: includes/admin/reports/reports-page.php:739
+msgid "This Week"
+msgstr "Inneværende uke"
+
+#: includes/admin/reports/reports-page.php:740
+msgid "Last Week"
+msgstr "Forrige uke"
+
+#: includes/admin/reports/reports-page.php:741
+msgid "This Month"
+msgstr "Inneværende måned"
+
+#: includes/admin/reports/reports-page.php:742
+msgid "Last Month"
+msgstr "Forrige måned"
+
+#: includes/admin/reports/reports-page.php:743
+msgid "This Quarter"
+msgstr "Inneværende kvartal"
+
+#: includes/admin/reports/reports-page.php:744
+msgid "Last Quarter"
+msgstr "Forrige kvartal"
+
+#: includes/admin/reports/reports-page.php:745
+msgid "This Year"
+msgstr "Inneværende år"
+
+#: includes/admin/reports/reports-page.php:746
+msgid "Last Year"
+msgstr "Forrige år"
+
+#: includes/admin/reports/reports-page.php:747
+msgid "Custom"
+msgstr "Egendefinert"
+
+#: includes/admin/reports/reports-page.php:770
+msgid "From"
+msgstr "Fra"
+
+#: includes/admin/reports/reports-page.php:781
+msgid "To"
+msgstr "Til"
+
+#: includes/admin/reports/reports-page.php:796
+msgid "All Subscription Levels"
+msgstr "Alle abonnementstyper"
+
+#: includes/admin/screen-options.php:21
+msgid "Members per page"
+msgstr "Medlemmer per side"
+
+#: includes/admin/screen-options.php:30
+msgid "Payments per page"
+msgstr "Betalinger per side"
+
+#: includes/admin/settings/settings.php:37
+msgid "Invoices"
+msgstr "Fakturaer"
+
+#: includes/admin/settings/settings.php:41
+msgid "Options saved"
+msgstr "Valg lagret"
+
+#: includes/admin/settings/settings.php:61
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: includes/admin/settings/settings.php:68
+msgid "Deactivate License"
+msgstr "Deaktiver lisens"
+
+#: includes/admin/settings/settings.php:71
+msgid "Activate License"
+msgstr "Aktiver lisens"
+
+#: includes/admin/settings/settings.php:73
+msgid ""
+"Enter license key for Restrict Content Pro. This is required for automatic "
+"updates and <a href=\"%s\">support</a>."
+msgstr ""
+"Legg inn lisensnøkkel for Restrict Content Pro. Dette er påkrevd for "
+"automatiske oppdateringer og <a href=«%s»>support</a>."
+
+#: includes/admin/settings/settings.php:79
+msgid "Registration Page"
+msgstr "Innmeldingsside"
+
+#: includes/admin/settings/settings.php:93
+#: includes/admin/settings/settings.php:116
+#: includes/admin/settings/settings.php:140
+#: includes/admin/settings/settings.php:164
+#: includes/admin/settings/settings.php:188
+#: includes/admin/settings/settings.php:959
+#: includes/admin/settings/settings.php:990
+msgid "No pages found"
+msgstr "Ingen sider funnet"
+
+#: includes/admin/settings/settings.php:97
+msgid ""
+"Choose the primary registration page. This must contain the [register_form] "
+"short code. Additional registration forms may be added to other pages with "
+"[register_form id=\"x\"]. <a href=\"%s\" target=\"_blank\">See "
+"documentation</a>."
+msgstr ""
+"Velg hovedinnmeldingsside. Siden må inneholde [register_form] shortcode. "
+"Øvrige innmeldingsskjemaer kan bli lagt inn på andre sider med "
+"[register_form id=«x»]. <a href=«%s» target=«_blank»>Se dokumentasjon</a>."
+
+#: includes/admin/settings/settings.php:102
+msgid "Success Page"
+msgstr "Fullført-side"
+
+#: includes/admin/settings/settings.php:120
+msgid ""
+"This is the page users are redirected to after a successful registration."
+msgstr ""
+"Dette er siden brukere blir videresendt til etter suksessfull innmelding."
+
+#: includes/admin/settings/settings.php:125
+msgid "Account Page"
+msgstr "Konto-side"
+
+#: includes/admin/settings/settings.php:144
+msgid ""
+"This page displays the account and membership information for members. "
+"Contains <a href=\"%s\" target=\"_blank\">[subscription_details] short code</"
+"a>."
+msgstr ""
+"Denne siden viser konto- og medlemskapsinformasjon for brukere. Inneholder "
+"<a href=«%s» target=«_blank»>[subscription_details] shortcode</a>."
+
+#: includes/admin/settings/settings.php:149
+msgid "Edit Profile Page"
+msgstr "Rediger profil-side"
+
+#: includes/admin/settings/settings.php:168
+msgid ""
+"This page displays a profile edit form for logged-in members. Contains <a "
+"href=\"%s\" target=\"_blank\">[rcp_profile_editor] shortcode."
+msgstr ""
+"Denne siden gir innloggede brukere mulighet til å endre profilen. Inneholder "
+"<a href=«%s» target=«_blank»>[rcp_profile_editor] shortcode."
+
+#: includes/admin/settings/settings.php:173
+msgid "Update Billing Card Page"
+msgstr "Oppdater betalingskort-side"
+
+#: includes/admin/settings/settings.php:192
+msgid ""
+"This page displays a profile edit form for logged-in members. Contains <a "
+"href=\"%s\" target=\"_blank\">[rcp_update_card] short code</a>."
+msgstr ""
+"Denne siden lar brukeren oppdatere betalingsinformasjonen sin. Inneholder <a "
+"href=«%s» target=«_blank»>[rcp_update_card] shortcode</a>."
+
+#: includes/admin/settings/settings.php:197 includes/member-forms.php:128
+msgid "Auto Renew"
+msgstr "Forny automatisk"
+
+#: includes/admin/settings/settings.php:201
+msgid "Always auto renew"
+msgstr "Alltid forny automatisk"
+
+#: includes/admin/settings/settings.php:202
+msgid "Never auto renew"
+msgstr "Aldri forny automatisk"
+
+#: includes/admin/settings/settings.php:203
+msgid "Let customer choose whether to auto renew"
+msgstr "La brukeren selv bestemme om de ønsker å fornye automatisk"
+
+#: includes/admin/settings/settings.php:205
+msgid ""
+"Select the auto renew behavior you would like subscription levels to have."
+msgstr ""
+"Velg om du ønsker at brukere skal fornye abonnementet automatisk eller ikke."
+
+#: includes/admin/settings/settings.php:210
+msgid "Free Content Message"
+msgstr "Gratis innhold-side"
+
+#: includes/admin/settings/settings.php:216
+msgid ""
+"This is the message shown to users that do not have privilege to view free, "
+"user only content."
+msgstr ""
+"Dette er beskjeden som blir vist til brukere som ikke kan se gratis innhold "
+"for innloggede brukere."
+
+#: includes/admin/settings/settings.php:221
+msgid "Premium Content Message"
+msgstr "Premium innholdsbeskjed"
+
+#: includes/admin/settings/settings.php:227
+msgid ""
+"This is the message shown to users that do not have privilege to view "
+"premium content."
+msgstr ""
+"Dette er beskjeden som blir vist til de som ikke er logget inn med premium-"
+"konto."
+
+#: includes/admin/settings/settings.php:240
+msgid "Currency"
+msgstr "Valuta"
+
+#: includes/admin/settings/settings.php:251
+msgid "Choose your currency."
+msgstr "Velg din valuta."
+
+#: includes/admin/settings/settings.php:256
+msgid "Currency Position"
+msgstr "Valutaplassering"
+
+#: includes/admin/settings/settings.php:260
+msgid "Before - $10"
+msgstr "Før – $10"
+
+#: includes/admin/settings/settings.php:261
+msgid "After - 10$"
+msgstr "Etter – 10$"
+
+#: includes/admin/settings/settings.php:263
+msgid "Show the currency sign before or after the price?"
+msgstr "Vil du vise valutategnet før eller etter prisen?"
+
+#: includes/admin/settings/settings.php:270
+msgid "Gateways"
+msgstr "Betalingsmuligheter"
+
+#: includes/admin/settings/settings.php:273
+msgid ""
+"Check each of the payment gateways you would like to enable. Configure the "
+"selected gateways below."
+msgstr ""
+"Velg hvilke betalingsmuligheter du ønsker å tillate. Konfigurer "
+"betalingsmulighetene du har valgt nedenfor."
+
+#: includes/admin/settings/settings.php:277
+msgid "Enabled Gateways"
+msgstr "Godkjente betalingsmuligheter"
+
+#: includes/admin/settings/settings.php:299
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/admin/settings/settings.php:303
+msgid ""
+"Use Restrict Content Pro in Sandbox mode. This allows you to test the plugin "
+"with test accounts from your payment processor."
+msgstr ""
+"Bruk Restrict Content Pro i Sandbox mode. Det gjør at du kan teste "
+"utvidelsen med testkontoer, inkludert betalingsløsninger."
+
+#: includes/admin/settings/settings.php:309
+msgid "Stripe Settings"
+msgstr "Stripe innstillinger"
+
+#: includes/admin/settings/settings.php:314
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/admin/settings/settings.php:318
+msgid ""
+"Enter your test secret key. Your API keys can be obtained from your <a href="
+"\"https://dashboard.stripe.com/account/apikeys\" target=\"_blank\">Stripe "
+"account settings</a>."
+msgstr ""
+"Skriv inn din hemmelige nøkkel. API nøkkelen dine kan du hente fra <a "
+"href=«https://dashboard.stripe.com/account/apikeys» target=«_blank»>Stripe "
+"kontoinnstillinger</a>."
+
+#: includes/admin/settings/settings.php:323
+#: includes/admin/settings/settings.php:495
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/admin/settings/settings.php:327
+#: includes/admin/settings/settings.php:499
+msgid "Enter your test publishable key."
+msgstr ""
+
+#: includes/admin/settings/settings.php:332
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/admin/settings/settings.php:336
+msgid "Enter your live secret key."
+msgstr ""
+
+#: includes/admin/settings/settings.php:341
+#: includes/admin/settings/settings.php:525
+msgid "Live Publishable Key"
+msgstr ""
+
+#: includes/admin/settings/settings.php:345
+#: includes/admin/settings/settings.php:529
+msgid "Enter your live publishable key."
+msgstr ""
+
+#: includes/admin/settings/settings.php:351
+msgid "Enable Alipay Support"
+msgstr "Aktiver Alipay støtte"
+
+#: includes/admin/settings/settings.php:355
+msgid ""
+"Check to enable Alipay support in Stripe Checkout. Alipay is only available "
+"with Stripe Checkout. It does not work with the standard Stripe gateway."
+msgstr ""
+"Kryss av for å aktivere Alipay støtte i Stripe Checkout. Alipay er kun "
+"tilgjengelig med Stripe Checkout. Det virker ikke med standard Stripe "
+"gateway (inngangsport)."
+
+#: includes/admin/settings/settings.php:361
+msgid "Note"
+msgstr "Notat"
+
+#: includes/admin/settings/settings.php:361
+msgid ""
+"in order for subscription payments made through Stripe to be tracked, you "
+"must enter the following URL to your <a href=\"https://dashboard.stripe.com/"
+"account/webhooks\" target=\"_blank\">Stripe Webhooks</a> under Account "
+"Settings:"
+msgstr ""
+"for at abonnementsbetalingen utført gjennom Stripe kan bli sporet, må du "
+"legge inn følgende URL i <a href=«https://dashboard.stripe.com/account/"
+"webhooks» target=«_blank»>Stripe Webhooks</a> under Kontoinnstillinger:"
+
+#: includes/admin/settings/settings.php:367
+msgid "PayPal Settings"
+msgstr "PayPal-innstillinger"
+
+#: includes/admin/settings/settings.php:371
+msgid "PayPal Address"
+msgstr "PayPal-adresse"
+
+#: includes/admin/settings/settings.php:375
+msgid "Enter your PayPal email address."
+msgstr "Skriv inn din PayPal epostadresse."
+
+#: includes/admin/settings/settings.php:379
+msgid "PayPal API Credentials"
+msgstr "PayPal API legitimasjon (credentials)"
+
+#: includes/admin/settings/settings.php:381
+msgid ""
+"The PayPal API credentials are required in order to use PayPal Express, "
+"PayPal Pro, and to support advanced subscription cancellation options in "
+"PayPal Standard. Test API credentials can be obtained at <a href=\"http://"
+"docs.pippinsplugins.com/article/826-setting-up-paypal-sandbox-accounts\" "
+"target=\"_blank\">developer.paypal.com</a>."
+msgstr ""
+"PayPal API legitimasjon er nødvendig for å bruke PayPal Express, PayPal Pro, "
+"og for å støtte avanserte abonnementskanselleringsvalg i PayPal Standard. "
+"Test API legitimasjon (credentials) kan hentes hos <a href=«http://docs."
+"pippinsplugins.com/article/826-setting-up-paypal-sandbox-accounts» "
+"target=«_blank»>developer.paypal.com</a>."
+
+#: includes/admin/settings/settings.php:387
+msgid "Test API Username"
+msgstr "Test API brukernavn"
+
+#: includes/admin/settings/settings.php:391
+msgid "Enter your test API username."
+msgstr "Skriv inn ditt test API brukernavn."
+
+#: includes/admin/settings/settings.php:396
+msgid "Test API Password"
+msgstr "Test API passord"
+
+#: includes/admin/settings/settings.php:400
+msgid "Enter your test API password."
+msgstr "Skriv inn ditt test API passord."
+
+#: includes/admin/settings/settings.php:405
+msgid "Test API Signature"
+msgstr "Test API signatur"
+
+#: includes/admin/settings/settings.php:409
+msgid "Enter your test API signature."
+msgstr "Skriv inn din test API signatur."
+
+#: includes/admin/settings/settings.php:414
+msgid "Live API Username"
+msgstr "Live API brukernavn"
+
+#: includes/admin/settings/settings.php:418
+msgid "Enter your live API username."
+msgstr "Skriv inn ditt live API brukernavn."
+
+#: includes/admin/settings/settings.php:423
+msgid "Live API Password"
+msgstr "Live API passord"
+
+#: includes/admin/settings/settings.php:427
+msgid "Enter your live API password."
+msgstr "Skriv inn ditt Live API passord."
+
+#: includes/admin/settings/settings.php:432
+msgid "Live API Signature"
+msgstr "Live API Signatur"
+
+#: includes/admin/settings/settings.php:436
+msgid "Enter your live API signature."
+msgstr "Skriv inn din live API signatur."
+
+#: includes/admin/settings/settings.php:442
+msgid "PayPal Page Style"
+msgstr "PayPal sidestil"
+
+#: includes/admin/settings/settings.php:446
+msgid ""
+"Enter the PayPal page style name you wish to use, or leave blank for default."
+msgstr ""
+"Skriv inn det PayPal stilnavnet du ønsker å bruke, eller la stå tomt for "
+"standard."
+
+#: includes/admin/settings/settings.php:451
+msgid "Disable CURL"
+msgstr "Deaktiver CURL"
+
+#: includes/admin/settings/settings.php:455
+msgid "Only check this option if your host does not allow cURL."
+msgstr "Kun kryss av her dersom verten din ikke tillater cURL."
+
+#: includes/admin/settings/settings.php:460
+msgid "Disable IPN Verification"
+msgstr "Deaktiver IPN verifikasjon"
+
+#: includes/admin/settings/settings.php:464
+msgid ""
+"Only check this option if your members statuses are not getting changed to "
+"\"active\"."
+msgstr "Kun kryss av her dersom medlemstatusene ikke skal endres til «aktiv»."
+
+#: includes/admin/settings/settings.php:469
+msgid "2Checkout Settings"
+msgstr "2Checkout innstillinger"
+
+#: includes/admin/settings/settings.php:475
+msgid "Secret Word"
+msgstr "Hemmelig ord"
+
+#: includes/admin/settings/settings.php:479
+msgid ""
+"Enter your secret word. This can be obtained from the <a href=\"https://"
+"sandbox.2checkout.com/sandbox/acct/detail_company_info\" target=\"_blank"
+"\">2Checkout Sandbox</a>."
+msgstr ""
+"Skriv inn ditt hemmelige ord. Det kan hentes fra <a href=«https://"
+"sandbox.2checkout.com/sandbox/acct/detail_company_info» "
+"target=«_blank»>2Checkout Sandbox</a>."
+
+#: includes/admin/settings/settings.php:485
+msgid "Test Private Key"
+msgstr ""
+
+#: includes/admin/settings/settings.php:489
+msgid ""
+"Enter your test private key. Your test API keys can be obtained from the <a "
+"href=\"https://sandbox.2checkout.com/sandbox/api\" target=\"_blank"
+"\">2Checkout Sandbox</a>."
+msgstr ""
+
+#: includes/admin/settings/settings.php:505
+msgid "Test Seller ID"
+msgstr ""
+
+#: includes/admin/settings/settings.php:509
+#: includes/admin/settings/settings.php:539
+msgid ""
+"Enter your live Seller ID. <a href=\"http://help.2checkout.com/articles/FAQ/"
+"Where-is-my-Seller-ID\" target=\"_blank\">Where is my Seller ID?</a>."
+msgstr ""
+
+#: includes/admin/settings/settings.php:515
+msgid "Live Private Key"
+msgstr ""
+
+#: includes/admin/settings/settings.php:519
+msgid ""
+"Enter your live secret key. Your API keys can be obtained from the <a href="
+"\"https://pci.trustwave.com/2checkout\" target=\"_blank\">2Checkout PCI "
+"Program</a>."
+msgstr ""
+
+#: includes/admin/settings/settings.php:535
+msgid "Live Seller ID"
+msgstr ""
+
+#: includes/admin/settings/settings.php:556
+msgid "From Name"
+msgstr "Fra navn"
+
+#: includes/admin/settings/settings.php:560
+msgid ""
+"The name that emails come from. This is usually the name of your business."
+msgstr ""
+"Navn epostadressene blir sendt fra. Dette er vanligvis navnet på din bedrift."
+
+#: includes/admin/settings/settings.php:565
+msgid "From Email"
+msgstr "Fra epost"
+
+#: includes/admin/settings/settings.php:569
+msgid "The email address that emails are sent from."
+msgstr "Epostadressen det sendes fra."
+
+#: includes/admin/settings/settings.php:574
+msgid "Active Subscription Email"
+msgstr "Aktivt abonnements-epost"
+
+#: includes/admin/settings/settings.php:578
+#: includes/admin/settings/settings.php:610
+#: includes/admin/settings/settings.php:642
+#: includes/admin/settings/settings.php:713
+#: includes/admin/settings/settings.php:745
+#: includes/admin/settings/settings.php:775
+msgid "Disabled"
+msgstr "Avslått"
+
+#: includes/admin/settings/settings.php:582
+msgid "Check this to disable the email sent out when a member becomes active."
+msgstr "Kryss av for å skru av epost som sendes ut når et medlem blir aktivt."
+
+#: includes/admin/settings/settings.php:587
+#: includes/admin/settings/settings.php:651
+#: includes/admin/settings/settings.php:672
+#: includes/admin/settings/settings.php:722
+#: includes/admin/settings/settings.php:754
+#: includes/admin/settings/settings.php:784
+msgid "Subject"
+msgstr "Emne"
+
+#: includes/admin/settings/settings.php:591
+msgid ""
+"The subject line for the email sent to users when their subscription becomes "
+"active."
+msgstr ""
+"Emnelinjen for eposten som sendes ut til brukere når abonnementet blir "
+"aktivert."
+
+#: includes/admin/settings/settings.php:596
+#: includes/admin/settings/settings.php:628
+#: includes/admin/settings/settings.php:660
+#: includes/admin/settings/settings.php:681
+#: includes/admin/settings/settings.php:731
+#: includes/admin/settings/settings.php:793
+msgid "Email Body"
+msgstr "Epostinnhold"
+
+#: includes/admin/settings/settings.php:600
+msgid ""
+"This is the email message that is sent to users when their subscription "
+"becomes active."
+msgstr ""
+"Dette er epostmeldingen som blir sendt til brukere når abonnementet blir "
+"aktivert."
+
+#: includes/admin/settings/settings.php:605
+msgid "Cancelled Subscription Email"
+msgstr "Stoppet medlemskap epost"
+
+#: includes/admin/settings/settings.php:614
+msgid "Check this to disable the email sent out when a member is cancelled."
+msgstr ""
+"Kryss av for å skru av epost som sendes ut til medlemmer som har meldt seg "
+"ut."
+
+#: includes/admin/settings/settings.php:619
+msgid "Subject line"
+msgstr "Emne"
+
+#: includes/admin/settings/settings.php:623
+msgid ""
+"The subject line for the email sent to users when their subscription is "
+"cancelled."
+msgstr "Emnelinjen for eposten som sendes ut til brukere som har meldt seg ut."
+
+#: includes/admin/settings/settings.php:632
+msgid ""
+"This is the email message that is sent to users when their subscription is "
+"cancelled."
+msgstr ""
+"Dette er epostmeldingen som blir sendt til brukere når de har meldt seg ut."
+
+#: includes/admin/settings/settings.php:637
+msgid "Expired Subscription Email"
+msgstr "Utgått medlemskap-epost"
+
+#: includes/admin/settings/settings.php:646
+msgid "Check this to disable the email sent out when a member expires."
+msgstr ""
+"Kryss av denne for å fjerne epost som sendes ut når et medlemskap utgår."
+
+#: includes/admin/settings/settings.php:655
+msgid ""
+"The subject line for the email sent to users when their subscription is "
+"expired."
+msgstr "Emnelinjen for epost som sendes ut når medlemskapet utgår."
+
+#: includes/admin/settings/settings.php:664
+msgid ""
+"This is the email message that is sent to users when their subscription is "
+"expired."
+msgstr ""
+"Dette er epostmeldingen som blir sendt til brukere når medlemskapet utgår."
+
+#: includes/admin/settings/settings.php:668
+msgid "Expiring Soon Email"
+msgstr "Utløpsdato nærmer seg-epost"
+
+#: includes/admin/settings/settings.php:676
+msgid ""
+"The subject line for the email sent to users before their subscription "
+"expires."
+msgstr ""
+"Emnelinjen for epost som sendes ut til brukere når utløpsdato for "
+"medlemskapet nærmer seg."
+
+#: includes/admin/settings/settings.php:685
+msgid ""
+"This is the email message that is sent to users before their subscription "
+"expires to encourage them to renew."
+msgstr ""
+"Dette er epostmeldingen som blir sendt til brukere når utløpsdato for "
+"medlemskapet nærmer seg."
+
+#: includes/admin/settings/settings.php:690
+msgid "Reminder Period"
+msgstr "Påminnelsesperiode"
+
+#: includes/admin/settings/settings.php:703
+msgid ""
+"When should the renewal reminder be sent? These are sent to members that do "
+"not have automatically recurring subscriptions."
+msgstr ""
+"Når bør påminnelse om fornying av abonnementet bli sendt? Dette blir sendt "
+"til brukere som ikke har automatisk fornyelse i abonnementene sine."
+
+#: includes/admin/settings/settings.php:708
+msgid "Free Subscription Email"
+msgstr "Gratis medlemskaps-epost"
+
+#: includes/admin/settings/settings.php:717
+msgid "Check this to disable the email sent out when a free member registers."
+msgstr ""
+"Kryss av for å skru av epost som sendes ut når et gratismedlem registreres."
+
+#: includes/admin/settings/settings.php:726
+msgid ""
+"The subject line for the email sent to users when they sign up for a free "
+"membership."
+msgstr ""
+"Emnelinjen for epost som sendes ut når et gratismedlem registrerer seg."
+
+#: includes/admin/settings/settings.php:735
+msgid ""
+"This is the email message that is sent to users when they sign up for a free "
+"account."
+msgstr ""
+"Dette er epostmeldingen som blir sendt til brukere som registrerer seg med "
+"en gratis-konto."
+
+#: includes/admin/settings/settings.php:740
+msgid "Trial Subscription Email"
+msgstr "Prøveperiode-epost"
+
+#: includes/admin/settings/settings.php:749
+msgid ""
+"Check this to disable the email sent out when a member signs up with a trial."
+msgstr ""
+"Kryss av denne for å fjerne epost som sendes ut når et medlem registrerer "
+"seg for en prøveperiode."
+
+#: includes/admin/settings/settings.php:758
+msgid ""
+"The subject line for the email sent to users when they sign up for a free "
+"trial."
+msgstr ""
+"Emnelinjen for epost som sendes ut når noen registrerer seg for en "
+"prøveperiode."
+
+#: includes/admin/settings/settings.php:763
+msgid "Trial Email Message"
+msgstr "Prøveperiode melding"
+
+#: includes/admin/settings/settings.php:767
+msgid ""
+"This is the email message that is sent to users when they sign up for a free "
+"trial."
+msgstr ""
+"Dette er epostmeldingen som blir sendt til brukere som registrerer seg for "
+"en prøveperiode."
+
+#: includes/admin/settings/settings.php:771
+msgid "Payment Received Email"
+msgstr "Betaling mottatt-epost"
+
+#: includes/admin/settings/settings.php:779
+msgid "Check this to disable the email sent out when a payment is received."
+msgstr ""
+"Kryss av denne for å fjerne epost som sendes ut når en betaling er mottatt."
+
+#: includes/admin/settings/settings.php:788
+msgid ""
+"The subject line for the email sent to users upon a successful payment being "
+"received."
+msgstr "Emnelinjen for epost som sendes ut når en betaling er mottatt."
+
+#: includes/admin/settings/settings.php:797
+msgid ""
+"This is the email message that is sent to users after a payment has been "
+"received from them."
+msgstr ""
+"Dette er epostmeldingen som blir sendt når en betaling har blitt mottatt."
+
+#: includes/admin/settings/settings.php:802
+msgid "New User Notifications"
+msgstr "Ny bruker-varsel"
+
+#: includes/admin/settings/settings.php:807
+msgid "Disable New User Notifications"
+msgstr "Skru av varsel om nye brukere"
+
+#: includes/admin/settings/settings.php:811
+msgid ""
+"Check this option if you do NOT want to receive emails when new users signup."
+msgstr ""
+"Kryss av denne om du ikke ønsker å motta epostvarsler når nye brukere "
+"registrerer seg."
+
+#: includes/admin/settings/settings.php:819
+msgid "Available Template Tags"
+msgstr "Tilgjengelige mal-stikkord"
+
+#: includes/admin/settings/settings.php:821
+msgid "will be replaced with the name of your site"
+msgstr "vil erstattes med navnet på din side"
+
+#: includes/admin/settings/settings.php:822
+msgid "will be replaced with the user name of the person receiving the email"
+msgstr "vil erstattes med brukernavnet til den som mottar eposten"
+
+#: includes/admin/settings/settings.php:823
+msgid "will be replaced with the email of the person receiving the email"
+msgstr "vil erstattes med epostadressen til den personen som mottar eposten"
+
+#: includes/admin/settings/settings.php:824
+msgid "will be replaced with the first name of the person receiving the email"
+msgstr "vil erstattes med fornavnet til personen som mottar eposten"
+
+#: includes/admin/settings/settings.php:825
+msgid "will be replaced with the last name of the person receiving the email"
+msgstr "vil erstattes med etternavnet til personen som mottar eposten"
+
+#: includes/admin/settings/settings.php:826
+msgid ""
+"will be replaced with the display name of the person receiving the email"
+msgstr "vil erstattes med brukernavnet til personen som mottar eposten"
+
+#: includes/admin/settings/settings.php:827
+msgid "will be replaced with the expiration date of subscription"
+msgstr "vil erstattes med utgangsdato for medlemskapet"
+
+#: includes/admin/settings/settings.php:828
+msgid "will be replaced with the name of the subscription"
+msgstr "vil erstattes med navnet på medlemskapet"
+
+#: includes/admin/settings/settings.php:829
+msgid ""
+"will be replaced with the unique, 32 character key created when the user is "
+"registered"
+msgstr ""
+"vil erstattes med den 32 tegn lange nøkkelen som blir laget når brukeren "
+"blir registrert"
+
+#: includes/admin/settings/settings.php:830
+msgid "will be replaced with the amount of the users last payment"
+msgstr "vil erstattes med summen for brukerens siste betaling"
+
+#: includes/admin/settings/settings.php:840
+msgid "Invoice Logo"
+msgstr "Logo på faktura"
+
+#: includes/admin/settings/settings.php:844
+msgid "Choose Logo"
+msgstr "Velg logo"
+
+#: includes/admin/settings/settings.php:845
+msgid "Upload a logo to display on the invoices."
+msgstr "Last opp logo som kan vises på faktura."
+
+#: includes/admin/settings/settings.php:850
+msgid "Company Name"
+msgstr "Firmanavn"
+
+#: includes/admin/settings/settings.php:854
+msgid "Enter the company name that will be shown on the invoice."
+msgstr "Skriv inn firmanavnet som vil bli vist på fakturaen."
+
+#: includes/admin/settings/settings.php:863
+msgid "Enter the personal name that will be shown on the invoice."
+msgstr "Skriv inn navn på kontaktperson som skal vises på faktura."
+
+#: includes/admin/settings/settings.php:868
+msgid "Address Line 1"
+msgstr "Adresselinje 1"
+
+#: includes/admin/settings/settings.php:872
+msgid "Enter the first address line that will appear on the invoice."
+msgstr "Skriv inn den første adresselinjen som vil bli synlig på fakturaen."
+
+#: includes/admin/settings/settings.php:877
+msgid "Address Line 2"
+msgstr "Adresselinje 2"
+
+#: includes/admin/settings/settings.php:881
+msgid "Enter the second address line that will appear on the invoice."
+msgstr "Skriv inn den andre adresselinjen som vil bli synlig på fakturaen."
+
+#: includes/admin/settings/settings.php:886
+msgid "City, State, and Zip"
+msgstr "By, fylke og postadresse"
+
+#: includes/admin/settings/settings.php:890
+msgid ""
+"Enter the city, state and zip/postal code that will appear on the invoice."
+msgstr "Skriv inn by, fylke og postadresse som skal vises på fakturaen."
+
+#: includes/admin/settings/settings.php:895 templates/register-single.php:33
+#: templates/register.php:32
+msgid "Email"
+msgstr "Epost"
+
+#: includes/admin/settings/settings.php:899
+msgid "Enter the email address that will appear on the invoice."
+msgstr "Skriv inn eposten som skal vises på fakturaen."
+
+#: includes/admin/settings/settings.php:904
+msgid "Header Text"
+msgstr "Overskrift"
+
+#: includes/admin/settings/settings.php:908
+msgid ""
+"Enter the message you would like to be shown on the header of the invoice."
+msgstr "Skriv inn det du ønsker skal være overskrift på fakturaen."
+
+#: includes/admin/settings/settings.php:913
+msgid "Notes"
+msgstr "Notater"
+
+#: includes/admin/settings/settings.php:917
+msgid ""
+"Enter additional notes you would like displayed below the invoice totals."
+msgstr "Skriv inn tilleggsnotater som du ønsker skal stå under fakturasummen."
+
+#: includes/admin/settings/settings.php:922
+msgid "Footer Text"
+msgstr "Bunntekst"
+
+#: includes/admin/settings/settings.php:926
+msgid ""
+"Enter the message you would like to be shown on the footer of the invoice."
+msgstr "Skriv inn det du ønsker skal stå som bunntekst på fakturaen."
+
+#: includes/admin/settings/settings.php:937
+msgid "Hide Premium Posts"
+msgstr "Gjem premium innlegg"
+
+#: includes/admin/settings/settings.php:941
+msgid ""
+"Check this to hide all premium posts from queries when user is not logged "
+"in. Note, this will only hide posts that are restricted to paid memberships."
+msgstr ""
+"Kryss av denne for å skulle premium innlegg når brukeren ikke er logget inn. "
+"NB: Dette vil kun skjule innlegg som er begrenset til betalte medlemskap."
+
+#: includes/admin/settings/settings.php:946
+msgid "Redirect Page"
+msgstr "Videresend side"
+
+#: includes/admin/settings/settings.php:963
+msgid ""
+"This is the page non-subscribed users are redirected to when attempting to "
+"access a premium post or page."
+msgstr ""
+"Dette er siden ikke-innloggede brukere sendes til når de forsøker å få "
+"tilgang til premium innlegg eller side."
+
+#: includes/admin/settings/settings.php:968
+msgid "Redirect Default Login URL"
+msgstr "Videresend til standard logg inn URL"
+
+#: includes/admin/settings/settings.php:972
+msgid ""
+"Check this to force the default login URL to redirect to the page specified "
+"below."
+msgstr ""
+"Kryss av denne for å tvinge videresending av standard logg inn URL til siden "
+"spesifisert under."
+
+#: includes/admin/settings/settings.php:977
+msgid "Login Page"
+msgstr "Logg inn-side"
+
+#: includes/admin/settings/settings.php:994
+msgid ""
+"This is the page the default login URL redirects to, if the option above is "
+"checked. This should be the page that contains the [login_form] short code."
+msgstr ""
+"Dette er siden standard logg inn URL videresender til, dersom valget ovenfor "
+"er krysset ut. Dette bør være en side som inneholder [login_form] shortcode."
+
+#: includes/admin/settings/settings.php:999
+msgid "Prevent Account Sharing"
+msgstr "Unngå kontodeling"
+
+#: includes/admin/settings/settings.php:1003
+msgid ""
+"Check this if you'd like to prevent multiple users from logging into the "
+"same account simultaneously."
+msgstr ""
+"Kryss av dette dersom du ønsker å forhindre at flere brukere er logget inn "
+"på samme konto samtidig."
+
+#: includes/admin/settings/settings.php:1008
+msgid "Email IPN reports"
+msgstr "Epost IPN rapporter"
+
+#: includes/admin/settings/settings.php:1012
+msgid ""
+"Check this to send an email each time an IPN request is made with PayPal. "
+"The email will contain a list of all data sent. This is useful for debugging "
+"in the case that something is not working with the PayPal integration."
+msgstr ""
+"Kryss av denne for å sende post hver gang en IPN-forespørsel blir satt igang "
+"med PayPal. Eposten vil inneholde en liste over all data sendt. Dette er "
+"nyttig for debugging i tilfelle noe ikke virker med PayPal integrasjonen."
+
+#: includes/admin/settings/settings.php:1017
+msgid "Disable Form CSS"
+msgstr "Skru av skjema-CSS"
+
+#: includes/admin/settings/settings.php:1021
+msgid "Check this to disable all included form styling."
+msgstr "Kryss av for å skru av inkludert styling."
+
+#: includes/admin/settings/settings.php:1026
+msgid "Enable reCaptcha"
+msgstr "Aktiver reCaptcha"
+
+#: includes/admin/settings/settings.php:1030
+msgid "Check this to enable reCaptcha on the registration form."
+msgstr "Kryss av for å aktivere reCaptcha på innmeldingsskjemaet."
+
+#: includes/admin/settings/settings.php:1035
+msgid "reCaptcha Site Key"
+msgstr "reCaptcha Site Key"
+
+#: includes/admin/settings/settings.php:1039
+msgid "This your own personal reCaptcha Site key. Go to"
+msgstr "Dette er din egen, personlige reCaptcha site key. Gå til"
+
+#: includes/admin/settings/settings.php:1039
+#: includes/admin/settings/settings.php:1048
+msgid "your account"
+msgstr "din konto"
+
+#: includes/admin/settings/settings.php:1039
+msgid "then click on your domain (or add a new one) to find your site key."
+msgstr ""
+"deretter klikk på ditt domene (eller legg til nytt) for å finne din site key."
+
+#: includes/admin/settings/settings.php:1044
+msgid "reCaptcha Secret Key"
+msgstr "reCaptcha hemmelig nøkkel"
+
+#: includes/admin/settings/settings.php:1048
+msgid "This your own personal reCaptcha Secret key. Go to"
+msgstr "Dette er din personlige reCaptcha hemmelig nøkkel. Gå til"
+
+#: includes/admin/settings/settings.php:1048
+msgid "then click on your domain (or add a new one) to find your secret key."
+msgstr ""
+"deretter klikk på ditt domene (eller legg til nytt) for å finne din "
+"hemmelige nøkkel."
+
+#: includes/admin/settings/settings.php:1059
+msgid "Save Options"
+msgstr "Lagre"
+
+#: includes/admin/settings/settings.php:1163
+msgid "Your license key could not be activated. Error: %s"
+msgstr "Lisensnøkkelen kunne ikke bli aktivert. Error: %s"
+
+#: includes/admin/subscriptions/edit-subscription.php:6
+msgid "Edit Subscription Level:"
+msgstr "Endre abonnementsnivå:"
+
+#: includes/admin/subscriptions/edit-subscription.php:20
+msgid "The name of this subscription. This is shown on the registration page."
+msgstr "Navn på abonnement. Dette blir vist på innmeldingssiden."
+
+#: includes/admin/subscriptions/edit-subscription.php:29
+msgid ""
+"The description of this subscription. This is shown on the registration page."
+msgstr "Beskrivelse av abonnementet. Dette blir vist på registreringssiden."
+
+#: includes/admin/subscriptions/edit-subscription.php:44
+msgid "Level of access this subscription gives."
+msgstr "Tilgangsnivå på abonnementet."
+
+#: includes/admin/subscriptions/edit-subscription.php:49
+#: includes/admin/subscriptions/subscription-levels.php:19
+#: includes/admin/subscriptions/subscription-levels.php:51
+#: includes/admin/subscriptions/subscription-levels.php:93
+#: includes/admin/subscriptions/subscription-levels.php:146
+msgid "Duration"
+msgstr "Varighet"
+
+#: includes/admin/subscriptions/edit-subscription.php:54
+#: includes/admin/subscriptions/subscription-levels.php:151
+msgid "Day(s)"
+msgstr "Dag(er)"
+
+#: includes/admin/subscriptions/edit-subscription.php:55
+#: includes/admin/subscriptions/subscription-levels.php:152
+msgid "Month(s)"
+msgstr "Måned(er)"
+
+#: includes/admin/subscriptions/edit-subscription.php:56
+#: includes/admin/subscriptions/subscription-levels.php:153
+msgid "Year(s)"
+msgstr "År"
+
+#: includes/admin/subscriptions/edit-subscription.php:58
+#: includes/admin/subscriptions/subscription-levels.php:156
+msgid "Length of time for this membership level. Enter 0 for unlimited."
+msgstr "Lengde og tid for abonnementsnivå. Velg 0 for ubegrenset."
+
+#: includes/admin/subscriptions/edit-subscription.php:63
+#: includes/admin/subscriptions/subscription-levels.php:20
+#: includes/admin/subscriptions/subscription-levels.php:60
+#: includes/admin/subscriptions/subscription-levels.php:94
+#: includes/admin/subscriptions/subscription-levels.php:163
+msgid "Price"
+msgstr "Pris"
+
+#: includes/admin/subscriptions/edit-subscription.php:67
+#: includes/admin/subscriptions/subscription-levels.php:172
+msgid "The price of this membership level. Enter 0 for free."
+msgstr "Angi prisen for dette abonnementsnivå. Skriv inn 0 for gratis."
+
+#: includes/admin/subscriptions/edit-subscription.php:72
+#: includes/admin/subscriptions/subscription-levels.php:179
+#: includes/class-rcp-registration.php:60
+#: templates/paypal-express-confirm.php:16
+msgid "Signup Fee"
+msgstr "Innmeldingsavgift"
+
+#: includes/admin/subscriptions/edit-subscription.php:76
+#: includes/admin/subscriptions/subscription-levels.php:183
+msgid ""
+"Optional signup fee to charge subscribers for the first billing cycle. Enter "
+"a negative number to give a discount on the first payment."
+msgstr ""
+"Valgfri innmeldingsavgift som kan legges til på første betaling for bruker. "
+"Skriv inn et negativt nummer for å gi fradrag på første betaling (eks. -100 "
+"for kr 100,- i avslag)"
+
+#: includes/admin/subscriptions/edit-subscription.php:86
+#: includes/admin/subscriptions/subscription-levels.php:193
+msgid "Inactive"
+msgstr "Inaktivt"
+
+#: includes/admin/subscriptions/edit-subscription.php:88
+#: includes/admin/subscriptions/subscription-levels.php:195
+msgid "Members may only sign up for active subscription levels."
+msgstr "Medlemmer kan kun melde seg inn i aktive avonnementsnivåer."
+
+#: includes/admin/subscriptions/edit-subscription.php:99
+#: includes/admin/subscriptions/subscription-levels.php:206
+msgid "The user role given to the member after signing up."
+msgstr "Rollen som blir gitt til brukere ved innmelding."
+
+#: includes/admin/subscriptions/edit-subscription.php:108
+msgid "Update Subscription"
+msgstr "Oppdater abonnement"
+
+#: includes/admin/subscriptions/subscription-levels.php:21
+#: includes/admin/subscriptions/subscription-levels.php:70
+#: includes/admin/subscriptions/subscription-levels.php:95
+msgid "Subscribers"
+msgstr "Medlemmer"
+
+#: includes/admin/subscriptions/subscription-levels.php:23
+#: includes/admin/subscriptions/subscription-levels.php:97
+msgid "Order"
+msgstr "Rekkefølge"
+
+#: includes/admin/subscriptions/subscription-levels.php:56
+#: templates/register-single.php:101 templates/register.php:70
+msgid "unlimited"
+msgstr "ubegrenset"
+
+#: includes/admin/subscriptions/subscription-levels.php:85
+msgid "No subscription levels added yet."
+msgstr "Ingen abonnementsnivåer er registrert ennå."
+
+#: includes/admin/subscriptions/subscription-levels.php:103
+msgid "Add New Level"
+msgstr "Legg til nytt abonnementsnivå"
+
+#: includes/admin/subscriptions/subscription-levels.php:113
+msgid "The name of the membership level."
+msgstr "Navnet på dette abonnementsnivået."
+
+#: includes/admin/subscriptions/subscription-levels.php:122
+msgid "Membership level description. This is shown on the registration form."
+msgstr "Abonnementnivå beskrivelse. Dette vises i skjema for registrering."
+
+#: includes/admin/subscriptions/subscription-levels.php:139
+msgid ""
+"Level of access this subscription gives. Leave None for default or you are "
+"unsure what this is."
+msgstr ""
+"Angi tilgangsnivå dette abonnement gir. Ikke bruk dette om du er usikker. "
+"Bruk standard verdi."
+
+#: includes/admin/subscriptions/subscription-levels.php:140
+msgid ""
+"<strong>Access Level</strong>: refers to a tiered system where a member's "
+"ability to view content is determined by the access level assigned to their "
+"account. A member with an access level of 5 can view content assigned to "
+"access levels of 5 and lower, whereas a member with an access level of 4 can "
+"only view content assigned to levels of 4 and lower."
+msgstr ""
+"<strong>Tilgangsnivå</strong>: Refererer til et lagvis system hvor brukerens "
+"mulighet til å se innhold blir bestemt av tilgangsnivået som er tilegnet "
+"kontoen deres. Et medlem med tilgangsnivå 5 kan se innhold som er tilegnet "
+"nivå 5 og lavere, og hvor medlemmer med tilgangsnivå 4 kun kan se innhold "
+"tilegnet nivå 4 eller lavere."
+
+#: includes/admin/subscriptions/subscription-levels.php:157
+msgid ""
+"<strong>Example</strong>: setting this to 1 month would make memberships "
+"last 1 month, after which they will renew automatically or be marked as "
+"expired."
+msgstr ""
+"<strong>Eksempel</strong>: Ved å sette denne til 1 måned, vil medlemskapet "
+"vare 1 måned, og deretter automatisk fornyes eller merkes som utgått."
+
+#: includes/admin/subscriptions/subscription-levels.php:173
+msgid ""
+"This price refers to the amount paid per duration period. For example, if "
+"duration period is set to 1 month, this would be the amount charged each "
+"month."
+msgstr ""
+"Prisen refererer til summen som er betalt per periode. For eksempel, hvis "
+"varigheten er satt til 1 måned, vil det bli summen som betales hver måned."
+
+#: includes/admin/subscriptions/subscription-levels.php:214
+msgid "Add Membership Level"
+msgstr "Legg til medlemskapsnivå"
+
+#: includes/admin/tools/tools-page.php:16
+msgid "Restrict Content Pro Tools"
+msgstr "Restrict Content Pro verktøy"
+
+#: includes/ajax-actions.php:63
+msgid "No available subscription levels for your account."
+msgstr "Ingen tilgjengelige abonnementer for din konto."
+
+#: includes/captcha-functions.php:25 includes/captcha-functions.php:43
+msgid "Please verify that you are not a robot"
+msgstr "Vennligst bekreft at du ikke er en robot"
+
+#: includes/class-rcp-discounts.php:559
+msgid "Please enter a discount amount containing numbers only."
+msgstr "Vennligst skriv inn rabattsum med kun tall."
+
+#: includes/class-rcp-discounts.php:567
+msgid "Percentage discounts must be whole numbers between 1 and 100."
+msgstr "Prosentvise rabatter må være i hele nummer mellom 1 og 100."
+
+#: includes/class-rcp-export-members.php:37
+#: includes/class-rcp-export-payments.php:40
+msgid "User ID"
+msgstr "Bruker ID"
+
+#: includes/class-rcp-export-members.php:38
+#: includes/class-rcp-export-payments.php:41
+msgid "User Login"
+msgstr "Brukerinnlogging"
+
+#: includes/class-rcp-export-members.php:39
+msgid "User Email"
+msgstr "Brukers epost"
+
+#: includes/class-rcp-export-members.php:40 templates/profile-editor.php:25
+#: templates/register-single.php:37 templates/register.php:36
+msgid "First Name"
+msgstr "Fornavn"
+
+#: includes/class-rcp-export-members.php:41 templates/profile-editor.php:29
+#: templates/register-single.php:41 templates/register.php:40
+msgid "Last Name"
+msgstr "Etternavn"
+
+#: includes/class-rcp-export-payments.php:37 includes/class-rcp-export.php:67
+msgid "ID"
+msgstr ""
+
+#: includes/class-rcp-export-payments.php:42 includes/member-functions.php:548
+#: includes/member-functions.php:588
+msgid "Payment Type"
+msgstr "Betalingstype"
+
+#: includes/class-rcp-export.php:187
+msgid "You do not have permission to export data."
+msgstr "Du har ikke adgang til å eksportere data."
+
+#: includes/class-rcp-member.php:63
+msgid "Member's status changed from %s to %s"
+msgstr "Medlemstatus endret fra %s til %s"
+
+#: includes/class-rcp-member.php:143
+msgid "Member's expiration changed from %s to %s"
+msgstr "Utløpsdatoen er endret fra %s til %s"
+
+#: includes/class-rcp-registration.php:60
+msgid "Signup Credit"
+msgstr "Innmeldingskreditt"
+
+#: includes/content-filters.php:23 templates/woocommerce-single-no-access.php:6
+msgid "This content is restricted to subscribers"
+msgstr "Dette innholdet er kun tilgjengelig for medlemmer"
+
+#: includes/content-filters.php:68
+msgid "You need to have an active subscription to view this content."
+msgstr "Du må ha et aktivt abonnement for å se dette innholdet."
+
+#: includes/email-functions.php:49 includes/email-functions.php:69
+#: includes/email-functions.php:94 includes/email-functions.php:119
+#: includes/email-functions.php:142
+msgid "Hello"
+msgstr "Hei"
+
+#: includes/email-functions.php:49 includes/email-functions.php:119
+#: includes/email-functions.php:142
+msgid "is now subscribed to"
+msgstr "abonnerer nå på"
+
+#: includes/email-functions.php:49 includes/email-functions.php:119
+#: includes/email-functions.php:142
+msgid "Subscription level"
+msgstr "Abonnementsnivå"
+
+#: includes/email-functions.php:51 includes/email-functions.php:71
+#: includes/email-functions.php:96 includes/email-functions.php:121
+#: includes/email-functions.php:144
+msgid "Thank you"
+msgstr "Tusen takk"
+
+#: includes/email-functions.php:52
+msgid "New subscription on "
+msgstr "Nytt medlemskap på "
+
+#: includes/email-functions.php:69
+msgid "has cancelled their subscription to"
+msgstr "har stoppet abonnementet"
+
+#: includes/email-functions.php:69
+msgid "Their subscription level was"
+msgstr "Deres abonnementsnivå var"
+
+#: includes/email-functions.php:72
+msgid "Cancelled subscription on "
+msgstr "Stoppet abonnementet på "
+
+#: includes/email-functions.php:94
+msgid "subscription has expired"
+msgstr "abonnement har utløpt"
+
+#: includes/email-functions.php:97
+msgid "Expired subscription on "
+msgstr "Utløpt abonnement den "
+
+#: includes/email-functions.php:122
+msgid "New free subscription on "
+msgstr "Ny, gratis abonnemenent den "
+
+#: includes/email-functions.php:145
+msgid "New trial subscription on "
+msgstr "Nytt prøveabonnement den "
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:70
+msgid ""
+"Missing 2Checkout token, please try again or contact support if the issue "
+"persists."
+msgstr ""
+"Mangler 2Checkout token, vennligst prøv igjen eller kontakt support hvis "
+"problemet fortsetter."
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:157
+msgid "Subscription started in 2Checkout"
+msgstr "Abonnement startet i 2Checkout"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:229
+msgid "Subscription cancelled via refund 2Checkout"
+msgstr "Abonnement kansellert via tilbakebetaling 2Checkout"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:250
+msgid "Subscription renewed in 2Checkout"
+msgstr "Abonnement fornyet i 2Checkout"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:263
+msgid "Subscription cancelled in 2Checkout"
+msgstr "Medlemskap avsluttet i 2Checkout"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:277
+msgid "Subscription restarted in 2Checkout"
+msgstr "Medlemskap gjenopptatt i 2Checkout"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:290
+msgid "Payment flagged as fraudulent in 2Checkout"
+msgstr "Betaling flagget som uredelig i 2Checkout"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:380
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:190
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:652
+msgid "The security code you have entered is invalid"
+msgstr "Sikkerhetskoden du har lagt inn er ugyldig"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:384
+msgid "The address you have entered is invalid"
+msgstr "Adressen du har lagt inn er ugyldig"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:388
+msgid "The city you have entered is invalid"
+msgstr "Byen du la inn er ugyldig"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:392
+msgid "The state you have entered is invalid"
+msgstr "Fylket du la inn er ugyldig"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:396
+msgid "The country you have entered is invalid"
+msgstr "Landet du la inn er ugyldig"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:400
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:194
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:656
+msgid "The zip / postal code you have entered is invalid"
+msgstr "Postnummeret du la inn er ugyldig"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:113
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:206
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:276
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:109
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:235
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:309
+#: includes/gateways/stripe/functions.php:246
+#: includes/gateways/stripe/functions.php:396
+#: includes/gateways/stripe/functions.php:589
+msgid "An unidentified error occurred."
+msgstr "En uidentifisert feil oppstod."
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:126
+msgid "PayPal token creation failed."
+msgstr "PayPal pollett (token) opprettelse mislykket."
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:127
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:220
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:290
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:125
+msgid "Error message:"
+msgstr "Feilmelding:"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:128
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:221
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:291
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:126
+#: includes/member-functions.php:976 includes/member-functions.php:993
+#: includes/member-functions.php:1009 includes/member-functions.php:1025
+msgid "Error code:"
+msgstr "Feilkode:"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:142
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:244
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:333
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:155
+#: includes/gateways/paypal/functions.php:190
+msgid "Something has gone wrong, please try again"
+msgstr "Noe har gått galt, vennligst prøv igjen"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:156
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:182
+msgid ""
+"You have not configured PayPal API access. Please configure it in Restrict "
+"&rarr; Settings"
+msgstr ""
+"Du har ikke konfigurert PayPal API tilgang. Vennligst konfigurer under "
+"Begrens &rarr; Innstillinger"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:219
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:289
+msgid "PayPal payment processing failed."
+msgstr "PayPal betalingsprosess feilet."
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:437
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:343
+msgid "IPN report"
+msgstr "IPN rapport"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:124
+msgid "PayPal subscription creation failed."
+msgstr "PayPal abonnementsopprettelse feilet."
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:186
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:648
+msgid "The card number you have entered is invalid"
+msgstr "Kortnummeret du la inn er ugyldig"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:198
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:660
+msgid "The card holder name you have entered is invalid"
+msgstr "Kortholderens navn stemmer ikke"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:202
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:664
+msgid "The card expiration month you have entered is invalid"
+msgstr "Utløpsmåneden på kortet stemmer ikke"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:206
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:668
+msgid "The card expiration year you have entered is invalid"
+msgstr "Utløpsåret på kortet stemmer ikke"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:275
+msgid ""
+"Incorrect amount received in the IPN. Amount received was %s. The amount "
+"should have been %s. PayPal Transaction ID: %s"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:304
+msgid "Duplicate Payment"
+msgstr "Dobbel betaling"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:305
+msgid ""
+"A duplicate payment was detected. The new payment was still recorded, so you "
+"may want to check into both payments."
+msgstr ""
+"En dobbel betaling ble oppdaget. Den nye betalingen ble fortsatt registrert, "
+"så du bør sjekke begge betalinger."
+
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:324
+msgid "Invalid Currency Code"
+msgstr "Ugyldig valutakode"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:325
+msgid ""
+"The currency code in an IPN request did not match the site currency code. "
+"Payment data: %s"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:483
+msgid "Invalid IPN"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-stripe-checkout.php:60
+#: includes/shortcodes.php:293
+msgid "Join %s"
+msgstr "Bli med %s"
+
+#: includes/gateways/class-rcp-payment-gateway-stripe-checkout.php:62
+#: includes/install.php:112 includes/scripts.php:129
+#: templates/register-single.php:112 templates/register.php:124
+msgid "Register"
+msgstr "Registrer"
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:62
+msgid ""
+"Missing Stripe token, please try again or contact support if the issue "
+"persists."
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:123
+msgid ""
+"Stripe customer could not be created, please try again or contact support if "
+"the issue persists."
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:343
+msgid "An error occurred, please contact the site administrator: "
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:364
+#: includes/gateways/stripe/functions.php:167
+#: includes/gateways/stripe/functions.php:184
+#: includes/gateways/stripe/functions.php:201
+#: includes/gateways/stripe/functions.php:217
+#: includes/gateways/stripe/functions.php:233
+#: includes/gateways/stripe/functions.php:317
+#: includes/gateways/stripe/functions.php:334
+#: includes/gateways/stripe/functions.php:351
+#: includes/gateways/stripe/functions.php:367
+#: includes/gateways/stripe/functions.php:383
+#: includes/gateways/stripe/functions.php:527
+#: includes/gateways/stripe/functions.php:544
+#: includes/gateways/stripe/functions.php:560
+#: includes/gateways/stripe/functions.php:576 includes/member-functions.php:974
+#: includes/member-functions.php:991 includes/member-functions.php:1007
+#: includes/member-functions.php:1023 includes/member-functions.php:1036
+msgid "An error occurred"
+msgstr "En feil oppstod"
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:366
+#: includes/gateways/stripe/functions.php:169
+#: includes/gateways/stripe/functions.php:186
+#: includes/gateways/stripe/functions.php:203
+#: includes/gateways/stripe/functions.php:219
+#: includes/gateways/stripe/functions.php:235
+#: includes/gateways/stripe/functions.php:319
+#: includes/gateways/stripe/functions.php:336
+#: includes/gateways/stripe/functions.php:353
+#: includes/gateways/stripe/functions.php:369
+#: includes/gateways/stripe/functions.php:385
+#: includes/gateways/stripe/functions.php:529
+#: includes/gateways/stripe/functions.php:546
+#: includes/gateways/stripe/functions.php:562
+#: includes/gateways/stripe/functions.php:578
+msgid "Error code: %s"
+msgstr "Feilkode: %s"
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:672
+msgid ""
+"Missing Stripe test keys. Please enter your test keys to use Stripe in "
+"Sandbox Mode."
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:676
+msgid ""
+"Missing Stripe live keys. Please enter your live keys to use Stripe in Live "
+"Mode."
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateways.php:57
+#: includes/gateways/class-rcp-payment-gateways.php:58
+msgid "Manual Payment"
+msgstr "Manuell betaling"
+
+#: includes/gateways/class-rcp-payment-gateways.php:63
+msgid "PayPal Standard"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateways.php:68
+msgid "PayPal Express"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateways.php:72
+#: includes/gateways/class-rcp-payment-gateways.php:77
+#: includes/gateways/class-rcp-payment-gateways.php:82
+#: includes/gateways/class-rcp-payment-gateways.php:87
+msgid "Credit / Debit Card"
+msgstr "Kortbetaling"
+
+#: includes/gateways/class-rcp-payment-gateways.php:73
+msgid "PayPal Pro"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateways.php:78
+msgid "Stripe"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateways.php:83
+msgid "Stripe Checkout"
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateways.php:88
+msgid "2Checkout"
+msgstr ""
+
+#: includes/gateways/gateway-functions.php:230
+msgid "Your account does not support updating your billing card"
+msgstr "Kontoen din støtter ikke oppdatering av betalingskort"
+
+#: includes/gateways/paypal/functions.php:134
+msgid "Please enter all required fields."
+msgstr "Fyll inn alle obligatoriske felt."
+
+#: includes/gateways/paypal/functions.php:183
+msgid "Error updating subscription"
+msgstr "Feil ved oppdatering av abonnement"
+
+#: includes/gateways/stripe/functions.php:135
+msgid "Missing Stripe token"
+msgstr ""
+
+#: includes/gateways/twocheckout/functions.php:17
+msgid "The 2Checkout API username and password must be defined"
+msgstr ""
+
+#: includes/install.php:124
+msgid "Welcome"
+msgstr "Velkommen"
+
+#: includes/install.php:125
+msgid ""
+"Welcome! This is your success page where members are redirected after "
+"completing their registration."
+msgstr ""
+"Velkommen! Dette er siden medlemmene blir videresendt til etter suksessfull "
+"innmelding."
+
+#: includes/install.php:150
+msgid "Your Membership"
+msgstr "Ditt medlemskap"
+
+#: includes/install.php:177
+msgid "Edit Your Profile"
+msgstr "Rediger profil"
+
+#: includes/install.php:204
+msgid "Update Billing Card"
+msgstr "Oppdater betalingskort"
+
+#: includes/integrations/class-rcp-google-authenticator.php:31
+msgid "Google Authenticator Code"
+msgstr ""
+
+#: includes/integrations/class-rcp-woocommerce.php:35
+msgid "Access Control"
+msgstr "Adgangskontroll"
+
+#: includes/integrations/class-rcp-woocommerce.php:55
+msgid "Restrict purchasing of this product to:"
+msgstr "Begrens betaling av dette produktet til:"
+
+#: includes/integrations/class-rcp-woocommerce.php:60
+#: includes/integrations/class-rcp-woocommerce.php:89
+msgid "Active subscribers only?"
+msgstr "Kun for aktive abonnenter?"
+
+#: includes/integrations/class-rcp-woocommerce.php:77
+#: includes/integrations/class-rcp-woocommerce.php:106
+msgid "Access level required?"
+msgstr "Obligatorisk tilgangsnivå?"
+
+#: includes/integrations/class-rcp-woocommerce.php:84
+msgid "Restrict viewing of this product to:"
+msgstr ""
+
+#: includes/integrations/class-rcp-wp-approve-user.php:124
+msgid "Your account is pending verification by a site administrator."
+msgstr "Kontoen din venter på verifisering av en administrator."
+
+#: includes/integrations/class-rcp-wp-approve-user.php:148
+msgid "Unapprove"
+msgstr "Avslå"
+
+#: includes/integrations/class-rcp-wp-approve-user.php:157
+msgid "Approve"
+msgstr "Godkjenn"
+
+#: includes/integrations/class-rcp-wp-approve-user.php:177
+#: includes/integrations/class-rcp-wp-approve-user.php:207
+msgid "You do not have permission to edit this user"
+msgstr "Du har ikke tilgang til å endre denne brukeren"
+
+#: includes/integrations/class-rcp-wp-approve-user.php:240
+msgid "Member unapproved"
+msgstr "Medlem avslått"
+
+#: includes/integrations/class-rcp-wp-approve-user.php:242
+msgid "Member approved"
+msgstr "Medlem godkjent"
+
+#: includes/invoice-functions.php:54
+msgid "This payment record does not exist"
+msgstr "Betalingen finnes ikke"
+
+#: includes/invoice-functions.php:58
+msgid "You do not have permission to download this invoice"
+msgstr "Du har ikke tilgang til å laste ned denne fakturaen"
+
+#: includes/login-functions.php:88
+msgid "Invalid username or email"
+msgstr "Ugyldig brukernavn eller e-postadresse"
+
+#: includes/login-functions.php:93 includes/registration-functions.php:389
+msgid "Please enter a password"
+msgstr "Passord"
+
+#: includes/login-functions.php:100
+msgid "Incorrect password"
+msgstr "Feil passord"
+
+#: includes/login-functions.php:173
+msgid "Your password reset link has expired."
+msgstr "Link for tilbakestilling av passord er utgått."
+
+#: includes/login-functions.php:175
+msgid "Your password reset link appears to be invalid."
+msgstr "Link for tilbakestilling av passord er ikke gyldig."
+
+#: includes/login-functions.php:219
+msgid "Enter a username or e-mail address."
+msgstr "Skriv inn et brukernavn eller e-postadresse."
+
+#: includes/login-functions.php:223
+msgid "There is no user registered with that email address."
+msgstr "Det er ingen brukere registrert med denne e-postadresse."
+
+#: includes/login-functions.php:235
+msgid "Invalid username or e-mail."
+msgstr "Ugyldig brukernavn eller e-postadresse."
+
+#: includes/login-functions.php:246
+msgid "Password reset is not allowed for this user"
+msgstr "Tilbakestilling av passord er ikke mulig"
+
+#: includes/login-functions.php:269
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Her er instrukser for å resette passord for følgende konto:"
+
+#: includes/login-functions.php:271
+msgid "Username: %s"
+msgstr "Brukernavn: %s"
+
+#: includes/login-functions.php:272
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Om dette ikke rett, kan du bare ignorere denne e-post."
+
+#: includes/login-functions.php:273
+msgid "To reset your password, visit the following address:"
+msgstr "Få å resette passord, bruk følgende adresse-link:"
+
+#: includes/login-functions.php:288
+msgid "[%s] Password Reset"
+msgstr "[%s] Tilbakestilling av passord"
+
+#: includes/login-functions.php:293
+msgid "The e-mail could not be sent."
+msgstr "Eposten kunne ikke bli sendt."
+
+#: includes/login-functions.php:293
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "Mulig årsak: leverandøren kan ha skrudd av mail() funksjon."
+
+#: includes/member-functions.php:559
+msgid "No payments recorded"
+msgstr "Ingen betalinger registrert"
+
+#: includes/member-functions.php:781
+msgid "Please enter a valid email address"
+msgstr "Angi en gyldig epostadresse"
+
+#: includes/member-functions.php:786
+msgid "The email you entered belongs to another user. Please use another."
+msgstr "Eposten du skrev tilhører en annen bruker. Vennligst bruk en annen."
+
+#: includes/member-functions.php:792
+msgid "The passwords you entered do not match. Please try again."
+msgstr "Passordet du skrev inn stemmer ikke overens. Vennligst prøv igjen."
+
+#: includes/member-functions.php:814
+msgid "There was an error updating your profile. Please try again."
+msgstr ""
+"Det skjedde en feil ved oppdatering av din bruker. Vennligst prøv igjen."
+
+#: includes/member-functions.php:847
+msgid "Please enter a password, and confirm it"
+msgstr "Skriv inn et passord, og bekreft det"
+
+#: includes/member-functions.php:851 includes/registration-functions.php:393
+msgid "Passwords do not match"
+msgstr "Passordene stemmer ikke overens"
+
+#: includes/member-functions.php:1101
+msgid ""
+"There was a problem cancelling the subscription, please contact customer "
+"support. Error: %s"
+msgstr ""
+"Det skjedde en feil ved avslutning av abonnementet, vennligst kontakt "
+"kundeservice. Error: %s"
+
+#: includes/misc-functions.php:153
+msgid "US Dollars (&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:154
+msgid "Euros (&#8364;)"
+msgstr ""
+
+#: includes/misc-functions.php:155
+msgid "Pounds Sterling (&#163;)"
+msgstr ""
+
+#: includes/misc-functions.php:156
+msgid "Australian Dollars (&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:157
+msgid "Brazilian Real (&#82;&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:158
+msgid "Canadian Dollars (&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:159
+msgid "Czech Koruna (&#75;&#269;)"
+msgstr ""
+
+#: includes/misc-functions.php:160
+msgid "Danish Krone (&#107;&#114;)"
+msgstr ""
+
+#: includes/misc-functions.php:161
+msgid "Hong Kong Dollar (&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:162
+msgid "Hungarian Forint (&#70;&#116;)"
+msgstr ""
+
+#: includes/misc-functions.php:163
+msgid "Iranian Rial (&#65020;)"
+msgstr ""
+
+#: includes/misc-functions.php:164
+msgid "Israeli Shekel (&#8362;)"
+msgstr ""
+
+#: includes/misc-functions.php:165
+msgid "Japanese Yen (&#165;)"
+msgstr ""
+
+#: includes/misc-functions.php:166
+msgid "Malaysian Ringgits (&#82;&#77;)"
+msgstr ""
+
+#: includes/misc-functions.php:167
+msgid "Mexican Peso (&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:168
+msgid "New Zealand Dollar (&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:169
+msgid "Norwegian Krone (&#107;&#114;)"
+msgstr ""
+
+#: includes/misc-functions.php:170
+msgid "Philippine Pesos (&#8369;)"
+msgstr ""
+
+#: includes/misc-functions.php:171
+msgid "Polish Zloty (&#122;&#322;)"
+msgstr ""
+
+#: includes/misc-functions.php:172
+msgid "Russian Rubles (&#1088;&#1091;&#1073;)"
+msgstr ""
+
+#: includes/misc-functions.php:173
+msgid "Singapore Dollar (&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:174
+msgid "Swedish Krona (&#107;&#114;)"
+msgstr ""
+
+#: includes/misc-functions.php:175
+msgid "Swiss Franc (&#67;&#72;&#70;)"
+msgstr ""
+
+#: includes/misc-functions.php:176
+msgid "Taiwan New Dollars (&#78;&#84;&#36;)"
+msgstr ""
+
+#: includes/misc-functions.php:177
+msgid "Thai Baht (&#3647;)"
+msgstr ""
+
+#: includes/misc-functions.php:178
+msgid "Turkish Lira (&#8356;)"
+msgstr ""
+
+#: includes/process-data.php:23 includes/process-data.php:51
+#: includes/process-data.php:76 includes/process-data.php:152
+#: includes/process-data.php:210 includes/process-data.php:292
+#: includes/process-data.php:333 includes/process-data.php:374
+#: includes/process-data.php:418
+msgid "Nonce verification failed."
+msgstr "Nonce verifikasjon feilet."
+
+#: includes/process-data.php:27 includes/process-data.php:55
+#: includes/process-data.php:80 includes/process-data.php:156
+#: includes/process-data.php:214 includes/process-data.php:296
+#: includes/process-data.php:337 includes/process-data.php:378
+#: includes/process-data.php:422 includes/process-data.php:469
+#: includes/process-data.php:480 includes/process-data.php:498
+#: includes/process-data.php:508 includes/process-data.php:520
+#: includes/process-data.php:529 includes/process-data.php:538
+#: includes/process-data.php:547
+msgid "You do not have permission to perform this action."
+msgstr "Du har ikke tilgang til å gjennomføre handlingen."
+
+#: includes/process-data.php:84
+msgid "Please fill out all fields."
+msgstr "Fyll inn alle felter."
+
+#: includes/process-data.php:99
+msgid "You entered a username that does not exist."
+msgstr "Du oppga et brukernavn som ikke finnes."
+
+#: includes/process-data.php:111
+msgid "Please supply a valid subscription level."
+msgstr "Vennligst velg et gyldig abonnement."
+
+#: includes/process-data.php:160
+msgid "Please select at least one member to edit."
+msgstr "Vennligst velg minst et medlem å endre."
+
+#: includes/registration-functions.php:64
+msgid "Please choose a subscription level"
+msgstr "Velg et medlemskap som passer deg"
+
+#: includes/registration-functions.php:69
+msgid "You may only sign up for a free trial once"
+msgstr "Du kan bare registrere deg for gratis prøve 1 gang"
+
+#: includes/registration-functions.php:79
+msgid "You can only use the discount code once"
+msgstr "Du kan bare bruke kupongkoden 1 gang"
+
+#: includes/registration-functions.php:84
+msgid "The discount you entered is invalid"
+msgstr "Kupongkoden er ugyldig"
+
+#: includes/registration-functions.php:369
+msgid "Username already taken"
+msgstr "Brukernavnet er allerede tatt"
+
+#: includes/registration-functions.php:373
+msgid "Invalid username"
+msgstr "Ugyldig brukernavn"
+
+#: includes/registration-functions.php:377
+msgid "Please enter a username"
+msgstr "Skriv inn et brukernavn"
+
+#: includes/registration-functions.php:381
+msgid "Invalid email"
+msgstr "Ugyldig epostadresse"
+
+#: includes/registration-functions.php:385
+msgid "Email already registered"
+msgstr "Epostadressen er allerede registrert"
+
+#: includes/registration-functions.php:642
+#: includes/registration-functions.php:697
+#: templates/register-total-details.php:20 templates/register.php:69
+msgid "free"
+msgstr "gratis"
+
+#: includes/registration-functions.php:694
+msgid " every %s %s"
+msgstr " hver %s %s"
+
+#: includes/registration-functions.php:820
+msgid "Proration Credit"
+msgstr "Tilgode på kontoen"
+
+#: includes/registration-functions.php:834
+msgid ""
+"If you upgrade or downgrade your account, the new subscription will be "
+"prorated up to %s for the first payment. Prorated prices are shown below."
+msgstr ""
+"Om du oppgraderer eller nedgraderer kontoen din, kommer vi til å trekke fra "
+"%s på betalingen ettersom du har dette tillgode."
+
+#: includes/scripts.php:28
+msgid "Are you sure you wish to cancel this member's subscription?"
+msgstr "Er du sikker på at du ønsker å stoppe medlemskapet?"
+
+#: includes/scripts.php:29
+msgid ""
+"If you delete this subscription, all members registered with this level will "
+"be canceled. Proceed?"
+msgstr ""
+"Dersom du sletter dette abonnementet kanselleres alle abonnementer blant "
+"medlemmer som er registrert. Fortsett?"
+
+#: includes/scripts.php:30
+msgid ""
+"Are you sure you want to delete this payment? This action is irreversible. "
+"Proceed?"
+msgstr ""
+"Er du sikker på at du ønsker å slette denne betalingen? Du kan ikke gå "
+"tilbake. Fortsette?"
+
+#: includes/scripts.php:31
+msgid "You must choose a username"
+msgstr "Du må angi brukernavn"
+
+#: includes/scripts.php:34
+msgid "Use as Logo"
+msgstr "Bruk som logo"
+
+#: includes/scripts.php:35
+msgid "Choose a Logo"
+msgstr "Velg logo"
+
+#: includes/scripts.php:130
+msgid "Please Wait . . . "
+msgstr "Vennligst vent . . . "
+
+#: includes/scripts.php:131
+msgid "Submit Payment"
+msgstr "Betal"
+
+#: includes/shortcodes.php:229
+msgid "You are already registered and have an active subscription."
+msgstr "Du er allerede registrert og har et aktivt medlemskap."
+
+#: includes/shortcodes.php:294
+msgid "Register - {{amount}}"
+msgstr "Registrer - {{amount}}"
+
+#: includes/shortcodes.php:320
+msgid "You are already subscribed."
+msgstr "Du har allerede et aktivt abonnement."
+
+#: includes/shortcodes.php:511
+msgid "Billing card updated successfully"
+msgstr "Betalingskort oppdatert"
+
+#: includes/shortcodes.php:520
+msgid "Billing card could not be updated, please try again."
+msgstr "Betalingskort kunne ikke oppdateres. Prøv igjen."
+
+#: includes/subscription-functions.php:216
+msgid "Days"
+msgstr "Dager"
+
+#: includes/subscription-functions.php:218
+msgid "Day"
+msgstr "Dag"
+
+#: includes/subscription-functions.php:222
+msgid "Months"
+msgstr "Måneder"
+
+#: includes/subscription-functions.php:224
+msgid "Month"
+msgstr "Måned"
+
+#: includes/subscription-functions.php:228
+msgid "Years"
+msgstr "År"
+
+#: includes/subscription-functions.php:230
+msgid "Year"
+msgstr "År"
+
+#: includes/subscription-functions.php:359
+msgid "None, reminders disabled"
+msgstr "Ingen, påminnelser avslått"
+
+#: includes/subscription-functions.php:360
+msgid "One day before expiration"
+msgstr "En dag før utløp"
+
+#: includes/subscription-functions.php:361
+msgid "Two days before expiration"
+msgstr "To dager før utløp"
+
+#: includes/subscription-functions.php:362
+msgid "Three days before expiration"
+msgstr "Tre dager før utløp"
+
+#: includes/subscription-functions.php:363
+msgid "Four days before expiration"
+msgstr "Fire dager før utløp"
+
+#: includes/subscription-functions.php:364
+msgid "Five days before expiration"
+msgstr "Fem dager før utløp"
+
+#: includes/subscription-functions.php:365
+msgid "Six days before expiration"
+msgstr "Seks dager før utløp"
+
+#: includes/subscription-functions.php:366
+msgid "One week before expiration"
+msgstr "En uke før utløp"
+
+#: includes/subscription-functions.php:367
+msgid "Two weeks before expiration"
+msgstr "To uker før utløp"
+
+#: includes/subscription-functions.php:368
+msgid "Three weeks before expiration"
+msgstr "Tre uker før utløp"
+
+#: includes/subscription-functions.php:369
+msgid "One month before expiration"
+msgstr "En måned før utløp"
+
+#: includes/subscription-functions.php:370
+msgid "Two months before expiration"
+msgstr "To måneder før utløp"
+
+#: includes/subscription-functions.php:371
+msgid "Three months before expiration"
+msgstr "Tre måneder før utløp"
+
+#: includes/user-page-columns.php:6 templates/subscription.php:22
+#: templates/subscription.php:60
+msgid "Actions"
+msgstr "Valg"
+
+#: includes/user-page-columns.php:20
+msgid "Edit Subscription"
+msgstr "Endre medlemskap"
+
+#: includes/user-page-columns.php:22
+msgid "Add Subscription"
+msgstr "Legg til medlemskap"
+
+#: restrict-content-pro.php:160
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by Restrict "
+"Content Pro. Please contact your host and request that your version be "
+"upgraded to 5.3 or later."
+msgstr ""
+"Din PHP-versjon er under minimumskravet fra Restrict Content Pro. Vennligst "
+"kontakt verten din og be om at PHP versjonen din blir oppgradert til 5.3 "
+"eller nyere."
+
+#: templates/card-form-full.php:3 templates/card-form.php:3
+#: templates/card-update-form.php:22
+msgid "Card Number"
+msgstr "Kortnummer"
+
+#: templates/card-form-full.php:7 templates/card-form.php:7
+#: templates/card-update-form.php:26
+msgid "Card CVC"
+msgstr "Kortets CVC kode (se kortets bakside)"
+
+#: templates/card-form-full.php:11
+msgid "Address"
+msgstr "Adresse"
+
+#: templates/card-form-full.php:15
+msgid "City"
+msgstr "Sted"
+
+#: templates/card-form-full.php:19
+msgid "State or Providence"
+msgstr "Fylke"
+
+#: templates/card-form-full.php:23
+msgid "Country"
+msgstr "Land"
+
+#: templates/card-form-full.php:274 templates/card-form.php:11
+#: templates/card-update-form.php:30
+msgid "Card ZIP or Postal Code"
+msgstr "Ditt postnummer"
+
+#: templates/card-form-full.php:278 templates/card-form.php:15
+#: templates/card-update-form.php:34
+msgid "Name on Card"
+msgstr "Navn på kortet"
+
+#: templates/card-form-full.php:282 templates/card-form.php:19
+#: templates/card-update-form.php:38
+msgid "Expiration (MM/YYYY)"
+msgstr "Gyldig til dato (MM/ÅÅÅÅ)"
+
+#: templates/card-update-form.php:7
+msgid "Your Cards"
+msgstr "Dine betalingskort"
+
+#: templates/card-update-form.php:11
+msgid "Name:"
+msgstr "Navn:"
+
+#: templates/card-update-form.php:12
+msgid "Type:"
+msgstr ""
+
+#: templates/card-update-form.php:13
+msgid "Last 4:"
+msgstr "Siste 4 sifre:"
+
+#: templates/card-update-form.php:14
+msgid "Exp:"
+msgstr "Utløpsdato (mm/åå)"
+
+#: templates/card-update-form.php:58
+msgid "Update Card"
+msgstr "Oppdater kort"
+
+#: templates/change-password.php:7
+msgid "Password changed successfully"
+msgstr "Passord er endret"
+
+#: templates/change-password.php:13 templates/profile-editor.php:55
+msgid "New Password"
+msgstr "Nytt passord"
+
+#: templates/change-password.php:17
+msgid "Password Confirm"
+msgstr "Bekreft passord"
+
+#: templates/change-password.php:24
+msgid "Change Password"
+msgstr "Endre passord"
+
+#: templates/invoice.php:10 templates/invoice.php:192 templates/invoice.php:202
+msgid "Invoice %s"
+msgstr "Faktura %s"
+
+#: templates/invoice.php:229
+msgid "Bill To:"
+msgstr "Mottaker:"
+
+#: templates/invoice.php:242
+msgid "Invoice Items:"
+msgstr "Produkter:"
+
+#: templates/invoice.php:254
+msgid "Total Price:"
+msgstr "Sum total:"
+
+#: templates/invoice.php:260
+msgid "Payment Status:"
+msgstr "Betalingsstatus:"
+
+#: templates/invoice.php:270
+msgid "Additional Info:"
+msgstr "Tilleggsinformasjon:"
+
+#: templates/invoice.php:273
+msgid "Payment Date:"
+msgstr "Betalingsdato:"
+
+#: templates/invoice.php:289
+msgid "Print"
+msgstr "Skriv ut"
+
+#: templates/login.php:16 templates/register-single.php:45
+#: templates/register.php:44
+msgid "Password"
+msgstr "Passord"
+
+#: templates/login.php:22
+msgid "Remember me"
+msgstr "Husk meg"
+
+#: templates/login.php:24
+msgid "Lost your password?"
+msgstr "Glemt passord?"
+
+#: templates/login.php:29
+msgid "Login"
+msgstr "Logg inn"
+
+#: templates/login.php:38 templates/lostpassword.php:28
+#: templates/lostpassword_checkemail.php:10
+msgid "Log out"
+msgstr "Logg ut"
+
+#: templates/lostpassword.php:11
+msgid "Username or E-mail:"
+msgstr "Skriv inn ditt brukernavn eller e-postadresse:"
+
+#: templates/lostpassword.php:19
+msgid "Request Password Reset"
+msgstr "Send meg nytt passord"
+
+#: templates/lostpassword_checkemail.php:5
+msgid "Check your e-mail for the confirmation link."
+msgstr "Sjekk din e-postadresse for videre instrukser."
+
+#: templates/paypal-express-confirm.php:3
+msgid "Please confirm your payment"
+msgstr "Bekreft betalingen"
+
+#: templates/paypal-express-confirm.php:5
+msgid "PayPal Status:"
+msgstr ""
+
+#: templates/paypal-express-confirm.php:6
+msgid "Email:"
+msgstr "E-post:"
+
+#: templates/paypal-express-confirm.php:13
+msgid "Recurs"
+msgstr "Fornyes"
+
+#: templates/paypal-express-confirm.php:18
+msgid "Subscription Cost"
+msgstr "Kostnad"
+
+#: templates/paypal-express-confirm.php:27
+msgid "Every %d %s"
+msgstr "Hver %d %s"
+
+#: templates/paypal-express-confirm.php:49
+msgid "Confirm"
+msgstr "Bekreft"
+
+#: templates/profile-editor.php:16
+msgid "Success"
+msgstr "Suksess"
+
+#: templates/profile-editor.php:16
+msgid "Your profile has been updated."
+msgstr "Din profil har blitt oppdatert."
+
+#: templates/profile-editor.php:23
+msgid "Change your Name"
+msgstr "Endre navn"
+
+#: templates/profile-editor.php:33
+msgid "Display Name"
+msgstr "Navn som vises"
+
+#: templates/profile-editor.php:49
+msgid "Email Address"
+msgstr "E-post"
+
+#: templates/profile-editor.php:53
+msgid "Change your Password"
+msgstr "Endre passord"
+
+#: templates/profile-editor.php:59
+msgid "Re-enter Password"
+msgstr "Bekreft nytt passord"
+
+#: templates/profile-editor.php:62
+msgid "Please note after changing your password, you must log back in."
+msgstr "Dersom du endrer passord må du logge inn på nytt."
+
+#: templates/profile-editor.php:67
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: templates/register-single.php:7 templates/register.php:5
+msgid "Register New Account"
+msgstr "Registrer ny konto"
+
+#: templates/register-single.php:11 templates/register.php:9
+msgid "Upgrade Your Subscription"
+msgstr "Oppgrader medlemskap"
+
+#: templates/register-single.php:49 templates/register.php:48
+msgid "Password Again"
+msgstr "Skriv passord på nytt"
+
+#: templates/register-single.php:62 templates/register.php:87
+msgid "Discount Code"
+msgstr "Rabattkupong"
+
+#: templates/register-single.php:63 templates/register.php:88
+msgid "Valid"
+msgstr "Gyldig"
+
+#: templates/register-single.php:64 templates/register.php:89
+msgid "Invalid"
+msgstr "Ugyldig"
+
+#: templates/register-single.php:87 templates/register.php:110
+msgid "Choose Your Payment Method"
+msgstr "Velg betalingsmetode"
+
+#: templates/register-total-details.php:26
+msgid "Discounts and Fees"
+msgstr "Rabattkupong"
+
+#: templates/register-total-details.php:54
+msgid "Total Today"
+msgstr "Totalt"
+
+#: templates/register-total-details.php:63
+msgid "Total Recurring Per %s"
+msgstr "Pris per %s"
+
+#: templates/register-total-details.php:65
+msgid "Total Recurring Every %s %s"
+msgstr "Kostnad hver %s %s"
+
+#: templates/register.php:21
+msgid ""
+"<a href=\"%s\">Log in</a> if you wish to renew an existing subscription."
+msgstr ""
+"<a href=\"%s\">Logg inn</a> om du allerede er medlem. Du kan også endre "
+"kontoen når du er logget inn."
+
+#: templates/register.php:62
+msgid "Choose your subscription level"
+msgstr "Velg medlemskapstype"
+
+#: templates/register.php:79
+msgid "You have not created any subscription levels yet"
+msgstr "Du har ikke opprettet et medlemskap ennå"
+
+#: templates/subscription.php:10
+msgid "Your profile has been successfully cancelled."
+msgstr "Medlemskapet er avsluttet."
+
+#: templates/subscription.php:18
+msgid "Renewal Date"
+msgstr "Fornyelsesdato"
+
+#: templates/subscription.php:34
+msgid "Renew your subscription"
+msgstr "Forny ditt medlemskap"
+
+#: templates/subscription.php:38
+msgid "Upgrade or change your subscription"
+msgstr "Oppgrader eller endre ditt medlemskap"
+
+#: templates/subscription.php:42
+msgid "Cancel your subscription"
+msgstr "Avslutt medlemskap"
+
+#: templates/subscription.php:56
+msgid "Invoice #"
+msgstr "Faktura #"
+
+#: templates/subscription.php:71
+msgid "View Receipt"
+msgstr "Se faktura"
+
+#: templates/subscription.php:75
+msgid "You have not made any payments."
+msgstr "Du har ingen betalte fakturaer."
+
+#. Description of the plugin/theme
+msgid ""
+"Set up a complete subscription system for your WordPress site and deliver "
+"premium content to your subscribers. Unlimited subscription packages, "
+"membership management, discount codes, registration / login forms, and more."
+msgstr ""
+"Sett opp et komplett abonnementssystem for din WordPress side og lever "
+"kvalitetsinnhold til dine abonnenter. Ubegrenset med abonnementspakker, "
+"megdlemskapskontroll, rabattkoder, registrering, innloggingsskjemaer og mer."
+
+#: includes/admin/payments/payments-page.php:87
+msgctxt "The payment amount shown in the user column on smaller devices"
+msgid " (%s) "
+msgstr " Betalingssummen vist i brukerkolonnene på mindre enhenter "

@@ -1,0 +1,72 @@
+.WPUAP_or {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.WPUAP_or span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.wp-color-result {
+    height: 24px !important;
+}
+
+.wpgmp-overview label.radio {
+    margin-bottom: 10px !important;
+}
+
+.helpdask-bootom {
+    position: fixed;
+    right: 30px;
+    bottom: 5px;
+    border-radius: 5px;
+    padding: 0px;
+    background: url(../images/helpdesk.png) no-repeat;
+    width: 150px;
+    height: 83px;
+    color: #fff;
+    font-size: 0px;
+    display: block;
+    opacity: 1;
+}
+
+#reg_passmail,
+.submit {
+    clear: both
+}
+
+button.button.ci_choose_image {
+    color: #000000 !important;
+}
+.media-modal {
+    z-index: 99999999;
+}
+
+table.fc-placeholders-listing {
+    background-color: ivory;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table.fc-placeholders-listing th {
+    background-color: #212F3D;
+    color: #f1c40f;
+}
+table.fc-placeholders-listing td, table.fc-placeholders-listing th {
+    padding: 5px;
+}
+.wpua-color-schema {
+display: inline-block;
+width: 28px;
+height: 28px;
+border: solid 1px #000;
+border-radius: 18px;
+}
+.role-based-avatar-listing .fc-12{
+padding-left:0px;
+}
+.default-avatar-listing .radio-vertical{margin-top:2px;}

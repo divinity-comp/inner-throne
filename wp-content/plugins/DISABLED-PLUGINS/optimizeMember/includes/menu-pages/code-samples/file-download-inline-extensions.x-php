@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_FILE_DOWNLOAD_INLINE_EXTENSIONS; ?>
+This may output something like: pdf,jpg,jpeg,jpe,png
+( optimizeMember will display these extensions inline )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_FILE_DOWNLOAD_INLINE_EXTENSIONS" /]

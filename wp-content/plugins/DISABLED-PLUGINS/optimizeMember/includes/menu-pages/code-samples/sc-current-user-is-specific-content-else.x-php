@@ -1,0 +1,24 @@
+Notice that NESTED Conditionals require a preceding underscore (i.e., _opmIf, __opmIf, ___opmIf).
+	You can go up to ten levels deep ( __________opmIf ).
+
+[opmIf current_user_is(optimizemember_level4)]
+	Some premium content for Level 4 Members.
+	[else]
+		[_opmIf current_user_is(optimizemember_level3)]
+			Some premium content for Level 3 Members.
+			[_else]
+				[__opmIf current_user_is(optimizemember_level2)]
+					Some premium content for Level 2 Members.
+				[__else]
+					[___opmIf current_user_is(optimizemember_level1)]
+						Some premium content for Level 1 Members.
+						[___else]
+							[____opmIf current_user_is(optimizemember_level0)]
+								Some content for Free Subscribers.
+								[____else]
+									Some public content.
+							[/____opmIf]
+					[/___opmIf]
+				[/__opmIf]
+		[/_opmIf]
+[/opmIf]

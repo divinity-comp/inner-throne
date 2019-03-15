@@ -1,0 +1,217 @@
+
+
+/************* AVADA color scheme COLOR DEW  ***************/
+
+
+body .latest-blog {
+  background-color: #105378 !important;
+}
+
+body .fusion-secondary-header {
+   background: #03a9f4 !important;
+}
+
+body .fusion-dropcap.dropcap-boxed {
+  background: #60513d !important;  
+}
+
+.post-content .col-main .fusion-text p:first-child {
+  color: #60513d !important;
+}
+
+body header .fusion-social-links-header .fusion-social-networks.boxed-icons a:nth-of-type(2) {
+  background: rgba(0,0,0,0.2) !important;
+}
+
+body .bgoverlay-dark:before {
+  background: rgba(11,20,20,0.5);
+}
+
+body .bgoverlay-dark.darker:before {
+  background: rgba(11,20,20,0.87);
+}
+
+
+body .fusion-contact-info, 
+body .fusion-secondary-header a, 
+body .fusion-social-networks-wrapper a {
+  color: #ffffff !important;
+}
+
+header .fusion-main-menu > ul > li > a:hover,
+body .fusion-person.person-rounded .person-desc .person-author .person-title,
+body .reviews .company-name strong,
+body .fusion-megamenu .fusion-megamenu-title a {
+  border-color: rgb(123,169,169);
+}
+
+body .fusion-person .person-desc .person-author .person-name,
+body .post-content .fusion-testimonials.clean blockquote q {
+  color: rgb(58,89,92);
+}
+
+body .reviews .testimonial-thumbnail img {
+  box-shadow: 0 0 0 3px rgb(123,169,169);
+}
+
+body .fusion-person .person-desc .person-author .person-title,
+body .reviews .company-name strong,
+body .post-content .profiles-section h3 strong,
+.post-content .col-sidebar .fusion-title-size-three h3 {
+  color: rgb(123,169,169); 
+}
+
+body .post-content .fusion-social-networks.boxed-icons .fusion-social-network-icon.fusion-icon-facebook {
+  background-color: rgb(123,169,169) !important; 
+  border-radius: 2px;
+}
+
+body .post-content .col-sidebar .fusion-title-size-three {
+  background: white;
+  border-color: #bcd9d7;
+}
+
+.post-content .col-sidebar .fusion-title-size-three h3 {
+  color: rgba(104,143,143);
+}
+
+body .fusion-pricing-table .standout .panel-heading {
+  background: #84b52d !important;
+}
+
+body .category-community .slides .fusion-image-wrapper:before,
+body .category-new-paradigm .slides .fusion-image-wrapper:before {
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,0.93) 50%, rgba(255,255,255,0.75) 86%, rgba(255,255,255,0.75) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 37%,rgba(255,255,255,0.93) 50%,rgba(255,255,255,0.75) 86%,rgba(255,255,255,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 37%,rgba(255,255,255,0.93) 50%,rgba(255,255,255,0.75) 86%,rgba(255,255,255,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bfffffff',GradientType=0 );
+}
+
+body .tfs-slider .slide-content-container .heading.with-bg > div {
+    background: rgba(25, 46, 47, 0.7) !important;
+}
+
+body .tfs-slider .slide-content-container .caption.with-bg > div {
+    background: rgba(32, 64, 66, 0.55) !important;
+}
+
+body #sliders-container + #main .post_content div:first-child .fusion-separator {
+  border-color: #7ba9a9 !important;
+}
+
+body #main #content .fusion-post-grid .fusion-single-line-meta a, 
+body #main #content .fusion-post-grid .fusion-meta-info a,
+body #main #content .fusion-post-grid .fusion-read-more:after {
+  color: rgb(3,169,244);
+} 
+
+body #main #content .fusion-post-grid .fusion-meta-info .fusion-alignright a,
+body .fusion-pricing-table .panel-wrapper:nth-of-type(3) .panel-heading,
+body .fusion-pricing-table .panel-wrapper:nth-of-type(3) .panel-body .price .integer-part, 
+body .fusion-pricing-table .panel-wrapper:nth-of-type(3) .panel-body .price .time {
+  color: rgb(244,3,88);
+}
+
+body div.fusion-content-boxes.content-boxes-clean-vertical .link-area-link-icon-hover .heading .heading-link h2,
+body .fusion-content-boxes.content-boxes-clean-vertical .fusion-read-more:hover,
+body .fusion-content-boxes.content-boxes-clean-vertical .fusion-read-more:after,
+body .fusion-content-boxes.content-boxes-clean-vertical .fusion-read-more:hover:after
+body .fusion-pricing-table .fusion-button .fusion-button-text,
+body .flexslider .fusion-button .fusion-button-text,
+body .latest-blog h3,
+body .latest-blog p {
+  color: white !important;
+}
+
+body .profiles-section p {
+  color: #777;
+}
+
+body .post-content .col-main .fusion-column-wrapper > p a, body .post-content .col-main .fusion-column-wrapper li a {
+  color: #7e5c2f !important;
+  text-shadow: 0px 0px 1px #634927;
+  position: relative;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+body .post-content .col-main .fusion-column-wrapper > p a:hover, body .post-content .col-main .fusion-column-wrapper li a:hover {
+  color: #7e5c2f !important;
+  text-decoration: none;
+  transform: scale(0.95);
+}
+
+/*
+body .post-content .col-main .fusion-column-wrapper > p > a::before {
+  content: attr(data-hover);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s;
+  background-color: #60513d !important;
+  color: white;
+  margin: 0;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+
+body .post-content .col-main .fusion-column-wrapper > p > a::before {
+  content: attr(data-hover);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s;
+  background-color: #60513d !important;
+  color: white;
+  margin: 0;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+*/
+
+body .post-content .col-main .fusion-column-wrapper > p > a:hover::before {
+  opacity: 1;
+}
+
+.attention-button {
+  background: url('../images/attention-button.png');
+}
+
+body #wrapper .post-content blockquote {
+  border-color: #7ba9a9;
+}
+
+#soldier {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#new-story {
+  position: absolute;
+  z-index: 10;
+  margin: -150px auto 0; 
+  left: 0;
+  right: 0;
+}
+
+/*
+@media only screen and (min-width: 1200px) {
+  #upcoming-event a {
+    border-right: 7px solid #03a9f4;
+  }
+}*/
+

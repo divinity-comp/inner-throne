@@ -1,0 +1,22 @@
+#cc_dashboard {
+	background: #ffffff;
+	width: 38%;
+	margin: 0px auto;
+	padding: 10px 15px 25px 15px;
+	border-radius:5px;
+}
+#cc_admin_para {
+	color: black !important;
+	font-weight: bold;
+}
+#ccadminpanel {
+	display: none;
+}
+#cc_plugin_admin_panel {
+	opacity: 0.1;
+}
+#ccimg{
+	height: 90px;
+	display: block;
+	margin: auto;
+}

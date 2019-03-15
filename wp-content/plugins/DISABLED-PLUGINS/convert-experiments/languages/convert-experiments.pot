@@ -1,0 +1,120 @@
+# Copyright (C) 2016 Convert Experiences
+# This file is distributed under the same license as the Convert Experiences package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Convert Experiences 2.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/convert-experiments\n"
+"POT-Creation-Date: 2014-02-18 13:34:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/admin/class-admin-page.php:19
+msgid "Convert Experiments Configuration"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:41
+msgid "Convert Experiments"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:48
+msgid "Project ID"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:59
+msgid "Enter your project ID below."
+msgstr ""
+
+#: classes/admin/class-admin-page.php:74 classes/admin/class-admin.php:40
+msgid "Convert Experiments is almost ready."
+msgstr ""
+
+#: classes/admin/class-admin-page.php:74
+msgid "Incorrect project ID."
+msgstr ""
+
+#: classes/admin/class-admin-page.php:88
+msgid "Incorrect project ID"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:99
+msgid "Convert Experiences"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:99
+msgid "Configuration"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:113
+msgid "Don't have a Convert account yet?"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:115
+msgid "If you don't have a Convert account yet, %1$screate one here%2$s!"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:117
+msgid "The free Yoast Convert account contains:"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:119
+msgid "Free 5,000 tested visitors per month for 12 months"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:120
+msgid "Free A/B and Split URL testing"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:121
+msgid "Upgrade discounts to paid plans"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:131
+msgid "Create your tests"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:132
+msgid "You can %1$screate new tests here%2$s."
+msgstr ""
+
+#: classes/admin/class-admin-page.php:139
+msgid "Yoast Advertisement"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:148
+msgid "Your Project ID is located on the Edit page for your project:"
+msgstr ""
+
+#: classes/admin/class-admin-page.php:149
+msgid "Project ID location"
+msgstr ""
+
+#: classes/admin/class-admin.php:40
+msgid "You must <a href=\"%1$s\">enter your Convert Experiments Project Number</a> for it to work."
+msgstr ""
+
+#: classes/admin/class-admin.php:53
+msgid "Settings"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Convert Experiences"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://convert.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Convert Experiences provides A/B and Multivariate Testing for Experts. To get started: 1) Click the \"Activate\" link to the left of this description, 2) <a href=\"http://www.convert.com/yoast/\">Sign up for a free trial</a>, and 3) Go to your <a href=\"options-general.php?page=convert-experiences\">Convert Experiences configuration page</a>, and enter your project ID."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Yoast"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.yoast.com/"
+msgstr ""

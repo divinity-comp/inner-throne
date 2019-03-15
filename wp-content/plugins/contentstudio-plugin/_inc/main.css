@@ -1,0 +1,21 @@
+.security-plugins-notify {
+  text-align: left;
+  font-size: 15px;
+}
+.warning-plugin {
+  display: inline-block;
+  margin: 0;
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+.warning-plugin-img {
+  padding-right: 15px;
+  width: 30px !important;
+  float: left;
+  text-align: left;
+}

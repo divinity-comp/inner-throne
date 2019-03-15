@@ -1,0 +1,44 @@
+Version 1.2.1, December 16, 2015
+* Fixed a conflict with WordPress 4.4
+
+Version 1.2, September 30, 2015
+
+* Added an option to make first name optional
+* Fixed an issue with required fields not being passed to EDD checkout properly
+
+Version 1.1.6, August 21, 2015
+* Fixed bug with checkbox fields not being included in export or email tags
+
+Version 1.1.5, August 4, 2015
+* Fixed problem that prevented other extensions from customizing the checkout screen
+
+Version 1.1.4, May 3, 2015
+* Checkout fields manager now supports file uploads attachments on EDD core emails
+
+Version 1.1.3, May 3, 2015
+* Checkout fields manager now supports commissions emails
+
+Version 1.1.2, May 3, 2015
+* All field types can now be used in emails
+
+Version 1.1.1, September 25, 2014
+* Fixed a bug with upload fields not working on the View Order Details screen
+
+Version 1.1, August 1, 2014
+* Added ability to export fields in emails
+* Added ability to export fields in CSV
+
+Version 1.0.4, March 28, 2014
+Fixed a bug with not being able to properly save payment details with CFM active.
+
+Version 1.0.3, March 12, 2014
+Fixed a bug with required checkboxes not being required.
+
+1.0.2: 02/10/2014
+* Fixed a bug with not being able to submit the checkout form
+
+1.0.1: 02/03/2014
+* Fixed a conflict with Stripe and Paymill payment gateways
+
+1.0: 12/24/2013
+ * Initial release

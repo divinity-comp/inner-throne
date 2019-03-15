@@ -1,0 +1,35 @@
+<?php if (current_user_can("access_optimizemember_level1")){ ?>
+	
+	Some premium content for all Level 1 Members.
+
+	<?php if (current_user_can("access_optimizemember_ccap_music")){ ?>
+		Display links for music as well.
+	<?php } ?>
+	
+	<?php if (current_user_can("access_optimizemember_ccap_videos")){ ?>
+		Display videos as well.
+	<?php } ?>
+
+<?php } else { ?>
+	Some public content.
+<?php } ?>
+
+---- optimizemember Shortcode Equivalents ----
+
+[opmIf current_user_can(access_optimizemember_level1)]
+
+	Some premium content for all Level 1 Members.
+
+	[_opmIf current_user_can(access_optimizemember_ccap_music)]
+		Display links for music as well.
+	[/_opmIf]
+
+	[_opmIf current_user_can(access_optimizemember_ccap_videos)]
+		Display videos as well.
+	[/_opmIf]
+
+[/opmIf]
+
+[opmIf !current_user_can(access_optimizemember_level1)]
+	Some public content.
+[/opmIf]

@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_PAYPAL_BUSINESS; ?>
+This may output something like: paypal@example.com
+( or whatever you have configured as your paypal email address )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_PAYPAL_BUSINESS" /]

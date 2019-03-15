@@ -1,0 +1,1965 @@
+
+/******************** OPTIMIZEPRESS STYLING *************************/
+
+
+@media screen {
+
+  /* Admin editor override */
+
+  .mce-panel .mce-menubar {
+    display: block !important;
+  }
+
+  /* end override */
+
+  /*
+    #content_area+.footer {
+    position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      text-align: center;
+    }*/
+
+    .rounded-corners-20 {
+    border-radius: 20px;
+    }
+
+
+    .banner .navigation a {
+    font-size: 15px;
+    }
+
+    .comments-container h3 {
+    margin: 20px 0 0 0;
+    }
+
+    .banner .op-logo img {
+    max-width: 280px;
+    }
+
+  }
+
+
+  /******************** ALL MEDIA **************************/
+
+  @media all {
+
+    div.header {
+      display: none;
+    }
+
+    p:empty {
+      display: none;
+    }
+
+    .highlight {
+      background: yellow;
+      padding: 2px;
+      font-weight: bold;
+    }
+
+    .banner .op-logo img {
+      max-width: 280px !important;
+    }
+
+    body .selectnav#dk1-selectnav2 {
+      margin-bottom: 25px !important;
+    }
+
+    .left {
+      float: left;
+      clear: none !important;
+    }
+
+    .right {
+    float: right;
+    clear: none !important;
+    }
+
+    .op-promote {
+    display: none;
+    }
+
+    .footer-copyright {
+    float: none;
+    text-align: center;
+    }
+
+    .handheld {
+    display: none;
+    }
+
+    html {
+    background-size: cover;
+    }
+
+    body.login #login {
+    padding-top: 4% !important;
+    }
+
+    .op-text-block li {
+    margin-left: 1em;
+    }
+
+    .single-post-content li {
+      line-height: 1.25em;
+    }
+
+    .single-post-content ul {
+    margin-bottom: 1.5em;
+    }
+
+    /********* blog styling *********/
+
+    body.single .header {
+      display: none;
+    }
+
+    body.single .main-content {
+      border-top: 1px solid #ddd;
+    }
+
+    body.single .main-content {
+      padding-bottom: 100px;
+    }
+
+    body.single .post-image {
+    margin-bottom: 30px;
+    }
+
+    body.single p {
+      font-size: 17px;
+      line-height: 1.6em;
+    }
+    body.single blockquote p {
+      padding: 0.7em 3em 0.7em 2em;
+      color: #999;
+      font-size: 1.2em;
+      margin-bottom: 0;
+    }
+
+    body.single blockquote {
+      padding: 0.8em 0;
+    }
+
+    body.single sup  {
+      font-size: 0.7em;
+      vertical-align: 6px;
+      margin-right: 0;
+    }
+
+    body.single .single-post-content sup a {
+      color: #2e82bc;
+      margin: 0 0 0 2px;
+      padding: 0;
+      baseline-shift: baseline;
+      font-family: "museo-slab";
+      font-weight: 700;
+      font-style: italic;
+    }
+
+
+
+    body.single sup:hover a {
+      text-decoration: underline;
+    }
+
+    body.single .single-post-content p, body.single .single-post-content li, body.single .single-post-content a {
+      font-family: "freight-text-pro";
+      font-size: 1.3em;
+    }
+
+    body.single .single-post-content p.post-meta, body.single .single-post-content p.post-meta a {
+      font-size: 1em;
+    } 
+
+    body.single .single-post-content a {
+      font-size: 1em;
+    }
+
+    body.single h1.the-title {
+      font-size: 46px;
+      font-weight: 900;
+    }
+
+    body.single h2, body.single h3, body.single h4 {
+      font-family: "museo-slab";
+    }
+
+    body.single h3 {
+      font-weight: 900;
+    }
+
+    body.single h4 {
+      font-weight: 900;
+      font-size: 1.4em;
+      color: #333;
+    }
+
+    body.single h4.subtitle {
+      font-family: "freight-text-pro";
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1.6em;
+      margin: -0.7em 0 1em 0;
+      padding-bottom: 0.8em;
+      border-bottom: 1px dotted silver;
+      color: #468ca9;
+    }
+
+    body.single .wp-caption {
+      padding: 0;
+      background: none;
+      padding: 15px 10px 10px 10px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      transform: rotate(1deg);
+    }
+
+    body.single .wp-caption-text {
+      text-align: left;
+      font-size: 1.2em;
+      margin-left: 3px;
+      font-family: "freight-text-pro";
+      font-style: italic;
+    }
+
+    body.single .alignright {
+      margin-left: 40px;
+    }
+
+    body.single .sidebar-form .op-signup-style-style3 p {
+      font-size: 15px;
+    }
+
+    body.single .sidebar-form .op-signup-style-style3 p.secure-icon {
+      font-size: 12px;
+    }
+
+    body.single .subscribe-button-inner {
+      display: block !important;
+      margin: 0 auto !important;
+    }
+
+
+    /********* visibility flags *********/
+
+
+    body .fusion-menu > .logged-out-show {
+      display: block !important;
+    }
+
+    body .fusion-menu > .logged-in-show {
+      display: none !important;
+    }
+
+    body.logged-in .fusion-menu > .logged-in-show {
+      display: inline-block !important;
+    }
+
+    body.logged-in .fusion-menu > .logged-out-show {
+      display: none !important;
+    }
+/*
+    .vanguard {
+      display: none !important;
+    }
+
+  */
+
+    /* sticky-menu is a class that pages have only in the OP editor */
+
+/*
+    body.sticky-menu .vanguard {
+      display: block !important;
+    }
+
+    body..logged-in.sticky-menu .logged-out-show {
+      display: block !important;
+    }
+
+    body.logged-in.sticky-menu .logged-in-show {
+      display: block !important;
+    }
+
+    body.is-vanguard.sticky-menu .hide-if-vanguard {
+      display: block !important;
+    }
+
+
+    body.is-vanguard .vanguard {
+      display: block !important;
+    }
+
+    body.is-vanguard .hide-if-vanguard {
+      display: none !important;
+    }
+
+*/
+
+    .footer-copyright {
+    float: left;
+    }
+
+    .footer-navigation li.nav_login, .footer-navigation li.nav_logout {
+    display: none !important;
+    }
+
+    input[type=text], input[type=email], input[type=password] {
+    font-size: 18px !important;
+    font-family: "museo-sans", sans-serif !important;
+    padding: 10px 13px !important;
+    background: #f3f3f3;
+    box-shadow: 2px 2px 7px #ddd inset;
+    }
+
+    input:focus {
+    background: white;
+    }
+
+    /*
+    body .single-post-content .comment-form-subscriptions {
+    color: #045ecc !important;
+    font-size: 16px !important;
+    font-family: "museo-slab", sans-serif !important;
+    font-style: italic;
+    padding-bottom: 5px;
+    }
+    */
+
+    .gform_wrapper textarea {
+    font-size: 14px !important;
+    font-family: "museo-sans", sans-serif !important;
+    padding: 10px 13px !important;
+    background: #f3f3f3;
+    box-shadow: 2px 2px 7px #ddd inset;
+    }
+
+     textarea:focus {
+    background: white;
+    }
+
+    body .footer {
+    background-image: url(https://www.inner-throne.com/wp-content/uploads/2015/04/bg-pattern.png);
+    background-repeat: repeat;
+    background-color: #1f1f1f;
+    }
+
+    .banner ul li.current-menu-item > a:first-child, .banner .navigation li li.current-menu-item > a, li.current-menu-ancestor > a {
+    color: black;
+    font-weight: bold;
+    }
+
+    #leave-reply {
+    padding-top: 30px;
+    }
+
+    #leave-reply small {
+    display: none;
+    }
+
+    body.single p.logged-in-as {
+    font-size: 14px;
+    margin-bottom: 20px;
+    }
+
+    body .container .three-fourths.column {
+        width: 670px;
+        padding-right: 30px;
+    }
+
+    /* gravity forms */
+
+    #gforms_confirmation_message {
+      margin: 30px 0;
+      max-width: 99%;
+      text-align: center;
+      font-size: 21px;
+      font-family: "museo-slab";
+      line-height: 1.4em;
+    }
+
+    .gform_wrapper form li, .gform_wrapper li {
+    margin: 0;
+    width: 50%;
+    }
+
+    body .gform_confirmation_wrapper {
+    background: #ddd;
+        padding: 30px;
+        color: #333;
+        font-size: 18px;
+        font-style: italic;
+        font-family: "museo-slab";
+        font-weight: 700;
+    }
+
+    .gform_wrapper li#field_1_3 {
+    width: 100%;
+    margin-top: 20px;
+    }
+
+    /*
+    .enhanced-text-widget  {
+    padding: 22px 25px;
+    }
+
+    body .widget {
+    padding: 22px 25px;
+    }
+
+    body .widget.nopad {
+    padding: 0;
+    }
+
+    body .widget.nopad .widget {
+    padding: 22px 25px;
+    }
+    */
+
+    .enhanced-text-widget .widget {
+      border-bottom: 1px solid #eaeaea;
+      box-shadow: 0 5px 0 #f7f7f7;
+    }
+
+    .enhanced-text-widget.sidebar-section:first-of-type {
+    padding-top: 0;
+    }
+
+    body .ws-plugin--optimizemember-pro-login-widget br {
+     display: none;
+    }
+
+    body .ws-plugin--optimizemember-pro-login-widget input {
+    font-size: 1.2em !important;
+    padding: 8px 10px;
+    }
+
+    body .ws-plugin--optimizemember-pro-login-widget label {
+    margin: 0 0 0.3em 0;
+    font-size: 1.2em;
+    }
+
+    body .ws-plugin--optimizemember-pro-login-widget .ws-plugin--optimizemember-pro-login-widget-remember-me label {
+    font-size: 1em;
+    font-weight: normal;
+    }
+
+
+    /* EASY DIGITAL DOWNLOADS */
+
+    #edd_purchase_receipt + h3 {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dotted silver;
+    }
+
+    #edd_checkout_wrap {
+    padding-bottom: 100px;
+    }
+
+    .video-navigation-3 p {
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+    ul.cf {
+      margin-bottom: 15px !important;
+    }
+
+    /* RECLAIM YOUR INNER THRONE */
+
+    .one-col .thumb {
+    position: relative;
+    }
+
+    .one-col .thumb:before {
+      content: "1";
+      font-size: 42px;
+      width: 156px;
+      height: 100px;
+      font-family: "museo-slab", arial;
+      position: absolute;
+      font-weight: 900;
+      top: 22px;
+      left: 0;
+      color: white;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    .one-col:nth-of-type(1) .thumb:before {
+      content: "1";
+    }
+
+    .one-col:nth-of-type(2) .thumb:before {
+      content: "2";
+    }
+
+    .one-col:nth-of-type(3) .thumb:before {
+      content: "3";
+    }
+
+    .one-col:nth-of-type(4) .thumb:before {
+      content: "4";
+    }
+
+    .one-col:nth-of-type(5) .thumb:before {
+      content: "5";
+    }
+
+    .one-col:nth-of-type(6) .thumb:before {
+      content: "6";
+    }
+
+    .one-col:nth-of-type(7) .thumb:before {
+      content: "7";
+    }
+
+    .one-col:nth-of-type(8) .thumb:before {
+      content: "8";
+    }
+
+    .one-col:nth-of-type(9) .thumb:before {
+      content: "9";
+    }
+
+    .one-col:nth-of-type(10) .thumb:before {
+      content: "10";
+    }
+
+    .one-col:nth-of-type(11) .thumb:before {
+      content: "11";
+    }
+
+    .one-col:nth-of-type(12) .thumb:before {
+      content: "12";
+    }
+
+    .one-col:nth-of-type(13) .thumb:before {
+      content: "13";
+    }
+
+    .one-col:nth-of-type(14) .thumb:before {
+      content: "14";
+    }
+
+    .one-col:nth-of-type(15) .thumb:before {
+      content: "15";
+    }
+
+
+    /******************* MENU **********************/
+
+/*
+    body .container nav.navigation ul ul li a, body nav.navigation .banner ul ul li a {
+      min-width: 220px;
+      padding-top: 1.1em;
+      padding-bottom: 1em;
+      border-bottom: 1px dotted #eee;
+      font-size: 13px;
+    }
+
+    body nav.navigation ul ul li:last-of-type a {
+      border:none;
+    }
+
+    body nav.navigation ul ul li a:hover, body nav.navigation .banner ul ul li a:hover {
+      color: black;
+      background: white !important;
+    }
+
+    .page-listing a:hover {
+      background: #edecbf;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.2) !important;
+    }
+
+
+    div.include-nav .navigation ul ul li a {
+      color: #666;
+    }
+
+    .banner .navigation > ul > li > a {
+      font-size: 14px !important;
+      margin-top: 6px;
+    }
+
+    body .container .navigation ul>li.has_children>a:after, body .navigation .banner ul>li.has_children>a:after {
+      padding-left: 0.5em !important;
+    }
+
+    .banner .logo img{width:200px}
+    .page-listing.one-col {width:98%;}
+    .page-listing > p { display: none;}
+    .page-listing a { background-color: #f2f2f2; box-shadow: 0 0 5px rgba(0,0,0,.25);}
+
+    #nav-footer li {
+      float: left;
+    }
+    */
+}
+
+/****************** HANDHELD *********************/
+
+@media (max-width: 480px) {
+  .handheld {
+    display: block !important;
+  }
+}
+
+
+
+
+
+
+/******************** WP SYMPOSIUM STYLING *************************/
+
+/* UI elements */
+
+input[type=submit], a.file-input-wrapper{
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #0777ff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:active, input[type=submit]:hover, input[type=submit]:focus {
+background: #0777ff;
+color: yellow;
+}
+
+input[type=submit].wps_friends_cancel, input[type=submit].wps_friends_reject, input[type=submit].wps_friends_add  {
+background: white;
+padding: 0;
+color: silver;
+}
+
+input[type=submit].wps_friends_add  {
+color: #0777ff;
+}
+
+a.file-input-wrapper {
+background: gray;
+padding: 2px 8px;
+}
+
+
+input[type=text], input[type=password], .redactor_box .redactor_editor, textarea  {
+padding: 6px 9px;
+background: #eee;
+border-radius: 3px;
+border: 1px solid #999;
+margin-bottom: 1em;
+box-shadow: 1px 1p 4px inset rgba(0,0,0,0.3);
+box-sizing: border-box;
+}
+
+.redactor_box .redactor_editor {
+padding: 9px 13px;
+}
+
+input[type=text], input[type=password], .redactor_box .redactor_editor, .redactor_box .redactor_editor p {
+font-size: 14px !important;
+color: #999;
+}
+
+input[type=text] {
+font-size: 16px !important;
+}
+
+input[type=text]:focus, .redactor_box .redactor_editor:focus, .redactor_box .redactor_editor:focus p {
+background: white;
+color: #333;
+}
+
+.redactor_box .redactor_editor:focus p {
+color: black;
+}
+
+div.wps_subs_add_post_checkbox {
+margin-bottom: 1em;
+}
+
+input[type=checkbox] {
+padding: 10px;
+margin: 0 6px 0 0;
+width: auto !important;
+}
+
+button {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #2e82bc;
+  color: white;
+  cursor: pointer;
+}
+
+.wps_forum_post_comment_content button {
+  float: left;
+}
+
+
+/* Forum styling */
+
+.main-content-area {
+padding-left: 4px;
+}
+
+#wps_post_forum_slug_div {
+  display: none;
+}
+
+.wps_forum_categories_name h2 a {
+font-weight: 300;
+}
+
+h2.wps_forum_post_title {
+  font-weight: normal;
+}
+
+h2.wps_forum_post_title + h3 {
+  font-weight: 300;
+}
+
+h2.wps_forum_post_title + h3:before {
+  display: inline-block;
+  content: "\00BB";
+  padding-right: 10px;
+}
+
+#wps_initial_post {
+  border-top: 1px dotted #ccc;
+}
+
+body .wps_forum_posts {
+  margin-bottom: 2em;
+}
+
+body p:empty {
+  display: none;
+}
+
+body .wps_forum_post {
+  border-top: 1px dotted#dfdfdf;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#wps_forum_post_title_label, #wps_forum_post_content_label {
+font-size: 1.2em;
+margin-bottom: 0.3em;
+}
+
+#wps_forum_post_image_upload {
+padding: 4px 8px;
+background: silver;
+border-radius: 3px;
+}
+
+.wps-tab-content-inner {
+overflow: visible !important;
+height: 100%;
+width: 100%  !important;
+}
+
+body .single-post-content ol li:first-child, body .single-post-content ul li:first-child {
+margin-top: 0;
+}
+
+body .single-post-content ol li.active {
+margin-top: 1px;
+}
+
+.wps_extension_textarea {
+    padding: 8px;
+    box-sizing: border-box;
+font-size: 15px; 
+background: #eee;
+color: #999;
+}
+
+.wps_extension_textarea:focus {
+background: white;
+color: #333;
+}
+
+body .wps_forum_post_comment, body .wps_forum_post_comment_pending {
+padding-top: 20px;
+padding-bottom: 20px;
+overflow: hidden;
+}
+
+body .wps_forum_post_comment_author_display_name a {
+font-size: 12px;
+line-height: 1.4em;
+margin: 0.65em 0 0.5em 0;
+display: block;
+}
+
+body .wps_forum_post_subcomments {
+clear: none;
+}
+
+body .wps_forum_post_comment, body .wps_forum_post_comment_pending {
+  border-bottom: 1px dotted #dfdfdf;
+}
+
+body .wps_forum_post_comment_content {
+  padding-right: 20px;
+  margin-left: 30px;
+}
+
+body .wps_forum_post_subcomments .wps_forum_post_comment_content {
+  margin-left: 20px;
+}
+
+body .wps_forum_post_comment_author_freshness {
+  font-size: 12px;
+  margin-top: -6px;
+  color: #bbb;
+}
+
+body .wps_forum_item_content {
+  padding-top: 0.5em;
+}
+
+body .wps_forum_settings_options {
+  width: auto;
+  max-width: 300px;
+  border: none;
+  background: #0777ff !important;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.3) !important;
+  right: 50px !important;
+  top: -3px !important;
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+body .wps_forum_settings_options a {
+  display: inline-block;
+  padding: 0 5px;
+  color: #0777ff !important;
+}
+
+body .wps_forum_settings_options br {
+  display: none;
+}
+
+body .wps_forum_settings_options a:hover {
+  text-decoration: underline;
+}
+
+
+body .wps_forum_post_comment_content p, body .wps_forum_post_comment_content li {
+  font-family: georgia;
+  font-size: 14px;
+  line-height: 1.75em;
+}
+
+body .wps_forum_post_comment_content ul, body .wps_forum_post_comment_content ol {
+  margin-bottom: 1em;
+}
+
+body .wps_forum_post_comment_content li {
+  margin: 0;
+}
+
+body .wps_forum_categories_item_sep {
+  display: none;
+}
+
+body .wps_forum_signature_text {
+  border-top: 1px dotted silver;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+body .wps_forum_signature_text p {
+  font-style: italic;
+  font-size: 0.9em;
+  color: gray;
+}
+
+div.wps_forum_search_posts {
+  margin-bottom: 50px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+  border-top: 1px dotted #ccc;
+}
+
+h2.wps_forum_search_label_results {
+  margin-bottom: 0;
+}
+
+div#wps_forum_search {
+  margin: -45px 0 20px;
+  float: right;
+}
+
+div.wps_forum_post_comment_author_avatar {
+  margin-bottom: 13px;
+}
+
+#wps_add_subscribe_unsubscribe_button {
+  cursor: pointer;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 20px;
+}
+
+#leave-reply .form-submit input {
+  margin-right: 20px;
+}
+
+/* Comment form */
+
+#wps_forum_comment_form {
+padding-top: 15px;
+}
+
+#wps_forum_comment_form #s2id_wps_post_forum_slug {
+display: none;
+}
+
+body .wps_forum_post_subcomment{
+margin-top: 0;
+border-top: 1px dotted #ddd;
+padding-top: 15px;
+}
+
+body .wps_forum_categories_description {
+width: 90%;
+    float: left;
+    margin-bottom: 20px;
+    color: #aaa;
+    font-style: italic;
+}
+
+body .wps_forum_categories_item {
+margin-bottom: 50px;
+}
+
+body#wps_forum_post_div {
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 45px;
+}
+
+
+/* Directory page */
+
+div.wps_directory_content div {
+line-height: 1.5em;
+margin: 0;
+}
+
+div.wps_directory_content input.wps_submit {
+line-height: 1.5em;
+text-decoration: underline;
+}
+
+.wps_directory_item {
+min-height: 100px;
+}
+
+/* Overall page setup */
+
+p {
+margin-bottom: 1em;
+}
+
+.main-content-area-container {
+padding-bottom: 70px;
+}
+
+h1,h2,h3 {
+font-family: "museo-sans", sans-serif;
+}
+
+.metadata h3 {
+padding-bottom: 0.5em !important;
+}
+
+.metadata h4 {
+padding: 0 !important;
+font-size: 1.2em;
+}
+
+.metadata p {
+margin-bottom: 0.6em !important;
+color: gray;
+}
+
+.op-page-header h2 {
+padding-top:  0.7em !important;
+}
+
+/* Activity stream */
+
+.wps_activity_item_post {
+font-size: 12px;
+line-height: 1.4em;
+color: #333;
+}
+
+.wps_activity_comment {
+font-size: 12px;
+line-height: 1.4em;
+color: #333;
+}
+
+.wps_activity_comment p {
+font-size: 1em;
+}
+
+body .wps_activity_post_comment {
+margin-top: 10px;
+}
+
+/* Profile page */
+
+div.left {
+float: left;
+margin-right: 20px;
+}
+
+.activity_list {
+padding-top: 20px;
+margin-top: 25px;
+border-top: 1px dashed #ddd;
+}
+
+.activity_list h3 {
+margin-bottom: -20px;
+color: #333;
+font-size: 24px;
+font-weight: 300;
+}
+
+.usermeta.second {
+border-top: 1px dashed  #ddd;
+margin-top: 20px;
+clear: left;
+padding-top: 1.5em;
+}
+
+.usermeta.second br {
+  display: none;
+}
+
+.usermeta li {
+list-style: none;
+}
+
+.usermeta h4 {
+font-family: "museo-sans", sans-serif;
+font-size: 18px;
+font-weight: 700;
+margin: 0;
+padding: 0.3em 0 0.3em 0;
+}
+
+.usermeta p {
+font-size: 14px;
+}
+
+body #activity_whoto {
+  margin-bottom: 15px;
+}
+
+/* smaller screens */
+
+@media only screen and (max-width: 985px) {
+.main-content-area {
+width: 100% !important;
+padding-left: 20px;
+box-sizing: border-box;
+}
+}
+
+
+/* UI elements */
+
+input[type=submit], a.file-input-wrapper{
+padding: 5px 10px;
+border-radius: 4px;
+background: #0777ff;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+input[type=submit]:active, input[type=submit]:hover, input[type=submit]:focus {
+background: #0777ff;
+color: yellow;
+}
+
+input[type=submit].wps_friends_cancel, input[type=submit].wps_friends_reject, input[type=submit].wps_friends_add  {
+background: white;
+padding: 0;
+color: silver;
+}
+
+input[type=submit].wps_friends_add  {
+color: #0777ff;
+}
+
+a.file-input-wrapper {
+background: gray;
+padding: 2px 8px;
+}
+
+
+input[type=text], input[type=password], .redactor_box .redactor_editor, textarea  {
+padding: 6px 9px;
+background: #eee;
+border-radius: 3px;
+border: 1px solid #999;
+margin-bottom: 1em;
+box-shadow: 1px 1p 4px inset rgba(0,0,0,0.3);
+box-sizing: border-box;
+}
+
+.redactor_box .redactor_editor {
+padding: 9px 13px;
+}
+
+input[type=text], input[type=password], .redactor_box .redactor_editor, .redactor_box .redactor_editor p {
+font-size: 14px !important;
+color: #999;
+}
+
+input[type=text] {
+font-size: 16px !important;
+}
+
+input[type=text]:focus, .redactor_box .redactor_editor:focus, .redactor_box .redactor_editor:focus p {
+background: white;
+color: #333;
+}
+
+.redactor_box .redactor_editor:focus p {
+color: black;
+}
+
+div.wps_subs_add_post_checkbox {
+margin-bottom: 1em;
+}
+
+input[type=checkbox] {
+padding: 10px;
+margin: 0 6px 0 0;
+width: auto !important;
+}
+
+button {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #2e82bc;
+  color: white;
+  cursor: pointer;
+}
+n
+
+
+/* Forum styling */
+
+.main-content-area {
+padding-left: 4px;
+}
+
+#wps_post_forum_slug_div {
+  display: none;
+}
+
+.wps_forum_categories_name h2 a {
+font-weight: 300;
+}
+
+h2.wps_forum_post_title {
+  font-weight: normal;
+}
+
+#wps_initial_post {
+  border-top: 1px dotted #ccc;
+}
+
+#wps_forum_post_title_label, #wps_forum_post_content_label {
+font-size: 1.2em;
+margin-bottom: 0.3em;
+}
+
+#wps_forum_post_image_upload {
+padding: 4px 8px;
+background: silver;
+border-radius: 3px;
+}
+
+.wps-tab-content-inner {
+overflow: visible !important;
+height: 100%;
+width: 100%  !important;
+}
+
+body .single-post-content ol li:first-child, body .single-post-content ul li:first-child {
+margin-top: 0;
+}
+
+body .single-post-content ol li.active {
+margin-top: 1px;
+}
+
+.wps_extension_textarea {
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 15px; 
+    background: #eee;
+    color: #999;
+}
+
+.wps_extension_textarea:focus {
+background: white;
+color: #333;
+}
+
+body .wps_forum_post_comment, body .wps_forum_post_comment_pending {
+padding-top: 20px;
+padding-bottom: 20px;
+overflow: hidden;
+}
+
+body .wps_forum_post_comment_author_display_name a {
+font-size: 12px;
+line-height: 1.4em;
+margin: 0 0 0.5em 0;
+display: block;
+}
+
+body .wps_forum_post_subcomments {
+clear: left;
+}
+
+body .wps_forum_post_comment, body .wps_forum_post_comment_pending {
+  border-bottom: 1px dotted #dfdfdf;
+}
+
+body .wps_forum_post_comment_content {
+padding-right: 20px;
+margin-left: 30px;
+}
+
+body .wps_forum_post_subcomments .wps_forum_post_comment_content {
+margin-left: 20px;
+}
+
+body .wps_forum_post_comment_author_freshness {
+font-size: 12px;
+margin-top: -6px;
+color: #bbb;
+}
+
+body .wps_forum_post_comment_content p, body .wps_forum_post_comment_content li {
+font-family: georgia;
+font-size: 14px;
+line-height: 1.75em;
+}
+
+body .wps_forum_post_comment_content ul, body .wps_forum_post_comment_content ol {
+  margin-bottom: 1em;
+}
+
+body .wps_forum_post_comment_content li {
+  margin: 0;
+}
+
+body .wps_forum_likes_and_dislikes {
+  float: left;
+  width: auto;
+  margin-bottom: 1em;
+}
+
+body .wps_forum_post_comment_author_freshness {
+  margin-bottom: 1em;
+}
+
+body .wps_forum_categories_item_sep {
+display: none;
+}
+
+body .no-sidebar .wps_forum_title {
+  max-width: 54%;
+}
+
+body .wps_forum_title a:first-child {
+  font-style: normal;
+  font-size: 1.15em;
+}
+
+body .wps_forum_title a:first-child:after {
+  display: inline;
+  content: ", ";
+}
+
+body .wps_forum_title {
+  font-style: italic;
+  font-size: 0.9em;
+  color: silver;
+}
+
+body .wps_forum_title a + a {
+  font-style: italic;
+  color: silver;
+}
+
+body div#wps_forum_search {
+  margin: -60px 0 35px;
+}
+
+.wps_forum_item_attachment {
+  width: 100%;
+}
+
+
+/*
+
+body .wps_forum_title_header {
+    font-weight: bold;
+    float: left;
+    width: 64%;
+}
+
+body .wps_forum_count_header {
+  display: inline-block;
+  float: none;
+}
+
+body .wps_forum_last_poster_header {
+float: right;
+}
+
+body .no-sidebar .wps_forum_count_header {
+  text-align: center;
+}
+
+body .no-sidebar .wps_forum_freshness, body .no-sidebar .wps_forum_freshness_header {
+  width: 12%;
+} */
+
+body .no-sidebar .wps_forum_last_poster, body .no-sidebar .wps_forum_last_poster_header {
+  width: 15%;
+}
+
+body .no-sidebar .wps_forum_last_poster_header {
+  text-align: center;
+}
+
+body .no-sidebar .wps_forum_count, body .no-sidebar .wps_forum_count_header, body .no-sidebar .wps_forum_count, body .no-sidebar .wps_forum_categories_freshness_header, body .no-sidebar .wps_forum_freshness {
+  width: 10%;
+}
+
+body .wps_forum_signature_text {
+  border-top: 1px dotted silver;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+body .wps_forum_signature_text p {
+  font-style: italic;
+  font-size: 0.9em;
+  color: gray;
+}
+
+div.wps_forum_search_posts {
+  margin-bottom: 50px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+  border-top: 1px dotted #ccc;
+}
+
+h2.wps_forum_search_label_results {
+  margin-bottom: 0;
+}
+
+div#wps_forum_search {
+  margin: -45px 0 20px;
+  float: right;
+}
+
+div.wps_forum_post_comment_author_avatar {
+  margin-bottom: 13px;
+}
+
+#wps_add_subscribe_unsubscribe_button {
+  cursor: pointer;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 20px;
+}
+
+#leave-reply .form-submit input {
+  margin-right: 20px;
+}
+
+/* Comment form */
+
+#wps_forum_comment_form {
+  padding-top: 15px;
+}
+
+#wps_forum_comment_form #s2id_wps_post_forum_slug {
+  display: none;
+}
+
+body .wps_forum_post_subcomment{
+  margin-top: 0;
+  border-top: 1px dotted #ddd;
+  padding-top: 20px;
+}
+
+body .wps_forum_categories_description {
+  width: 90%;
+  float: left;
+  margin-bottom: 20px;
+  color: #aaa;
+  font-style: italic;
+}
+
+body .wps_forum_categories_item {
+  margin-bottom: 50px;
+}
+
+body#wps_forum_post_div {
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 45px;
+}
+
+
+/* Directory page */
+
+div.wps_directory_content div {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+div.wps_directory_content input.wps_submit {
+  line-height: 1.5em;
+  text-decoration: underline;
+}
+
+.wps_directory_item {
+  min-height: 100px;
+}
+
+/* Overall page setup */
+
+p {
+margin-bottom: 1em;
+}
+
+#le_body_row_1_col_1_el_1 p:first-of-type {
+  margin-bottom: 0.4em;
+}
+
+.main-content-area-container {
+padding-bottom: 70px;
+}
+
+
+h1, h2, h3 {
+font-family: "museo-slab", sans-serif !important;
+font-weight: 900 !important;
+}
+
+.metadata h3 {
+padding-bottom: 0.5em !important;
+}
+
+.metadata h4 {
+padding: 0 !important;
+font-size: 1.2em;
+}
+
+.metadata p {
+margin-bottom: 0.6em !important;
+color: gray;
+}
+
+.op-page-header h2 {
+  padding-top:  0.7em !important;
+}
+
+/* Activity stream */
+
+.wps_activity_item_post {
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #333;
+}
+
+.wps_activity_comment {
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #333;
+}
+
+.wps_activity_comment p {
+  font-size: 1em;
+}
+
+body .wps_activity_post_comment {
+  margin-top: 10px;
+}
+
+
+/* Profile page */
+
+div.profile h1 {
+  margin: 0.5em 0 0.1em;
+  font-family: "museo-sans", sans-serif;
+}
+
+body div.bio-meta {
+  clear: left;
+  margin: 1em 0 2em;
+}
+
+body div.profile h2, body div.bio-meta h2 {
+  font-size: 1.8em;
+  margin-top: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+body div.bio-meta h2 {
+  padding: 0.6em 0 0.3em !important;
+  font-size: 2em;
+}
+
+div.bio-meta p {
+  margin-bottom: 0.6em;
+}
+
+div.profile h3, div.bio-meta h3 {
+  font-size: 1.2em;
+  padding-bottom: 0;
+  margin-bottom: 0.2em;
+  border-bottom: 1px dotted #ddd;
+  font-style: italic;
+  color: #999;
+}
+
+div.col {
+  float: left;
+  width: 31.5%;
+  margin-right: 2.5%;
+}
+
+div.col:last-of-type {
+  margin-right: 0;
+}
+
+div.left {
+  float: left;
+  margin-right: 20px;
+}
+
+div.line {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-bottom: 1em;
+}
+
+.activity_list {
+  padding-top: 20px;
+  margin-top: 25px;
+  border-top: 1px dashed #ddd;
+}
+
+.activity_list h3 {
+margin-bottom: -20px;
+color: #333;
+font-size: 24px;
+font-weight: 300;
+}
+
+.usermeta.second {
+border-top: 1px dashed  #ddd;
+margin-top: 20px;
+clear: left;
+padding-top: 1.5em;
+}
+
+.usermeta.second br {
+  display: none;
+}
+
+.usermeta li {
+list-style: none;
+}
+
+.usermeta h4 {
+font-family: "museo-sans", sans-serif;
+font-size: 18px;
+font-weight: 700;
+margin: 0;
+padding: 0.3em 0 0.3em 0;
+}
+
+.usermeta p {
+font-size: 14px;
+}
+
+body #activity_whoto {
+  margin-bottom: 15px;
+}
+
+/* smaller screens */
+
+@media only screen and (max-width: 985px) {
+  .main-content-area {
+    width: 100% !important;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}
+
+/* smallest screens */
+@media only screen and (max-width: 480px) {
+  
+  body div#wps_forum_search {
+    margin: 0 0 20px;
+    float: right;
+  }
+}
+
+div.op-custom-html-block:empty {
+  display: none;
+}
+
+div.op-custom-html-block:empty {
+  display: none;
+}
+
+/* Facebook comments */
+
+
+.fb_iframe_widget {
+  width: 100%;
+}
+
+.fb_iframe_widget span {
+  display: block !important;
+}
+
+.fb_iframe_widget iframe {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* FROM OPTIMIZEPRESS BLOG SETTINGS SEP 2016 */
+/*
+.single h1.the-title {
+font-family: "museo-slab", sans-serif;
+font-size: 48px;
+margin-top: 20px;
+}
+
+h2.the-title {
+color: #444;
+}
+
+.single h2 {
+font-family: "museo-slab", sans-serif;
+font-size: 30px;
+color: #333;
+margin-top: 1em;
+}
+
+#nav-side.navigation #navigation-alongside {
+margin: 55px 0 0 0 !important;
+}
+
+.main-content .main-sidebar {
+padding-top: 50px;
+}
+
+.main-sidebar .op_signup_form form {
+margin-top: 23px;
+}
+
+body.single .single-post-content .nc_socialPanel:first-child {
+margin-top: 0 !important;
+margin-bottom: 40px !important;
+}
+
+.sw-click-to-tweet {
+margin: 1.5em 0 2.5em 0px;
+}
+
+.sw-click-to-tweet .sw-ctt-btn {
+margin: 15px 0 5px;
+}
+
+.category .older-post:first-child {
+margin-top: 30px;
+}
+
+.category .older-post {
+margin-bottom: 30px;
+}
+
+.category .main-content-area {
+padding-bottom: 150px;
+}
+
+body p {
+font-size: 1.15em;
+}
+
+h4 a {
+line-height: 1.3em !important;
+}
+
+.sidebar-form p {
+font-size: 1.1em;
+line-height: 1.3em;
+}
+
+.op-page-header {
+border-top: 2px solid #eee;
+    background-color: #f4f4f4;
+}
+
+.featured-posts .post-content h2, .latest-post h2 {
+line-height: 1.2em;
+margin-top: 1.25em;
+}
+
+*/
+
+/* Vanguard blog */
+.main-sidebar .widget h4 {
+margin-bottom: 1em;
+}
+
+.gce-feed {
+margin-bottom: 1em;
+}
+
+.gce-feed div:last-child {
+margin: 0.5em 0 2em;
+}
+
+.mejs-container {
+margin-bottom: 1em;
+}
+
+
+/* Sidebar signup fixes */
+
+.sidebar-form input[type=email], .sidebar-form input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  font: 14px Arial !important;
+  padding-bottom: 9px;
+}
+
+.sidebar-form input[type=email]:focus, .sidebar-form input[type=text]:focus {
+  background: white;
+}
+
+
+/************* AVADA ***************/
+
+article h1:first-child {
+  margin-top: 0;
+}
+
+.fusion-logo img {
+  max-width: 250px;
+}
+
+.fusion-is-sticky .fusion-logo img {
+  max-width: 200px;
+}
+
+.category-blog h3 {
+  font-size: 24px;
+}
+
+.latest-blog {
+  background: #105378 url(https://www.inner-throne.com/wp-content/uploads/2015/04/bg-pattern-300x284.png) !important;
+}
+
+.latest-blog .fusion-layout-column {
+  margin-bottom: 0 !important;
+}
+
+.latest-blog h3 {
+  color: white;
+  float: left;
+  font-size: 21px;
+  margin-top: 0;
+}
+
+.latest-blog p {
+  margin: 0 0 0 190px;
+  color: white;
+  line-height: 34px;
+  font-size: 18px;
+}
+
+
+h2.title-heading-center {
+  padding-top: 30px !important;
+}
+
+.slide-content h2, .slide-content h3 {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+/* Avada social styling */
+
+header .fusion-social-links-header .fusion-social-networks.boxed-icons a {
+  text-align: center;
+}
+
+header .fusion-social-networks .fusion-social-network-icon {
+  display: block;
+  float: left;
+  top: auto !important;
+}
+
+header .fusion-social-networks.boxed-icons .fusion-social-networks-wrapper {
+  margin: 0;
+}
+
+
+header .fusion-social-networks.boxed-icons a.fusion-icon-custom {
+  width: auto;
+}
+
+header .fusion-social-links-header .fusion-social-networks a.fusion-icon-custom {
+  padding: 3px 10px 3px 10px !important;
+}
+
+header .fusion-social-networks a.fusion-icon-custom span {
+  clip: auto;
+  position: static;
+}
+
+header .fusion-social-networks a.fusion-icon-custom img {
+  display: none;
+}
+
+header .fusion-social-networks a.fusion-icon-custom span {
+  font-size: 12px;
+  font-family: "PT Sans", sans-serif;
+  padding: 0 12px 0 6px;
+  vertical-align: -3px;
+}
+
+header .fusion-social-networks a.fusion-icon-custom span:before {
+  font-family: "FontAwesome";
+  content: "\f0e0";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  float: left;
+  margin: 8px 0 0 0;
+}
+
+header .fusion-social-links-header .fusion-social-networks.boxed-icons a:nth-of-type(2) {
+  background: #0788c2 !important;
+  /* background: #e62117 !important; */
+}
+
+header .fusion-social-links-header .fusion-social-networks.boxed-icons a:nth-of-type(2) {
+  display: none;
+}
+
+header .fusion-main-menu > ul > li > a:hover {
+  border-color: #03a9f4;
+}
+
+
+
+/* Avada Blog */
+
+h1.entry-title {
+  font-size: 48px;
+  color: #2a2a2a;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+
+#wrapper #main .blog h2.entry-title {
+  font-size: 18px;
+  line-height: 1.25em;
+  margin-bottom: 0.3em;
+}
+
+body .fusion-content-sep {
+  height: 1px;
+  border-top: none;
+}
+
+body #fbComments {
+  padding-top: 1.5em;
+  border-top: 1px solid #e0dede;
+  margin-top: 1.5em;
+}
+
+div.fusion-sharing-box h4 {
+  font-size: 14px;
+}
+
+body .fusion-megamenu {
+  background: #ccc;
+  padding-bottom: 2em;
+}
+
+body .fusion-megamenu .fusion-megamenu-title a {
+  font-size: 18px;
+  font-weight: 900;
+  color: #03a9f4;
+  font-family: "museo-slab", tahoma, sans-serif;
+}
+
+/* AVADA handheld styling */
+
+@media all and (max-width: 800px) {
+
+    .fusion-social-links-header {
+        display: none !important;
+    }
+
+    .fusion-contact-info {
+      padding: 1em 30px 1em 30px !important;
+    }
+
+    .fusion-header {
+      background: #1f1f1f !important;
+    }
+}

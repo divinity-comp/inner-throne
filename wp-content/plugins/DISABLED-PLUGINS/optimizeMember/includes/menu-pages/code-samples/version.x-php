@@ -1,0 +1,12 @@
+<?php echo OPTIMIZEMEMBER_VERSION; ?>
+This may output something like: 110620
+( or whatever the current version number is )
+Use PHP's version_compare() function to test this.
+
+Note: optimizeMember versions now follow their release date.
+Ex: optimizeMember v110620 was released June 20th 2011.
+ ( YYMMDD format )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_VERSION" /]

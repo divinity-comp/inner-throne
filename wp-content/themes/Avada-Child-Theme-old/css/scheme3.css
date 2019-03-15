@@ -1,0 +1,143 @@
+
+
+/************* AVADA color scheme STANDARD BLUE  ***************/
+
+body .latest-blog {
+  background-color: #105378 !important;
+}
+
+body .fusion-secondary-header,
+body .fusion-dropcap.dropcap-boxed,
+body header .fusion-social-links-header .fusion-social-networks.boxed-icons a:nth-of-type(2)
+{
+  background: #0788c2 !important;  
+}
+
+body .title-style-bg,
+body .post-content .fusion-column-wrapper > p > a {
+  background-color: #1a80b6;
+}
+
+header .fusion-main-menu > ul > li > a:hover,
+body .fusion-person.person-rounded .person-desc .person-author .person-title,
+body .reviews .company-name strong,
+body .fusion-megamenu .fusion-megamenu-title a {
+  border-color: #03a9f4;
+}
+
+.post-content .sidebar .fusion-title-size-three,
+body .fusion-pricing-table .standout .panel-heading, 
+body .fusion-pricing-table .standout .panel-body .price .integer-part, 
+body .fusion-pricing-table .standout .panel-body .price .time {
+  background: #84b52d !important;
+}
+
+body .category-community .slides .fusion-image-wrapper:before,
+body .category-new-paradigm .slides .fusion-image-wrapper:before {
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,0.93) 50%, rgba(255,255,255,0.75) 86%, rgba(255,255,255,0.75) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 37%,rgba(255,255,255,0.93) 50%,rgba(255,255,255,0.75) 86%,rgba(255,255,255,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 37%,rgba(255,255,255,0.93) 50%,rgba(255,255,255,0.75) 86%,rgba(255,255,255,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bfffffff',GradientType=0 );
+}
+
+body .post-content .fusion-social-networks.boxed-icons .fusion-social-network-icon.fusion-icon-facebook {
+  background-color: #3b5998 !important;
+}
+
+body #main #content .fusion-post-grid .fusion-single-line-meta a, 
+body #main #content .fusion-post-grid .fusion-meta-info a,
+body #main #content .fusion-post-grid .fusion-read-more:after {
+  color: rgb(3,169,244);
+} 
+
+body #main #content .fusion-post-grid .fusion-meta-info .fusion-alignright a,
+body .fusion-pricing-table .panel-wrapper:nth-of-type(3) .panel-heading,
+body .fusion-pricing-table .panel-wrapper:nth-of-type(3) .panel-body .price .integer-part, 
+body .fusion-pricing-table .panel-wrapper:nth-of-type(3) .panel-body .price .time {
+  color: rgb(244,3,88);
+}
+
+body div.fusion-content-boxes.content-boxes-clean-vertical .link-area-link-icon-hover .heading .heading-link h2,
+body .fusion-content-boxes.content-boxes-clean-vertical .fusion-read-more:hover,
+body .fusion-content-boxes.content-boxes-clean-vertical .fusion-read-more:after,
+body .fusion-content-boxes.content-boxes-clean-vertical .fusion-read-more:hover:after
+body .fusion-pricing-table .fusion-button .fusion-button-text,
+body .flexslider .fusion-button .fusion-button-text,
+body .latest-blog h3,
+body .latest-blog p {
+  color: white !important;
+}
+
+body .post-content .profiles-section h3 strong {
+  color: #f46a00; 
+}
+
+body .profiles-section p {
+  color: #777;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  #upcoming-event a {
+    border-right: 7px solid #03a9f4;
+  }
+}
+
+
+/* Avada pricing table */
+
+body .fusion-pricing-table .panel-heading:before {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+16,ffffff+16,000000+70,000000+100&0.3+0,0+16,0+70,0.15+100 */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 16%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.15) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 16%,rgba(0,0,0,0) 70%,rgba(0,0,0,0.15) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 16%,rgba(0,0,0,0) 70%,rgba(0,0,0,0.15) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#26000000',GradientType=0 ); /* IE6-9 */
+}
+
+body .fusion-pricing-table .standout .fusion-button .fusion-button-text {
+  color: #54770f;
+}
+
+body .fusion-pricing-table .fusion-button:hover .fusion-button-text {
+  color: rgb(255,255,180);
+}
+
+body .fusion-pricing-table .panel-wrapper:nth-of-type(3) .fusion-button {
+  background-image: -webkit-gradient( linear, left bottom, left top, from( #bc0043 ), to( #f40358 ) );
+  background-image: gradient( linear, left bottom, left top, from( #bc0043 ), to( #f40358 ) );
+  box-shadow: inset 0px 1px 0px #ffffff, 0px 4px 0px #930034, 1px 5px 6px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 1px 0px #ffffff, 0px 4px 0px #80002d, 1px 5px 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Fusion buttons */
+
+body .flexslider .fusion-button {
+  background: rgba(244,3,88,0.5);
+}
+
+body .flexslider .fusion-button:hover {
+  background: rgba(7,136,194,0.6);
+  border: none !important;
+}
+
+body .attention-button a {
+  color: #0e254e;
+}
+
+/* Avada Blog */
+
+h1.entry-title {
+  color: #2a2a2a;
+}
+
+
+body #fbComments {
+  border-top: 1px solid #e0dede;
+}
+
+body .fusion-megamenu {
+  background: #ccc;
+  padding-bottom: 2em;
+}
+

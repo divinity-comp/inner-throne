@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_CURRENT_USER_DISPLAY_NAME; ?>
+This may output something like: Johnny
+( this is the User's display name )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_DISPLAY_NAME" /]

@@ -1,0 +1,8 @@
+<?php if (!OPTIMIZEMEMBER_CURRENT_USER_IS_LOGGED_IN){ ?>
+  <a href="<?php echo OPTIMIZEMEMBER_MEMBERSHIP_OPTIONS_PAGE_URL; ?>">Please Signup</a>
+  | <a href="<?php echo OPTIMIZEMEMBER_LOGIN_PAGE_URL; ?>">Or Login</a>
+<?php } ?>
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_MEMBERSHIP_OPTIONS_PAGE_URL" /]

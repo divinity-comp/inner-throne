@@ -1,0 +1,31 @@
+[opmIf current_user_is(optimizemember_level1)]
+	Content for Members at exactly Level# 1, on this Blog.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level2) OR current_user_is_for_blog(24,optimizemember_level2)]
+
+	They are either a Level #2 Member on this Blog,
+	OR ... they're at Level# 2 on Blog ID# 24 ( i.e. Multisite Networking )
+
+		* Note the use of `OR` here. True if either condition is met.
+
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level3) OR current_user_is(optimizemember_level4)]
+
+	Content for Level #3 - OR - Level #4 Members. Either/or.
+
+	Hi there [opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_DISPLAY_NAME" /].
+	You have [opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LABEL" /].
+
+		^ This uses the opmGet Shortcode to retrieve the value of optimizeMember API Constants.
+			These are also documented under: `optimizeMember -> API Scripting`.
+
+		So, this might come out to something like:
+			`Hi there John.
+			You have Gold Membership.`
+
+		Here is a Custom Field value:
+		[opmGet user_field="country_code" /]
+
+[/opmIf]

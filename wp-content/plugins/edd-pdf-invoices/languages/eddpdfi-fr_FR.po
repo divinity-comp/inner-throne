@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads 0 PDF Invoices\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-06 11:10+0100\n"
+"PO-Revision-Date: 2014-03-06 11:21+0100\n"
+"Last-Translator: AppliW Sarl <info@appliw.com>\n"
+"Language-Team: Fred Gourment\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/settings.php:30
+msgid "Email Logo"
+msgstr "Logo pour email"
+
+#: includes/settings.php:31
+msgid "Upload or choose a logo to be displayed at the top of the email"
+msgstr "Choisissez le logo de la facture"
+
+#: includes/settings.php:57
+msgid "PDF Invoice Settings"
+msgstr "Réglages du module factures PDF"
+
+#: includes/settings.php:58
+msgid "Configure the PDF invoice settings"
+msgstr "Configurer le module Factures PDF"
+
+#: includes/settings.php:63
+msgid "Disable Invoices for Free Downloads"
+msgstr "Désactiver les factures pour les produits gratuits"
+
+#: includes/settings.php:64
+msgid "Check this box to disable invoices from being generated for free downloads."
+msgstr "Cochez la case pour les désactiver"
+
+#: includes/settings.php:69
+msgid "Invoice Template"
+msgstr "Modèles de mise en page"
+
+#: includes/settings.php:70
+msgid "Choose a template for the invoice"
+msgstr "Choisissez une mise en page"
+
+#: includes/settings.php:73
+msgid "Default"
+msgstr "Par défaut"
+
+#: includes/settings.php:74
+msgid "Blue Stripe"
+msgstr "Bandeau bleu"
+
+#: includes/settings.php:75
+msgid "Lines"
+msgstr "Avec bordure"
+
+#: includes/settings.php:76
+msgid "Minimal"
+msgstr "Minimale"
+
+#: includes/settings.php:77
+msgid "Traditional"
+msgstr "Traditionnelle"
+
+#: includes/settings.php:78
+msgid "Blue"
+msgstr "Bleue"
+
+#: includes/settings.php:79
+msgid "Green"
+msgstr "Verte"
+
+#: includes/settings.php:80
+msgid "Orange"
+msgstr "Orange"
+
+#: includes/settings.php:81
+msgid "Pink"
+msgstr "Pink"
+
+#: includes/settings.php:82
+msgid "Purple"
+msgstr "Purple"
+
+#: includes/settings.php:83
+msgid "Red"
+msgstr "Red"
+
+#: includes/settings.php:84
+msgid "Yellow"
+msgstr "Yellow"
+
+#: includes/settings.php:89
+msgid "Characters not displaying correctly?"
+msgstr "Problèmes d'affichage de caractères ?"
+
+#: includes/settings.php:90
+msgid "Check to enable the Free Sans/Free Serif font replacing Open Sans/Helvetica/Times. Only do this if you have characters which do not display correctly (e.g. Greek characters)"
+msgstr "Check to enable the Free Sans/Free Serif font replacing Open Sans/Helvetica/Times. Only do this if you have characters which do not display correctly (e.g. Greek characters)"
+
+#: includes/settings.php:95
+msgid "Logo Upload"
+msgstr "Entrez votre Logo"
+
+#: includes/settings.php:96
+msgid "Upload your logo here which will show up on the invoice. If the logo is greater than 90px in height, it will not be shown. On the Traditional template, if the logo is greater than 80px in height, it will not be shown. Also note that the logo will be output at 96 dpi."
+msgstr "Upload your logo here which will show up on the invoice. If the logo is greater than 90px in height, it will not be shown. On the Traditional template, if the logo is greater than 80px in height, it will not be shown. Also note that the logo will be output at 96 dpi."
+
+#: includes/settings.php:101
+msgid "Company Name"
+msgstr "Société"
+
+#: includes/settings.php:102
+msgid "Enter the company name that will be shown on the invoice."
+msgstr "Saisir le nom de l'entreprise à afficher"
+
+#: includes/settings.php:109
+msgid "Name"
+msgstr "Nom"
+
+#: includes/settings.php:110
+msgid "Enter the name that will be shown on the invoice."
+msgstr "Saisir le nom à afficher"
+
+#: includes/settings.php:117
+msgid "Address Line 1"
+msgstr "Adresse ligne 1 "
+
+#: includes/settings.php:118
+msgid "Enter the first address line that will appear on the invoice."
+msgstr "Saisissez la première ligne de l'adresse"
+
+#: includes/settings.php:125
+msgid "Address Line 2"
+msgstr "Adresse ligne 2"
+
+#: includes/settings.php:126
+msgid "Enter the second address line that will appear on the invoice."
+msgstr "Saisissez la seconde  ligne de l'adresse"
+
+#: includes/settings.php:133
+msgid "City, State and Zip Code"
+msgstr "Ville, Etat et Code Postal"
+
+#: includes/settings.php:134
+msgid "Enter the city, state and zip code that will appear on the invoice."
+msgstr "Enter the city, state and zip code that will appear on the invoice."
+
+#: includes/settings.php:141
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: includes/settings.php:142
+msgid "Enter the email address that will appear on the invoice."
+msgstr "Enter the email address that will appear on the invoice."
+
+#: includes/settings.php:149
+msgid "Show website address?"
+msgstr "Show website address?"
+
+#: includes/settings.php:150
+msgid "Check this box if you would like your website address to be shown."
+msgstr "Check this box if you would like your website address to be shown."
+
+#: includes/settings.php:155
+msgid "Header Message"
+msgstr "Header Message"
+
+#: includes/settings.php:156
+msgid "Enter the message you would like to be shown on the header of the invoice. Please note that the header will not show up on the Blue Stripe and Traditional template."
+msgstr "Enter the message you would like to be shown on the header of the invoice. Please note that the header will not show up on the Blue Stripe and Traditional template."
+
+#: includes/settings.php:163
+msgid "Footer Message"
+msgstr "Footer Message"
+
+#: includes/settings.php:164
+msgid "Enter the message you would like to be shown on the footer of the invoice."
+msgstr "Enter the message you would like to be shown on the footer of the invoice."
+
+#: includes/settings.php:171
+msgid "Template Tags"
+msgstr "Template Tags"
+
+#: includes/settings.php:172
+msgid "The following template tags will work for the Header and Footer message as well as the Additional Notes:"
+msgstr "The following template tags will work for the Header and Footer message as well as the Additional Notes:"
+
+#: includes/settings.php:173
+msgid "{page} - Page Number"
+msgstr "{page} - Page Number"
+
+#: includes/settings.php:174
+msgid "{sitename} - Site Name"
+msgstr "{sitename} - Nom du site"
+
+#: includes/settings.php:175
+msgid "{today} - Date of Invoice Generation"
+msgstr "{today} - Date de Generation de Facture"
+
+#: includes/settings.php:176
+msgid "{date} - Invoice Date"
+msgstr "{date} - Date de Facture"
+
+#: includes/settings.php:177
+msgid "{invoice_id} - Invoice ID"
+msgstr "{invoice_id} - N° de facture"
+
+#: includes/settings.php:182
+msgid "Additional Notes"
+msgstr "Notes complémentaires"
+
+#: includes/settings.php:183
+msgid "Enter any messages you would to be displayed at the end of the invoice. Only plain text is currently supported. Any HTML will not be shown on the invoice."
+msgstr "Message personnalisé en fin de facture. Only plain text is currently supported. Any HTML will not be shown on the invoice."
+
+#: includes/i18n.php:16
+msgid "Easy Digital Downloads - PDF Invoices"
+msgstr "Téléchargez votre facture PDF"
+
+#: includes/i18n.php:19
+msgid "Creates PDF Invoices for each purchase available to both admins and customers"
+msgstr "Crée les factures PDF pour le gestionnaire du site et aussi pour les acheteurs"
+
+#: includes/i18n.php:22
+msgid "Sunny Ratilal"
+msgstr "Sunny Ratilal "
+
+#~ msgid "Invoice"
+#~ msgstr "Facture"
+
+#~ msgid "The invoice that you requested was not found."
+#~ msgstr "La facture recherchée n'existe pas"
+
+#~ msgid "Invoice Not Found"
+#~ msgstr "Facture non trouvée"
+
+#~ msgid "Invoice #"
+#~ msgstr "Facture n° #"
+
+#~ msgid "Creates a link to a downloadable invoice"
+#~ msgstr "Creer lien pour la facture téléchargeable"
+
+#~ msgid "Receipt"
+#~ msgstr "Facture"
+
+#~ msgid "Invoice ID"
+#~ msgstr "N° de facture"
+
+#~ msgid "Purchase Key"
+#~ msgstr "Cef de sécurité"
+
+#~ msgid "Payment Status"
+#~ msgstr "Etat du paiement"
+
+#~ msgid "Payment Method"
+#~ msgstr "Mode de paiement"
+
+#~ msgid "Item"
+#~ msgstr "Produit"
+
+#~ msgid "Price"
+#~ msgstr "Prix"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Subtotal"
+#~ msgstr "Sous-total"
+
+#~ msgid "Tax"
+#~ msgstr "TVA"
+
+#~ msgid "Discount Used"
+#~ msgstr "Coupon/code de réduction"
+
+#~ msgid "Total Due"
+#~ msgstr "Total facturé"
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "To"
+#~ msgstr "A"
+
+#~ msgid "Invoice Date"
+#~ msgstr "Date de Facturation"
+
+#~ msgid "Invoice Items"
+#~ msgstr "Produits facturés"
+
+#~ msgid "PRODUCT NAME"
+#~ msgstr "Nom du produit"
+
+#~ msgid "PRICE"
+#~ msgstr "Prix"
+
+#~ msgid "Invoice Totals"
+#~ msgstr "Total facturation"
+
+#~ msgid "INVOICE"
+#~ msgstr "FACTURE"
+
+#~ msgid "INVOICE ID"
+#~ msgstr "N° de facture"
+
+#~ msgid "PURCHASE KEY"
+#~ msgstr "Clef de sécurité"
+
+#~ msgid "PAYMENT STATUS"
+#~ msgstr "Etat du paiement"
+
+#~ msgid "PAYMENT METHOD"
+#~ msgstr "Mode de paiment"
+
+#~ msgid "FROM:"
+#~ msgstr "DE :"
+
+#~ msgid "TO:"
+#~ msgstr "A :"
+
+#~ msgid "INVOICE ITEMS"
+#~ msgstr "Liste des produits "
+
+#~ msgid "Product Name"
+#~ msgstr "Produit : "
+
+#~ msgid "ADDITIONAL NOTES:"
+#~ msgstr "NOTES ADDITIONNELLES :"
+
+#~ msgid "THANK YOU FOR YOUR BUSINESS!"
+#~ msgstr "Merci de votre achat"

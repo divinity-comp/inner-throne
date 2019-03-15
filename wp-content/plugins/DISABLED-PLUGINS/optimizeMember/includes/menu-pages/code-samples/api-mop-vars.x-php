@@ -1,0 +1,55 @@
+-----------------------------------------------------------------------------------------------------------
+Example redirection links, including many of the possible MOP Variable variations.
+-----------------------------------------------------------------------------------------------------------
+
+	.../membership-options-page/?_optimizemember_seeking[post]=369&_optimizemember_req[sp]=369
+	.../membership-options-page/?_optimizemember_seeking[page]=559&_optimizemember_req[sp]=559
+	.../membership-options-page/?_optimizemember_seeking[page]=587&_optimizemember_req[level]=1
+	.../membership-options-page/?_optimizemember_seeking[post]=545&_optimizemember_req[level]=2
+	.../membership-options-page/?_optimizemember_seeking[catg]=698&_optimizemember_req[level]=4
+	.../membership-options-page/?_optimizemember_seeking[ptag]=447&_optimizemember_req[level]=3
+	.../membership-options-page/?_optimizemember_seeking[page]=887&_optimizemember_req[ccap]=music
+	.../membership-options-page/?_optimizemember_seeking[post]=871&_optimizemember_req[ccap]=videos
+	.../membership-options-page/?_optimizemember_seeking[file]=example.zip&_optimizemember_req[level]=1
+	.../membership-options-page/?_optimizemember_seeking[ruri]=aHR0cDov...&_optimizemember_req[level]=1
+
+-----------------------------------------------------------------------------------------------------------
+
+Here is a breakdown on each of these Variables:
+
+	* `_optimizemember_seeking[post|page|catg|ptag|file|ruri]` = ( Post ID, Page ID, Category ID, Tag ID, File, URI )
+		Tip: `_optimizemember_seeking[file]` = ( File path, relative to /optimizemember-files/, or your Amazon S3 Bucket )
+		Tip: `_optimizemember_seeking[ruri]` = ( A base 64 encoded URI; only applies w/ Membership URI Restrictions )
+		Tip: These array elements are mutually exclusive: [post|page|catg|ptag|file|ruri].
+			Only ONE of these array elements ( i.e. Content Types ) will be specified.
+
+	* `_optimizemember_req[level]` = a Membership Level # required for access ( only applies to Membership Level Access )
+	* `_optimizemember_req[ccap]` = a Custom Capability required for access ( only applies to Custom Capability Restrictions )
+	* `_optimizemember_req[sp]` = a Specific Post/Page ID required ( only applies to Specific Post/Page Access Restrictions )
+		Tip: `_optimizemember_req[level|ccap|sp]` are mutually exclusive Requirement Types. 
+		 Only ONE of these three elements will be passed in combination with:
+		 	`_optimizemember_seeking[post|page|catg|ptag|file|ruri]`.
+	
+-----------------------------------------------------------------------------------------------------------
+
+Additional Variables that might be useful to developers:
+
+	* `_optimizemember_seeking[_uri]` = ( A base 64 encoded URI; the URI they were originally seeking )
+		Tip: this is ALWAYS passed through, regardless of which Content Type was protected.
+
+	* `_optimizemember_seeking[type]` = ( A string. One of: post|page|catg|ptag|file|ruri )
+		Tip: this is ALWAYS passed through, regardless of which Content Type was protected.
+
+	* `_optimizemember_req[type]` = ( A string. One of: level|ccap|sp )
+		Tip: this Requirement Type Variable is ALWAYS passed through.
+
+	* `_optimizemember_res[type]` = ( A string. One of: post|page|catg|ptag|file|ruri|ccap|sp|sys )
+		Tip: Actual Restriction Type that's preventing access; may differ from `_optimizemember_seeking[type]`.
+		Tip: Restriction Type `sys` Systematic ( i.e. something optimizeMember protects automatically )
+		Tip: Restriction Type `ccap` represents Custom Capability Restrictions by optimizeMember.
+		Tip: Restriction Type `sp` represents Specific Post/Page Access Restrictions.
+		Tip: this Restriction Type Variable is ALWAYS passed through.
+	
+-----------------------------------------------------------------------------------------------------------
+
+* The use of MOP Vars is 100% completely optional ( for advanced site owners ).

@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_PAYPAL_RETURN_URL; ?>
+This will output something like: http://www.example.com/?optimizemember_paypal_return=1
+( this is used as the Signup Confirmation Page, and also handles PDT/Auto-Return )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_PAYPAL_RETURN_URL" /]

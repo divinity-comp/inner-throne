@@ -1,0 +1,90 @@
+#fellowship-menu {
+	background: #3a595c;
+}
+
+#fellowship-menu  #menu-wrap {
+	max-width: 1150px;
+	margin: 9px auto 0;
+	display: block;
+	padding: 0 15px 0 30px;
+}
+
+#fellowship-menu nav {
+	max-width: 800px;
+	float: left;
+}
+
+#fellowship-menu nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#fellowship-menu nav li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 17px 0 0;
+	min-height: 32px;
+}
+
+#fellowship-menu nav li a {
+	color: rgba(255,255,255,0.7);
+	font-size: 15px;
+	transition: 0.3s all;
+	display: block;
+}
+
+#fellowship-menu nav li a:hover {
+	color: rgba(255,255,255,1);
+	transform: scale(1.05);
+}
+
+#fellowship-menu nav li.current_page_item a {
+	color: rgba(255,255,255,1);
+}
+
+#fellowship-menu .right span {
+	color: rgba(255,255,255,0.8);
+	font-size: 15px;
+}
+
+#fellowship-menu ul#mode-switches {
+	margin: 0 0 0 14px;
+	float: right;
+	padding: 0;
+	display: inline-block;
+}
+
+#fellowship-menu #mode-switches li {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	margin: 0 8px 0 0;
+	opacity: 1;
+	transition: 0.3s all;
+}
+
+#fellowship-menu #mode-switches li.switch-mode {
+	opacity: 0.25;
+	filter: saturate(0%);
+}
+
+#fellowship-menu #mode-switches li a {
+	display: block;
+	width: 26px;
+	height: 26px;
+}
+
+#fellowship-menu #mode-switches li:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+#fellowship-menu #mode-switches li#mode-ryit {
+	background-image: url(../images/nav-ryit-icon.png);
+}
+
+#fellowship-menu #mode-switches li#mode-goals {
+	width: 31px;
+	height: 27px;
+	background-image: url(../images/nav-bullseye-icon.png);
+}

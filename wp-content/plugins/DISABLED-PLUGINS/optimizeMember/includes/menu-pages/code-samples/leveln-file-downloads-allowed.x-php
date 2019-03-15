@@ -1,0 +1,7 @@
+Level #0 Users are allowed to download
+<?php echo OPTIMIZEMEMBER_LEVEL0_FILE_DOWNLOADS_ALLOWED; ?> files
+every <?php OPTIMIZEMEMBER_LEVEL0_FILE_DOWNLOADS_ALLOWED_DAYS; ?> days.
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_LEVEL0_FILE_DOWNLOADS_ALLOWED" /]

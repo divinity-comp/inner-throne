@@ -1,0 +1,29 @@
+[opmIf !current_user_can(access_optimizemember_level4)]
+	
+	Content for someone who does NOT have Level #4 access.
+	Possibly an Upgrade Button here.
+			
+	* Nested PayPal Form/Button Shortcodes ARE fine.
+	[optimizeMember-PayPal-Button level="4" ra="49.95" /]
+				
+[/opmIf]
+
+[opmIf current_user_is(administrator)]
+	Content specifically for a WordPress Administrator.
+[/opmIf]
+
+[opmIf current_user_is(editor)]
+	Content specifically for a WordPress Editor.
+[/opmIf]
+
+[opmIf current_user_is(author)]
+	Content specifically for a WordPress Author.
+[/opmIf]
+
+[opmIf current_user_is(contributor)]
+	Content specifically for a WordPress Contributor.
+[/opmIf]
+
+[opmIf current_user_is(subscriber)]
+	Content specifically for a WordPress Subscriber.
+[/opmIf]

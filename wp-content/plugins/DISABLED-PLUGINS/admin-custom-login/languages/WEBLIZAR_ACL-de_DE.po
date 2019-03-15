@@ -1,0 +1,1677 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: admin-custom-login\n"
+"POT-Creation-Date: 2016-11-08 16:03+0530\n"
+"PO-Revision-Date: 2016-11-08 16:03+0530\n"
+"Last-Translator: Markus Petautschnig <markus_petautschnig@yahoo.de>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../admin-custom-login/admin-custom-login.php:106
+#: ../admin-custom-login/admin-custom-login.php:112
+msgid "User Name"
+msgstr "Benutzername"
+
+#: ../admin-custom-login/admin-custom-login.php:107
+#: ../admin-custom-login/admin-custom-login.php:113
+msgid "Password"
+msgstr "Passwort"
+
+#: ../admin-custom-login/admin-custom-login.php:123
+msgid "Contact Us:"
+msgstr "Kontaktieren Sie uns:"
+
+#: ../admin-custom-login/admin-custom-login.php:374
+msgid "Please upload a valid .json file"
+msgstr "Bitte eine gültige .json-Datei hochladen!"
+
+#: ../admin-custom-login/admin-custom-login.php:380
+msgid "Please upload a file to import"
+msgstr "Bitte eine Datei, für den Import, hochladen!"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:215
+msgid "Login Settings"
+msgstr "Anmeldeeinstellungen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:228
+msgid "Login Form Position"
+msgstr "Anmeldeformularposition"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:234
+msgid "Default"
+msgstr "Standard"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:235
+msgid "Floating"
+msgstr "Schwimmend"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:236
+msgid "Floating With Customization"
+msgstr "Schwimmend mit Anpassung"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:247
+msgid "Float Settings"
+msgstr "Einstellungen für Schwimmen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:253
+msgid "Left"
+msgstr "Links"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:256
+msgid "Center"
+msgstr "Mitte"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:259
+msgid "Right"
+msgstr "Rechts"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:269
+msgid "Floating With Customization Settings"
+msgstr "Schwimmend mit angepassten Einstellungen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:290
+msgid "Note: This form position setting will be not responsive."
+msgstr ""
+"Hinweis: Die Einstellungen für die Position des Formulars ist nicht "
+"responsive!"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:300
+#: ../admin-custom-login/includes/design/background.php:99
+msgid "Select Background"
+msgstr "Wähle Hintergrund"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:306
+#: ../admin-custom-login/includes/design/background.php:106
+msgid "Select background"
+msgstr "Wähle Hintergrund"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:307
+#: ../admin-custom-login/includes/design/background.php:107
+msgid "Static Background Color"
+msgstr "Statische Hintergrund Farbe"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:308
+#: ../admin-custom-login/includes/design/background.php:108
+msgid "Static Background Image"
+msgstr "Statisches Hintergrund Bild"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:324
+#: ../admin-custom-login/includes/design/background.php:127
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:339
+msgid "Login Form Opacity"
+msgstr "Anmeldeformular Deckkraft"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:361
+#: ../admin-custom-login/includes/design/background.php:149
+#: ../admin-custom-login/includes/design/background.php:168
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:366
+#: ../admin-custom-login/includes/design/background.php:154
+#: ../admin-custom-login/includes/settings/page-settings.php:63
+msgid "No media selected!"
+msgstr "Kein Medium gewählt!"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:367
+#: ../admin-custom-login/includes/design/background.php:156
+#: ../admin-custom-login/includes/settings/page-settings.php:64
+msgid "Upload"
+msgstr "Hochladen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:369
+#: ../admin-custom-login/includes/settings/page-settings.php:66
+msgid "preview"
+msgstr "Vorschau"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:371
+#: ../admin-custom-login/includes/design/background.php:160
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:379
+#: ../admin-custom-login/includes/settings/page-settings.php:74
+msgid "Login Background Image"
+msgstr "Login Hintergrund Bild"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:385
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:616
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:630
+#: ../admin-custom-login/includes/dashboard/dashboard.php:66
+#: ../admin-custom-login/includes/dashboard/dashboard.php:80
+#: ../admin-custom-login/includes/design/background.php:176
+#: ../admin-custom-login/includes/design/background.php:365
+#: ../admin-custom-login/includes/design/background.php:380
+#: ../admin-custom-login/includes/design/text_and_color.php:2636
+#: ../admin-custom-login/includes/design/text_and_color.php:2651
+#: ../admin-custom-login/includes/settings/page-settings.php:80
+#: ../admin-custom-login/includes/settings/page-settings.php:164
+#: ../admin-custom-login/includes/settings/page-settings.php:178
+#: ../admin-custom-login/includes/social/social.php:187
+#: ../admin-custom-login/includes/social/social.php:201
+msgid "Close"
+msgstr "Schließen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:400
+#: ../admin-custom-login/includes/design/background.php:209
+msgid "Background Repeat"
+msgstr "Hintergrund wiederholen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:406
+#: ../admin-custom-login/includes/design/background.php:216
+msgid "No Repeat "
+msgstr "Kein wiederholen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:407
+#: ../admin-custom-login/includes/design/background.php:217
+msgid "Repeat"
+msgstr "Wiederholen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:408
+#: ../admin-custom-login/includes/design/background.php:218
+msgid "Repeat Horizontally"
+msgstr "Horizontal wiederholen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:409
+#: ../admin-custom-login/includes/design/background.php:219
+msgid "Repeat Vertically"
+msgstr "Vertikal wiederholen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:420
+#: ../admin-custom-login/includes/design/background.php:231
+msgid "Background Position "
+msgstr "Hintergrund Position"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:426
+#: ../admin-custom-login/includes/design/background.php:237
+msgid "Left Top"
+msgstr "Links Oben"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:427
+#: ../admin-custom-login/includes/design/background.php:238
+msgid "Left Center"
+msgstr "Links Mitte"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:428
+#: ../admin-custom-login/includes/design/background.php:239
+msgid "Left Bottom"
+msgstr "Links Unten"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:429
+#: ../admin-custom-login/includes/design/background.php:240
+msgid "Right Top"
+msgstr "Rechts Oben"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:430
+#: ../admin-custom-login/includes/design/background.php:241
+msgid "Right Center"
+msgstr "Rechts Mitte"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:431
+#: ../admin-custom-login/includes/design/background.php:242
+msgid "Right Bottom"
+msgstr "Rechts UNten"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:432
+#: ../admin-custom-login/includes/design/background.php:243
+msgid "Center Top"
+msgstr "Mitte Oben"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:433
+#: ../admin-custom-login/includes/design/background.php:244
+msgid "Center Center"
+msgstr "Mitte Mitte"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:434
+#: ../admin-custom-login/includes/design/background.php:245
+msgid "Center Bottom"
+msgstr "Mitte Unten"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:446
+msgid "Background Effect"
+msgstr "Hintergrund Effekt"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:452
+msgid "Select overlay effect"
+msgstr "Wähle Überlappungseffekt"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:453
+msgid "No Overlay Effect"
+msgstr "Kein Überlappungseffekt"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:454
+msgid "Overlay Effect 1"
+msgstr "Überlappungseffekt 1"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:455
+msgid "Overlay Effect 2"
+msgstr "Überlappungseffekt 2"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:456
+msgid "Overlay Effect 3"
+msgstr "Überlappungseffekt 3"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:469
+msgid "Login Form Width"
+msgstr "Anmeldeformular Weite"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:486
+msgid "Border Color"
+msgstr "Umrandungsfarbe"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:501
+msgid "Border Radius"
+msgstr "Umrandungsradius"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:518
+msgid "Border Style"
+msgstr "Umrandungsstil"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:524
+msgid "None"
+msgstr "Keinen"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:525
+msgid "Solid"
+msgstr "Solide"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:526
+msgid "Dotted"
+msgstr "Gepunktet"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:527
+msgid "Dashed"
+msgstr "Gestrichelt"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:528
+msgid "Double"
+msgstr "Doppelt"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:539
+msgid "Border Thickness"
+msgstr "Umrandungsdicke"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:556
+msgid "Enable form shadow?"
+msgstr "Aktiviere Formularschatten?"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:562
+#: ../admin-custom-login/includes/design/background.php:197
+#: ../admin-custom-login/includes/design/text_and_color.php:286
+#: ../admin-custom-login/includes/design/text_and_color.php:2573
+msgid "Yes"
+msgstr "Ja"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:565
+#: ../admin-custom-login/includes/design/text_and_color.php:289
+#: ../admin-custom-login/includes/design/text_and_color.php:2576
+msgid "No"
+msgstr "Nein"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:576
+msgid "Form Shadow Color"
+msgstr "Formularschatten Farbe"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:591
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:596
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:598
+msgid "Enter any custom css you want to apply on login panel."
+msgstr ""
+"Fügen Sie einen beliebigen, benutzerdefinierten CSS-Code ein, den Sie dem "
+"Anmelde-Panel hinzufügen möchten"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:599
+msgid "Note: Please Do Not Use"
+msgstr "Hinweis: Bitte nicht verwenden!"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:599
+msgid "Tag With Custom CSS"
+msgstr "Tag nicht mit benutzerdefiniertem CSS-Code verbinden."
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:616
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:630
+msgid "Login "
+msgstr "Login"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:616
+#: ../admin-custom-login/includes/dashboard/dashboard.php:66
+#: ../admin-custom-login/includes/design/background.php:365
+#: ../admin-custom-login/includes/design/text_and_color.php:2636
+#: ../admin-custom-login/includes/settings/page-settings.php:164
+#: ../admin-custom-login/includes/social/social.php:187
+msgid "Setting Save Successfully"
+msgstr "Einstellungen erfolgreich gespeichert!"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:630
+#: ../admin-custom-login/includes/dashboard/dashboard.php:80
+#: ../admin-custom-login/includes/design/background.php:380
+#: ../admin-custom-login/includes/design/text_and_color.php:2651
+#: ../admin-custom-login/includes/settings/page-settings.php:178
+#: ../admin-custom-login/includes/social/social.php:201
+msgid "Setting Reset Successfully"
+msgstr "Einstellungen erfolgreich zurückgesetzt!"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:637
+#: ../admin-custom-login/includes/dashboard/dashboard.php:87
+#: ../admin-custom-login/includes/design/background.php:388
+#: ../admin-custom-login/includes/design/text_and_color.php:2659
+#: ../admin-custom-login/includes/settings/page-settings.php:185
+#: ../admin-custom-login/includes/social/social.php:208
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: ../admin-custom-login/includes/Login-form-setting/Login-form-background.php:640
+#: ../admin-custom-login/includes/dashboard/dashboard.php:90
+#: ../admin-custom-login/includes/design/background.php:391
+#: ../admin-custom-login/includes/design/text_and_color.php:2662
+#: ../admin-custom-login/includes/settings/page-settings.php:188
+#: ../admin-custom-login/includes/social/social.php:211
+msgid "Reset Default"
+msgstr "Auf Standard zurücksetzten"
+
+#: ../admin-custom-login/includes/content.php:58
+msgid "Admin Custom Login"
+msgstr "Admin Custom Login"
+
+#: ../admin-custom-login/includes/content.php:93
+msgid "Powered By"
+msgstr "Bereitgestellt von"
+
+#: ../admin-custom-login/includes/content.php:95
+msgid "Weblizar"
+msgstr "Weblizar"
+
+#: ../admin-custom-login/includes/content.php:117
+msgid "Show Us Some Love (Rate Us)"
+msgstr ""
+
+#: ../admin-custom-login/includes/content.php:133
+msgid "Dashboard"
+msgstr "Armaturenbrett"
+
+#: ../admin-custom-login/includes/content.php:134
+msgid "Application overview"
+msgstr "Anwendungsübersicht"
+
+#: ../admin-custom-login/includes/content.php:143
+msgid "Background Design"
+msgstr "Hintergrund Design"
+
+#: ../admin-custom-login/includes/content.php:144
+msgid "Modify Background design here"
+msgstr "Hintergrunddesign hier ändern"
+
+#: ../admin-custom-login/includes/content.php:154
+msgid "Login form Setting"
+msgstr "Formular Einstell..."
+
+#: ../admin-custom-login/includes/content.php:155
+msgid "Modify Login design here"
+msgstr "Login Design hier ändern"
+
+#: ../admin-custom-login/includes/content.php:165
+msgid "Font Setting"
+msgstr "Schrift Einstell..."
+
+#: ../admin-custom-login/includes/content.php:166
+msgid "Modify Login Form Style here"
+msgstr "Anmeldeformular-Stil hier ändern"
+
+#: ../admin-custom-login/includes/content.php:176
+#: ../admin-custom-login/includes/settings/page-settings.php:46
+msgid "Logo Settings"
+msgstr "Logo Einstellungen"
+
+#: ../admin-custom-login/includes/content.php:177
+msgid "Customize Logo Settings here"
+msgstr "Logo Einstellungen hier personalisieren"
+
+#: ../admin-custom-login/includes/content.php:188
+#: ../admin-custom-login/includes/social/social.php:17
+msgid "Social Settings"
+msgstr "Social Einstell..."
+
+#: ../admin-custom-login/includes/content.php:189
+msgid "Connect with your social profile"
+msgstr "Verknüpfen Sie Ihre Sozialen Profile"
+
+#: ../admin-custom-login/includes/content.php:199
+msgid "Export / Import"
+msgstr "Export/Import"
+
+#: ../admin-custom-login/includes/content.php:200
+msgid "Export / Import Your Data"
+msgstr "Export / Import Ihrer Daten"
+
+#: ../admin-custom-login/includes/content.php:209
+msgid "Recommendations"
+msgstr "Empfehlungen"
+
+#: ../admin-custom-login/includes/content.php:210
+msgid "Get More Free Useful Plugins"
+msgstr "Erhalten Sie weitere kostenlose nützliche Plugins..."
+
+#: ../admin-custom-login/includes/content.php:219
+#: ../admin-custom-login/includes/help/help.php:11
+msgid "Help And Support"
+msgstr "Hilfe und Support"
+
+#: ../admin-custom-login/includes/content.php:220
+msgid "Ask your query"
+msgstr "Suchanfrage eingeben"
+
+#: ../admin-custom-login/includes/content.php:229
+msgid "Please rate us "
+msgstr "Bewerten Sie uns"
+
+#: ../admin-custom-login/includes/content.php:230
+msgid "If you like us"
+msgstr "Wenn Sie uns mögen"
+
+#: ../admin-custom-login/includes/dashboard/dashboard.php:11
+msgid "Admin Custom Login Dashboard"
+msgstr "Admin Custom Login Armaturenbrett"
+
+#: ../admin-custom-login/includes/dashboard/dashboard.php:23
+msgid "Admin Custom Login Status"
+msgstr "Admin Custom Login Status"
+
+#: ../admin-custom-login/includes/dashboard/dashboard.php:29
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: ../admin-custom-login/includes/dashboard/dashboard.php:32
+#, fuzzy
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: ../admin-custom-login/includes/dashboard/dashboard.php:43
+msgid "View Login Page"
+msgstr "Login Seite ansehen"
+
+#: ../admin-custom-login/includes/dashboard/dashboard.php:48
+msgid "Copy below link and open in another browser where you are not logged in"
+msgstr ""
+
+#: ../admin-custom-login/includes/dashboard/dashboard.php:66
+#: ../admin-custom-login/includes/dashboard/dashboard.php:80
+msgid "Dashboard "
+msgstr "Armaturenbrett"
+
+#: ../admin-custom-login/includes/design/background.php:87
+msgid "Background Settings"
+msgstr "Hintergrund Einstellungen"
+
+#: ../admin-custom-login/includes/design/background.php:105
+msgid "No background Selected"
+msgstr "Kein Hintergrund gewählt"
+
+#: ../admin-custom-login/includes/design/background.php:109
+msgid "Background SlideShow"
+msgstr "Hintergrund Slideshow"
+
+#: ../admin-custom-login/includes/design/background.php:158
+msgid "Preview"
+msgstr "Vorschau"
+
+#: ../admin-custom-login/includes/design/background.php:192
+msgid "Cover or Strech"
+msgstr "Überlappen oder Strecken"
+
+#: ../admin-custom-login/includes/design/background.php:257
+msgid "Background Attachment"
+msgstr "Hintergrund Fixierung"
+
+#: ../admin-custom-login/includes/design/background.php:263
+msgid "Fixed"
+msgstr "Fixiert"
+
+#: ../admin-custom-login/includes/design/background.php:264
+msgid "Scroll"
+msgstr "Scrollen"
+
+#: ../admin-custom-login/includes/design/background.php:265
+msgid "Inherit"
+msgstr "Vererbt"
+
+#: ../admin-custom-login/includes/design/background.php:284
+#: ../admin-custom-login/includes/design/background.php:306
+msgid "No. Of Background Slideshow"
+msgstr "Nr. der Hintergrund Slideshow"
+
+#: ../admin-custom-login/includes/design/background.php:290
+msgid "Select Number of Slide Show"
+msgstr "Wähle Anzahl der Slideshow"
+
+#: ../admin-custom-login/includes/design/background.php:291
+msgid "2"
+msgstr "2"
+
+#: ../admin-custom-login/includes/design/background.php:292
+msgid "3"
+msgstr "3"
+
+#: ../admin-custom-login/includes/design/background.php:293
+msgid "4"
+msgstr "4"
+
+#: ../admin-custom-login/includes/design/background.php:294
+msgid "5"
+msgstr "5"
+
+#: ../admin-custom-login/includes/design/background.php:295
+msgid "6"
+msgstr "6"
+
+#: ../admin-custom-login/includes/design/background.php:336
+msgid "Slider Animation"
+msgstr "Slider Animation"
+
+#: ../admin-custom-login/includes/design/background.php:343
+msgid "Slider Animation 1"
+msgstr "Slider Animation 1"
+
+#: ../admin-custom-login/includes/design/background.php:344
+msgid "Slider Animation 2"
+msgstr "Slider Animation 2"
+
+#: ../admin-custom-login/includes/design/background.php:345
+msgid "Slider Animation 3"
+msgstr "Slider Animation 3"
+
+#: ../admin-custom-login/includes/design/background.php:346
+msgid "Slider Animation 4"
+msgstr "Slider Animation 4"
+
+#: ../admin-custom-login/includes/design/background.php:365
+#: ../admin-custom-login/includes/design/background.php:380
+msgid "Top Background "
+msgstr "Top Hintergrund"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:131
+msgid "Text And Color Settings"
+msgstr "Text und Farbeinstellungen"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:144
+msgid "Headline Font Color"
+msgstr "Überschrift Schriftfarbe"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:160
+msgid "Input Font Color"
+msgstr "Eingabe Schriftfarbe"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:176
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:192
+msgid "Button Color"
+msgstr "Knopffarbe"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:208
+msgid "Headline Font size"
+msgstr "Überschrift Schriftgröße"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:226
+msgid "Input Font Size"
+msgstr "Eingabe Schriftgröße"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:244
+msgid "Link Font Size"
+msgstr "Link Schriftgröße"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:262
+msgid "Button Font Size"
+msgstr "Knopf Schriftgröße"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:280
+msgid "Enable Link shadow?"
+msgstr "Aktiviere Linkschatten?"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:301
+msgid "Link Shadow Color"
+msgstr "Linkschatten Farbe"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:317
+msgid "Headline Font Style"
+msgstr "Überschrift Schrift Stil"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:879
+msgid "Input Font Style"
+msgstr "Eingabe Schrift Stil"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:1441
+msgid "Link Font Style"
+msgstr "Link Schrift Stil"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:2004
+msgid "Button Font Style"
+msgstr "Knopf Schrift Stil"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:2567
+msgid "Enable Input Box Icon?"
+msgstr "Aktiviere Eingabebox Icon?"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:2587
+msgid "Icon For user Input Box"
+msgstr "Icon für Benutzername Eingabebox"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:2608
+msgid "Icon For Password Input Box"
+msgstr "Icon für Passwort Eingabebox"
+
+#: ../admin-custom-login/includes/design/text_and_color.php:2636
+#: ../admin-custom-login/includes/design/text_and_color.php:2651
+msgid "Text and Color "
+msgstr "Text und Farbe"
+
+#: ../admin-custom-login/includes/help/help.php:24
+msgid "View Support Docs or Open a Ticket"
+msgstr "Support Dokumente anzeigen, oder Ticket öffnen."
+
+#: ../admin-custom-login/includes/help/help.php:34
+#: ../admin-custom-login/includes/help/rate.php:11
+#: ../admin-custom-login/includes/help/rate.php:35
+msgid "Rate Us"
+msgstr "Bewerten Sie uns"
+
+#: ../admin-custom-login/includes/help/help.php:56
+msgid ""
+"If you are enjoying using our Admin Custom Login plugin and find it useful, "
+"then please consider writing a positive feedback. Your feedback will help us "
+"to encourage and support the plugins continued development and better user "
+"support."
+msgstr ""
+
+#: ../admin-custom-login/includes/help/help.php:74
+msgid "Share Us Your Suggestion"
+msgstr "Teilen Sie Ihre Vorschläge mit uns."
+
+#: ../admin-custom-login/includes/help/help.php:80
+msgid ""
+"If you have any suggestion or features in your mind then please share us. We "
+"will try our best to add them in this plugin."
+msgstr ""
+
+#: ../admin-custom-login/includes/help/help.php:92
+msgid "Language Contribution "
+msgstr "Zur Übersetzung beitragen "
+
+#: ../admin-custom-login/includes/help/help.php:97
+msgid " Translate this plugin into your language"
+msgstr ""
+
+#: ../admin-custom-login/includes/help/help.php:98
+msgid "Question : How to convert Plguin into My Language ?"
+msgstr ""
+
+#: ../admin-custom-login/includes/help/help.php:99
+msgid "here is solution"
+msgstr "Hier geht's zur Lösung"
+
+#: ../admin-custom-login/includes/help/rate.php:25
+msgid ""
+"We need your feedback for improve our plugin functionality on WordPress. So, "
+"if you like our plugin then please rate us"
+msgstr ""
+
+#: ../admin-custom-login/includes/import-export-setting/import_export.php:9
+msgid "Export Custom Login Data "
+msgstr "Exportiere benutzerdefinierte Anmeldedaten"
+
+#: ../admin-custom-login/includes/import-export-setting/import_export.php:15
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Exportieren Sie die Plugin-Einstellungen für diese Webseite als .json-Datei. "
+"Auf diese Weise können Sie die Konfiguration einfach in eine andere Seite "
+"importieren."
+
+#: ../admin-custom-login/includes/import-export-setting/import_export.php:34
+msgid "Import Custom Login Data "
+msgstr "Exportiere benutzerdefinierte Anmeldedaten"
+
+#: ../admin-custom-login/includes/import-export-setting/import_export.php:40
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Importieren Sie die Plugin-Einstellungen aus einer .json-Datei. Diese Datei "
+"kann durch die Nutzung der obigen Funktion auf einer anderen Webseite "
+"exportiert werden."
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:14
+msgid "Plugin Recommendation"
+msgstr "Plugin-Empfehlungen"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:74
+#, php-format
+msgid "%s rating"
+msgstr "%s Bewertung"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:93
+msgid "Get More Free Wordpress Plguins From Weblizar"
+msgstr "Erhalten Sie weitere kostenlose Wordpress Plugins von Weblizar"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:142
+msgid "More Details"
+msgstr "Mehr Details"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:153
+msgid "Install Now"
+msgstr "Jetzt installieren"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:160
+msgid "Update Now"
+msgstr "Jetzt aktualisieren"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:187
+msgid "By "
+msgstr "Von"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:206
+#: ../admin-custom-login/includes/recommendations/recommendations.php:216
+#: ../admin-custom-login/includes/recommendations/recommendations.php:226
+#: ../admin-custom-login/includes/recommendations/recommendations.php:236
+#: ../admin-custom-login/includes/recommendations/recommendations.php:246
+#: ../admin-custom-login/includes/recommendations/recommendations.php:256
+msgid "Premium Editions"
+msgstr "Premium-Editionen"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:209
+#: ../admin-custom-login/includes/recommendations/recommendations.php:219
+#: ../admin-custom-login/includes/recommendations/recommendations.php:229
+#: ../admin-custom-login/includes/recommendations/recommendations.php:239
+#: ../admin-custom-login/includes/recommendations/recommendations.php:249
+#: ../admin-custom-login/includes/recommendations/recommendations.php:259
+msgid "Visit Website"
+msgstr "Webseite besuchen"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:277
+msgid "Last Updated:"
+msgstr "Letzte Änderung:"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:288
+msgid "<strong>Untested</strong> with your version of WordPress"
+msgstr "<strong>Ungetestet</strong> mit Ihrer Version von WordPress!"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:292
+msgid "Incompatible with your version of WordPress"
+msgstr "<strong>Inkompatibel</strong> mit Ihrer WordPress-Version!"
+
+#: ../admin-custom-login/includes/recommendations/recommendations.php:296
+msgid "Compatible with your version of WordPress"
+msgstr "<strong>Kompatibel</strong> mit Ihrer WordPress-Version!"
+
+#: ../admin-custom-login/includes/settings/page-settings.php:58
+msgid "Logo"
+msgstr "Logo"
+
+#: ../admin-custom-login/includes/settings/page-settings.php:94
+msgid "Logo Width"
+msgstr "Logo Weite"
+
+#: ../admin-custom-login/includes/settings/page-settings.php:111
+msgid "Logo Height"
+msgstr "Logo Höhe"
+
+#: ../admin-custom-login/includes/settings/page-settings.php:128
+#: ../admin-custom-login/includes/settings/page-settings.php:133
+msgid "Logo URL"
+msgstr "Logo URL"
+
+#: ../admin-custom-login/includes/settings/page-settings.php:143
+#: ../admin-custom-login/includes/settings/page-settings.php:148
+msgid "Logo URL Title"
+msgstr "Logo URL Titel"
+
+#: ../admin-custom-login/includes/settings/page-settings.php:164
+#: ../admin-custom-login/includes/settings/page-settings.php:178
+msgid "Logo "
+msgstr "Logo"
+
+#: ../admin-custom-login/includes/social/social.php:29
+msgid "Enable Social Icons"
+msgstr "Aktiviere Soziale Icons"
+
+#: ../admin-custom-login/includes/social/social.php:35
+msgid "No Icon"
+msgstr "Keine Icons"
+
+#: ../admin-custom-login/includes/social/social.php:36
+msgid "Inner"
+msgstr "Innen"
+
+#: ../admin-custom-login/includes/social/social.php:37
+msgid "Outer"
+msgstr "Außen"
+
+#: ../admin-custom-login/includes/social/social.php:38
+msgid "Both"
+msgstr "Beide"
+
+#: ../admin-custom-login/includes/social/social.php:49
+msgid "Social Media Icon Size"
+msgstr "Social Media Icon Größe"
+
+#: ../admin-custom-login/includes/social/social.php:55
+msgid "Small"
+msgstr "Klein"
+
+#: ../admin-custom-login/includes/social/social.php:58
+msgid "Medium"
+msgstr "Mittel"
+
+#: ../admin-custom-login/includes/social/social.php:61
+msgid "Large"
+msgstr "Groß"
+
+#: ../admin-custom-login/includes/social/social.php:72
+msgid "Social Media Icon Layout"
+msgstr "Social Media Icon Layout"
+
+#: ../admin-custom-login/includes/social/social.php:78
+msgid "Rectangle"
+msgstr "Rechteckig"
+
+#: ../admin-custom-login/includes/social/social.php:81
+msgid "Circle"
+msgstr "Rund"
+
+#: ../admin-custom-login/includes/social/social.php:92
+msgid "Social Media Icon Color"
+msgstr "Social Media Icon Farbe"
+
+#: ../admin-custom-login/includes/social/social.php:107
+msgid "Social Media Icon Color On Hover"
+msgstr "Social Media Icon Farbe bei Draufzeigen"
+
+#: ../admin-custom-login/includes/social/social.php:122
+msgid "Social Media Icon Background Color"
+msgstr "Social Media Icon Hintergrundfarbe"
+
+#: ../admin-custom-login/includes/social/social.php:137
+msgid "Social Media Background Color On Hover"
+msgstr "Social Media Hintergrundfarbe bei Draufzeigen"
+
+#: ../admin-custom-login/includes/social/social.php:152
+msgid "Social Profiles"
+msgstr "Social Profile"
+
+#: ../admin-custom-login/includes/social/social.php:157
+msgid "Enter your social profiles complete url here"
+msgstr "Gib hier deine Social Profil URL ein"
+
+#: ../admin-custom-login/includes/social/social.php:159
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../admin-custom-login/includes/social/social.php:160
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../admin-custom-login/includes/social/social.php:161
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: ../admin-custom-login/includes/social/social.php:162
+msgid "google plus"
+msgstr "Google+"
+
+#: ../admin-custom-login/includes/social/social.php:163
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../admin-custom-login/includes/social/social.php:164
+msgid "Digg"
+msgstr "Digg"
+
+#: ../admin-custom-login/includes/social/social.php:165
+msgid "Youtube"
+msgstr "Youtube"
+
+#: ../admin-custom-login/includes/social/social.php:166
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../admin-custom-login/includes/social/social.php:167
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: ../admin-custom-login/includes/social/social.php:168
+msgid "VKontakte"
+msgstr "VKontakte"
+
+#: ../admin-custom-login/includes/social/social.php:169
+msgid "Skype"
+msgstr "Skype"
+
+#: ../admin-custom-login/includes/social/social.php:170
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../admin-custom-login/includes/social/social.php:187
+#: ../admin-custom-login/includes/social/social.php:201
+msgid "Social "
+msgstr "Social"
+
+#: ../akismet/class.akismet-admin.php:70
+msgid "Comment History"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:86 ../akismet/class.akismet-admin.php:209
+msgid "Settings"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:93 ../akismet/class.akismet-admin.php:95
+msgid "Akismet"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:122
+msgid "Remove this URL"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:123
+msgid "Removing..."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:124
+msgid "URL removed"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:125
+msgid "(undo)"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:126
+msgid "Re-adding..."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:147
+#: ../akismet/class.akismet-admin.php:185
+#: ../akismet/class.akismet-admin.php:198
+msgid "Overview"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:158
+msgid "New to Akismet"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:162
+#, php-format
+msgid "Sign up for an account on %s to get an API Key."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:169
+msgid "Enter an API Key"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:221
+msgid "Account"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:241
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:320
+#, php-format
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:332
+#, php-format
+msgid ""
+"There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:456
+msgid "Awaiting spam check"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:460
+msgid "Flagged as spam by Akismet"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:462
+msgid "Cleared by Akismet"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:466
+#, php-format
+msgid "Flagged as spam by %s"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:468
+#, php-format
+msgid "Un-spammed by %s"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:525
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:528
+msgid "Akismet caught this comment as spam."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:531
+msgid "Akismet re-checked and cleared this comment."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:534
+msgid "Akismet cleared this comment."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:537
+msgid "Comment was caught by wp_blacklist_check."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:541
+#, php-format
+msgid "%s reported this comment as spam."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:544
+msgid "This comment was reported as spam."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:549
+#, php-format
+msgid "%s reported this comment as not spam."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:552
+msgid "This comment was reported as not spam."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:556
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:559
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:563
+#, php-format
+msgid ""
+"Akismet was unable to check this comment (response: %s) but will "
+"automatically retry later."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:568
+#, php-format
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:576
+#, php-format
+msgid "Comment status was changed to %s"
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:582
+#, php-format
+msgid "%1$s changed the comment status to %2$s."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:791
+#, php-format
+msgid ""
+"Please check your <a href=\"%s\">Akismet configuration</a> and contact your "
+"web host if problems persist."
+msgstr ""
+
+#: ../akismet/class.akismet-admin.php:886
+msgid "Cleaning up spam takes time."
+msgstr ""
+
+#: ../akismet/class.akismet-cli.php:36
+#, php-format
+msgid "Comment #%d is spam."
+msgstr ""
+
+#: ../akismet/class.akismet-cli.php:39
+#, php-format
+msgid "Comment #%d is not spam."
+msgstr ""
+
+#: ../akismet/class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr ""
+
+#: ../akismet/class.akismet-cli.php:46
+#, php-format
+msgid "Comment #%d could not be checked."
+msgstr ""
+
+#: ../akismet/class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr ""
+
+#: ../akismet/class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr ""
+
+#: ../akismet/class.akismet-widget.php:69
+#: ../akismet/class.akismet-widget.php:90
+msgid "Spam Blocked"
+msgstr ""
+
+#: ../akismet/class.akismet.php:455
+msgid "Comment not found."
+msgstr ""
+
+#: ../akismet/class.akismet.php:1142 ../akismet/views/notice.php:24
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a "
+"href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr ""
+
+#: ../akismet/views/config.php:204
+msgid "Upgrade"
+msgstr ""
+
+#: ../akismet/views/config.php:204
+msgid "Change"
+msgstr ""
+
+#: ../akismet/views/notice.php:11
+msgid "<strong>Almost done</strong> - activate Akismet and say goodbye to spam"
+msgstr ""
+
+#: ../akismet/views/notice.php:18
+msgid ""
+"Some comments have not yet been checked for spam by Akismet. They have been "
+"temporarily held for moderation and will automatically be rechecked later."
+msgstr ""
+
+#: ../akismet/views/notice.php:47
+#, php-format
+msgid ""
+"Your web host or server administrator has disabled PHP&#8217;s "
+"<code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly "
+"until this is fixed.</strong>  Please contact your web host or firewall "
+"administrator and give them <a href=\"%s\" target=\"_blank\">this "
+"information about Akismet&#8217;s system requirements</a>."
+msgstr ""
+
+#: ../akismet/views/notice.php:52
+#, php-format
+msgid ""
+"Your firewall may be blocking Akismet. Please contact your host and refer to "
+"<a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr ""
+
+#: ../akismet/views/notice.php:57
+#, php-format
+msgid ""
+"We cannot process your payment. Please <a href=\"%s\" target=\"_blank"
+"\">update your payment details</a>."
+msgstr ""
+
+#: ../akismet/views/notice.php:62
+#, php-format
+msgid ""
+"Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> "
+"to reactivate your subscription."
+msgstr ""
+
+#: ../akismet/views/notice.php:67 ../akismet/views/notice.php:77
+#, php-format
+msgid ""
+"Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for "
+"assistance."
+msgstr ""
+
+#: ../akismet/views/notice.php:72
+#, php-format
+msgid ""
+"You can help us fight spam and upgrade your account by <a href=\"%s\" target="
+"\"_blank\">contributing a token amount</a>."
+msgstr ""
+
+#: ../akismet/views/notice.php:83
+#, php-format
+msgid ""
+"In 2012, Akismet began using subscription plans for all accounts (even free "
+"ones). A plan has not been assigned to your account, and we&#8217;d "
+"appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your "
+"account</a> and choose one."
+msgstr ""
+
+#: ../akismet/views/notice.php:85 ../akismet/views/notice.php:112
+#: ../akismet/views/notice.php:119
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with "
+"any questions."
+msgstr ""
+
+#: ../akismet/views/notice.php:103
+#, php-format
+msgid ""
+"The connection to akismet.com could not be established. Please refer to <a "
+"href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your "
+"server configuration."
+msgstr ""
+
+#: ../akismet/views/notice.php:110
+#, php-format
+msgid ""
+"Your Pro subscription allows the use of Akismet on only one site. Please <a "
+"href=\"%s\" target=\"_blank\">purchase additional Pro subscriptions</a> or "
+"upgrade to an Enterprise subscription that allows the use of Akismet on "
+"unlimited sites."
+msgstr ""
+
+#: ../akismet/views/notice.php:117
+#, php-format
+msgid ""
+"To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an "
+"Enterprise subscription</a>, which covers an unlimited number of sites."
+msgstr ""
+
+#: ../akismet/views/start.php:23
+#, php-format
+msgid "Your subscription for %s is cancelled"
+msgstr ""
+
+#: ../akismet/views/start.php:37
+#, php-format
+msgid "Your subscription for %s is suspended"
+msgstr ""
+
+#: ../akismet/views/start.php:61
+msgid "Sign up with a different email address"
+msgstr ""
+
+#: ../akismet/views/start.php:82
+msgid "Get your API key"
+msgstr ""
+
+#~ msgid "Sorry! Invalid About me Shortcode Embedded"
+#~ msgstr "Entschudligung! Ungültiges, Über mich, Codekürzel eingebettet."
+
+#~ msgid "Widget Title"
+#~ msgstr "Widget Titel"
+
+#~ msgid "Select Any"
+#~ msgstr "Beliebiges auswählen..."
+
+#~ msgid "No Title"
+#~ msgstr "Kein Titel"
+
+#~ msgid "About Author"
+#~ msgstr "Über den Autor"
+
+#~ msgid "About Author Shortcode"
+#~ msgstr "Über den Autor Codekürzel"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid " Add Images"
+#~ msgstr "Bilder hinzufügen"
+
+#~ msgid "Select Template"
+#~ msgstr "Vorlage auswählen"
+
+#~ msgid "Add Settings"
+#~ msgstr "Einstellungen hinzufügen"
+
+#~ msgid "Add settings"
+#~ msgstr "Einstellungen hinzufügen"
+
+#~ msgid "Copy Shortcode"
+#~ msgstr "Codekürzel kopieren"
+
+#~ msgid "Preview Shortcode"
+#~ msgstr "Codekürzel Vorschau"
+
+#~ msgid "Activate About Author Widget"
+#~ msgstr "Über Autor Widget aktivieren"
+
+#~ msgid ""
+#~ "Use below shortcode in any Page/Post to publish your author information"
+#~ msgstr ""
+#~ "Verwenden Sie unten stehendes Codekürzel in jeder/m Seite/Post, um Ihre "
+#~ "Informationen über den Autor zu veröffentlichen."
+
+#~ msgid "To activate widget into any widget area"
+#~ msgstr "Widget in jedem Widget-Bereich aktivieren..."
+
+#~ msgid "Click Here"
+#~ msgstr "Hier klicken"
+
+#~ msgid "Find"
+#~ msgstr "Finden"
+
+#~ msgid ""
+#~ "Place it to your widget area. Select any About Author Shortcode from the "
+#~ "dropdown and save widget."
+#~ msgstr ""
+#~ "Platzieren Sie es in Ihrem Widget-Bereich. Wählen Sie ein beliebiges "
+#~ "\"Über den Autor\" Codekürzel aus der Dropdown-Liste und speichern Sie "
+#~ "ihr Widget."
+
+#~ msgid "Select About Author Shortcode to insert with content"
+#~ msgstr ""
+#~ "Dieses \"Über den Autor\" Codekürzel verwenden um ihn mit dem Inhalt "
+#~ "einzufügen."
+
+#~ msgid "Select About Author Shortcode to insert into content"
+#~ msgstr ""
+#~ "Dieses \"Über den Autor\" Codekürzel verwenden um ihn in den Inhalt "
+#~ "einzufügen."
+
+#~ msgid "About Author Shortcode And Widget"
+#~ msgstr "Über den Autor Codekürzel und Widget."
+
+#~ msgid "Select About Author Shortcode And Widget To Insert Into Post"
+#~ msgstr ""
+#~ "Dieses \"Über den Autor\" Codekürzel und Widget verwenden, um sie in den "
+#~ "Beitrag einzufügen."
+
+#~ msgid "Insert About Author Shortcode"
+#~ msgstr "Über den Autor Codekürzel einfügen..."
+
+#~ msgid "No About Author Shortcode found"
+#~ msgstr "Keine \"Über Autor\" Codekürzel gefunden."
+
+#~ msgid "Social Profile Information"
+#~ msgstr "Social Media-Profil-Informationen"
+
+#~ msgid "Author Settings"
+#~ msgstr "Autor-Einstellungen"
+
+#~ msgid "Display Author settings"
+#~ msgstr "Autor-Einstellungen anzeigen"
+
+#~ msgid "On page"
+#~ msgstr "Auf Seite"
+
+#~ msgid "On post"
+#~ msgstr "In Beitrag"
+
+#~ msgid "Select Template Style"
+#~ msgstr "Vorlage auswählen"
+
+#~ msgid "Choose one"
+#~ msgstr "Bitte auswählen"
+
+#~ msgid "Display on post or page"
+#~ msgstr "In Beitrag oder auf Seite anzeigen"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Website Name"
+#~ msgstr "Name der Webseite"
+
+#~ msgid "Biographical Info"
+#~ msgstr "Biografie"
+
+#~ msgid "Author label settings"
+#~ msgstr "Autor-Label-Einstellungen"
+
+#~ msgid "Author label text"
+#~ msgstr "Autor-Label-Text"
+
+#~ msgid "Font size"
+#~ msgstr "Schriftgröße"
+
+#~ msgid "Font Color"
+#~ msgstr "Schriftfarbe"
+
+#~ msgid "Font Family"
+#~ msgstr "Schriftart"
+
+#~ msgid "Choose a caption font style."
+#~ msgstr "Wählen Sie eine Beschriftungs Schriftart."
+
+#~ msgid ""
+#~ "Note: More details to click on weblizar Products site link are below "
+#~ "given view site button."
+#~ msgstr ""
+#~ "Hinweis: Klicken Sie für mehr Details über weblizard Produkte auf den "
+#~ "unten stehenden \"Seite zeigen\" Button."
+
+#~ msgid "View Site"
+#~ msgstr "Seite zeigen"
+
+#~ msgid "Profile Image Layout"
+#~ msgstr "Profil-Bild-Layout"
+
+#~ msgid "Profile Image Layout settings"
+#~ msgstr "Profil-Bild-Layout-Einstellungen"
+
+#~ msgid "Border style"
+#~ msgstr "Rahmen Stil"
+
+#~ msgid "Border size"
+#~ msgstr "Rahmengröße"
+
+#~ msgid "BackgroundColor option"
+#~ msgstr "Hintergrundfarbenauswahl"
+
+#~ msgid "BackgroundColor"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Name Text Settings"
+#~ msgstr "Namenstext-Einstellungen"
+
+#~ msgid "Name Text"
+#~ msgstr "Namenstext"
+
+#~ msgid "Color"
+#~ msgstr "Farbe"
+
+#~ msgid "Website Text Settings"
+#~ msgstr "Webseitentext-Einstellungen"
+
+#~ msgid "Website Name Text"
+#~ msgstr "Webseitennamenstext-Einstellungen"
+
+#~ msgid "Website Link Color"
+#~ msgstr "Webseiten Verknüpfungsfarbe"
+
+#~ msgid "Description Text Settings"
+#~ msgstr "Beschreibungstext-Einstellungen"
+
+#~ msgid "Description Text"
+#~ msgstr "Beschreibungstext"
+
+#~ msgid "Note: Maximum words for Description are 325."
+#~ msgstr ""
+#~ "Hinweis: Die maximal zulässige Wörteranzahl für die Beschreibung beträgt "
+#~ "325."
+
+#~ msgid "Description Text Color"
+#~ msgstr "Beschreibungstextfarbe"
+
+#~ msgid "Social link Settings"
+#~ msgstr "Einstellungen für Social-Links"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Social Link Color"
+#~ msgstr "Social Media Verknüpfungsfarbe"
+
+#~ msgid "Social icon size"
+#~ msgstr "Social Media Icon Größe"
+
+#~ msgid "Size"
+#~ msgstr "Größe"
+
+#~ msgid ""
+#~ "Enter any custom css you want to apply on this shortcode.\n"
+#~ "\t\t\t\t\t\tNote: Please Do Not Use Style Tag With Custom CSS."
+#~ msgstr ""
+#~ "Geben Sie einen beliebigen, benutzerdefinierten CSS Code ein, den Sie "
+#~ "diesem Codekürzel hinzufügen möchten.\n"
+#~ "\t\t\t\t\t\tHinweis: Bitte verwenden Sie keinen Style Tag in Ihrem "
+#~ "benutzerdefinierten CSS Code."
+
+#~ msgid "Template 1"
+#~ msgstr "Vorlage 1"
+
+#~ msgid "Template 2"
+#~ msgstr "Vorlage 2"
+
+#~ msgid "Template 3"
+#~ msgstr "Vorlage 3"
+
+#~ msgid "Template 4"
+#~ msgstr "Vorlage 4"
+
+#~ msgid "Template 5"
+#~ msgstr "Vorlage 5"
+
+#~ msgid "Template 6"
+#~ msgstr "Vorlage 6"
+
+#~ msgid "Template 7"
+#~ msgstr "Vorlage 7"
+
+#~ msgid "Template 8"
+#~ msgstr "Vorlage 8"
+
+#~ msgid "Template 9"
+#~ msgstr "Vorlage 9"
+
+#~ msgid "Template 10"
+#~ msgstr "Vorlage 10"
+
+#~ msgid "Template Style 1"
+#~ msgstr "Vorlagenstil 1"
+
+#~ msgid "Upload profile Image"
+#~ msgstr "Profilbild hochladen"
+
+#~ msgid ""
+#~ "*Upload profile Image size should be 200*200 pixel maximum and 150*150 "
+#~ "minimum"
+#~ msgstr ""
+#~ "*Das hochzuladende Profilbild sollte maximal 200*200 Pixel und minimal "
+#~ "150*150 Pixel groß sein."
+
+#~ msgid "Template Style 10"
+#~ msgstr "Vorlagenstil 10"
+
+#~ msgid ""
+#~ "*Upload profile image size should be 200*200 pixel maximum and 150*150 "
+#~ "minimum"
+#~ msgstr ""
+#~ "*Das hochzuladende Profilbild sollte maximal 200*200 Pixel und minimal "
+#~ "150*150 Pixel groß sein."
+
+#~ msgid "Upload Background Image"
+#~ msgstr "Hintergrundbild hochladen"
+
+#~ msgid "*Upload background image size should be 1000*700 minimum"
+#~ msgstr "*Der Hintergund sollte mindestens 1000*700 Pixel groß sein."
+
+#~ msgid "Template Style 2"
+#~ msgstr "Vorlagenstil 2"
+
+#~ msgid "Upload Header Background Image"
+#~ msgstr "Laden Sie ein Kopfbereich-Hintergungbild hoch"
+
+#~ msgid ""
+#~ "*Upload header background image size should be 800*150 pixel maximum and "
+#~ "600*150 minimum"
+#~ msgstr ""
+#~ "*Das Kopfbereich-Hintergrundbild sollte maximal 800*150 Pixel und "
+#~ "mindestens 600*150 Pixel groß sein."
+
+#~ msgid "Template Style 4"
+#~ msgstr "Vorlagenstil 4"
+
+#~ msgid "Template Style 5"
+#~ msgstr "Vorlagenstil 5"
+
+#~ msgid "Template Style 6"
+#~ msgstr "Vorlagenstil 6"
+
+#~ msgid "Template Style 7"
+#~ msgstr "Vorlagenstil 7"
+
+#~ msgid ""
+#~ "*Upload profile image size should be 200*200 pixel maximum and 150*150 "
+#~ "minimum "
+#~ msgstr ""
+#~ "*Das hochzuladende Profilbild sollte maximal 200*200 Pixel und minimal "
+#~ "150*150 Pixel groß sein."
+
+#~ msgid "Template Style 8"
+#~ msgstr "Vorlagenstil 8"
+
+#~ msgid "Template Style 9"
+#~ msgstr "Vorlagenstil 9"
+
+#~ msgid "About Author Widget Title"
+#~ msgstr "Über den Autor Widget Titel"
+
+#~ msgid "Display Author Settings"
+#~ msgstr "Autor-Einstellungen anzeigen"
+
+#~ msgid "Display On Post OR Page"
+#~ msgstr "In Beitrag oder auf Seite anzeigen"
+
+#~ msgid "Display Pinterest Follow Button"
+#~ msgstr "Auf Pinterest Folgen - Button anzeigen"
+
+#~ msgid "Pinterest Account Name"
+#~ msgstr "Pinterest Kontoname"
+
+#~ msgid "Pinterest Profile URL"
+#~ msgstr "Pinterest Profil-URL"
+
+#~ msgid "Button Size"
+#~ msgstr "Button-Größe"
+
+#~ msgid "Login Form"
+#~ msgstr "Anmeldeformular"
+
+#~ msgid "Default (Center)"
+#~ msgstr "Standard (Mitte)"
+
+#~ msgid "Login from Floating"
+#~ msgstr "Anmeldeformular schwimmend"
+
+#~ msgid "Login Form Customization"
+#~ msgstr "Anmeldeformular Anpassung"
+
+#~ msgid "Plugin Recommendations"
+#~ msgstr "Plugin-Empfehlungen"
+
+#~ msgid "Admin Custom login Status"
+#~ msgstr "Admin Custom Login Status"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktiviert"
+
+#~ msgid "Enable Custom Login"
+#~ msgstr "Aktiviere Custom Login"

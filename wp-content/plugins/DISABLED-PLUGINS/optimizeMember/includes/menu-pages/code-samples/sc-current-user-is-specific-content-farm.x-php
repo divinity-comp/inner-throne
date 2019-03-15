@@ -1,0 +1,23 @@
+[opmIf current_user_is(optimizemember_level4)]
+	Some premium content for Level 4 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level3)]
+	Some premium content for Level 3 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level2)]
+	Some premium content for Level 2 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level1)]
+	Some premium content for Level 1 Members.
+[/opmIf]
+
+[opmIf current_user_is(optimizemember_level0)]
+	Some content for Free Subscribers.
+[/opmIf]
+
+[opmIf !current_user_can(access_optimizemember_level0)]
+	Some public content.
+[/opmIf]

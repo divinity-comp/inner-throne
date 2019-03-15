@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_REG_EMAIL_FROM_NAME; ?>
+This may output something like: Member Support
+( or whatever you have configured as your From: name )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_REG_EMAIL_FROM_NAME" /]

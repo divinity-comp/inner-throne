@@ -1,0 +1,12 @@
+[22-Jan-2018 14:40:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function admin_url() in /home/innert5/public_html/wp-content/themes/Avada-Child-Theme/js/jgs-scripts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/innert5/public_html/wp-content/themes/Avada-Child-Theme/js/jgs-scripts.php on line 7
+[22-Jan-2018 14:41:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function admin_url() in /home/innert5/public_html/wp-content/themes/Avada-Child-Theme/js/jgs-scripts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/innert5/public_html/wp-content/themes/Avada-Child-Theme/js/jgs-scripts.php on line 8
+[22-Jan-2018 14:41:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function admin_url() in /home/innert5/public_html/wp-content/themes/Avada-Child-Theme/js/jgs-scripts.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/innert5/public_html/wp-content/themes/Avada-Child-Theme/js/jgs-scripts.php on line 8

@@ -1,0 +1,483 @@
+/*
+body.jgs-course-page #sliders-container {
+	display: none;
+}
+*/
+
+body .flexslider .slides li:before {
+    display: block;
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    content: ".";
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+	background: -moz-linear-gradient(top, rgba(96,81,61,1) 0%, rgba(96,81,61,0.18) 37%, rgba(96,81,61,0) 45%, rgba(96,81,61,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(96,81,61,1) 0%,rgba(96,81,61,0.18) 37%,rgba(96,81,61,0) 45%,rgba(96,81,61,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(96,81,61,1) 0%,rgba(96,81,61,0.18) 37%,rgba(96,81,61,0) 45%,rgba(96,81,61,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+.background-image.bg-overlay {
+	background-blend-mode: overlay;
+	-webkit-background-blend-mode: overlay;
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    animation: overlay;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes overlay {
+    0%   {transform: scale(1); filter: blur(3px); filter: saturate(100%); opacity: 0.2;}
+    40%  {transform: scale(1); filter: blur(3px); filter: saturate(100%); opacity: 0.2;}
+    50%  {transform: scale(1.02); filter: blur(6px); filter: saturate(140%); opacity: 0.4;}
+    60%  {transform: scale(1.); filter: blur(3px); filter: saturate(100%); opacity: 0.2;}
+    100% {transform: scale(1); filter: blur(3px); filter: saturate(100%); opacity: 0.2;}
+}
+
+
+body.jgs-course-page .post-content .col-main .fusion-text p:first-of-type, body.jgs-course-page .post-content .fusion_builder_column_2_3 .fusion-text p:first-of-type {
+	line-height: 1.45em;
+}
+
+body.jgs-course-page header + #sliders-container .slides li .background::before {
+	display: none;
+}
+
+body.jgs-course-page div.admin {
+	display: none;
+}
+
+body.jgs-course-page.administrator div.admin {
+	display: block;
+}
+
+
+/* Overarching UI */
+
+body.jgs-access-granted .hide {
+	transition: 0.5s all;
+}
+
+body.jgs-course-page #main {
+	padding: 70px 0 0 0;
+}
+
+body.jgs-course-page #main .fusion-row {
+	max-width: 100%;
+}
+
+.step-1, .step-2, .step-3, .step-4, .step-5, .step-6 {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.continue-button {
+	display: none;
+	margin: 60px auto 180px;
+	max-width: 300px;
+	width: auto;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+	background: #60513d;
+	border-radius:  10px;
+}
+
+.continue-button.show {
+	display: table;
+}
+
+.continue-button:hover {
+	transform: scale(0.98);
+	transition: all 0.5s;
+}
+
+.continue-button:hover a span {
+	color: rgb(255,240,150);
+	transition: 0.5s all;
+}
+
+.continue-button a {
+	display: block;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+.continue-button a span {
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	text-align: center;
+}
+
+.jgs-bright-button {
+	display: table;
+	margin-top: 10px;
+	max-width: 500px;
+	width: auto;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+	background: white !important;
+	border: none !important;
+	border-radius:  10px !important;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.jgs-bright-button:hover {
+	transform: scale(0.98);
+	transition: all 0.5s;
+}
+
+.jgs-bright-button span {
+	display: table-cell;
+	color: #60513d; 
+	font-weight: bold;
+	padding: 3px 16px;
+}
+
+#jgs_system_feedback {
+	background: black;
+	border-radius: 10px;
+	position: fixed;
+	right: 20px;
+	bottom: -50px;
+	padding: 10px 20px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	z-index: 20;
+	transition: 1s all;
+}
+
+/* Account settings */
+
+#account {
+	position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100000;
+    height: 100%;
+    transition: 0.5s all;
+    display: none;
+}
+
+#account #message {
+	display: none;
+}
+
+#account h3 {
+	padding: 0 20px;
+	margin-bottom: 5px;
+}
+
+#account .welcome {
+	padding: 0 20px;
+	font-size: 13px;
+	color: #666;
+	margin: 0 0 25px;
+}
+
+#account.closed {
+	right: -300px;
+}
+
+#account > .wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 332px;
+    overflow-x: hidden;
+}
+
+#account > .wrap > .wrap {
+    background: black;
+    width: 300px;
+    height: 100%;
+    left: 32px;
+    position: absolute;
+    top: 0;
+    overflow-y: scroll;
+}
+
+#account .acf-fields > .acf-field {
+	padding: 15px 20px 20px;
+	border-top: 1px dotted #222;
+}
+
+#account .acf-form-submit {
+	margin: -5px 0 40px 20px
+}
+
+#account .acf-form-submit .acf-button {
+	padding: 8px 15px;
+}
+
+#account .acf-field p.description {
+	font-size: 13px;
+	color: #666;
+}
+
+#account .acf-input-wrap input, #account select {
+	background: #aaa;
+	color: #444;
+	transition: 0.5s all;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1) inset;
+}
+
+#account .acf-input-wrap input:focus, #account select:focus {
+	background: #f9f9f9; 
+	color: #222;
+	transition: 0.5s all;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.15) inset;
+}
+
+#account .toggle {
+    position: absolute;
+    bottom: 20px;
+    right: 292px;
+    z-index: 100000000;
+    background: black;
+    width: 28px;
+    height: 17px;
+    padding: 7px 10px 15px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+#account .toggle i {
+	font-size: 24px;
+}
+
+#account.hidden .toggle {
+	right: -5px;
+}
+
+#account.hidden > .wrap {
+	right: -300px;
+}
+
+#account label .message {
+	font-size: 14px;
+}
+
+
+/* Scrollbar styling 
+
+#account::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+#account::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+#account::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+*/
+
+/* jPlayer style - overrides circle.player.css in plugin folder*/
+
+/*
+body #jquery_jplayer_1 {
+	visibility: hidden;
+}*/
+
+#cp_wrap {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 104px;
+	height: 104px;
+	padding: 0;
+	background: rgba(0,0,0,0.3);
+	opacity: 0;
+	z-index: 100;
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	border-radius: 0 10px 0 0;
+}
+
+#cp_container_1 {
+	display: block;
+	position: absolute;
+	transform: scale(0.55);
+	transition: 0.7s all;
+	box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+    border-radius: 50px;
+}
+
+#cp_container_1:hover {
+	transform: scale(0.5);
+	transition: 0.7s all;
+}
+
+#cp_container_1:hover .cp-controls .cp-pause {
+	background-position: -50px -50px;
+}
+
+#cp_container_1:hover .cp-controls .cp-play {
+	background-position: -50px 0;
+}
+
+
+/* Character interview */
+
+div.jgs_character_interview h2 {
+	padding-top: 0.5em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+div.jgs_character_interview h2 + h4 {
+	margin: 0 0 1em 0;
+	font-style: italic;
+	color: silver;
+	text-align: center;
+}
+
+div.jgs_character_interview .portrait img {
+	border-radius: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+div.jgs_character_interview .portrait {
+	/*margin-right: 40px;*/
+}
+
+div.jgs_character_interview .greeting {
+	margin: 0 auto;
+	max-width:  800px;
+	padding: 0 50px;
+}
+
+
+
+/* Character sidebar */
+
+div.col-character .fusion-imageframe {
+	display: block;
+}
+
+div.col-character .fusion-imageframe img {
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.25) !important;
+}
+
+div.col-character h3 {
+	font-weight: normal;
+	line-height: 1.3em;
+	font-size: 18px;
+}
+
+
+/* Modification of the default design for JGS */
+
+body.jgs-course-page #main .bgoverlay-dark > .fusion-row {
+	background: rgba(90,60,20, 0.5);
+}
+
+
+/* Comment form (ECHO-archives) */
+
+body.jgs-course-page #respond {
+	max-width: 789px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    padding: 40px 30px 30px 37px;
+    background: url(/wp-content/uploads/2018/01/scroll-bg.jpg);
+    height: 400px;
+}
+
+body.jgs-course-page #respond #submit {
+	background: rgba(255,255,255,0.5);
+	box-shadow: inset 0px 1px 0px #ffffff, 0px 1px 0px rgba(0,0,0,0.3), 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+	color: black;
+}
+
+body.jgs-course-page #respond #submit:hover {
+	box-shadow: inset 0px 1px 0px #ffffff, 0px 1px 0px rgba(0,0,0,0.3), 1px 3px 10px 1px rgba(0, 0, 0, 0.3);
+	margin-top: 2px;
+}
+
+#respond .comment-form-comment {
+	margin-bottom: 15px;
+}
+
+#respond .comment-form .form-submit {
+	text-align: center;
+}
+
+#respond .form-submit {
+	margin-top: 0;
+}
+
+#respond .fusion-title {
+	display: none;
+}
+
+#commentform label {
+	display: none;
+}
+
+#commentform #comment {
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.3) inset;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 15px;
+    height: 250px;
+    resize: none;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.4);
+    color: black;
+}
+
+#respond #comment-status {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+
+#respond #comment-status div {
+	position: fixed;
+    top: 45%;
+    left: 50%;
+    right: 50%;
+    width: 200px;
+    background: white;
+    z-index: 2000;
+    margin-left: -100px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+@media all and (max-width: 800px) {
+	div.col-character .fusion-imageframe img {
+		margin: 20px auto 30px;
+		display: block;
+	}
+}

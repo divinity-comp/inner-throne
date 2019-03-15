@@ -1,0 +1,545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads 0 PDF Invoices\n"
+"POT-Creation-Date: 2014-12-01 13:43-0600\n"
+"PO-Revision-Date: 2014-12-01 13:43-0600\n"
+"Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
+"Language-Team: Sunny Ratilal\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: edd-pdf-invoices.php:105 edd-pdf-invoices.php:117
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: edd-pdf-invoices.php:317
+#, php-format
+msgid ""
+"You must install %sEasy Digital Downloads%s for the PDF Invoices Add-On to "
+"work."
+msgstr ""
+
+#: edd-pdf-invoices.php:321
+msgid ""
+"The Easy Digital Downloads PDF Invoices plugin requires at least Easy "
+"Digital Downloads Version 1.7. Please update Easy Digital Downloads for the "
+"PDF Invoices Add-On to work correctly."
+msgstr ""
+
+#: edd-pdf-invoices.php:325
+#, php-format
+msgid ""
+"Please visit the %sPDF Invoice Settings%s to configure the plugin. Currently "
+"the settings have not been configured correctly therefore you will may "
+"issues when trying to generate invoices."
+msgstr ""
+
+#: edd-pdf-invoices.php:349 edd-pdf-invoices.php:385 edd-pdf-invoices.php:405
+#: includes/email-template-tag.php:35
+msgid "Download Invoice"
+msgstr ""
+
+#: edd-pdf-invoices.php:365 edd-pdf-invoices.php:404
+#: includes/templates/template-minimal.php:53
+#: includes/templates/template-colors.php:142
+#: includes/templates/template-default.php:48
+#: includes/templates/template-blue-stripe.php:54
+#: includes/templates/template-lines.php:55
+msgid "Invoice"
+msgstr ""
+
+#: edd-pdf-invoices.php:471
+msgid "The invoice that you requested was not found."
+msgstr ""
+
+#: edd-pdf-invoices.php:471
+msgid "Invoice Not Found"
+msgstr ""
+
+#: edd-pdf-invoices.php:523 edd-pdf-invoices.php:569
+msgid "Invoice "
+msgstr ""
+
+#: edd-pdf-invoices.php:524 edd-pdf-invoices.php:570
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/settings.php:30
+msgid "Email Logo"
+msgstr ""
+
+#: includes/settings.php:31
+msgid "Upload or choose a logo to be displayed at the top of the email"
+msgstr ""
+
+#: includes/settings.php:57
+msgid "PDF Invoice Settings"
+msgstr ""
+
+#: includes/settings.php:58
+msgid "Configure the PDF invoice settings"
+msgstr ""
+
+#: includes/settings.php:63
+msgid "Disable Invoices for Free Downloads"
+msgstr ""
+
+#: includes/settings.php:64
+msgid ""
+"Check this box to disable invoices from being generated for free downloads."
+msgstr ""
+
+#: includes/settings.php:69
+msgid "Invoice Template"
+msgstr ""
+
+#: includes/settings.php:70
+msgid "Choose a template for the invoice"
+msgstr ""
+
+#: includes/settings.php:73
+msgid "Default"
+msgstr ""
+
+#: includes/settings.php:74 includes/email-templates.php:29
+msgid "Blue Stripe"
+msgstr ""
+
+#: includes/settings.php:75 includes/email-templates.php:30
+msgid "Lines"
+msgstr ""
+
+#: includes/settings.php:76 includes/email-templates.php:31
+msgid "Minimal"
+msgstr ""
+
+#: includes/settings.php:77 includes/email-templates.php:32
+msgid "Traditional"
+msgstr ""
+
+#: includes/settings.php:78
+msgid "Blue"
+msgstr ""
+
+#: includes/settings.php:79
+msgid "Green"
+msgstr ""
+
+#: includes/settings.php:80
+msgid "Orange"
+msgstr ""
+
+#: includes/settings.php:81
+msgid "Pink"
+msgstr ""
+
+#: includes/settings.php:82
+msgid "Purple"
+msgstr ""
+
+#: includes/settings.php:83
+msgid "Red"
+msgstr ""
+
+#: includes/settings.php:84
+msgid "Yellow"
+msgstr ""
+
+#: includes/settings.php:89
+msgid "Characters not displaying correctly?"
+msgstr ""
+
+#: includes/settings.php:90
+msgid ""
+"Check to enable the Free Sans/Free Serif font replacing Open Sans/Helvetica/"
+"Times. Only do this if you have characters which do not display correctly (e."
+"g. Greek characters)"
+msgstr ""
+
+#: includes/settings.php:95
+msgid "Logo Upload"
+msgstr ""
+
+#: includes/settings.php:96
+msgid ""
+"Upload your logo here which will show up on the invoice. If the logo is "
+"greater than 90px in height, it will not be shown. On the Traditional "
+"template, if the logo is greater than 80px in height, it will not be shown. "
+"Also note that the logo will be output at 96 dpi."
+msgstr ""
+
+#: includes/settings.php:101
+msgid "Company Name"
+msgstr ""
+
+#: includes/settings.php:102
+msgid "Enter the company name that will be shown on the invoice."
+msgstr ""
+
+#: includes/settings.php:109
+msgid "Name"
+msgstr ""
+
+#: includes/settings.php:110
+msgid "Enter the name that will be shown on the invoice."
+msgstr ""
+
+#: includes/settings.php:117
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/settings.php:118
+msgid "Enter the first address line that will appear on the invoice."
+msgstr ""
+
+#: includes/settings.php:125
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/settings.php:126
+msgid "Enter the second address line that will appear on the invoice."
+msgstr ""
+
+#: includes/settings.php:133
+msgid "City, State and Zip Code"
+msgstr ""
+
+#: includes/settings.php:134
+msgid "Enter the city, state and zip code that will appear on the invoice."
+msgstr ""
+
+#: includes/settings.php:141
+msgid "Email Address"
+msgstr ""
+
+#: includes/settings.php:142
+msgid "Enter the email address that will appear on the invoice."
+msgstr ""
+
+#: includes/settings.php:149
+msgid "Show website address?"
+msgstr ""
+
+#: includes/settings.php:150
+msgid "Check this box if you would like your website address to be shown."
+msgstr ""
+
+#: includes/settings.php:155
+msgid "Header Message"
+msgstr ""
+
+#: includes/settings.php:156
+msgid ""
+"Enter the message you would like to be shown on the header of the invoice. "
+"Please note that the header will not show up on the Blue Stripe and "
+"Traditional template."
+msgstr ""
+
+#: includes/settings.php:163
+msgid "Footer Message"
+msgstr ""
+
+#: includes/settings.php:164
+msgid ""
+"Enter the message you would like to be shown on the footer of the invoice."
+msgstr ""
+
+#: includes/settings.php:171
+msgid "Template Tags"
+msgstr ""
+
+#: includes/settings.php:172
+msgid ""
+"The following template tags will work for the Header and Footer message as "
+"well as the Additional Notes:"
+msgstr ""
+
+#: includes/settings.php:173
+msgid "{page} - Page Number"
+msgstr ""
+
+#: includes/settings.php:174
+msgid "{sitename} - Site Name"
+msgstr ""
+
+#: includes/settings.php:175
+msgid "{today} - Date of Invoice Generation"
+msgstr ""
+
+#: includes/settings.php:176
+msgid "{date} - Invoice Date"
+msgstr ""
+
+#: includes/settings.php:177
+msgid "{invoice_id} - Invoice ID"
+msgstr ""
+
+#: includes/settings.php:182 includes/templates/template-minimal.php:261
+#: includes/templates/template-colors.php:396
+#: includes/templates/template-default.php:301
+#: includes/templates/template-blue-stripe.php:286
+#: includes/templates/template-lines.php:282
+msgid "Additional Notes"
+msgstr ""
+
+#: includes/settings.php:183
+msgid ""
+"Enter any messages you would to be displayed at the end of the invoice. Only "
+"plain text is currently supported. Any HTML will not be shown on the invoice."
+msgstr ""
+
+#: includes/email-templates.php:28
+msgid "Invoice Default"
+msgstr ""
+
+#: includes/email-templates.php:33
+msgid "Invoice Blue"
+msgstr ""
+
+#: includes/email-templates.php:34
+msgid "Invoice Green"
+msgstr ""
+
+#: includes/email-templates.php:35
+msgid "Invoice Orange"
+msgstr ""
+
+#: includes/email-templates.php:36
+msgid "Invoice Pink"
+msgstr ""
+
+#: includes/email-templates.php:37
+msgid "Invoice Purple"
+msgstr ""
+
+#: includes/email-templates.php:38
+msgid "Invoice Red"
+msgstr ""
+
+#: includes/email-templates.php:39
+msgid "Invoice Yellow"
+msgstr ""
+
+#: includes/email-templates.php:63 includes/email-templates.php:110
+#: includes/email-templates.php:156 includes/email-templates.php:202
+#: includes/email-templates.php:241 includes/email-templates.php:357
+msgid "Receipt"
+msgstr ""
+
+#: includes/i18n.php:16
+msgid "Easy Digital Downloads - PDF Invoices"
+msgstr ""
+
+#: includes/i18n.php:19
+msgid ""
+"Creates PDF Invoices for each purchase available to both admins and customers"
+msgstr ""
+
+#: includes/i18n.php:22
+msgid "Sunny Ratilal"
+msgstr ""
+
+#: includes/email-template-tag.php:15
+msgid "Creates a link to a downloadable invoice"
+msgstr ""
+
+#: includes/templates/template-minimal.php:63
+#: includes/templates/template-colors.php:211
+#: includes/templates/template-default.php:109
+#: includes/templates/template-blue-stripe.php:66
+#: includes/templates/template-lines.php:67
+msgid "Invoice ID"
+msgstr ""
+
+#: includes/templates/template-minimal.php:68
+#: includes/templates/template-colors.php:216
+#: includes/templates/template-default.php:114
+#: includes/templates/template-blue-stripe.php:71
+#: includes/templates/template-lines.php:72
+msgid "Purchase Key"
+msgstr ""
+
+#: includes/templates/template-minimal.php:73
+#: includes/templates/template-colors.php:221
+#: includes/templates/template-default.php:119
+#: includes/templates/template-blue-stripe.php:76
+#: includes/templates/template-lines.php:77
+msgid "Payment Status"
+msgstr ""
+
+#: includes/templates/template-minimal.php:78
+#: includes/templates/template-colors.php:226
+#: includes/templates/template-default.php:124
+#: includes/templates/template-blue-stripe.php:81
+#: includes/templates/template-lines.php:82
+msgid "Payment Method"
+msgstr ""
+
+#: includes/templates/template-minimal.php:138
+#: includes/templates/template-minimal.php:142
+#: includes/templates/template-blue-stripe.php:153
+#: includes/templates/template-blue-stripe.php:157
+#: includes/templates/template-lines.php:158
+#: includes/templates/template-lines.php:162
+msgid "Item"
+msgstr ""
+
+#: includes/templates/template-minimal.php:139
+#: includes/templates/template-traditional.php:162
+#: includes/templates/template-blue-stripe.php:154
+#: includes/templates/template-lines.php:159
+msgid "Quantity"
+msgstr ""
+
+#: includes/templates/template-minimal.php:140
+#: includes/templates/template-minimal.php:143
+#: includes/templates/template-traditional.php:163
+#: includes/templates/template-traditional.php:166
+#: includes/templates/template-blue-stripe.php:155
+#: includes/templates/template-blue-stripe.php:158
+#: includes/templates/template-lines.php:160
+#: includes/templates/template-lines.php:163
+msgid "Price"
+msgstr ""
+
+#: includes/templates/template-minimal.php:180
+#: includes/templates/template-traditional.php:211
+#: includes/templates/template-colors.php:292
+#: includes/templates/template-default.php:194
+#: includes/templates/template-blue-stripe.php:197
+#: includes/templates/template-lines.php:202
+msgid "None"
+msgstr ""
+
+#: includes/templates/template-minimal.php:231
+#: includes/templates/template-traditional.php:262
+#: includes/templates/template-colors.php:352
+#: includes/templates/template-default.php:257
+#: includes/templates/template-blue-stripe.php:249
+#: includes/templates/template-lines.php:254
+msgid "Subtotal"
+msgstr ""
+
+#: includes/templates/template-minimal.php:233
+#: includes/templates/template-traditional.php:265
+#: includes/templates/template-colors.php:355
+#: includes/templates/template-default.php:260
+#: includes/templates/template-blue-stripe.php:251
+#: includes/templates/template-lines.php:256
+msgid "Tax"
+msgstr ""
+
+#: includes/templates/template-minimal.php:252
+#: includes/templates/template-traditional.php:285
+#: includes/templates/template-colors.php:376
+#: includes/templates/template-default.php:280
+#: includes/templates/template-blue-stripe.php:277
+#: includes/templates/template-lines.php:273
+msgid "Discount Used"
+msgstr ""
+
+#: includes/templates/template-minimal.php:253
+#: includes/templates/template-traditional.php:297
+#: includes/templates/template-colors.php:388
+#: includes/templates/template-default.php:292
+#: includes/templates/template-blue-stripe.php:278
+#: includes/templates/template-lines.php:274
+msgid "Total Paid"
+msgstr ""
+
+#: includes/templates/template-traditional.php:60
+msgid "INVOICE"
+msgstr ""
+
+#: includes/templates/template-traditional.php:71
+msgid "INVOICE ID"
+msgstr ""
+
+#: includes/templates/template-traditional.php:76
+msgid "PURCHASE KEY"
+msgstr ""
+
+#: includes/templates/template-traditional.php:81
+msgid "PAYMENT STATUS"
+msgstr ""
+
+#: includes/templates/template-traditional.php:86
+msgid "PAYMENT METHOD"
+msgstr ""
+
+#: includes/templates/template-traditional.php:93
+msgid "FROM:"
+msgstr ""
+
+#: includes/templates/template-traditional.php:123
+msgid "TO:"
+msgstr ""
+
+#: includes/templates/template-traditional.php:151
+msgid "INVOICE ITEMS"
+msgstr ""
+
+#: includes/templates/template-traditional.php:161
+#: includes/templates/template-traditional.php:165
+msgid "Product Name"
+msgstr ""
+
+#: includes/templates/template-traditional.php:306
+msgid "ADDITIONAL NOTES:"
+msgstr ""
+
+#: includes/templates/template-traditional.php:318
+msgid "THANK YOU FOR YOUR BUSINESS!"
+msgstr ""
+
+#: includes/templates/template-colors.php:147
+#: includes/templates/template-default.php:52
+msgid "From"
+msgstr ""
+
+#: includes/templates/template-colors.php:183
+#: includes/templates/template-default.php:80
+msgid "To"
+msgstr ""
+
+#: includes/templates/template-colors.php:204
+#: includes/templates/template-default.php:102
+msgid "Invoice Date"
+msgstr ""
+
+#: includes/templates/template-colors.php:236
+#: includes/templates/template-default.php:135
+msgid "Invoice Items"
+msgstr ""
+
+#: includes/templates/template-colors.php:246
+#: includes/templates/template-colors.php:250
+#: includes/templates/template-default.php:146
+#: includes/templates/template-default.php:150
+msgid "PRODUCT NAME"
+msgstr ""
+
+#: includes/templates/template-colors.php:247
+#: includes/templates/template-default.php:147
+msgid "QUANTITY"
+msgstr ""
+
+#: includes/templates/template-colors.php:248
+#: includes/templates/template-colors.php:251
+#: includes/templates/template-default.php:148
+#: includes/templates/template-default.php:151
+msgid "PRICE"
+msgstr ""
+
+#: includes/templates/template-colors.php:336
+#: includes/templates/template-default.php:239
+msgid "Invoice Totals"
+msgstr ""

@@ -1,0 +1,5 @@
+<?php if (current_user_can("access_optimizemember_level1")){ ?>
+	Some content for Members who are logged in with an optimizeMember Level >= 1.
+<?php } else { ?>
+	Some public content.
+<?php } ?>

@@ -1,0 +1,162 @@
+.modal {
+    display: none;
+    width: 600px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 45px #21425f;
+    -moz-box-shadow: 0px 0px 45px #21425f;
+    -o-box-shadow: 0px 0px 45px #21425f;
+    -ms-box-shadow: 0px 0px 45px #21425f;
+    box-shadow: 0px 0px 45px #21425f;
+}
+
+
+.modal a.close-modal {
+    position: absolute;
+    top: -12.5px;
+    right: -12.5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url(close.png) no-repeat 0 0;
+}
+
+
+.modal-spinner {
+    display: none;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -32px;
+    margin-top: -32px;
+    background: url(../images/spinner.gif) #111 no-repeat center center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+  display: block;
+}
+
+.input-group:last-child {
+  margin-bottom: 0;
+}
+
+.input-group label {
+  color: #ffcc26;
+  line-height: 14px;
+  margin-bottom: 10px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.input-group input[type=text] {
+  width: 100%;
+  height: 40px;
+  background: #14263a;
+  border: none;
+  color: #fff;
+  padding: 0 15px;
+  line-height: 40px;
+  font-weight: 200;
+}
+
+.input-group textarea {
+  width: 100%;
+  background: #14263a;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  font-weight: 200;
+}
+
+.input-group button[type=submit] {
+  padding: 10px 20px;
+  color: #000000;
+  background: #ffcc26;
+  border-radius: 100px;
+  border: none;
+  line-height: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.input-group button[type=submit]:hover {
+  color: #000000;
+  background: #fff;
+}
+
+
+/*new modal css for geodata modal*/
+
+@media only screen and (min-width: 768px) {
+    .hide {
+        display: none;
+    }
+
+    .modal-wrapper {
+        z-index: 999;
+        /* position: absolute;
+        left: calc((100vw - 1000px)/2); */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -200px;
+        margin-left: -300px;
+    }
+
+    .modal {
+        display: none;
+        position: relative;
+        width: 600px;
+        min-height: 300px;
+        padding: 25px;
+        background: #EEEEEE;
+        color: #fff;
+    }
+
+    .close-modal {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+        border-radius: 100px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border: none;
+        font-size: 14px;
+        color: #ffd541;
+        background: #ff3d3d;
+    }
+
+    h1 {
+        font-size: 56px;
+        margin: 35px 0;
+    }
+
+    .entry-content p {
+        font-size: 16px;
+    }
+
+    .show {
+        background: #1b334d;
+        color: #fff;
+        display: block!important;
+    }
+}
+
+@media only screen and (min-width: 1030px) {}

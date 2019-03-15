@@ -1,0 +1,44 @@
+/* New blog shortcode styles */
+
+#cus_taxonomy option {
+	display: none;
+}
+
+#meta_terms1 option {
+	display: none;
+}
+
+#meta_terms2 option {
+	display: none;
+}
+
+/* #cus_taxonomy option[value="xxx__select_taxonomy"] {
+	display: block !important;
+} */
+
+#meta_terms1 option[value="xxx__select_taxonomy"] {
+	display: block  !important;
+}
+
+#meta_terms2 option[value="xxx__select_taxonomy"] {
+	display: block !important;
+}
+
+#cus_taxonomy option[value^="post__"] {
+	display: block ;
+}
+
+#meta_terms1 option[value^="post__"] {
+	display: block ;
+}
+
+#meta_terms2 option[value^="post__"] {
+	display: block ;
+}
+
+#cus_terms_chosen li.active-result {
+	display: none ;
+}
+#cus_terms_exclude_chosen li.active-result {
+	display: none ;
+}

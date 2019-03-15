@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RCP bbPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-19 10:35-0600\n"
+"PO-Revision-Date: 2012-09-19 10:35-0600\n"
+"Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
+"Language-Team: Pippin's Plugins <pippin@pippinsplugins.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/feedback-filters.php:7
+msgid "You must be a premium user to view this content."
+msgstr ""
+
+#: ../includes/reply-functions.php:8
+msgid "You must be a premium user to view this content"
+msgstr ""
+
+#: ../includes/metaboxes.php:6
+msgid "Restrict this Forum"
+msgstr ""
+
+#: ../includes/metaboxes.php:11
+#: ../includes/metaboxes.php:25
+msgid "Paid Only?"
+msgstr ""
+
+#: ../includes/metaboxes.php:14
+msgid "Restrict this forum to paid users only"
+msgstr ""
+
+#: ../includes/metaboxes.php:20
+msgid "Restrict this Topic"
+msgstr ""
+
+#: ../includes/metaboxes.php:28
+msgid "Restrict this topic to paid users only"
+msgstr ""
+

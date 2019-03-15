@@ -1,0 +1,38 @@
+[06-Mar-2019 10:07:13 UTC] UpdraftPlus_Temporary_Clone_Restore::clone_ready_for_restore(7330a0c675db): touching flag file
+[06-Mar-2019 10:07:14 UTC] UpdraftPlus_Temporary_Clone_Restore::clone_ready_for_restore(7330a0c675db): touching flag file
+[06-Mar-2019 15:41:55 UTC] PHP Warning:  A non-numeric value encountered in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 191
+[06-Mar-2019 15:41:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ryit_get_user_name(), 0 passed in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1429 and exactly 1 expected in /var/www/html/wp-content/themes/Avada-Child-Theme/functions.php:1737
+Stack trace:
+#0 /var/www/html/wp-content/plugins/ryit-fellowship.php(1429): ryit_get_user_name()
+#1 /var/www/html/wp-content/plugins/ryit-fellowship.php(1394): ryit_get_help_popup('4', true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): ryit_get_help_popups('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-content/themes/Avada-Child-Theme/header.php(80): do_action('avada_before_bo...')
+#6 /var/www/html/wp-includes/template.php(688): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-includes/template.php(647): load_template('/var/www/html/w...', true)
+#8 /var/www/html/wp-includes/general-template.php(41): locate_temp in /var/www/html/wp-content/themes/Avada-Child-Theme/functions.php on line 1737
+[06-Mar-2019 15:42:45 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1821
+[06-Mar-2019 15:42:45 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1878
+[06-Mar-2019 15:42:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2266
+[06-Mar-2019 15:42:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2289
+[06-Mar-2019 15:43:06 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1821
+[06-Mar-2019 15:43:06 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1878
+[06-Mar-2019 15:43:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2266
+[06-Mar-2019 15:43:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2289
+[06-Mar-2019 15:44:49 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1821
+[06-Mar-2019 15:44:49 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1878
+[06-Mar-2019 15:44:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2266
+[06-Mar-2019 15:44:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2289
+[06-Mar-2019 15:45:01 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1821
+[06-Mar-2019 15:45:01 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1878
+[06-Mar-2019 15:45:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2266
+[06-Mar-2019 15:45:01 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2289
+[06-Mar-2019 15:45:18 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1821
+[06-Mar-2019 15:45:18 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1878
+[06-Mar-2019 15:45:18 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2266
+[06-Mar-2019 15:45:18 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2289
+[06-Mar-2019 15:45:53 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1821
+[06-Mar-2019 15:45:53 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 1878
+[06-Mar-2019 15:45:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2266
+[06-Mar-2019 15:45:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/html/wp-content/plugins/ryit-fellowship.php on line 2289

@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LABEL; ?>
+This may output something like: Gold Member
+( or whatever Label you've configured for their Membership Level )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_ACCESS_LABEL" /].

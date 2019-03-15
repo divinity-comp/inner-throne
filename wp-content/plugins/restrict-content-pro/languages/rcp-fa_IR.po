@@ -1,0 +1,4940 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Content Pro v2.2.2\n"
+"Report-Msgid-Bugs-To: https://restrictcontentpro.com/support/\n"
+"POT-Creation-Date: 2016-10-06 09:34:23+00:00\n"
+"PO-Revision-Date: 2015-10-10 09:46+0200\n"
+"Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ edd
+#: RCP_Plugin_Updater.php:186
+#, fuzzy
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"نسخه جدید %1$s آماده است. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s"
+"\">مشاهده نسخه جدید %3$s details</a>."
+
+# @ edd
+#: RCP_Plugin_Updater.php:194
+#, fuzzy
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"نسخه جدید  %1$s آماده است.%1$s  در دسترس است. %1$s در دسترس است. <a target="
+"\"_blank\" class=\"thickbox\" href=\"%2$s\">نمایش نسخه %3$s جزئیات</a> or <a "
+"href=\"%4$s\">هیمن الان به روز رسانی کن</a>."
+
+# @ edd
+#: RCP_Plugin_Updater.php:337 includes/admin/class-rcp-add-on-updater.php:276
+msgid "You do not have permission to install plugin updates"
+msgstr "شما اجازه دسترسی به نصب به روز رسانی پلاگین ندارید"
+
+# @ edd
+# @ rcp
+# @ rcp_stripe
+#: RCP_Plugin_Updater.php:337 includes/admin/class-rcp-add-on-updater.php:276
+#: includes/admin/settings/settings.php:1169 includes/class-rcp-export.php:187
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:149
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:116
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:130
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:142
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:209
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:223
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:244
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:279
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:293
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:333
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:113
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:129
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:158
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:66
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:242
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:316
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:347
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:375
+#: includes/gateways/gateway-functions.php:230
+#: includes/gateways/stripe/functions.php:135
+#: includes/gateways/stripe/functions.php:174
+#: includes/gateways/stripe/functions.php:191
+#: includes/gateways/stripe/functions.php:208
+#: includes/gateways/stripe/functions.php:224
+#: includes/gateways/stripe/functions.php:240
+#: includes/gateways/stripe/functions.php:249
+#: includes/gateways/stripe/functions.php:324
+#: includes/gateways/stripe/functions.php:341
+#: includes/gateways/stripe/functions.php:358
+#: includes/gateways/stripe/functions.php:374
+#: includes/gateways/stripe/functions.php:390
+#: includes/gateways/stripe/functions.php:399
+#: includes/gateways/stripe/functions.php:487
+#: includes/gateways/stripe/functions.php:497
+#: includes/gateways/stripe/functions.php:534
+#: includes/gateways/stripe/functions.php:551
+#: includes/gateways/stripe/functions.php:567
+#: includes/gateways/stripe/functions.php:583
+#: includes/gateways/stripe/functions.php:592
+#: includes/integrations/class-rcp-wp-approve-user.php:177
+#: includes/integrations/class-rcp-wp-approve-user.php:207
+#: includes/member-functions.php:984 includes/member-functions.php:1001
+#: includes/member-functions.php:1017 includes/member-functions.php:1033
+#: includes/member-functions.php:1042 includes/member-functions.php:1115
+msgid "Error"
+msgstr "خطا"
+
+# @ rcp
+#: includes/admin/add-ons.php:24
+#, fuzzy
+msgid "Add-ons for Restrict Content Pro"
+msgstr "Restrict Content Pro"
+
+#: includes/admin/add-ons.php:26 includes/admin/add-ons.php:59
+msgid "Browse all add-ons"
+msgstr ""
+
+#: includes/admin/add-ons.php:29
+msgid ""
+"These add-ons <em><strong>add functionality</strong></em> to your Restrict "
+"Content Pro-powered site."
+msgstr ""
+
+#: includes/admin/add-ons.php:51
+msgid ""
+"Pro add-ons are only available with a Professional or Ultimate license. If "
+"you already have one of these licenses, simply <a href=\"%s\">log in to your "
+"account</a> to download any of these add-ons."
+msgstr ""
+
+#: includes/admin/add-ons.php:52
+msgid ""
+"If you have a Personal or Plus license, you can easily upgrade from your "
+"account page to <a href=\"%s\">get access to all of these add-ons</a>!"
+msgstr ""
+
+#: includes/admin/add-ons.php:54
+msgid "Our official free add-ons are available to all license holders!"
+msgstr ""
+
+# @ rcp
+#: includes/admin/add-ons.php:95
+#, fuzzy
+msgid ""
+"There was an error retrieving the add-ons list from the server. Please try "
+"again later."
+msgstr "یک خطای به روز رسانی مشخصات شما وجود دارد. لطفا دوباره تلاش کنید."
+
+# @ rcp
+#: includes/admin/admin-ajax-actions.php:59
+msgid "No users found"
+msgstr "کاربری یافت نشد!"
+
+# @ rcp
+#: includes/admin/admin-notices.php:12
+msgid "You should now configure your Restrict Content Pro settings"
+msgstr "شما باید ابتدا تنظیمات Restrict Content Pro خود را انجام دهید"
+
+# @ rcp
+#: includes/admin/admin-notices.php:16
+msgid "The Restrict Content Pro database needs to be updated: "
+msgstr "دیتابیس Restrict Content Pro به روز شد"
+
+# @ rcp
+#: includes/admin/admin-notices.php:16
+msgid "upgrade now"
+msgstr "اکنون ارتقا دهید"
+
+# @ rcp
+#: includes/admin/admin-notices.php:20
+msgid "The Restrict Content Pro database has been updated"
+msgstr "دیتابیس Restrict Content Pro آپدیت شد"
+
+#: includes/admin/admin-notices.php:24
+msgid ""
+"The page selected for log in redirect does not appear to contain a log in "
+"form. Please add [login_form] to the page then re-enable the log in redirect "
+"option."
+msgstr ""
+
+# @ rcp
+#: includes/admin/admin-notices.php:28
+msgid ""
+"Your license key for Restrict Content Pro has expired. Please renew your "
+"license to re-enable automatic updates."
+msgstr "کلید لایسنس شما منقضی شده است . لطفا در جهت تمدید آن اقدام نمایید"
+
+# @ rcp
+#: includes/admin/admin-notices.php:30
+msgid ""
+"Please <a href=\"%s\">enter and activate</a> your license key for Restrict "
+"Content Pro to enable automatic updates."
+msgstr ""
+"برای پشتیبانی و آپدیت اتوماتیک لایسنس را <a href=\"%s\">وارد و فعال نمایید</"
+"a> ."
+
+# @ rcp
+#: includes/admin/admin-notices.php:35
+msgid ""
+"You are using an outdated version of the Stripe integration for Restrict "
+"Content Pro. Please <a href=\"%s\">deactivate</a> the add-on version to "
+"configure the new version."
+msgstr ""
+"شما با استفاده از یک نسخه قدیمی ادغام خط خطی برای محدود کردن نرم افزار مطلب. "
+"لطفا <a href=\"%s\">غیر فعال کردن</a> بر اساس نسخه افزودنی برای پیکربندی "
+"نسخه جدید است."
+
+# @ rcp
+#: includes/admin/admin-notices.php:40
+msgid ""
+"You are using an outdated version of the PayPal Pro / Express integration "
+"for Restrict Content Pro. Please <a href=\"%s\">deactivate</a> the add-on "
+"version to configure the new version."
+msgstr ""
+"شما از یک نسخه قدیمی از درگاه پرداخت استفاده می کنید. لطفا <a href=\"%s"
+"\">غیر فعال کردن</a> بر اساس نسخه جدید را نصب و فعال سازی کنید"
+
+# @ rcp
+#: includes/admin/admin-notices.php:47
+msgid "Payment deleted"
+msgstr "پرداخت حذف"
+
+# @ rcp
+#: includes/admin/admin-notices.php:52
+msgid "Payment added"
+msgstr "پرداخت اضافه"
+
+# @ rcp
+#: includes/admin/admin-notices.php:57
+msgid "Payment creation failed"
+msgstr "پرداخت ایجاد نشده(خطا در پرداخت)"
+
+# @ rcp
+#: includes/admin/admin-notices.php:63
+msgid "Payment updated"
+msgstr "به روز رسانی در پرداخت ها"
+
+# @ rcp
+#: includes/admin/admin-notices.php:68
+msgid "Payment update failed"
+msgstr "بروز رسانی در پرداخت ها با مشکل مواجه شد"
+
+# @ rcp
+#: includes/admin/admin-notices.php:73
+msgid "Database upgrade complete"
+msgstr "ارتقا دیتابیس کامل شد"
+
+# @ rcp
+#: includes/admin/admin-notices.php:78
+msgid "The user's subscription has been added"
+msgstr "اشتراک کاربر اضافه شده است"
+
+# @ rcp
+#: includes/admin/admin-notices.php:83
+msgid "The user's subscription could not be added"
+msgstr "اشتراک کاربر نمی تواند اضافه شود"
+
+# @ default
+#: includes/admin/admin-notices.php:89
+msgid "Member updated"
+msgstr "به روز رسانی در اعضا"
+
+# @ default
+#: includes/admin/admin-notices.php:94
+#, fuzzy
+msgid "Member accounts updated"
+msgstr "به روز رسانی در اعضا"
+
+# @ rcp
+#: includes/admin/admin-notices.php:99
+msgid "Member's payment profile cancelled successfully"
+msgstr "مشخصات کاربر پرداخت با موفقیت لغو شد"
+
+# @ rcp
+#: includes/admin/admin-notices.php:104
+msgid "Subscription level added"
+msgstr "اضافه شدن به سطح کاربر"
+
+# @ rcp
+#: includes/admin/admin-notices.php:109
+msgid "Subscription level updated"
+msgstr "بروزرسانی در سطح  اشتراک کاربر"
+
+# @ rcp
+#: includes/admin/admin-notices.php:114
+msgid "Subscription level could not be added"
+msgstr "بیش از این نمی توان سطح اشتراک کاربر را بالا برد"
+
+# @ rcp
+#: includes/admin/admin-notices.php:120
+msgid "Subscription level could not be updated"
+msgstr "بروز رسانی در سطح اشتراک کاربر با موفیت همراه نبود"
+
+# @ rcp
+#: includes/admin/admin-notices.php:126
+#, fuzzy
+msgid "Subscription level fields are required"
+msgstr "بروزرسانی در سطح  اشتراک کاربر"
+
+# @ rcp
+#: includes/admin/admin-notices.php:132
+msgid "Discount code created"
+msgstr "تخفیف کد ایجاد"
+
+# @ rcp
+#: includes/admin/admin-notices.php:137
+msgid "The discount code could not be created due to an error"
+msgstr "کد تخفیف به دلیل یک خطا ایجاد می شود"
+
+# @ rcp
+#: includes/admin/admin-pages.php:14 includes/admin/admin-pages.php:20
+msgid "Restrict Content Pro Settings"
+msgstr "تنظیمات Restrict Content Pro"
+
+# @ rcp
+#: includes/admin/admin-pages.php:14
+msgid "Restrict"
+msgstr "عضویت VIP"
+
+# @ rcp
+#: includes/admin/admin-pages.php:15
+msgid "Members"
+msgstr "کاربران"
+
+# @ rcp
+#: includes/admin/admin-pages.php:16 includes/admin/categories.php:67
+#: includes/admin/subscriptions/subscription-levels.php:12
+msgid "Subscription Levels"
+msgstr "سطح اشتراک"
+
+# @ rcp
+#: includes/admin/admin-pages.php:17
+msgid "Discounts"
+msgstr "تخفیف"
+
+# @ rcp
+#: includes/admin/admin-pages.php:17
+#: includes/admin/discounts/discount-codes.php:12
+#: includes/class-rcp-export-members.php:46
+msgid "Discount Codes"
+msgstr "کد تخفیف"
+
+# @ rcp
+#: includes/admin/admin-pages.php:18 includes/admin/members/edit-member.php:152
+#: includes/admin/payments/payments-page.php:23
+#: includes/admin/settings/settings.php:35
+msgid "Payments"
+msgstr "پرداخت ها"
+
+# @ rcp
+#: includes/admin/admin-pages.php:19
+msgid "Reports"
+msgstr "گزارش"
+
+# @ rcp
+#: includes/admin/admin-pages.php:20
+msgid "Settings"
+msgstr "پیکربندی"
+
+# @ rcp
+#: includes/admin/admin-pages.php:21
+msgid "Export Member Data"
+msgstr "خروجی گرفتن از اطلاعات اعضا"
+
+# @ rcp
+#: includes/admin/admin-pages.php:21 includes/admin/export.php:8
+msgid "Export"
+msgstr "برون ریزی"
+
+# @ rcp
+# @ wp-logging
+#: includes/admin/admin-pages.php:22 includes/libraries/class-wp-logging.php:69
+msgid "Logs"
+msgstr "سوابق"
+
+#: includes/admin/admin-pages.php:23
+msgid "Tools"
+msgstr ""
+
+# @ rcp
+#: includes/admin/admin-pages.php:24
+msgid "Help"
+msgstr "راهنما"
+
+#: includes/admin/admin-pages.php:25
+msgid "Add-ons"
+msgstr ""
+
+# @ rcp
+#: includes/admin/categories.php:45
+msgid "Paid Only?"
+msgstr "فقط پرداختی ها؟"
+
+# @ rcp
+#: includes/admin/categories.php:49
+#, fuzzy
+msgid "Restrict items in this category to paid subscribers only?"
+msgstr "محدود کردن موارد در دسته بندی هایی که مشترکان فروش داسته اند؟"
+
+# @ rcp
+#: includes/admin/categories.php:54
+#: includes/admin/subscriptions/edit-subscription.php:34
+#: includes/admin/subscriptions/subscription-levels.php:18
+#: includes/admin/subscriptions/subscription-levels.php:50
+#: includes/admin/subscriptions/subscription-levels.php:92
+#: includes/admin/subscriptions/subscription-levels.php:127
+msgid "Access Level"
+msgstr "سطح دسترسی"
+
+# @ rcp
+#: includes/admin/categories.php:62
+msgid "Access level required to view content in this category."
+msgstr "سطح دسترسی مورد نیاز برای مشاهده مطالب در این دسته بندی"
+
+# @ rcp
+#: includes/admin/categories.php:75
+msgid ""
+"Subscription levels allowed to view content in this category. Leave "
+"unchecked for all."
+msgstr "مجاز بودن تمام سطوح اشتراک برای مشاهده تمام دسته بندی ها"
+
+# @ edd
+#: includes/admin/class-rcp-add-on-updater.php:186
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"نسخه جدید %1$s آماده است. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s"
+"\">مشاهده نسخه جدید %3$s details</a>."
+
+# @ edd
+#: includes/admin/class-rcp-add-on-updater.php:193
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"نسخه جدید  %1$s آماده است.%1$s  در دسترس است. %1$s در دسترس است. <a target="
+"\"_blank\" class=\"thickbox\" href=\"%2$s\">نمایش نسخه %3$s جزئیات</a> or <a "
+"href=\"%4$s\">هیمن الان به روز رسانی کن</a>."
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:17
+#: includes/admin/discounts/discount-codes.php:37
+#: includes/admin/discounts/discount-codes.php:89
+#: includes/admin/discounts/discount-codes.php:111
+#: includes/admin/settings/settings.php:862
+#: includes/admin/subscriptions/edit-subscription.php:16
+#: includes/admin/subscriptions/subscription-levels.php:16
+#: includes/admin/subscriptions/subscription-levels.php:33
+#: includes/admin/subscriptions/subscription-levels.php:90
+#: includes/admin/subscriptions/subscription-levels.php:109
+msgid "Name"
+msgstr "نام"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:18
+#: includes/admin/discounts/discount-codes.php:53
+#: includes/admin/discounts/discount-codes.php:90
+#: includes/admin/discounts/discount-codes.php:120
+#: includes/admin/subscriptions/edit-subscription.php:25
+#: includes/admin/subscriptions/subscription-levels.php:17
+#: includes/admin/subscriptions/subscription-levels.php:49
+#: includes/admin/subscriptions/subscription-levels.php:91
+#: includes/admin/subscriptions/subscription-levels.php:118
+msgid "Description"
+msgstr "توضیحات"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:19
+#: includes/admin/discounts/discount-codes.php:54
+#: includes/admin/discounts/discount-codes.php:91
+#: includes/admin/discounts/discount-codes.php:129
+msgid "Code"
+msgstr "کد"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:20
+#: includes/admin/discounts/discount-codes.php:92
+#: includes/admin/discounts/discount-codes.php:159
+#: includes/admin/discounts/edit-discount.php:63
+#: includes/admin/members/members-page.php:140
+#: includes/admin/members/members-page.php:197
+#: includes/admin/members/members-page.php:217
+#: includes/admin/payments/payments-page.php:66
+#: includes/admin/payments/payments-page.php:104
+#: includes/admin/payments/payments-page.php:122
+#: includes/class-rcp-export-members.php:42
+#: includes/class-rcp-export-payments.php:38 includes/member-functions.php:547
+#: includes/member-functions.php:590 includes/user-page-columns.php:4
+#: templates/paypal-express-confirm.php:11
+#: templates/register-total-details.php:14 templates/subscription.php:16
+#: templates/subscription.php:57
+msgid "Subscription"
+msgstr "اشتراک"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:21
+#: includes/admin/discounts/discount-codes.php:64
+#: includes/admin/discounts/discount-codes.php:93
+#: includes/admin/discounts/discount-codes.php:150
+#: includes/admin/payments/edit-payment.php:29
+#: includes/admin/payments/new-payment.php:23
+#: includes/admin/payments/payments-page.php:68
+#: includes/admin/payments/payments-page.php:106
+#: includes/admin/payments/payments-page.php:124
+#: includes/class-rcp-export-payments.php:39 includes/member-functions.php:552
+#: includes/member-functions.php:554 includes/member-functions.php:594
+#: templates/register-total-details.php:15 templates/subscription.php:58
+msgid "Amount"
+msgstr "مقدار"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:22
+#: includes/admin/discounts/discount-codes.php:65
+#: includes/admin/discounts/discount-codes.php:94
+#: includes/admin/discounts/discount-codes.php:138
+#: includes/admin/payments/payments-page.php:69
+#: includes/admin/payments/payments-page.php:107
+#: includes/admin/payments/payments-page.php:125
+msgid "Type"
+msgstr "نوع"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:23
+#: includes/admin/discounts/discount-codes.php:66
+#: includes/admin/discounts/discount-codes.php:95
+#: includes/admin/members/edit-member.php:21
+#: includes/admin/members/members-page.php:141
+#: includes/admin/members/members-page.php:198
+#: includes/admin/members/members-page.php:218
+#: includes/admin/payments/edit-payment.php:56
+#: includes/admin/payments/new-payment.php:50
+#: includes/admin/payments/payments-page.php:71
+#: includes/admin/payments/payments-page.php:109
+#: includes/admin/payments/payments-page.php:127
+#: includes/admin/subscriptions/edit-subscription.php:81
+#: includes/admin/subscriptions/subscription-levels.php:188
+#: includes/class-rcp-export-members.php:45 includes/user-page-columns.php:5
+#: templates/subscription.php:15
+msgid "Status"
+msgstr "وضعیت"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:24
+#: includes/admin/discounts/discount-codes.php:75
+#: includes/admin/discounts/discount-codes.php:96
+msgid "Uses"
+msgstr "استفاده"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:25
+#: includes/admin/discounts/discount-codes.php:76
+#: includes/admin/discounts/discount-codes.php:97
+msgid "Uses Left"
+msgstr "استفاده چپ"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:26
+#: includes/admin/discounts/discount-codes.php:77
+#: includes/admin/discounts/discount-codes.php:98
+#: includes/admin/members/members-page.php:143
+#: includes/admin/members/members-page.php:200
+#: includes/admin/members/members-page.php:220
+#: includes/class-rcp-export-members.php:44 templates/subscription.php:20
+msgid "Expiration"
+msgstr "انقضاء"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:41
+#: includes/admin/members/members-page.php:191
+#: includes/admin/payments/payments-page.php:91
+#: includes/admin/subscriptions/subscription-levels.php:37
+#, fuzzy
+msgid "ID:"
+msgstr "شماره"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:42
+#: includes/admin/payments/payments-page.php:97
+#: includes/admin/subscriptions/subscription-levels.php:38
+msgid "Edit"
+msgstr "ویرایش"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:44
+#: includes/admin/subscriptions/subscription-levels.php:40
+msgid "Deactivate"
+msgstr "غیرفعال"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:46
+#: includes/admin/subscriptions/subscription-levels.php:42
+msgid "Activate"
+msgstr "فعال سازی"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:48
+#: includes/admin/logs-list-table.php:108
+#: includes/admin/payments/payments-page.php:99
+#: includes/admin/subscriptions/subscription-levels.php:44
+msgid "Delete"
+msgstr "پاک کردن"
+
+#: includes/admin/discounts/discount-codes.php:51
+#: includes/admin/members/members-page.php:195
+#: includes/admin/payments/payments-page.php:102
+#: includes/admin/subscriptions/subscription-levels.php:47
+msgid "Show more details"
+msgstr ""
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:60
+#: includes/admin/discounts/discount-codes.php:166
+#: includes/admin/discounts/edit-discount.php:70
+msgid "All Levels"
+msgstr "همه سطوح"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:65
+#: includes/admin/discounts/discount-codes.php:142
+msgid "Percentage"
+msgstr "درصد"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:65
+msgid "Flat"
+msgstr "Flat"
+
+# @ rcp
+# @ default
+#: includes/admin/discounts/discount-codes.php:69
+#: includes/admin/settings/settings.php:69
+msgid "active"
+msgstr "فعال"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:69
+msgid "disabled"
+msgstr "غیر فعال کردن"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:71
+msgid "expired"
+msgstr "پایان اعتبار"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:77
+#: includes/admin/subscriptions/subscription-levels.php:50
+msgid "none"
+msgstr "هیچکدام"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:84
+msgid "No discount codes added yet."
+msgstr "هیچ کد تخفیفی اضافه نشده است."
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:105
+msgid "Add New Discount"
+msgstr "افزودن کد تخفیف جدید"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:115
+msgid "The name of this discount"
+msgstr "نام این تخفیف"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:124
+msgid "The description of this discount code"
+msgstr "شرح این کد تخفیف"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:133
+msgid "Enter a code for this discount, such as 10PERCENT"
+msgstr "کد را وارد کنید برای این تخفیف، مانند 10Darsad"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:143
+msgid "Flat amount"
+msgstr "مقدار flat"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:145
+msgid "The kind of discount to apply for this discount."
+msgstr "نوع تخفیف برای این تخفیف اعمال می شود."
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:154
+msgid "The amount of this discount code."
+msgstr "مقدار این کد تخفیف."
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:174
+#: includes/admin/discounts/edit-discount.php:78
+msgid "The subscription levels this discount code can be used for."
+msgstr "سطوح اشتراک این کد تخفیف می تواند برای استفاده می شود."
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:179
+#: includes/admin/members/edit-member.php:64
+#: includes/admin/members/members-page.php:285
+msgid "Expiration date"
+msgstr "تاریخ انقضاء"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:183
+msgid ""
+"Enter the expiration date for this discount code in the format of yyyy-mm-"
+"dd. For no expiration, leave blank"
+msgstr ""
+"تاریخ انقضا برای این کد تخفیف در قالب YYYY-MM-DD وارد کنید. برای بدون انقضا، "
+"خالی بگذارید"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:188
+msgid "Max Uses"
+msgstr "حداکثر استفاده"
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:192
+msgid ""
+"The maximum number of times this discount can be used. Leave blank for "
+"unlimited."
+msgstr "حداکثر تعداد بار این تخفیف استفاده می شود. خالی برای نامحدود."
+
+# @ rcp
+#: includes/admin/discounts/discount-codes.php:200
+msgid "Add Discount Code"
+msgstr "افزودن کد تخفیف"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:5
+msgid "Edit Discount Code:"
+msgstr "ویرایش کد تخفیف:"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:7
+#: includes/admin/members/members-page.php:185
+#: includes/admin/payments/edit-payment.php:10
+#: includes/admin/payments/new-payment.php:4
+#: includes/admin/subscriptions/edit-subscription.php:8
+msgid "Cancel"
+msgstr "لغو"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:15
+msgid " Name"
+msgstr "نام"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:19
+msgid " The name of this discount"
+msgstr "نام این تخفیف"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:24
+msgid " Description"
+msgstr "توضیحات"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:28
+msgid " The description of this discount code"
+msgstr "شرح این کد تخفیف"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:33
+msgid " Code"
+msgstr "کد"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:37
+msgid " Enter a code for this discount, such as 10PERCENT"
+msgstr "کد را وارد کنید برای این تخفیف، مانند 10Darsad"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:42
+msgid " Type"
+msgstr "نوع"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:46
+msgid " Percentage"
+msgstr "درصد"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:47
+msgid " Flat amount"
+msgstr "مقدار flat"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:49
+msgid " The kind of discount to apply for this discount."
+msgstr "نوع تخفیف برای این تخفیف اعمال می شود."
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:54
+msgid " Amount"
+msgstr "مقدار"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:58
+msgid " The amount of this discount code."
+msgstr "مقدار این کد تخفیف."
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:83
+msgid " Expiration date"
+msgstr "تاریخ انقضاء"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:87
+msgid ""
+" Enter the expiration date for this discount code in the format of yyyy-mm-"
+"dd. Leave blank for no expiration"
+msgstr ""
+"تاریخ انقضا برای این کد تخفیف در قالب YYYY-MM-DD وارد کنید. اگر خالی بگذارید "
+"برای بدون انقضا خواهد بدود"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:92
+msgid " Status"
+msgstr "وضعیت"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:96
+msgid " Active"
+msgstr "فعال"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:97
+msgid " Disabled"
+msgstr "غیر فعال"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:99
+msgid " The status of this discount code."
+msgstr "وضعیت این کد تخفیف."
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:104
+msgid " Max Uses"
+msgstr "حداکثر استفاده"
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:108
+msgid ""
+" The maximum number of times this discount can be used. Leave blank for "
+"unlimited."
+msgstr "حداکثر تعداد بار این تخفیف استفاده می شود. خالی برای نامحدود."
+
+# @ rcp
+#: includes/admin/discounts/edit-discount.php:117
+msgid " Update Discount"
+msgstr "به روز رسانی تخفیف"
+
+# @ rcp
+#: includes/admin/export.php:12
+msgid "Members Export"
+msgstr "خروجی گرفتن اعضا"
+
+# @ rcp
+#: includes/admin/export.php:13
+#, fuzzy
+msgid ""
+"Download member data as a CSV file. This is useful for tasks such as "
+"importing batch users into MailChimp, or other systems."
+msgstr "خروجی گرفتن از اعضا به صورت CSV"
+
+# @ rcp
+#: includes/admin/export.php:17
+msgid "All"
+msgstr "همه"
+
+# @ rcp
+#: includes/admin/export.php:27
+msgid "Choose the subscription to export members from"
+msgstr "خروجی گرفتن  از مشترکان"
+
+# @ rcp
+#: includes/admin/export.php:29 includes/admin/members/members-page.php:65
+#: includes/admin/subscriptions/edit-subscription.php:85
+#: includes/admin/subscriptions/subscription-levels.php:192
+#: includes/member-functions.php:445
+msgid "Active"
+msgstr "فعال"
+
+# @ rcp
+#: includes/admin/export.php:30 includes/admin/members/members-page.php:70
+#: includes/member-functions.php:451 includes/misc-functions.php:606
+msgid "Pending"
+msgstr "در حال بررسی"
+
+# @ rcp
+#: includes/admin/export.php:31 includes/admin/members/members-page.php:75
+#: includes/member-functions.php:448
+msgid "Expired"
+msgstr "پایان اعتبار"
+
+# @ rcp
+#: includes/admin/export.php:32 includes/admin/members/members-page.php:80
+#: includes/member-functions.php:454
+msgid "Cancelled"
+msgstr "لغو شده!"
+
+# @ rcp
+#: includes/admin/export.php:33 includes/admin/members/members-page.php:85
+#: includes/admin/subscriptions/subscription-levels.php:64
+#: includes/admin/subscriptions/subscription-levels.php:169
+#: includes/member-functions.php:457
+msgid "Free"
+msgstr "رایگان"
+
+# @ rcp
+#: includes/admin/export.php:35
+msgid "Choose the status to export"
+msgstr "وضعیت خروجی را انتخاب کنید"
+
+# @ rcp
+#: includes/admin/export.php:37
+msgid "Maximum number of members to export"
+msgstr "حداکثر تعداد اعضای به خروجی"
+
+# @ rcp
+#: includes/admin/export.php:39
+msgid "The number of members to skip"
+msgstr "تعدا اعضا برای خروجی"
+
+# @ rcp
+#: includes/admin/export.php:41
+msgid ""
+"If you need to export a large number of members, export them in batches "
+"using the max and offset options"
+msgstr ""
+"اگر شما نیاز به گرفتن از  تعداد زیادی از اعضای دارید, خروجی آنها را در دسته "
+"با استفاده از گزینه های حداکثر  تعیین کنید."
+
+# @ rcp
+#: includes/admin/export.php:43
+msgid "Download Member CSV"
+msgstr "دانلود فایل خروجی CSV"
+
+# @ rcp
+#: includes/admin/export.php:47
+msgid "Payments Export"
+msgstr "خروجی گرفتن از پرداخت ها"
+
+# @ rcp
+#: includes/admin/export.php:48
+msgid ""
+"Download payment data as a CSV file. Use this file for your own record "
+"keeping or tracking."
+msgstr ""
+"دانلود پرداخت ها به صورت فایل csv فایل.این فایل برای خود ذخیره داشته باشید."
+
+# @ rcp
+#: includes/admin/export.php:52
+msgid "All years"
+msgstr "تمام سال ها"
+
+# @ rcp
+#: includes/admin/export.php:64
+msgid "All months"
+msgstr "تمام ماه ها"
+
+# @ rcp
+#: includes/admin/export.php:71
+msgid "Download Payments CSV"
+msgstr "دانلود پرداخت ها به صورت  CSV"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:17
+#: includes/admin/help/help-menus-setup-old.php:33
+#: includes/admin/help/help-menus-setup-old.php:49
+#: includes/admin/help/help-menus-setup-old.php:65
+#: includes/admin/help/help-menus-setup-old.php:72
+#: includes/admin/help/help-menus-setup.php:22
+#: includes/admin/help/help-menus-setup.php:53
+#: includes/admin/help/help-menus-setup.php:84
+#: includes/admin/help/help-menus-setup.php:115
+#: includes/admin/help/help-menus-setup.php:125
+#: includes/admin/settings/settings.php:34
+#: includes/admin/settings/settings.php:56
+#: includes/admin/settings/settings.php:552
+msgid "General"
+msgstr "عمومی"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:20
+#: includes/admin/help/help-menus-setup-old.php:36
+#: includes/admin/help/help-menus-setup.php:29
+#: includes/admin/help/help-menus-setup.php:60
+msgid "Adding Subscriptions"
+msgstr "اضافه کردن اشتراک"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:23
+#: includes/admin/help/help-menus-setup.php:36
+msgid "Member Details"
+msgstr "مشاهده جزئیات کاربر:"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:26
+#: includes/admin/help/help-menus-setup.php:43
+msgid "Editing Members"
+msgstr "در حال ویرایش کاربران"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:39
+#: includes/admin/help/help-menus-setup.php:67
+msgid "Editing Subscriptions"
+msgstr "در حال ویرایش اشتراک ها"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:42
+#: includes/admin/help/help-menus-setup.php:74
+msgid "Deleting Subscriptions"
+msgstr "حذف اشتراک ها"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:52
+#: includes/admin/help/help-menus-setup.php:91
+msgid "Adding Discounts"
+msgstr "اضافه کردن تخفیف"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:55
+#: includes/admin/help/help-menus-setup.php:98
+msgid "Editing Discounts"
+msgstr "تخفیف در حال ویرایش"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:58
+#: includes/admin/help/help-menus-setup.php:105
+msgid "Using Discounts"
+msgstr "با استفاده از تخفیف"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:75
+#: includes/admin/help/help-menus-setup.php:132
+msgid "Messages"
+msgstr "پیام ها"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:78
+#: includes/admin/help/help-menus-setup.php:139
+#: includes/gateways/class-rcp-payment-gateways.php:62
+#: includes/gateways/class-rcp-payment-gateways.php:67
+#: includes/gateways/class-rcp-payment-gateways.php:125
+msgid "PayPal"
+msgstr "درگاه پرداخت"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:81
+#: includes/admin/help/help-menus-setup.php:146
+msgid "Signup Forms"
+msgstr "فرم ثبت نام"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:84
+#: includes/admin/help/help-menus-setup.php:153
+#: includes/admin/settings/settings.php:36
+msgid "Emails"
+msgstr "ایمیل ها"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:87
+#: includes/admin/help/help-menus-setup.php:160
+#: includes/admin/settings/settings.php:38
+msgid "Misc"
+msgstr "متفرقه"
+
+# @ rcp
+#: includes/admin/help/help-menus-setup-old.php:90
+#: includes/admin/help/help-menus-setup.php:167
+msgid "Logging"
+msgstr "گزارشات"
+
+# @ rcp
+#: includes/admin/logs-list-table.php:54
+msgid "View logs for this user"
+msgstr "مشاهده سیاه های مربوط به این کاربر"
+
+# @ rcp
+#: includes/admin/logs-list-table.php:58
+msgid "at"
+msgstr "در"
+
+# @ rcp
+#: includes/admin/logs-list-table.php:90
+msgid "Log Error"
+msgstr "لاگ"
+
+# @ rcp
+#: includes/admin/logs-list-table.php:91
+msgid "Log Message"
+msgstr "سوابق پیام ها"
+
+# @ rcp
+#: includes/admin/logs-list-table.php:92
+#: includes/admin/members/members-page.php:139
+#: includes/admin/members/members-page.php:170
+#: includes/admin/members/members-page.php:216
+#: includes/admin/payments/edit-payment.php:18
+#: includes/admin/payments/new-payment.php:12
+#: includes/admin/payments/payments-page.php:65
+#: includes/admin/payments/payments-page.php:82
+#: includes/admin/payments/payments-page.php:121
+msgid "User"
+msgstr "کاربر"
+
+# @ rcp
+#: includes/admin/logs-list-table.php:93
+#: includes/admin/payments/payments-page.php:67
+#: includes/admin/payments/payments-page.php:105
+#: includes/admin/payments/payments-page.php:123
+#: includes/class-rcp-export-payments.php:44 includes/class-rcp-export.php:68
+#: includes/member-functions.php:546 includes/member-functions.php:589
+#: templates/subscription.php:59
+msgid "Date"
+msgstr "تاریخ"
+
+# @ rcp
+#: includes/admin/logs.php:10
+msgid "RCP Error Logs"
+msgstr "لاگ گزارشات"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:10
+msgid "Edit Member:"
+msgstr "ویرایش کاربر"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:13
+#: includes/admin/members/members-page.php:188
+msgid "Switch to User"
+msgstr "تغییر به کاربر"
+
+#: includes/admin/members/edit-member.php:33
+msgid ""
+"An Active status is required to access paid content. Members with a status "
+"of Cancelled may continue to access paid content until the expiration date "
+"on their account is reached."
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/edit-member.php:34
+msgid "The status of this user's subscription"
+msgstr "وضعیت اشتراک این کاربر"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:39
+#: includes/admin/members/members-page.php:268
+msgid "Subscription Level"
+msgstr "سطح عضویت"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:49
+msgid "Choose the subscription level for this user"
+msgstr "سطح اشتراک را برای این کاربر انتخاب کنید"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:54
+#: includes/class-rcp-export-members.php:43
+#: includes/class-rcp-export-payments.php:43 includes/member-functions.php:549
+#: includes/member-functions.php:592
+msgid "Subscription Key"
+msgstr "کلید اشتراک"
+
+#: includes/admin/members/edit-member.php:58
+msgid ""
+"This key is used for reference purposes and may be shown on payment and "
+"subscription records in your merchant accounts."
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/edit-member.php:59
+msgid "The member's subscription key. This cannot be changed."
+msgstr "کلید اشتراک عضو. این نمی تواند تغییر کند."
+
+# @ rcp
+#: includes/admin/members/edit-member.php:70
+#: includes/admin/members/members-page.php:291
+msgid "Never expires?"
+msgstr "هرگز منقضی نشود؟"
+
+#: includes/admin/members/edit-member.php:72
+msgid ""
+"This is the date the member will lose access to content if their membership "
+"is not renewed."
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/edit-member.php:73
+#: includes/admin/members/members-page.php:293
+msgid "Enter the expiration date for this user in the format of yyyy-mm-dd"
+msgstr "تاریخ انقضا برای این کاربر در قالب yyyy-mm-dd وارد کنید "
+
+# @ rcp
+#: includes/admin/members/edit-member.php:78
+#: includes/class-rcp-export-members.php:47
+msgid "Payment Profile ID"
+msgstr "نمایش پرداخت ID"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:82
+msgid "This is the customer's payment profile ID in the payment processor"
+msgstr "این پرداخت ID مشخصات مشتری در پردازنده های پرداخت است"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:87
+#: includes/admin/members/members-page.php:142
+#: includes/admin/members/members-page.php:199
+#: includes/admin/members/members-page.php:219
+#: includes/class-rcp-export-members.php:48
+msgid "Recurring"
+msgstr "دوره ای (پی پال)"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:92
+msgid "Is this user's subscription recurring?"
+msgstr "آیا اشتراک کاربر در محدوده زمانی معین؟"
+
+#: includes/admin/members/edit-member.php:94
+msgid ""
+"If checked, this member has a recurring subscription. Only customers with "
+"recurring memberships will be given the option to cancel their membership on "
+"their subscription details page."
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/edit-member.php:99
+msgid "Trialing"
+msgstr "آزمایشی"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:104
+msgid "Does this user have a trial membership?"
+msgstr "این کاربر عضویت آزمایشی داشته باشد؟"
+
+#: includes/admin/members/edit-member.php:106
+msgid ""
+"Members are limited to a single trial membership. Once a trial has been "
+"used, the member may not sign up for another trial membership."
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/edit-member.php:111
+msgid "Sign Up Method"
+msgstr "روش ثبت نام"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:116
+msgid "User Signup"
+msgstr "ثبت نام کاربر"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:117
+msgid "Added by admin manually"
+msgstr "اضافه شده توسط admin دستی"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:119
+msgid "Was this a real signup or a membership given to the user"
+msgstr "شما از قبل به این کاربر عضویت داده بوید؟"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:124
+msgid "User Notes"
+msgstr "یادداشت های کاربری"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:128
+msgid "Use this area to record notes about this user if needed"
+msgstr "استفاده از بخشی برای یاداشت های کاربر در صورت نیاز ."
+
+# @ rcp
+#: includes/admin/members/edit-member.php:133
+msgid "Discount codes used"
+msgstr "کدهای تخفیف استفاده شده"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:145
+#: includes/discount-functions.php:265
+msgid "None"
+msgstr "هیچکدام"
+
+# @ rcp
+#: includes/admin/members/edit-member.php:162
+msgid "Update User Subscription"
+msgstr "اشتراک کاربر به روز رسانی شد"
+
+# @ rcp
+#: includes/admin/members/members-page.php:11
+msgid " Paid Subscribers"
+msgstr "پرداخت های مشترکین"
+
+# @ rcp
+#: includes/admin/members/members-page.php:62
+msgid "Status: "
+msgstr "وضعیت:"
+
+# @ rcp
+#: includes/admin/members/members-page.php:64
+msgid "View all active subscribers"
+msgstr "مشاهده تمام مشترکین فعال"
+
+# @ rcp
+#: includes/admin/members/members-page.php:69
+msgid "View all pending subscribers"
+msgstr "مشاهده تمام مشترکین در  انتظار تایید"
+
+# @ rcp
+#: includes/admin/members/members-page.php:74
+msgid "View all expired subscribers"
+msgstr "مشاهده تمام مشترکین منقضی"
+
+# @ rcp
+#: includes/admin/members/members-page.php:79
+msgid "View all cancelled subscribers"
+msgstr "مشاهده تمام اشتراک های کنسل شده ( مخصوص پی پال)"
+
+# @ rcp
+#: includes/admin/members/members-page.php:84
+msgid "View all free members"
+msgstr "نمایش تمام اعضا آزاد"
+
+# @ rcp
+#: includes/admin/members/members-page.php:91
+msgid "Search Members"
+msgstr "جستجو  بین کاربران"
+
+# @ rcp
+#: includes/admin/members/members-page.php:95
+msgid "Search members"
+msgstr "جستجو  بین کاربران"
+
+# @ rcp
+#: includes/admin/members/members-page.php:102
+msgid "All Subscriptions"
+msgstr "همه اشتراک ها"
+
+# @ rcp
+#: includes/admin/members/members-page.php:111
+msgid "Newest First"
+msgstr "جدیدترین ها"
+
+# @ rcp
+#: includes/admin/members/members-page.php:112
+msgid "Oldest First"
+msgstr "قدیمی ترها"
+
+# @ rcp
+#: includes/admin/members/members-page.php:116
+#: includes/admin/reports/reports-page.php:805
+msgid "Filter"
+msgstr "فیلتر"
+
+#: includes/admin/members/members-page.php:121
+msgid "Select bulk action"
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/members-page.php:123
+#, fuzzy
+msgid "Bulk Actions"
+msgstr "فعالیت‌ها"
+
+# @ rcp
+#: includes/admin/members/members-page.php:124
+#, fuzzy
+msgid "Mark as Active"
+msgstr "فعال"
+
+# @ rcp
+#: includes/admin/members/members-page.php:125
+#, fuzzy
+msgid "Mark as Expired"
+msgstr "پایان اعتبار"
+
+# @ rcp
+#: includes/admin/members/members-page.php:126
+msgid "Revoke Access"
+msgstr "لغو دسترسی"
+
+# @ rcp
+#: includes/admin/members/members-page.php:128
+#, fuzzy
+msgid "New Expiration Date"
+msgstr "تاریخ انقضاء"
+
+#: includes/admin/members/members-page.php:129 templates/register-single.php:67
+#: templates/register.php:92
+msgid "Apply"
+msgstr ""
+
+#: includes/admin/members/members-page.php:136
+#: includes/admin/members/members-page.php:213
+msgid "Select All"
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/members-page.php:144
+#: includes/admin/members/members-page.php:201
+#: includes/admin/members/members-page.php:221
+#: includes/admin/subscriptions/edit-subscription.php:93
+#: includes/admin/subscriptions/subscription-levels.php:200
+msgid "User Role"
+msgstr "نقش کاربر"
+
+# @ rcp
+#: includes/admin/members/members-page.php:172
+#: includes/admin/members/members-page.php:180
+#, fuzzy
+msgid "Edit Member"
+msgstr "ویرایش کاربر"
+
+# @ rcp
+#: includes/admin/members/members-page.php:182
+msgid "View User's Profile"
+msgstr "خواندن مشخصات فردی"
+
+# @ rcp
+#: includes/admin/members/members-page.php:182
+#, fuzzy
+msgid "Edit User Account"
+msgstr "ثبت نام اکانت جدید"
+
+# @ rcp
+#: includes/admin/members/members-page.php:199
+msgid "yes"
+msgstr "بله"
+
+# @ rcp
+#: includes/admin/members/members-page.php:199
+msgid "no"
+msgstr "خیر"
+
+# @ rcp
+#: includes/admin/members/members-page.php:207
+msgid "No subscribers found"
+msgstr "مشترکی پیدا نشد"
+
+# @ default
+#: includes/admin/members/members-page.php:236
+#: includes/admin/payments/payments-page.php:143
+msgid "&laquo; Previous"
+msgstr "&laquo; قبلی"
+
+# @ default
+#: includes/admin/members/members-page.php:237
+#: includes/admin/payments/payments-page.php:144
+msgid "Next &raquo;"
+msgstr "بعدی &raquo;"
+
+# @ rcp
+#: includes/admin/members/members-page.php:249
+msgid "Add New Subscription (for existing user)"
+msgstr "اضافه کردن به مدت زمان اشتراک(برای مشترکان موجود)"
+
+#: includes/admin/members/members-page.php:250
+msgid ""
+"If you wish to create a brand new account, that may be done from Users "
+"&rarr; Add New. <br/><strong>Note</strong>: this will not create a payment "
+"profile for the member. That must be done manually through your merchant "
+"account."
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/members-page.php:257 templates/login.php:12
+#: templates/register-single.php:29 templates/register.php:28
+msgid "Username"
+msgstr "نام کاربری"
+
+# @ rcp
+#: includes/admin/members/members-page.php:263
+msgid "Begin typing the user name to add a subscription to."
+msgstr "برای اضافه کردن یک اشتراک،نام کاربری را تایپ کنید"
+
+# @ rcp
+#: includes/admin/members/members-page.php:272
+msgid "--choose--"
+msgstr "انتخاب کنید"
+
+#: includes/admin/members/members-page.php:279
+msgid ""
+"The subscription level determines the content the member has access to. "
+"<strong>Note</strong>: adding a subscription level to a member will not "
+"create a payment profile in your merchant account."
+msgstr ""
+
+# @ rcp
+#: includes/admin/members/members-page.php:280
+#, fuzzy
+msgid "Choose the subscription level for this user."
+msgstr "سطح اشتراک را برای این کاربر انتخاب کنید"
+
+# @ rcp
+#: includes/admin/members/members-page.php:300
+msgid "Add User Subscription"
+msgstr "اضافه کردن به اشتراک کاربر"
+
+# @ default
+#: includes/admin/metabox-view.php:16
+#, fuzzy
+msgid "Member access options"
+msgstr "به روز رسانی در اعضا"
+
+#: includes/admin/metabox-view.php:18
+msgid "Select who should have access to this content."
+msgstr ""
+
+#: includes/admin/metabox-view.php:19
+msgid ""
+"<strong>Subscription level</strong>: a subscription level refers to a "
+"membership option. For example, you might have a Gold, Silver, and Bronze "
+"membership level. <br/><br/><strong>Access Level</strong>: refers to a "
+"tiered system where a member's ability to view content is determined by the "
+"access level assigned to their account. A member with an access level of 5 "
+"can view content assigned to access levels of 5 and lower."
+msgstr ""
+
+#: includes/admin/metabox-view.php:23
+msgid "Everyone"
+msgstr ""
+
+# @ rcp
+#: includes/admin/metabox-view.php:24
+#, fuzzy
+msgid "Members of subscription level(s)"
+msgstr "سطح اشتراک آنها این بود"
+
+#: includes/admin/metabox-view.php:25
+msgid "Members with an access level"
+msgstr ""
+
+#: includes/admin/metabox-view.php:26
+msgid "Members with a certain role"
+msgstr ""
+
+# @ rcp
+#: includes/admin/metabox-view.php:33
+#, fuzzy
+msgid "Members of any subscription level(s)"
+msgstr "لطفا یک سطح اشتراک را انتخاب کنید"
+
+# @ rcp
+#: includes/admin/metabox-view.php:37
+#, fuzzy
+msgid "Members of any paid subscription level(s)"
+msgstr "کاربران ممکن است تنها برای ثبت نام در سطح اشتراک فعال ثبت نام کنند ."
+
+# @ rcp
+#: includes/admin/metabox-view.php:41
+#, fuzzy
+msgid "Members of specific subscription levels"
+msgstr "کاربران ممکن است تنها برای ثبت نام در سطح اشتراک فعال ثبت نام کنند ."
+
+#: includes/admin/metabox-view.php:56
+msgid "%s and higher"
+msgstr ""
+
+#: includes/admin/metabox-view.php:63
+msgid "Require member to have capabilities from this user role or higher."
+msgstr ""
+
+# @ rcp
+#: includes/admin/metabox-view.php:75
+#, fuzzy
+msgid "Additional options"
+msgstr "یادداشت های تکمیلی"
+
+#: includes/admin/metabox-view.php:79
+msgid "Show excerpt to members without access to this content."
+msgstr ""
+
+#: includes/admin/metabox-view.php:85
+msgid "Hide this content and excerpt from RSS feeds."
+msgstr ""
+
+# @ rcp
+#: includes/admin/metabox-view.php:90
+#, fuzzy
+msgid ""
+"Optionally use [restrict paid=\"true\"] ... [/restrict] shortcode to "
+"restrict partial content. %sView documentation for additional options%s."
+msgstr ""
+"برای مخفی کردن مطالب علاوه بر تنظیمات زیر میتوانید از شورت کد  [restrict "
+"paid=true message='your text' subscription= 'your id' ] your content [/"
+"restrict] استفاده نمایید .  %sمشاهده مستندات%s"
+
+# @ rcp
+#: includes/admin/metabox.php:14
+msgid "Restrict this content"
+msgstr "محدود کردن این محتوا"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:8
+msgid "Edit Payment"
+msgstr "ویرایش پرداخت"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:24
+msgid "The user name this payment belongs to."
+msgstr "نام کاربری این پرداخت متعلق به."
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:32
+#: includes/admin/payments/new-payment.php:26
+#, fuzzy
+msgid "Please enter a payment amount in the format of 1.99"
+msgstr "تاریخ برای این پرداخت در قالب YYYY-MM-DD"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:33
+#: includes/admin/payments/new-payment.php:27
+msgid "The amount of this payment"
+msgstr "مقدار این پرداخت"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:38
+#: includes/admin/payments/new-payment.php:32
+msgid "Payment Date"
+msgstr "تاریخ پرداخت"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:42
+msgid "The date for this payment in the format of yyyy-mm-dd"
+msgstr "تاریخ برای این پرداخت در قالب YYYY-MM-DD"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:47
+#: includes/admin/payments/new-payment.php:41
+#: includes/admin/payments/payments-page.php:70
+#: includes/admin/payments/payments-page.php:108
+#: includes/admin/payments/payments-page.php:126
+#: includes/member-functions.php:550 includes/member-functions.php:593
+msgid "Transaction ID"
+msgstr "شناسه تراکنش"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:51
+msgid "The transaction ID for this payment, if any"
+msgstr "شناسه پرداخت را در صورت وجو وارد کنید."
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:60
+#: includes/admin/payments/new-payment.php:54 includes/misc-functions.php:619
+msgid "Complete"
+msgstr "کامل شده"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:61
+#: includes/admin/payments/new-payment.php:55 includes/misc-functions.php:612
+msgid "Refunded"
+msgstr "وجه بازگشت داده شد"
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:63
+#: includes/admin/payments/new-payment.php:57
+msgid "The status of this payment."
+msgstr "وضعیت این پرداخت."
+
+# @ rcp
+#: includes/admin/payments/edit-payment.php:71
+msgid "Update Payment"
+msgstr "به روز رسانی پرداخت"
+
+# @ rcp
+#: includes/admin/payments/new-payment.php:2
+#: includes/admin/payments/new-payment.php:64
+#: includes/admin/payments/payments-page.php:25
+msgid "Create Payment"
+msgstr "ایجاد پرداخت"
+
+# @ rcp
+#: includes/admin/payments/new-payment.php:18
+msgid "Begin typing the user name to add a payment record for."
+msgstr "نام کاریری عضوی را که می خواهید اکانتش را تمدید کنید تایپ کنید"
+
+# @ rcp
+#: includes/admin/payments/new-payment.php:36
+msgid "Enter the date for this payment in the format of yyyy-mm-dd"
+msgstr "تاریخ برای این پرداخت در قالب YYYY-MM-DD وارد کنید"
+
+# @ rcp
+#: includes/admin/payments/new-payment.php:45
+msgid "Enter the transaction ID for this payment, if any"
+msgstr "شناسه پرداخت را در صورت وجو وارد کنید."
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:53
+#: includes/admin/payments/payments-page.php:56
+msgid "Search Payments"
+msgstr "جستجو درپرداخت ها"
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:58
+msgid "Total Earnings"
+msgstr "مجموع درآمد"
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:60
+msgid "View all payments"
+msgstr "مشاهده تمام پرداخت"
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:60
+msgid "Reset User Filter"
+msgstr "بازگردانی صافی"
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:83
+msgid "View payments by this user"
+msgstr "مشخصات پرداخت های این کاربر"
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:93
+#, fuzzy
+msgid "View Member"
+msgstr "ویرایش کاربر"
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:95
+#, fuzzy
+msgid "View Invoice"
+msgstr "فاکتور"
+
+# @ rcp
+#: includes/admin/payments/payments-page.php:116
+msgid "No payments recorded yet"
+msgstr "هنوز پرداختی برای این کاربر ثبت نشده"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:15
+#: includes/admin/reports/reports-page.php:190
+msgid "Earnings"
+msgstr "درآمد"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:16
+#: includes/admin/reports/reports-page.php:427
+#, fuzzy
+msgid "Refunds"
+msgstr "وجه بازگشت داده شد"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:17
+#: includes/admin/reports/reports-page.php:655
+msgid "Signups"
+msgstr "ثبت نام"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:255
+msgid "Earnings Report"
+msgstr "گزارش سود"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:261
+msgid "Total earnings for period shown: "
+msgstr "مجموع درآمد برای دوره نشان داده شده است:"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:492
+#, fuzzy
+msgid "Refunds Report"
+msgstr "گزارش ثبت نام  ها"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:498
+#, fuzzy
+msgid "Total refunds for period shown: "
+msgstr "مجموع درآمد برای دوره نشان داده شده است:"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:716
+msgid "Signups Report"
+msgstr "گزارش ثبت نام  ها"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:722
+msgid "Total signups for period shown: "
+msgstr "مجموع ثبت نام برای دوره نشان داده شده است:"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:739
+msgid "This Week"
+msgstr "اين هفته"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:740
+msgid "Last Week"
+msgstr "هفته گذشته"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:741
+msgid "This Month"
+msgstr "اين ماه"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:742
+msgid "Last Month"
+msgstr "ماه گذشته"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:743
+msgid "This Quarter"
+msgstr "این فصل"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:744
+msgid "Last Quarter"
+msgstr "فصل گذشته"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:745
+msgid "This Year"
+msgstr "امسال"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:746
+msgid "Last Year"
+msgstr "سال گذشته"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:747
+msgid "Custom"
+msgstr "سفارشی"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:770
+msgid "From"
+msgstr "از"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:781
+msgid "To"
+msgstr "به"
+
+# @ rcp
+#: includes/admin/reports/reports-page.php:796
+msgid "All Subscription Levels"
+msgstr "تمام سطوح اشتراک"
+
+# @ rcp
+#: includes/admin/screen-options.php:21
+msgid "Members per page"
+msgstr "کاربران در هر صفحه"
+
+# @ rcp
+#: includes/admin/screen-options.php:30
+msgid "Payments per page"
+msgstr "پرداخت در هر صفحه"
+
+# @ rcp
+#: includes/admin/settings/settings.php:37
+#, fuzzy
+msgid "Invoices"
+msgstr "فاکتور"
+
+# @ rcp
+#: includes/admin/settings/settings.php:41
+msgid "Options saved"
+msgstr "گزینه ها ذخیره شدند"
+
+# @ rcp
+#: includes/admin/settings/settings.php:61
+msgid "License Key"
+msgstr "کلید لایسنس"
+
+# @ rcp
+#: includes/admin/settings/settings.php:68
+msgid "Deactivate License"
+msgstr "مجوز های غیرفعال"
+
+# @ rcp
+#: includes/admin/settings/settings.php:71
+msgid "Activate License"
+msgstr "مجوز خود را فعال کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:73
+msgid ""
+"Enter license key for Restrict Content Pro. This is required for automatic "
+"updates and <a href=\"%s\">support</a>."
+msgstr ""
+"کلید لایسنس را برای پشتیبانی و دریافت بروز رسانی خودکار وارد کنید . <a href="
+"\"%s\">پشتیبانی</a> ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:79
+msgid "Registration Page"
+msgstr "صفحه ثبت‌نام"
+
+# @ rcp
+#: includes/admin/settings/settings.php:93
+#: includes/admin/settings/settings.php:116
+#: includes/admin/settings/settings.php:140
+#: includes/admin/settings/settings.php:164
+#: includes/admin/settings/settings.php:188
+#: includes/admin/settings/settings.php:962
+#: includes/admin/settings/settings.php:993
+msgid "No pages found"
+msgstr "صفحه ای پیدا نشد."
+
+#: includes/admin/settings/settings.php:97
+msgid ""
+"Choose the primary registration page. This must contain the [register_form] "
+"short code. Additional registration forms may be added to other pages with "
+"[register_form id=\"x\"]. <a href=\"%s\" target=\"_blank\">See "
+"documentation</a>."
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:102
+msgid "Success Page"
+msgstr "صفحه بازگشت از بانک"
+
+# @ rcp
+#: includes/admin/settings/settings.php:120
+msgid ""
+"This is the page users are redirected to after a successful registration."
+msgstr "این برگه ای است که کاربران بعد از ثبت نام موفق به آن هدایت خواهند شد ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:125
+#, fuzzy
+msgid "Account Page"
+msgstr "صفحه ورود"
+
+#: includes/admin/settings/settings.php:144
+msgid ""
+"This page displays the account and membership information for members. "
+"Contains <a href=\"%s\" target=\"_blank\">[subscription_details] short code</"
+"a>."
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:149
+#, fuzzy
+msgid "Edit Profile Page"
+msgstr "صفحه تغییر مسیر"
+
+#: includes/admin/settings/settings.php:168
+msgid ""
+"This page displays a profile edit form for logged-in members. Contains <a "
+"href=\"%s\" target=\"_blank\">[rcp_profile_editor] shortcode."
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:173
+#, fuzzy
+msgid "Update Billing Card Page"
+msgstr "به روز رسانی کارت"
+
+#: includes/admin/settings/settings.php:192
+msgid ""
+"This page displays a profile edit form for logged-in members. Contains <a "
+"href=\"%s\" target=\"_blank\">[rcp_update_card] short code</a>."
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:197 includes/member-forms.php:128
+msgid "Auto Renew"
+msgstr "تمدید خودکار"
+
+# @ rcp
+#: includes/admin/settings/settings.php:201
+msgid "Always auto renew"
+msgstr "همیشه تمدید خودکار فعال باشد ( مخصوص پی پال)"
+
+# @ rcp
+#: includes/admin/settings/settings.php:202
+msgid "Never auto renew"
+msgstr ""
+"تمدید اتوماتیک نشود ( در ایران فقط همین یک گزینه کاربرد دارد - مابقی مخصوص "
+"پی پال است )"
+
+# @ rcp
+#: includes/admin/settings/settings.php:203
+msgid "Let customer choose whether to auto renew"
+msgstr "اجازه به کاربران برای انتخاب تمدید خودکار ( مخصوص پی پال)"
+
+# @ rcp
+#: includes/admin/settings/settings.php:205
+msgid ""
+"Select the auto renew behavior you would like subscription levels to have."
+msgstr "انتخاب نحوه تمدید خودکار که مایلید سطوح اشتراکی شامل شوند."
+
+# @ rcp
+#: includes/admin/settings/settings.php:210
+msgid "Free Content Message"
+msgstr "محتوای پیام کاربران رایگان"
+
+# @ rcp
+#: includes/admin/settings/settings.php:216
+msgid ""
+"This is the message shown to users that do not have privilege to view free, "
+"user only content."
+msgstr "این پیام برای کاربرانی که اشتراک رایگان دارند نمایش داده می شود"
+
+# @ rcp
+#: includes/admin/settings/settings.php:221
+msgid "Premium Content Message"
+msgstr "محتوای پیام کاربران ویژه"
+
+# @ rcp
+#: includes/admin/settings/settings.php:227
+msgid ""
+"This is the message shown to users that do not have privilege to view "
+"premium content."
+msgstr "این پیام برای کاربرانی که اشتراک ویژه دارند نمایش داده می شود"
+
+# @ rcp
+#: includes/admin/settings/settings.php:240
+msgid "Currency"
+msgstr "واحد پول"
+
+# @ rcp
+#: includes/admin/settings/settings.php:251
+msgid "Choose your currency."
+msgstr "ارز خود را انتخاب کنید."
+
+# @ rcp
+#: includes/admin/settings/settings.php:256
+msgid "Currency Position"
+msgstr "جایگاه واحد پولی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:260
+msgid "Before - $10"
+msgstr "سمت راست مبلغ"
+
+# @ rcp
+#: includes/admin/settings/settings.php:261
+msgid "After - 10$"
+msgstr "سمت چپ مبلغ"
+
+# @ rcp
+#: includes/admin/settings/settings.php:263
+msgid "Show the currency sign before or after the price?"
+msgstr "نمایش نشانه ارز قبل یا بعد از قیمت؟"
+
+# @ rcp
+#: includes/admin/settings/settings.php:270
+msgid "Gateways"
+msgstr "درگاه بانکی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:273
+msgid ""
+"Check each of the payment gateways you would like to enable. Configure the "
+"selected gateways below."
+msgstr ""
+"هر کدام از درگاه های پرداختی که شما می خواهید استفاده کنید را تیک بزنید و "
+"تنظیمات آن را پیکربندی کنید ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:277
+msgid "Enabled Gateways"
+msgstr "فعال کردن درگاه بانکی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:299
+msgid "Sandbox Mode"
+msgstr "حالت Sandbox"
+
+# @ rcp
+#: includes/admin/settings/settings.php:303
+msgid ""
+"Use Restrict Content Pro in Sandbox mode. This allows you to test the plugin "
+"with test accounts from your payment processor."
+msgstr "فعال کردن حالت آزمایشی درگاه های پرداخت خارج از ایران"
+
+# @ rcp
+#: includes/admin/settings/settings.php:309
+msgid "Stripe Settings"
+msgstr "تنظیمات درگاه Stripe"
+
+# @ rcp
+#: includes/admin/settings/settings.php:314
+msgid "Test Secret Key"
+msgstr "تست راز کلیدی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:318
+msgid ""
+"Enter your test secret key. Your API keys can be obtained from your <a href="
+"\"https://dashboard.stripe.com/account/apikeys\" target=\"_blank\">Stripe "
+"account settings</a>."
+msgstr ""
+"کلید مخفی آزمون خود را وارد کنید. کلید API شما می تواند از شما به دست آمده "
+"<a href=\"https://dashboard.stripe.com/account/apikeys\" target=\"_blank"
+"\">تنظیمات حساب خط خطی</a> ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:323
+#: includes/admin/settings/settings.php:495
+msgid "Test Publishable Key"
+msgstr "تست انتشار کلیدی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:327
+#: includes/admin/settings/settings.php:499
+msgid "Enter your test publishable key."
+msgstr "کلید publishable تستی را وارد کنید ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:332
+msgid "Live Secret Key"
+msgstr "زندگی راز های کلیدی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:336
+msgid "Enter your live secret key."
+msgstr "کلید امنیتی واقعی را وارد کنید "
+
+# @ rcp
+#: includes/admin/settings/settings.php:341
+#: includes/admin/settings/settings.php:525
+msgid "Live Publishable Key"
+msgstr "زندگی انتشار کلیدی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:345
+#: includes/admin/settings/settings.php:529
+msgid "Enter your live publishable key."
+msgstr "کلید publishable  واقعی را وارد کنید ."
+
+#: includes/admin/settings/settings.php:351
+msgid "Enable Alipay Support"
+msgstr ""
+
+#: includes/admin/settings/settings.php:355
+msgid ""
+"Check to enable Alipay support in Stripe Checkout. Alipay is only available "
+"with Stripe Checkout. It does not work with the standard Stripe gateway."
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:361
+msgid "Note"
+msgstr "تذکر"
+
+# @ rcp
+#: includes/admin/settings/settings.php:361
+msgid ""
+"in order for subscription payments made through Stripe to be tracked, you "
+"must enter the following URL to your <a href=\"https://dashboard.stripe.com/"
+"account/webhooks\" target=\"_blank\">Stripe Webhooks</a> under Account "
+"Settings:"
+msgstr ""
+"به منظور پرداخت اشتراک از طریق خط خطی به ردیابی می شود، شما باید URL زیر به "
+"خود را وارد کنید <a href=\"https://dashboard.stripe.com/account/webhooks\" "
+"target=\"_blank\">Webhooks خط خطی</a> در زیر تنظیمات حساب:"
+
+# @ rcp
+#: includes/admin/settings/settings.php:367
+msgid "PayPal Settings"
+msgstr "تنظیمات درگاه پی پال"
+
+# @ rcp
+#: includes/admin/settings/settings.php:371
+msgid "PayPal Address"
+msgstr "آدرس درگاه پرداخت"
+
+# @ rcp
+#: includes/admin/settings/settings.php:375
+msgid "Enter your PayPal email address."
+msgstr "آدرس ایمیل درگاه پرداخت خود را وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:379
+msgid "PayPal API Credentials"
+msgstr "اعتبارنامه APIدرگاه پرداخت"
+
+# @ rcp
+#: includes/admin/settings/settings.php:381
+msgid ""
+"The PayPal API credentials are required in order to use PayPal Express, "
+"PayPal Pro, and to support advanced subscription cancellation options in "
+"PayPal Standard. Test API credentials can be obtained at <a href=\"http://"
+"docs.pippinsplugins.com/article/826-setting-up-paypal-sandbox-accounts\" "
+"target=\"_blank\">developer.paypal.com</a>."
+msgstr ""
+"اعتبار API پی پال برای نسخه اکسپرس و پرو ضروری است و برای لغو اشتراک پیشرفته "
+"در پی پال استاندارد به کار میرود . اعتبار API تست در لینک <a href=\"http://"
+"docs.pippinsplugins.com/article/826-setting-up-paypal-sandbox-accounts\" "
+"target=\"_blank\">developer.paypal.com</a> قابل به دست آمدن است ."
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:387
+msgid "Test API Username"
+msgstr "نام کاربری API تستی"
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:391
+msgid "Enter your test API username."
+msgstr "نام کاربری API تستی خود را وارد کنید."
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:396
+msgid "Test API Password"
+msgstr "رمز عبور API تستی"
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:400
+msgid "Enter your test API password."
+msgstr "کلمه عبور API تستی خود را وارد کنید ."
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:405
+msgid "Test API Signature"
+msgstr "امضاء API تستی"
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:409
+msgid "Enter your test API signature."
+msgstr "امضاء API تستی خود را وارد کنید ."
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:414
+msgid "Live API Username"
+msgstr "نام کاربری API واقعی"
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:418
+msgid "Enter your live API username."
+msgstr "نام کاربری API واقعی خود را وارد کنید ."
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:423
+msgid "Live API Password"
+msgstr "کلمه عبور API واقعی"
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:427
+msgid "Enter your live API password."
+msgstr "کلمه عبور API واقعی خود را وارد کنید ."
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:432
+msgid "Live API Signature"
+msgstr "امضاء API واقعی"
+
+# @ rcp_paypal
+#: includes/admin/settings/settings.php:436
+msgid "Enter your live API signature."
+msgstr "امضاء API واقعی خود را وارد کنید ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:442
+msgid "PayPal Page Style"
+msgstr "استایل صفحه درگاه پرداخت"
+
+# @ rcp
+#: includes/admin/settings/settings.php:446
+msgid ""
+"Enter the PayPal page style name you wish to use, or leave blank for default."
+msgstr ""
+"نوع استایل که می خواهید برای دروازه درگاه پرداخت استفاده کنید را معین کنید "
+"در صورت خالی بودن استایل پیش فرض استفاده می شود"
+
+# @ rcp
+#: includes/admin/settings/settings.php:451
+msgid "Disable CURL"
+msgstr "غیر فعال کردنCURL"
+
+# @ rcp
+#: includes/admin/settings/settings.php:455
+msgid "Only check this option if your host does not allow cURL."
+msgstr "فقط در صورتی که هاست شما cURL را پشتیبانی نمیکند تیک بزنید ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:460
+msgid "Disable IPN Verification"
+msgstr "غیر فعال کردن تأیید IPN"
+
+# @ rcp
+#: includes/admin/settings/settings.php:464
+msgid ""
+"Only check this option if your members statuses are not getting changed to "
+"\"active\"."
+msgstr ""
+"فقط زمانی که وضعیت های کاربران شما به \"فعال\" تغییر نمیکند ، تیک بزنید ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:469
+#, fuzzy
+msgid "2Checkout Settings"
+msgstr "پیکربندی"
+
+#: includes/admin/settings/settings.php:475
+msgid "Secret Word"
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:479
+#, fuzzy
+msgid ""
+"Enter your secret word. This can be obtained from the <a href=\"https://"
+"sandbox.2checkout.com/sandbox/acct/detail_company_info\" target=\"_blank"
+"\">2Checkout Sandbox</a>."
+msgstr ""
+"کلید مخفی آزمون خود را وارد کنید. کلید API شما می تواند از شما به دست آمده "
+"<a href=\"https://dashboard.stripe.com/account/apikeys\" target=\"_blank"
+"\">تنظیمات حساب خط خطی</a> ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:485
+#, fuzzy
+msgid "Test Private Key"
+msgstr "تست انتشار کلیدی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:489
+#, fuzzy
+msgid ""
+"Enter your test private key. Your test API keys can be obtained from the <a "
+"href=\"https://sandbox.2checkout.com/sandbox/api\" target=\"_blank"
+"\">2Checkout Sandbox</a>."
+msgstr ""
+"کلید مخفی آزمون خود را وارد کنید. کلید API شما می تواند از شما به دست آمده "
+"<a href=\"https://dashboard.stripe.com/account/apikeys\" target=\"_blank"
+"\">تنظیمات حساب خط خطی</a> ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:505
+#, fuzzy
+msgid "Test Seller ID"
+msgstr "تست راز کلیدی"
+
+#: includes/admin/settings/settings.php:509
+#: includes/admin/settings/settings.php:539
+msgid ""
+"Enter your live Seller ID. <a href=\"http://help.2checkout.com/articles/FAQ/"
+"Where-is-my-Seller-ID\" target=\"_blank\">Where is my Seller ID?</a>."
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:515
+#, fuzzy
+msgid "Live Private Key"
+msgstr "زندگی انتشار کلیدی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:519
+#, fuzzy
+msgid ""
+"Enter your live secret key. Your API keys can be obtained from the <a href="
+"\"https://pci.trustwave.com/2checkout\" target=\"_blank\">2Checkout PCI "
+"Program</a>."
+msgstr ""
+"کلید مخفی آزمون خود را وارد کنید. کلید API شما می تواند از شما به دست آمده "
+"<a href=\"https://dashboard.stripe.com/account/apikeys\" target=\"_blank"
+"\">تنظیمات حساب خط خطی</a> ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:535
+#, fuzzy
+msgid "Live Seller ID"
+msgstr "زندگی راز های کلیدی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:556
+msgid "From Name"
+msgstr "نام فرستنده"
+
+# @ rcp
+#: includes/admin/settings/settings.php:560
+msgid ""
+"The name that emails come from. This is usually the name of your business."
+msgstr "از نام کاربری که ایمیل آمده است.این نام معمولا نام شغلی می باشد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:565
+msgid "From Email"
+msgstr "از طرف (ایمیل)"
+
+# @ rcp
+#: includes/admin/settings/settings.php:569
+msgid "The email address that emails are sent from."
+msgstr "آدرس ایمیل که ایمیل ها از فرستاده می شود."
+
+# @ rcp
+#: includes/admin/settings/settings.php:574
+msgid "Active Subscription Email"
+msgstr "ایمیل اشتراک فعال"
+
+# @ rcp
+#: includes/admin/settings/settings.php:578
+#: includes/admin/settings/settings.php:610
+#: includes/admin/settings/settings.php:642
+#: includes/admin/settings/settings.php:713
+#: includes/admin/settings/settings.php:745
+#: includes/admin/settings/settings.php:775
+msgid "Disabled"
+msgstr "غیر فعال"
+
+# @ rcp
+#: includes/admin/settings/settings.php:582
+msgid "Check this to disable the email sent out when a member becomes active."
+msgstr "غیر فعال کردن ارسال ایمیل برای فعال کردن کاربر(در زمان ثبت نام)"
+
+# @ rcp
+#: includes/admin/settings/settings.php:587
+#: includes/admin/settings/settings.php:651
+#: includes/admin/settings/settings.php:672
+#: includes/admin/settings/settings.php:722
+#: includes/admin/settings/settings.php:754
+#: includes/admin/settings/settings.php:784
+msgid "Subject"
+msgstr "عنوان"
+
+# @ rcp
+#: includes/admin/settings/settings.php:591
+msgid ""
+"The subject line for the email sent to users when their subscription becomes "
+"active."
+msgstr "عنوان ایمیل"
+
+# @ rcp
+#: includes/admin/settings/settings.php:596
+#: includes/admin/settings/settings.php:628
+#: includes/admin/settings/settings.php:660
+#: includes/admin/settings/settings.php:681
+#: includes/admin/settings/settings.php:731
+#: includes/admin/settings/settings.php:793
+msgid "Email Body"
+msgstr "استایل ایمیل"
+
+# @ rcp
+#: includes/admin/settings/settings.php:600
+msgid ""
+"This is the email message that is sent to users when their subscription "
+"becomes active."
+msgstr ""
+"متن پیامی که برای کاربران در ایمیل ارسالی بابت فعال کردن عضویتشان به نمایش "
+"در می آید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:605
+msgid "Cancelled Subscription Email"
+msgstr "ایمیل لغو اشتراک"
+
+# @ rcp
+#: includes/admin/settings/settings.php:614
+msgid "Check this to disable the email sent out when a member is cancelled."
+msgstr "لغو ارسال ایمیل زمانی کاربر از حالت اشتراک خارج شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:619
+msgid "Subject line"
+msgstr "عنوان"
+
+# @ rcp
+#: includes/admin/settings/settings.php:623
+msgid ""
+"The subject line for the email sent to users when their subscription is "
+"cancelled."
+msgstr "ارسال  موضوع ایمیل برای کاربرانی که اشتراکشان را لغو کردند"
+
+# @ rcp
+#: includes/admin/settings/settings.php:632
+msgid ""
+"This is the email message that is sent to users when their subscription is "
+"cancelled."
+msgstr "پیامی که به کاربران بعد از لغو اشتراکشان نمایش داده می شود"
+
+# @ rcp
+#: includes/admin/settings/settings.php:637
+msgid "Expired Subscription Email"
+msgstr "ایمیل اشتراک منقضی شده"
+
+# @ rcp
+#: includes/admin/settings/settings.php:646
+msgid "Check this to disable the email sent out when a member expires."
+msgstr "غیرفعال کردن ارسال ایمیل افردای که  اشتراکشان منقضی شده"
+
+# @ rcp
+#: includes/admin/settings/settings.php:655
+msgid ""
+"The subject line for the email sent to users when their subscription is "
+"expired."
+msgstr "ارسال  موضوع ایمیل برای کاربرانی که اشتراکشان را لغو کردند"
+
+# @ rcp
+#: includes/admin/settings/settings.php:664
+msgid ""
+"This is the email message that is sent to users when their subscription is "
+"expired."
+msgstr "پیامی که به کاربران بعد از لغو اشتراکشان نمایش داده می شود"
+
+# @ rcp
+#: includes/admin/settings/settings.php:668
+msgid "Expiring Soon Email"
+msgstr "انقضای ایمیل به زودی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:676
+msgid ""
+"The subject line for the email sent to users before their subscription "
+"expires."
+msgstr "موضوع ایمیل ارسالی توسط سامانه برای ایمیل کاربران قبل از انقضای اشتراک"
+
+# @ rcp
+#: includes/admin/settings/settings.php:685
+msgid ""
+"This is the email message that is sent to users before their subscription "
+"expires to encourage them to renew."
+msgstr ""
+"متن پیانی که برای کاربران ارسال می شود قبل از اینکه اشتراکشان منقضی شود.که "
+"می تواند.که می تواند شامل تشویق ها برای تمدید اشتراک باشد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:690
+msgid "Reminder Period"
+msgstr "یادآوری دوره ای"
+
+#: includes/admin/settings/settings.php:703
+msgid ""
+"When should the renewal reminder be sent? These are sent to members that do "
+"not have automatically recurring subscriptions."
+msgstr ""
+
+# @ rcp
+#: includes/admin/settings/settings.php:708
+msgid "Free Subscription Email"
+msgstr "ایمیل اشتراک رایگان"
+
+# @ rcp
+#: includes/admin/settings/settings.php:717
+msgid "Check this to disable the email sent out when a free member registers."
+msgstr ""
+"غیرفعال کردن ثبت ایمیل برای ثبت نام .در صورت حذف این بخش کاربران بدونه ایمیل "
+"می توانند ثبت نام کنند."
+
+# @ rcp
+#: includes/admin/settings/settings.php:726
+msgid ""
+"The subject line for the email sent to users when they sign up for a free "
+"membership."
+msgstr "موضوع ایمیل اراسلی برای کاربرانی که ثبت نام رایگان کرده اند."
+
+# @ rcp
+#: includes/admin/settings/settings.php:735
+msgid ""
+"This is the email message that is sent to users when they sign up for a free "
+"account."
+msgstr "پیام ایمیلی که برای کاریبرای که به صورت رایگان ثبت نام کردند"
+
+# @ rcp
+#: includes/admin/settings/settings.php:740
+msgid "Trial Subscription Email"
+msgstr "ایمیل اشتراک آزمایشی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:749
+msgid ""
+"Check this to disable the email sent out when a member signs up with a trial."
+msgstr ""
+"غیر فعال کردن ارسال ایمیل برای کاربرانی که به صورت آزمایشی ثبت نام کردند"
+
+# @ rcp
+#: includes/admin/settings/settings.php:758
+msgid ""
+"The subject line for the email sent to users when they sign up for a free "
+"trial."
+msgstr "موضوع ایمیل ارسال برای کاربرانی که به صورت آزمایشی ثبت نام کردند"
+
+# @ rcp
+#: includes/admin/settings/settings.php:763
+msgid "Trial Email Message"
+msgstr "آزمایش ایمیل پیام"
+
+# @ rcp
+#: includes/admin/settings/settings.php:767
+msgid ""
+"This is the email message that is sent to users when they sign up for a free "
+"trial."
+msgstr "پیام ایمیلی که برای کاریبرای که به صورت رایگان ثبت نام کردند"
+
+# @ rcp
+#: includes/admin/settings/settings.php:771
+#, fuzzy
+msgid "Payment Received Email"
+msgstr "پرداخت حذف"
+
+# @ rcp
+#: includes/admin/settings/settings.php:779
+#, fuzzy
+msgid "Check this to disable the email sent out when a payment is received."
+msgstr "لغو ارسال ایمیل زمانی کاربر از حالت اشتراک خارج شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:788
+#, fuzzy
+msgid ""
+"The subject line for the email sent to users upon a successful payment being "
+"received."
+msgstr "عنوان ایمیل"
+
+# @ rcp
+#: includes/admin/settings/settings.php:797
+#, fuzzy
+msgid ""
+"This is the email message that is sent to users after a payment has been "
+"received from them."
+msgstr ""
+"متن پیامی که برای کاربران در ایمیل ارسالی بابت فعال کردن عضویتشان به نمایش "
+"در می آید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:802
+msgid "New User Notifications"
+msgstr "اخبار جدید کاربر"
+
+# @ rcp
+#: includes/admin/settings/settings.php:807
+msgid "Disable New User Notifications"
+msgstr "غیر فعال کردن جدید اطلاعیه کاربری"
+
+# @ rcp
+#: includes/admin/settings/settings.php:811
+msgid ""
+"Check this option if you do NOT want to receive emails when new users signup."
+msgstr ""
+"این گزینه را فقط زمانی تیک بزنید که نمیخواهید در صورت ثبت نام های جدید "
+"ایمیلی دریافت کنید ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:819
+msgid "Available Template Tags"
+msgstr "برچسب های آماده"
+
+# @ rcp
+#: includes/admin/settings/settings.php:821
+msgid "will be replaced with the name of your site"
+msgstr "با نام سایت شما جایگزین خواهد  شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:822
+msgid "will be replaced with the user name of the person receiving the email"
+msgstr "با نام کاربری دریافت کننده جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:823
+msgid "will be replaced with the email of the person receiving the email"
+msgstr "با ایمیل شخص دریافت کننده ایمیل جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:824
+msgid "will be replaced with the first name of the person receiving the email"
+msgstr "با نام کوچک دریافت کننده جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:825
+msgid "will be replaced with the last name of the person receiving the email"
+msgstr "با نام خانوادگی دریافت کننده جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:826
+msgid ""
+"will be replaced with the display name of the person receiving the email"
+msgstr "با نام نمایشی کاربر در سایت جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:827
+msgid "will be replaced with the expiration date of subscription"
+msgstr "با تاریخ انقضای کاربر جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:828
+msgid "will be replaced with the name of the subscription"
+msgstr "با نام و اشتراک کاربر جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:829
+msgid ""
+"will be replaced with the unique, 32 character key created when the user is "
+"registered"
+msgstr ""
+"با کلید 32 کارکتری منحصر به فرد هر کاربر  زمانی که ثبت نام شده جایگزین خواهد "
+"شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:830
+msgid "will be replaced with the amount of the users last payment"
+msgstr "آخرین پرداخت کاربر شما جایگزین خواهد شد"
+
+# @ rcp
+#: includes/admin/settings/settings.php:843
+msgid "Invoice Logo"
+msgstr "لوگو فاکتور"
+
+# @ rcp
+#: includes/admin/settings/settings.php:847
+msgid "Choose Logo"
+msgstr "انتخاب لوگو"
+
+# @ rcp
+#: includes/admin/settings/settings.php:848
+msgid "Upload a logo to display on the invoices."
+msgstr "آپلود آرم بر روی فاکتورها نشان می دهد."
+
+# @ rcp
+#: includes/admin/settings/settings.php:853
+msgid "Company Name"
+msgstr "نام شرکت"
+
+# @ rcp
+#: includes/admin/settings/settings.php:857
+#, fuzzy
+msgid "Enter the company name that will be shown on the invoice."
+msgstr "نام خودتان را که در صورت حساب به نمایش در می آید را  وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:866
+msgid "Enter the personal name that will be shown on the invoice."
+msgstr "نام خودتان را که در صورت حساب به نمایش در می آید را  وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:871
+msgid "Address Line 1"
+msgstr "آدرس خط 1"
+
+# @ rcp
+#: includes/admin/settings/settings.php:875
+msgid "Enter the first address line that will appear on the invoice."
+msgstr "ادرس کلی  که در صورت حساب نمایش داده می شود را وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:880
+msgid "Address Line 2"
+msgstr "آدرس خط 2"
+
+# @ rcp
+#: includes/admin/settings/settings.php:884
+msgid "Enter the second address line that will appear on the invoice."
+msgstr "آدرسی دقیق را که در صورت حساب نمایش داده می شود را وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:889
+msgid "City, State, and Zip"
+msgstr "شهر،استان،کد،پستی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:893
+msgid ""
+"Enter the city, state and zip/postal code that will appear on the invoice."
+msgstr "شهر ،استان،کد پستی که در صورت حساب نمایش داده می شود را وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:898 templates/register-single.php:33
+#: templates/register.php:32
+msgid "Email"
+msgstr "پست الکترونیک"
+
+# @ rcp
+#: includes/admin/settings/settings.php:902
+msgid "Enter the email address that will appear on the invoice."
+msgstr "ادرس ایمیلی را که در صورت حساب نمایش داده می شود را وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:907
+msgid "Header Text"
+msgstr "متن سربرگ"
+
+# @ rcp
+#: includes/admin/settings/settings.php:911
+msgid ""
+"Enter the message you would like to be shown on the header of the invoice."
+msgstr "پیامی را که می خواهید در بالای فاکتور به نمایش در بیاید را وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:916
+msgid "Notes"
+msgstr "توضیحات"
+
+# @ rcp
+#: includes/admin/settings/settings.php:920
+msgid ""
+"Enter additional notes you would like displayed below the invoice totals."
+msgstr ""
+"یاداشت ای اضافی که می خواهید در زیر فاکتور به نمایش در بیاید را وارد فاکتور "
+"کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:925
+msgid "Footer Text"
+msgstr "متن پاورقی"
+
+# @ rcp
+#: includes/admin/settings/settings.php:929
+msgid ""
+"Enter the message you would like to be shown on the footer of the invoice."
+msgstr "پیامی را که می خواهید در پایین فاکتور به نمایش در بیاید را وارد کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:940
+msgid "Hide Premium Posts"
+msgstr "مخفی کردن پست های ویژه"
+
+# @ rcp
+#: includes/admin/settings/settings.php:944
+#, fuzzy
+msgid ""
+"Check this to hide all premium posts from queries when user is not logged "
+"in. Note, this will only hide posts that are restricted to paid memberships."
+msgstr ""
+"مخفی کردن پست های ویژه برای افراد عادی که وارد سایت نشده باشد . وگرنه فقط "
+"پست های مخفی میشنود که تیک Paid Only یا فقط پرداختی ها را خورده باشند ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:949
+msgid "Redirect Page"
+msgstr "صفحه تغییر مسیر"
+
+# @ rcp
+#: includes/admin/settings/settings.php:966
+msgid ""
+"This is the page non-subscribed users are redirected to when attempting to "
+"access a premium post or page."
+msgstr ""
+"این برگه ای است که کاربران بدون اشتراک بعد از تلاش برای مشاهده مطالب VIP به "
+"آن هدایت میشوند ."
+
+# @ rcp
+#: includes/admin/settings/settings.php:971
+msgid "Redirect Default Login URL"
+msgstr "تغییر مسیر پیش فرض ورود به URL"
+
+# @ rcp
+#: includes/admin/settings/settings.php:975
+msgid ""
+"Check this to force the default login URL to redirect to the page specified "
+"below."
+msgstr "تغییر مسیر URL پیشفرض ورود به سایت با صفحه ای که در زیر مشخص شده است."
+
+# @ rcp
+#: includes/admin/settings/settings.php:980
+msgid "Login Page"
+msgstr "صفحه ورود"
+
+# @ rcp
+#: includes/admin/settings/settings.php:997
+msgid ""
+"This is the page the default login URL redirects to, if the option above is "
+"checked. This should be the page that contains the [login_form] short code."
+msgstr ""
+"این صفحه پیش فرض برای تغییر مسیر برای ورود کاربران است شامل صفحه است که کد "
+"کوتاه رو به رو در آن به کار رفته است [login_form]"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1002
+msgid "Prevent Account Sharing"
+msgstr "جلوگیری از به اشتراک گذاری حساب"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1006
+msgid ""
+"Check this if you'd like to prevent multiple users from logging into the "
+"same account simultaneously."
+msgstr "قابلیت جلوگیری از ورود همزمان کاربران متعدد به یک حساب"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1011
+msgid "Email IPN reports"
+msgstr "گزارش پست الکترونیک IPN"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1015
+msgid ""
+"Check this to send an email each time an IPN request is made with PayPal. "
+"The email will contain a list of all data sent. This is useful for debugging "
+"in the case that something is not working with the PayPal integration."
+msgstr ""
+"بررسی این ایمیل به ارسال هر زمان درخواست IPN با پی پال ساخته شده است. ایمیل "
+"خواهد شد یک لیست از تمام اطلاعات فرستاده شده باشد. این برای اشکال زدایی در "
+"مورد این چیزی است که با ادغام پی پال کار نمی مفید است."
+
+# @ rcp
+#: includes/admin/settings/settings.php:1020
+msgid "Disable Form CSS"
+msgstr "غیر فعال کردن فرم CSS"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1024
+msgid "Check this to disable all included form styling."
+msgstr "غیرفعال سازی استایل طراحی شده برای همه فرم ها"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1029
+msgid "Enable reCaptcha"
+msgstr "فعال کردن reCAPTCHA را"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1033
+msgid "Check this to enable reCaptcha on the registration form."
+msgstr "فعالسازی reCaptcha در فرم ثبت نام"
+
+# @ default
+#: includes/admin/settings/settings.php:1038
+#, fuzzy
+msgid "reCaptcha Site Key"
+msgstr "کلید خصوصی reCAPTCHA"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1042
+#, fuzzy
+msgid "This your own personal reCaptcha Site key. Go to"
+msgstr "این reCaptcha برای شما استفاده می شوذ.برو به"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1042
+#: includes/admin/settings/settings.php:1051
+msgid "your account"
+msgstr "حساب کاربري شما"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1042
+#, fuzzy
+msgid "then click on your domain (or add a new one) to find your site key."
+msgstr ""
+"برای پیدا کردن کلید خصوصی(reCaptcha) بر روی دامنه کلیک کرده و کلید خودتون را "
+"پیدا کنید"
+
+# @ default
+#: includes/admin/settings/settings.php:1047
+#, fuzzy
+msgid "reCaptcha Secret Key"
+msgstr "کلید خصوصی reCAPTCHA"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1051
+#, fuzzy
+msgid "This your own personal reCaptcha Secret key. Go to"
+msgstr "این reCaptcha برای شما استفاده می شوذ.برو به"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1051
+#, fuzzy
+msgid "then click on your domain (or add a new one) to find your secret key."
+msgstr ""
+"برای پیدا کردن کلید خصوصی(reCaptcha) بر روی دامنه کلیک کرده و کلید خودتون را "
+"پیدا کنید"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1062
+msgid "Save Options"
+msgstr "ذخیره تنظیمات"
+
+# @ rcp
+#: includes/admin/settings/settings.php:1169
+msgid "Your license key could not be activated. Error: %s"
+msgstr "کلید مجوز خود را نمی تواند فعال شود. خطا:%s"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:6
+msgid "Edit Subscription Level:"
+msgstr "سطح عضویت"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:20
+msgid "The name of this subscription. This is shown on the registration page."
+msgstr "نام این اشتراک.= که در صفحه ثبت نام نشان داده شده است."
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:29
+msgid ""
+"The description of this subscription. This is shown on the registration page."
+msgstr "شرح این اشتراک.=که در صفحه ثبت نام نشان داده شده است."
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:44
+msgid "Level of access this subscription gives."
+msgstr "سطح دسترسی که به این اشتراک می دهید."
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:49
+#: includes/admin/subscriptions/subscription-levels.php:19
+#: includes/admin/subscriptions/subscription-levels.php:51
+#: includes/admin/subscriptions/subscription-levels.php:93
+#: includes/admin/subscriptions/subscription-levels.php:146
+msgid "Duration"
+msgstr "مدت"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:54
+#: includes/admin/subscriptions/subscription-levels.php:151
+msgid "Day(s)"
+msgstr "روز"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:55
+#: includes/admin/subscriptions/subscription-levels.php:152
+msgid "Month(s)"
+msgstr "ماه"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:56
+#: includes/admin/subscriptions/subscription-levels.php:153
+msgid "Year(s)"
+msgstr "سال"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:58
+#: includes/admin/subscriptions/subscription-levels.php:156
+msgid "Length of time for this membership level. Enter 0 for unlimited."
+msgstr ""
+"طول زمان برای این سطح عضویت. در صورت صفر گذاشتن این مقدار ،برابر با نا محدود "
+"خواهد بود."
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:63
+#: includes/admin/subscriptions/subscription-levels.php:20
+#: includes/admin/subscriptions/subscription-levels.php:60
+#: includes/admin/subscriptions/subscription-levels.php:94
+#: includes/admin/subscriptions/subscription-levels.php:163
+msgid "Price"
+msgstr "قیمت"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:67
+#: includes/admin/subscriptions/subscription-levels.php:172
+msgid "The price of this membership level. Enter 0 for free."
+msgstr ""
+"قیمت این سطح از اشتراک.در صورت صفر وارد کردن این مقدار ،ثبت نام در این سطح "
+"رایگان خواهد بود"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:72
+#: includes/admin/subscriptions/subscription-levels.php:179
+#: includes/class-rcp-registration.php:60
+#: templates/paypal-express-confirm.php:16
+msgid "Signup Fee"
+msgstr "Signup Fee ( مخصوص پی پال)"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:76
+#: includes/admin/subscriptions/subscription-levels.php:183
+#, fuzzy
+msgid ""
+"Optional signup fee to charge subscribers for the first billing cycle. Enter "
+"a negative number to give a discount on the first payment."
+msgstr ""
+"signup fee اختیاری که برای شارژ اشتراک در اولین دوره پرداخت به کار میرود . "
+"یک مقدار منفی برای تخفیف دادن در اولین پرداخت وارد کنید . این فقط برای "
+"اشتراک های دوره ای (مخصوص درگاه های خارجی) به کار میرود ."
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:86
+#: includes/admin/subscriptions/subscription-levels.php:193
+msgid "Inactive"
+msgstr "غیر فعال"
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:88
+#: includes/admin/subscriptions/subscription-levels.php:195
+msgid "Members may only sign up for active subscription levels."
+msgstr "کاربران ممکن است تنها برای ثبت نام در سطح اشتراک فعال ثبت نام کنند ."
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:99
+#: includes/admin/subscriptions/subscription-levels.php:206
+msgid "The user role given to the member after signing up."
+msgstr "نقش کاربر ی پس از ثبت نام به عضو داده شده است."
+
+# @ rcp
+#: includes/admin/subscriptions/edit-subscription.php:108
+msgid "Update Subscription"
+msgstr "بروزرسانی اشتراک"
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:21
+#: includes/admin/subscriptions/subscription-levels.php:70
+#: includes/admin/subscriptions/subscription-levels.php:95
+msgid "Subscribers"
+msgstr "مشترکان"
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:23
+#: includes/admin/subscriptions/subscription-levels.php:97
+msgid "Order"
+msgstr "ترتیب نمایش :"
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:56
+#: templates/register-single.php:101 templates/register.php:70
+msgid "unlimited"
+msgstr "نامحدود"
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:85
+msgid "No subscription levels added yet."
+msgstr "سطح اشتراکی تاکنون اضافه نشده است."
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:103
+msgid "Add New Level"
+msgstr "افزودن سطح جدید"
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:113
+msgid "The name of the membership level."
+msgstr "نام سطح جدید"
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:122
+msgid "Membership level description. This is shown on the registration form."
+msgstr ""
+"توضیحات این سطح عوضیت.این توضیحات در شرح عضویت در پروفایل نمایش داده می شود"
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:139
+msgid ""
+"Level of access this subscription gives. Leave None for default or you are "
+"unsure what this is."
+msgstr ""
+"Level های کاربری وردپرسی که برای این اشتراک لحاظ میشوند . اگر از آن اطلاع و "
+"اطمینان کافی ندارید بر روی گزینه None قرار دهید ."
+
+#: includes/admin/subscriptions/subscription-levels.php:140
+msgid ""
+"<strong>Access Level</strong>: refers to a tiered system where a member's "
+"ability to view content is determined by the access level assigned to their "
+"account. A member with an access level of 5 can view content assigned to "
+"access levels of 5 and lower, whereas a member with an access level of 4 can "
+"only view content assigned to levels of 4 and lower."
+msgstr ""
+
+#: includes/admin/subscriptions/subscription-levels.php:157
+msgid ""
+"<strong>Example</strong>: setting this to 1 month would make memberships "
+"last 1 month, after which they will renew automatically or be marked as "
+"expired."
+msgstr ""
+
+#: includes/admin/subscriptions/subscription-levels.php:173
+msgid ""
+"This price refers to the amount paid per duration period. For example, if "
+"duration period is set to 1 month, this would be the amount charged each "
+"month."
+msgstr ""
+
+# @ rcp
+#: includes/admin/subscriptions/subscription-levels.php:214
+msgid "Add Membership Level"
+msgstr "افزودن سطح عضویت"
+
+# @ rcp
+#: includes/admin/tools/tools-page.php:16
+#, fuzzy
+msgid "Restrict Content Pro Tools"
+msgstr "Restrict Content Pro"
+
+# @ rcp
+#: includes/ajax-actions.php:63
+#, fuzzy
+msgid "No available subscription levels for your account."
+msgstr "سطح اشتراکی تاکنون اضافه نشده است."
+
+#: includes/captcha-functions.php:25 includes/captcha-functions.php:43
+msgid "Please verify that you are not a robot"
+msgstr ""
+
+# @ rcp
+#: includes/class-rcp-discounts.php:559
+#, fuzzy
+msgid "Please enter a discount amount containing numbers only."
+msgstr "تاریخ برای این پرداخت در قالب YYYY-MM-DD"
+
+#: includes/class-rcp-discounts.php:567
+msgid "Percentage discounts must be whole numbers between 1 and 100."
+msgstr ""
+
+# @ rcp
+#: includes/class-rcp-export-members.php:37
+#: includes/class-rcp-export-payments.php:40
+msgid "User ID"
+msgstr "شناسه‌ی کاربر"
+
+# @ rcp
+#: includes/class-rcp-export-members.php:38
+#: includes/class-rcp-export-payments.php:41
+msgid "User Login"
+msgstr "نام کاربری"
+
+# @ rcp
+#: includes/class-rcp-export-members.php:39
+msgid "User Email"
+msgstr "ایمبل کاربر"
+
+# @ rcp
+#: includes/class-rcp-export-members.php:40 templates/profile-editor.php:25
+#: templates/register-single.php:37 templates/register.php:36
+msgid "First Name"
+msgstr "نام"
+
+# @ rcp
+#: includes/class-rcp-export-members.php:41 templates/profile-editor.php:29
+#: templates/register-single.php:41 templates/register.php:40
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+# @ rcp
+#: includes/class-rcp-export-payments.php:37 includes/class-rcp-export.php:67
+msgid "ID"
+msgstr "شماره"
+
+# @ rcp
+#: includes/class-rcp-export-payments.php:42 includes/member-functions.php:548
+#: includes/member-functions.php:591
+msgid "Payment Type"
+msgstr "نوع پرداخت"
+
+# @ rcp
+#: includes/class-rcp-export.php:187
+msgid "You do not have permission to export data."
+msgstr "شما اجازه دسترسی به صدور اطلاعات داده رانداريد."
+
+# @ rcp
+#: includes/class-rcp-member.php:63
+msgid "Member's status changed from %s to %s"
+msgstr "وضعیت کاربران از   %sبه %s تغییر کرد"
+
+# @ rcp
+#: includes/class-rcp-member.php:143
+msgid "Member's expiration changed from %s to %s"
+msgstr "انقضا کاربران از%s به %s تغییر کرد"
+
+# @ rcp
+#: includes/class-rcp-registration.php:60
+#, fuzzy
+msgid "Signup Credit"
+msgstr "Signup Fee ( مخصوص پی پال)"
+
+# @ rcp
+#: includes/content-filters.php:23 templates/woocommerce-single-no-access.php:6
+msgid "This content is restricted to subscribers"
+msgstr "این محتوا برای مشترکان محدود"
+
+# @ rcp
+#: includes/content-filters.php:68
+msgid "You need to have an active subscription to view this content."
+msgstr "شما نیاز به یک اشتراک فعال برای مشاهده این محتوا."
+
+# @ rcp
+#: includes/email-functions.php:49 includes/email-functions.php:69
+#: includes/email-functions.php:94 includes/email-functions.php:119
+#: includes/email-functions.php:142
+msgid "Hello"
+msgstr "سلام"
+
+# @ rcp
+#: includes/email-functions.php:49 includes/email-functions.php:119
+#: includes/email-functions.php:142
+msgid "is now subscribed to"
+msgstr "مشترک در حال حاضر"
+
+# @ rcp
+#: includes/email-functions.php:49 includes/email-functions.php:119
+#: includes/email-functions.php:142
+msgid "Subscription level"
+msgstr "سطح عضویت"
+
+# @ rcp
+#: includes/email-functions.php:51 includes/email-functions.php:71
+#: includes/email-functions.php:96 includes/email-functions.php:121
+#: includes/email-functions.php:144
+msgid "Thank you"
+msgstr "با تشکر از شما"
+
+# @ rcp
+#: includes/email-functions.php:52
+msgid "New subscription on "
+msgstr "اشتراک جدید در"
+
+# @ rcp
+#: includes/email-functions.php:69
+msgid "has cancelled their subscription to"
+msgstr "اشتراک خود را لغو کرده است است با"
+
+# @ rcp
+#: includes/email-functions.php:69
+msgid "Their subscription level was"
+msgstr "سطح اشتراک آنها این بود"
+
+# @ rcp
+#: includes/email-functions.php:72
+msgid "Cancelled subscription on "
+msgstr "اشتراک خود را لغو کرده است است در"
+
+# @ rcp
+#: includes/email-functions.php:94
+msgid "subscription has expired"
+msgstr "اشتراک منقضی شده است"
+
+# @ rcp
+#: includes/email-functions.php:97
+msgid "Expired subscription on "
+msgstr "اشتراک منقضی شده است در"
+
+# @ rcp
+#: includes/email-functions.php:122
+msgid "New free subscription on "
+msgstr "اشتراک رایگان جدید بر روی"
+
+# @ rcp
+#: includes/email-functions.php:145
+msgid "New trial subscription on "
+msgstr "اشتراک آزمایشی جدید در"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:70
+#, fuzzy
+msgid ""
+"Missing 2Checkout token, please try again or contact support if the issue "
+"persists."
+msgstr ""
+"از دست رفته نشانه رمز خط خطی، لطفا دوباره سعی کنید و یا تماس بگیرید اگر مشکل "
+"ادامه یافت."
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:157
+#, fuzzy
+msgid "Subscription started in 2Checkout"
+msgstr "هزینه اشتراک"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:229
+msgid "Subscription cancelled via refund 2Checkout"
+msgstr ""
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:250
+#, fuzzy
+msgid "Subscription renewed in 2Checkout"
+msgstr "هزینه اشتراک"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:263
+#, fuzzy
+msgid "Subscription cancelled in 2Checkout"
+msgstr "بروز رسانی در سطح اشتراک کاربر با موفیت همراه نبود"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:277
+#, fuzzy
+msgid "Subscription restarted in 2Checkout"
+msgstr "هزینه اشتراک"
+
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:290
+msgid "Payment flagged as fraudulent in 2Checkout"
+msgstr ""
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:391
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:193
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:658
+msgid "The security code you have entered is invalid"
+msgstr "کد امنیتی وارد شده نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:395
+#, fuzzy
+msgid "The address you have entered is invalid"
+msgstr "شماره کارت شما وارد نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:399
+#, fuzzy
+msgid "The city you have entered is invalid"
+msgstr "کد امنیتی وارد شده نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:403
+#, fuzzy
+msgid "The state you have entered is invalid"
+msgstr "کد امنیتی وارد شده نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:407
+#, fuzzy
+msgid "The country you have entered is invalid"
+msgstr "کد تخفیف وارد شده نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-2checkout.php:411
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:197
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:662
+msgid "The zip / postal code you have entered is invalid"
+msgstr "کد پستی / زیپ شده شما نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:113
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:206
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:276
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:110
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:239
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:313
+#: includes/gateways/stripe/functions.php:246
+#: includes/gateways/stripe/functions.php:396
+#: includes/gateways/stripe/functions.php:589
+msgid "An unidentified error occurred."
+msgstr "یک خطای ناشناخته رخ داده است."
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:126
+msgid "PayPal token creation failed."
+msgstr "پی پال ایجاد رمز شکست خورده است."
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:127
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:220
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:290
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:126
+msgid "Error message:"
+msgstr "پیام خطا:"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:128
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:221
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:291
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:127
+#: includes/member-functions.php:979 includes/member-functions.php:996
+#: includes/member-functions.php:1012 includes/member-functions.php:1028
+msgid "Error code:"
+msgstr "کد خطا:"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:142
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:244
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:333
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:158
+#: includes/gateways/paypal/functions.php:190
+msgid "Something has gone wrong, please try again"
+msgstr "چیزی را اشتباه رفته است، لطفا دوباره سعی کنید"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:156
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:185
+msgid ""
+"You have not configured PayPal API access. Please configure it in Restrict "
+"&rarr; Settings"
+msgstr ""
+"شما دسترسی API درگاه پرداخت پیکربندی نشده است. لطفا پیکربندی آن در محدود "
+"کردن → تنظیمات"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:219
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:289
+msgid "PayPal payment processing failed."
+msgstr "پردازش پی پال پرداخت شکست خورده است."
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-express.php:437
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:343
+msgid "IPN report"
+msgstr "گزارش IPN"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:125
+msgid "PayPal subscription creation failed."
+msgstr "ایجاد اشتراک اینترنت شکست خورده است."
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:189
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:654
+msgid "The card number you have entered is invalid"
+msgstr "شماره کارت شما وارد نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:201
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:666
+msgid "The card holder name you have entered is invalid"
+msgstr "نام دارنده کارت وارد شده نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:205
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:670
+msgid "The card expiration month you have entered is invalid"
+msgstr "ماه کارت انقضا شما وارد نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal-pro.php:209
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:674
+msgid "The card expiration year you have entered is invalid"
+msgstr "سال کارت انقضا شما وارد نامعتبر است"
+
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:275
+msgid ""
+"Incorrect amount received in the IPN. Amount received was %s. The amount "
+"should have been %s. PayPal Transaction ID: %s"
+msgstr ""
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:304
+msgid "Duplicate Payment"
+msgstr "تکثیر پرداخت"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:305
+msgid ""
+"A duplicate payment was detected. The new payment was still recorded, so you "
+"may want to check into both payments."
+msgstr ""
+"پرداخت جدیدی اکنون ثبت شده است و پرداخت تکرار تشخیص داده شده است .شاید شما "
+"بخواهید هر دو نوع پرداخت را فعال کنید."
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:324
+msgid "Invalid Currency Code"
+msgstr "کد ارز نامعتبر است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:325
+msgid ""
+"The currency code in an IPN request did not match the site currency code. "
+"Payment data: %s"
+msgstr "گد ارزی درخواستی IPN با سایت مطابقت ندارد.اطلاعات پرداخت: %s"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-paypal.php:483
+msgid "Invalid IPN"
+msgstr "IPN نامعتبر است"
+
+# @ edd
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-stripe-checkout.php:59
+#: includes/install.php:112 includes/scripts.php:129
+msgid "Register"
+msgstr "ثبت نام"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:66
+msgid ""
+"Missing Stripe token, please try again or contact support if the issue "
+"persists."
+msgstr ""
+"از دست رفته نشانه رمز خط خطی، لطفا دوباره سعی کنید و یا تماس بگیرید اگر مشکل "
+"ادامه یافت."
+
+# @ rcp_stripe
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:347
+msgid "An error occurred, please contact the site administrator: "
+msgstr "خطایی روی داد، لطفا با مدیر سایت تماس بگیرید :"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:368
+#: includes/gateways/stripe/functions.php:167
+#: includes/gateways/stripe/functions.php:184
+#: includes/gateways/stripe/functions.php:201
+#: includes/gateways/stripe/functions.php:217
+#: includes/gateways/stripe/functions.php:233
+#: includes/gateways/stripe/functions.php:317
+#: includes/gateways/stripe/functions.php:334
+#: includes/gateways/stripe/functions.php:351
+#: includes/gateways/stripe/functions.php:367
+#: includes/gateways/stripe/functions.php:383
+#: includes/gateways/stripe/functions.php:527
+#: includes/gateways/stripe/functions.php:544
+#: includes/gateways/stripe/functions.php:560
+#: includes/gateways/stripe/functions.php:576 includes/member-functions.php:977
+#: includes/member-functions.php:994 includes/member-functions.php:1010
+#: includes/member-functions.php:1026 includes/member-functions.php:1039
+msgid "An error occurred"
+msgstr "خطایی رخ داده است"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:370
+#: includes/gateways/stripe/functions.php:169
+#: includes/gateways/stripe/functions.php:186
+#: includes/gateways/stripe/functions.php:203
+#: includes/gateways/stripe/functions.php:219
+#: includes/gateways/stripe/functions.php:235
+#: includes/gateways/stripe/functions.php:319
+#: includes/gateways/stripe/functions.php:336
+#: includes/gateways/stripe/functions.php:353
+#: includes/gateways/stripe/functions.php:369
+#: includes/gateways/stripe/functions.php:385
+#: includes/gateways/stripe/functions.php:529
+#: includes/gateways/stripe/functions.php:546
+#: includes/gateways/stripe/functions.php:562
+#: includes/gateways/stripe/functions.php:578
+msgid "Error code: %s"
+msgstr "کد خطا: %s"
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:678
+msgid ""
+"Missing Stripe test keys. Please enter your test keys to use Stripe in "
+"Sandbox Mode."
+msgstr ""
+
+#: includes/gateways/class-rcp-payment-gateway-stripe.php:682
+msgid ""
+"Missing Stripe live keys. Please enter your live keys to use Stripe in Live "
+"Mode."
+msgstr ""
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateways.php:57
+#: includes/gateways/class-rcp-payment-gateways.php:58
+msgid "Manual Payment"
+msgstr "پرداخت دستی"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateways.php:63
+msgid "PayPal Standard"
+msgstr "پی پال استاندارد"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateways.php:68
+msgid "PayPal Express"
+msgstr "پی پال اکسپرس"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateways.php:72
+#: includes/gateways/class-rcp-payment-gateways.php:77
+#: includes/gateways/class-rcp-payment-gateways.php:82
+#: includes/gateways/class-rcp-payment-gateways.php:87
+msgid "Credit / Debit Card"
+msgstr "اعتباری / دبیت کارت"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateways.php:73
+msgid "PayPal Pro"
+msgstr "پی پال پرو"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateways.php:78
+msgid "Stripe"
+msgstr "Stripe"
+
+# @ rcp
+#: includes/gateways/class-rcp-payment-gateways.php:83
+#, fuzzy
+msgid "Stripe Checkout"
+msgstr "تنظیمات درگاه Stripe"
+
+#: includes/gateways/class-rcp-payment-gateways.php:88
+msgid "2Checkout"
+msgstr ""
+
+# @ rcp
+#: includes/gateways/gateway-functions.php:230
+msgid "Your account does not support updating your billing card"
+msgstr "حساب شما را پشتیبانی نمی کند به روز رسانی کارت صدور صورت حساب خود را"
+
+# @ rcp
+#: includes/gateways/paypal/functions.php:134
+#, fuzzy
+msgid "Please enter all required fields."
+msgstr "لطفا یک ایمیل معتبر وارد کنید"
+
+# @ rcp
+#: includes/gateways/paypal/functions.php:183
+#, fuzzy
+msgid "Error updating subscription"
+msgstr "در حال ویرایش اشتراک ها"
+
+# @ rcp
+#: includes/gateways/stripe/functions.php:135
+msgid "Missing Stripe token"
+msgstr "از دست رفته نشانه رمز خط خطی"
+
+#: includes/gateways/twocheckout/functions.php:17
+msgid "The 2Checkout API username and password must be defined"
+msgstr ""
+
+# @ edd
+#: includes/install.php:124
+msgid "Welcome"
+msgstr "وضعیت پرداخت"
+
+# @ edd
+#: includes/install.php:125
+msgid ""
+"Welcome! This is your success page where members are redirected after "
+"completing their registration."
+msgstr "با تشکر ! وضعیت پرداخت شما :"
+
+# @ rcp
+#: includes/install.php:150
+#, fuzzy
+msgid "Your Membership"
+msgstr "کاربران"
+
+# @ rcp
+#: includes/install.php:177
+#, fuzzy
+msgid "Edit Your Profile"
+msgstr "خواندن مشخصات فردی"
+
+# @ rcp
+#: includes/install.php:204
+#, fuzzy
+msgid "Update Billing Card"
+msgstr "به روز رسانی کارت"
+
+# @ rcp
+#: includes/integrations/class-rcp-google-authenticator.php:31
+msgid "Google Authenticator Code"
+msgstr "کد تایید اعتبار گوگل"
+
+# @ rcp
+#: includes/integrations/class-rcp-woocommerce.php:35
+msgid "Access Control"
+msgstr "کنترل دسترسی"
+
+# @ rcp
+#: includes/integrations/class-rcp-woocommerce.php:55
+msgid "Restrict purchasing of this product to:"
+msgstr "محدود کردن دسترسی خرید این محصول برای : "
+
+# @ rcp
+#: includes/integrations/class-rcp-woocommerce.php:60
+#: includes/integrations/class-rcp-woocommerce.php:89
+msgid "Active subscribers only?"
+msgstr "فقط اشتراک های فعال ؟"
+
+# @ rcp
+#: includes/integrations/class-rcp-woocommerce.php:77
+#: includes/integrations/class-rcp-woocommerce.php:106
+msgid "Access level required?"
+msgstr "نیازمند به سطح دسترسی؟"
+
+# @ rcp
+#: includes/integrations/class-rcp-woocommerce.php:84
+msgid "Restrict viewing of this product to:"
+msgstr "محدود کردن مشاهده این محصول برای :"
+
+#: includes/integrations/class-rcp-wp-approve-user.php:124
+msgid "Your account is pending verification by a site administrator."
+msgstr ""
+
+#: includes/integrations/class-rcp-wp-approve-user.php:148
+msgid "Unapprove"
+msgstr ""
+
+#: includes/integrations/class-rcp-wp-approve-user.php:157
+msgid "Approve"
+msgstr ""
+
+# @ rcp
+#: includes/integrations/class-rcp-wp-approve-user.php:177
+#: includes/integrations/class-rcp-wp-approve-user.php:207
+#, fuzzy
+msgid "You do not have permission to edit this user"
+msgstr "شما اجازه دسترسی به دانلود این فاکتور ندارد"
+
+# @ default
+#: includes/integrations/class-rcp-wp-approve-user.php:240
+#, fuzzy
+msgid "Member unapproved"
+msgstr "به روز رسانی در اعضا"
+
+# @ default
+#: includes/integrations/class-rcp-wp-approve-user.php:242
+#, fuzzy
+msgid "Member approved"
+msgstr "به روز رسانی در اعضا"
+
+# @ rcp
+#: includes/invoice-functions.php:54
+msgid "This payment record does not exist"
+msgstr "این رکورد پرداخت وجود ندارد"
+
+# @ rcp
+#: includes/invoice-functions.php:58
+msgid "You do not have permission to download this invoice"
+msgstr "شما اجازه دسترسی به دانلود این فاکتور ندارد"
+
+# @ rcp
+#: includes/login-functions.php:88
+#, fuzzy
+msgid "Invalid username or email"
+msgstr "نام کاربری نامعتبر می باشد"
+
+# @ rcp
+#: includes/login-functions.php:93 includes/registration-functions.php:399
+msgid "Please enter a password"
+msgstr "لطفا یک کلمه عبور وارد نمایید"
+
+# @ rcp
+#: includes/login-functions.php:100
+msgid "Incorrect password"
+msgstr "کلمه عبور اشتباه است"
+
+#: includes/login-functions.php:173
+msgid "Your password reset link has expired."
+msgstr ""
+
+#: includes/login-functions.php:175
+msgid "Your password reset link appears to be invalid."
+msgstr ""
+
+# @ rcp
+#: includes/login-functions.php:219
+#, fuzzy
+msgid "Enter a username or e-mail address."
+msgstr "آدرس ایمیل درگاه پرداخت خود را وارد کنید"
+
+#: includes/login-functions.php:223
+msgid "There is no user registered with that email address."
+msgstr ""
+
+# @ rcp
+#: includes/login-functions.php:235
+#, fuzzy
+msgid "Invalid username or e-mail."
+msgstr "نام کاربری نامعتبر می باشد"
+
+#: includes/login-functions.php:246
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: includes/login-functions.php:269
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+# @ rcp
+#: includes/login-functions.php:271
+#, fuzzy
+msgid "Username: %s"
+msgstr "نام کاربری"
+
+#: includes/login-functions.php:272
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/login-functions.php:273
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/login-functions.php:288
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: includes/login-functions.php:293
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: includes/login-functions.php:293
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+# @ rcp
+#: includes/member-functions.php:559
+msgid "No payments recorded"
+msgstr "هنوز پرداختی ثبت نشده"
+
+# @ rcp
+#: includes/member-functions.php:784
+msgid "Please enter a valid email address"
+msgstr "لطفا یک ایمیل معتبر وارد کنید"
+
+# @ rcp
+#: includes/member-functions.php:789
+msgid "The email you entered belongs to another user. Please use another."
+msgstr "ایمیل شما وارد متعلق به یک کاربر دیگر. لطفا دیگری استفاده کنید."
+
+# @ rcp
+#: includes/member-functions.php:795
+msgid "The passwords you entered do not match. Please try again."
+msgstr "کلمه عبور شما وارد مطابقت ندارند. لطفا دوباره تلاش کنید."
+
+# @ rcp
+#: includes/member-functions.php:817
+msgid "There was an error updating your profile. Please try again."
+msgstr "یک خطای به روز رسانی مشخصات شما وجود دارد. لطفا دوباره تلاش کنید."
+
+# @ rcp
+#: includes/member-functions.php:850
+msgid "Please enter a password, and confirm it"
+msgstr "لطفا رمز عبور را وارد کنید، و آن را تأیید"
+
+# @ rcp
+#: includes/member-functions.php:854 includes/registration-functions.php:403
+msgid "Passwords do not match"
+msgstr "رمز عبور تطابق ندارد"
+
+# @ rcp
+#: includes/member-functions.php:1104
+msgid ""
+"There was a problem cancelling the subscription, please contact customer "
+"support. Error: %s"
+msgstr "یک مشکل لغو اشتراک وجود دارد، لطفا با پشتیبانی از مشتری. خطا:%s"
+
+# @ rcp
+#: includes/misc-functions.php:153
+msgid "US Dollars (&#36;)"
+msgstr "دلار (&#36;)"
+
+# @ rcp
+#: includes/misc-functions.php:154
+#, fuzzy
+msgid "Euros (&#8364;)"
+msgstr "یورو (&euro;)"
+
+# @ rcp
+#: includes/misc-functions.php:155
+#, fuzzy
+msgid "Pounds Sterling (&#163;)"
+msgstr "پوند (&pound;)"
+
+# @ rcp
+#: includes/misc-functions.php:156
+msgid "Australian Dollars (&#36;)"
+msgstr "دلار استرالیا (&#36;)"
+
+# @ rcp
+#: includes/misc-functions.php:157
+#, fuzzy
+msgid "Brazilian Real (&#82;&#36;)"
+msgstr "برزیل رئال (&#36;)"
+
+# @ rcp
+#: includes/misc-functions.php:158
+msgid "Canadian Dollars (&#36;)"
+msgstr "دلار کانادا (&#36;)"
+
+# @ rcp
+#: includes/misc-functions.php:159
+#, fuzzy
+msgid "Czech Koruna (&#75;&#269;)"
+msgstr "چک کرونای"
+
+# @ rcp
+#: includes/misc-functions.php:160
+#, fuzzy
+msgid "Danish Krone (&#107;&#114;)"
+msgstr "کرون دانمارک"
+
+# @ rcp
+#: includes/misc-functions.php:161
+msgid "Hong Kong Dollar (&#36;)"
+msgstr "دلار هنگ کنگ ($)"
+
+# @ rcp
+#: includes/misc-functions.php:162
+#, fuzzy
+msgid "Hungarian Forint (&#70;&#116;)"
+msgstr "فورینت مجارستان"
+
+# @ rcp
+#: includes/misc-functions.php:163
+msgid "Iranian Rial (&#65020;)"
+msgstr "ریال ایران (﷼)"
+
+# @ rcp
+#: includes/misc-functions.php:164
+#, fuzzy
+msgid "Israeli Shekel (&#8362;)"
+msgstr "شکل اسرائیل"
+
+# @ rcp
+#: includes/misc-functions.php:165
+#, fuzzy
+msgid "Japanese Yen (&#165;)"
+msgstr "ین ژاپن (¥)"
+
+# @ rcp
+#: includes/misc-functions.php:166
+#, fuzzy
+msgid "Malaysian Ringgits (&#82;&#77;)"
+msgstr "رینگیت مالزی"
+
+# @ rcp
+#: includes/misc-functions.php:167
+msgid "Mexican Peso (&#36;)"
+msgstr "پسکو مکزیک  (&#36;)"
+
+# @ rcp
+#: includes/misc-functions.php:168
+msgid "New Zealand Dollar (&#36;)"
+msgstr "دلار نیوزلند (&#36;)"
+
+# @ rcp
+#: includes/misc-functions.php:169
+#, fuzzy
+msgid "Norwegian Krone (&#107;&#114;)"
+msgstr "کرون نروژ"
+
+# @ rcp
+#: includes/misc-functions.php:170
+#, fuzzy
+msgid "Philippine Pesos (&#8369;)"
+msgstr "پسس فلیپین"
+
+# @ rcp
+#: includes/misc-functions.php:171
+#, fuzzy
+msgid "Polish Zloty (&#122;&#322;)"
+msgstr "زواتی لهستان"
+
+#: includes/misc-functions.php:172
+msgid "Russian Rubles (&#1088;&#1091;&#1073;)"
+msgstr ""
+
+# @ rcp
+#: includes/misc-functions.php:173
+msgid "Singapore Dollar (&#36;)"
+msgstr "دلار سنگاپور (&#36;)"
+
+# @ rcp
+#: includes/misc-functions.php:174
+#, fuzzy
+msgid "Swedish Krona (&#107;&#114;)"
+msgstr "کرونا سوئد"
+
+#: includes/misc-functions.php:175
+msgid "Swiss Franc (&#67;&#72;&#70;)"
+msgstr ""
+
+# @ rcp
+#: includes/misc-functions.php:176
+#, fuzzy
+msgid "Taiwan New Dollars (&#78;&#84;&#36;)"
+msgstr "دلار جدید تایوان"
+
+# @ rcp
+#: includes/misc-functions.php:177
+#, fuzzy
+msgid "Thai Baht (&#3647;)"
+msgstr "بات تایلند"
+
+# @ rcp
+#: includes/misc-functions.php:178
+#, fuzzy
+msgid "Turkish Lira (&#8356;)"
+msgstr "لیره ترکیه"
+
+# @ rcp
+#: includes/process-data.php:23 includes/process-data.php:51
+#: includes/process-data.php:76 includes/process-data.php:154
+#: includes/process-data.php:212 includes/process-data.php:297
+#: includes/process-data.php:338 includes/process-data.php:379
+#: includes/process-data.php:423
+#, fuzzy
+msgid "Nonce verification failed."
+msgstr "پی پال ایجاد رمز شکست خورده است."
+
+# @ rcp
+#: includes/process-data.php:27 includes/process-data.php:55
+#: includes/process-data.php:80 includes/process-data.php:158
+#: includes/process-data.php:216 includes/process-data.php:301
+#: includes/process-data.php:342 includes/process-data.php:383
+#: includes/process-data.php:427 includes/process-data.php:474
+#: includes/process-data.php:485 includes/process-data.php:504
+#: includes/process-data.php:514 includes/process-data.php:526
+#: includes/process-data.php:535 includes/process-data.php:544
+#: includes/process-data.php:553
+msgid "You do not have permission to perform this action."
+msgstr "شما اجازه‌ی دسترسی برای انجام این کار را ندارید."
+
+#: includes/process-data.php:84
+msgid "Please fill out all fields."
+msgstr ""
+
+#: includes/process-data.php:99
+msgid "You entered a username that does not exist."
+msgstr ""
+
+# @ rcp
+#: includes/process-data.php:111
+#, fuzzy
+msgid "Please supply a valid subscription level."
+msgstr "لطفا یک سطح اشتراک را انتخاب کنید"
+
+#: includes/process-data.php:162
+msgid "Please select at least one member to edit."
+msgstr ""
+
+# @ rcp
+#: includes/registration-functions.php:63
+msgid "Please choose a subscription level"
+msgstr "لطفا یک سطح اشتراک را انتخاب کنید"
+
+# @ rcp
+#: includes/registration-functions.php:68
+msgid "You may only sign up for a free trial once"
+msgstr "شما فقط یک بار می توانید به صورت آزمایشی وارد شوید"
+
+# @ rcp
+#: includes/registration-functions.php:78
+msgid "You can only use the discount code once"
+msgstr "شما فقط یک بار می توایند  از کد تخفیف استفاده کنید"
+
+# @ rcp
+#: includes/registration-functions.php:83
+msgid "The discount you entered is invalid"
+msgstr "کد تخفیف وارد شده نامعتبر است"
+
+# @ rcp
+#: includes/registration-functions.php:379
+msgid "Username already taken"
+msgstr "نام کاربری مورد نظر  قبلا ثبت گردیده."
+
+# @ rcp
+#: includes/registration-functions.php:383
+msgid "Invalid username"
+msgstr "نام کاربری نامعتبر می باشد"
+
+# @ rcp
+#: includes/registration-functions.php:387
+msgid "Please enter a username"
+msgstr "لطفا نام کاربری را وارد نمایید"
+
+# @ rcp
+#: includes/registration-functions.php:391
+msgid "Invalid email"
+msgstr "ایمیل نامعتبر می باشد"
+
+# @ rcp
+#: includes/registration-functions.php:395
+msgid "Email already registered"
+msgstr "با این ایمیل قبلا ثبت نام شده است"
+
+# @ rcp
+#: includes/registration-functions.php:652
+#: includes/registration-functions.php:707
+#: templates/register-total-details.php:20 templates/register.php:69
+msgid "free"
+msgstr "رایگان"
+
+# @ subscriptionduration
+#: includes/registration-functions.php:704
+#, fuzzy
+msgid " every %s %s"
+msgstr "هر %d %s"
+
+#: includes/registration-functions.php:830
+msgid "Proration Credit"
+msgstr ""
+
+#: includes/registration-functions.php:844
+msgid ""
+"If you upgrade or downgrade your account, the new subscription will be "
+"prorated up to %s for the first payment. Prorated prices are shown below."
+msgstr ""
+
+# @ rcp
+#: includes/scripts.php:28
+msgid "Are you sure you wish to cancel this member's subscription?"
+msgstr "آیا مطمئن هستید که مایل به لغو اشتراک این عضو؟"
+
+# @ rcp
+#: includes/scripts.php:29
+msgid ""
+"If you delete this subscription, all members registered with this level will "
+"be canceled. Proceed?"
+msgstr ""
+"اگر این سطح اشتراک را حذف کنید همه اعضا موجو در این سطح از اشتراک را هم حذف "
+"می کنید.آیا ادامه می دهید؟"
+
+# @ rcp
+#: includes/scripts.php:30
+msgid ""
+"Are you sure you want to delete this payment? This action is irreversible. "
+"Proceed?"
+msgstr ""
+"آیا مطمئن هستید که می خواهید این پرداخت را حذف کنید ؟این عمل غیر قابل بازکشت "
+"است."
+
+# @ rcp
+#: includes/scripts.php:31
+msgid "You must choose a username"
+msgstr "شما باید یک نام کاربری انتخاب کنید"
+
+# @ rcp
+#: includes/scripts.php:34
+msgid "Use as Logo"
+msgstr "استفاده به عنوان لوگو"
+
+# @ rcp
+#: includes/scripts.php:35
+msgid "Choose a Logo"
+msgstr "یک لوگو انتخاب کنید"
+
+# @ rcp
+#: includes/scripts.php:130
+msgid "Please Wait . . . "
+msgstr "صبر کنید..."
+
+# @ rcp
+#: includes/scripts.php:131
+#, fuzzy
+msgid "Submit Payment"
+msgstr "ویرایش پرداخت"
+
+# @ rcp
+#: includes/shortcodes.php:231
+msgid "You are already registered and have an active subscription."
+msgstr "شما در حال حاضر ثبت نام شده اید و اشتراک شما فعال است"
+
+#: includes/shortcodes.php:295
+msgid "Join %s"
+msgstr ""
+
+# @ rcp
+#: includes/shortcodes.php:296
+#, fuzzy
+msgid "Register - {{amount}}"
+msgstr "ثبت نام اکانت جدید"
+
+# @ rcp
+#: includes/shortcodes.php:322
+#, fuzzy
+msgid "You are already subscribed."
+msgstr "مشاهده تمام مشترکین منقضی"
+
+# @ rcp
+#: includes/shortcodes.php:514
+#, fuzzy
+msgid "Billing card updated successfully"
+msgstr "رمز عبور با موفقیت تغییر"
+
+#: includes/shortcodes.php:523
+msgid "Billing card could not be updated, please try again."
+msgstr ""
+
+# @ rcp
+#: includes/subscription-functions.php:216
+msgid "Days"
+msgstr "روز"
+
+# @ rcp
+#: includes/subscription-functions.php:218
+msgid "Day"
+msgstr "روز"
+
+# @ rcp
+#: includes/subscription-functions.php:222
+msgid "Months"
+msgstr "ماه"
+
+# @ rcp
+#: includes/subscription-functions.php:224
+msgid "Month"
+msgstr "ماهانه"
+
+# @ rcp
+#: includes/subscription-functions.php:228
+msgid "Years"
+msgstr "سال"
+
+# @ rcp
+#: includes/subscription-functions.php:230
+msgid "Year"
+msgstr "سال"
+
+# @ rcp
+#: includes/subscription-functions.php:359
+msgid "None, reminders disabled"
+msgstr "هیچ یادآوری فعال نباشد"
+
+# @ rcp
+#: includes/subscription-functions.php:360
+msgid "One day before expiration"
+msgstr "یک روز قبل از انقضای"
+
+# @ rcp
+#: includes/subscription-functions.php:361
+msgid "Two days before expiration"
+msgstr "دو روز قبل از انقضای"
+
+# @ rcp
+#: includes/subscription-functions.php:362
+msgid "Three days before expiration"
+msgstr "سه روز قبل از انقضای"
+
+# @ rcp
+#: includes/subscription-functions.php:363
+msgid "Four days before expiration"
+msgstr "چهار روز قبل از انقضای"
+
+# @ rcp
+#: includes/subscription-functions.php:364
+msgid "Five days before expiration"
+msgstr "پنج روز قبل از انقضای"
+
+# @ rcp
+#: includes/subscription-functions.php:365
+msgid "Six days before expiration"
+msgstr "شش روز قبل از انقضای"
+
+# @ rcp
+#: includes/subscription-functions.php:366
+msgid "One week before expiration"
+msgstr "یک هفته قبل از انقضا"
+
+# @ rcp
+#: includes/subscription-functions.php:367
+msgid "Two weeks before expiration"
+msgstr "دو هفته قبل از انقضا"
+
+# @ rcp
+#: includes/subscription-functions.php:368
+msgid "Three weeks before expiration"
+msgstr "سه هفته قبل از انقضا"
+
+# @ rcp
+#: includes/subscription-functions.php:369
+msgid "One month before expiration"
+msgstr "یک ماه قبل از انقضا"
+
+# @ rcp
+#: includes/subscription-functions.php:370
+msgid "Two months before expiration"
+msgstr "دو ماه قبل از انقضا"
+
+# @ rcp
+#: includes/subscription-functions.php:371
+msgid "Three months before expiration"
+msgstr "سه ماه قبل از انقضا"
+
+# @ rcp
+#: includes/user-page-columns.php:6 templates/subscription.php:22
+#: templates/subscription.php:60
+msgid "Actions"
+msgstr "فعالیت‌ها"
+
+# @ rcp
+#: includes/user-page-columns.php:20
+msgid "Edit Subscription"
+msgstr "ویرایش و اشتراک"
+
+# @ rcp
+#: includes/user-page-columns.php:22
+msgid "Add Subscription"
+msgstr "اضافه کردن اشتراک"
+
+# @ rcp
+#: restrict-content-pro.php:160
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by Restrict "
+"Content Pro. Please contact your host and request that your version be "
+"upgraded to 5.3 or later."
+msgstr ""
+"نسخه خود را از PHP است کمتر از حداقل نسخه از PHP مورد نیاز محدود کردن نرم "
+"افزار مطلب. لطفا میزبان خود تماس بگیرید و درخواست کنید که نسخه خود را به 5.3 "
+"و یا بعد از به روز رسانی."
+
+# @ rcp
+#: templates/card-form-full.php:3 templates/card-form.php:3
+#: templates/card-update-form.php:22
+msgid "Card Number"
+msgstr "شماره کارت"
+
+# @ rcp
+#: templates/card-form-full.php:7 templates/card-form.php:7
+#: templates/card-update-form.php:26
+msgid "Card CVC"
+msgstr "CVC کارت"
+
+# @ rcp
+#: templates/card-form-full.php:11
+#, fuzzy
+msgid "Address"
+msgstr "آدرس ایمیل"
+
+#: templates/card-form-full.php:15
+msgid "City"
+msgstr ""
+
+#: templates/card-form-full.php:19
+msgid "State or Providence"
+msgstr ""
+
+# @ rcp
+#: templates/card-form-full.php:23
+#, fuzzy
+msgid "Country"
+msgstr "مقدار"
+
+# @ rcp
+#: templates/card-form-full.php:274 templates/card-form.php:11
+#: templates/card-update-form.php:30
+msgid "Card ZIP or Postal Code"
+msgstr "کد پستی یا ZIP کد کارت"
+
+# @ rcp
+#: templates/card-form-full.php:278 templates/card-form.php:15
+#: templates/card-update-form.php:34
+msgid "Name on Card"
+msgstr "نام روی کارت"
+
+# @ rcp
+#: templates/card-form-full.php:282 templates/card-form.php:19
+#: templates/card-update-form.php:38
+msgid "Expiration (MM/YYYY)"
+msgstr "تاریخ انقضا  (MM/YYYY)"
+
+#: templates/card-update-form.php:7
+msgid "Your Cards"
+msgstr ""
+
+# @ rcp
+#: templates/card-update-form.php:11
+#, fuzzy
+msgid "Name:"
+msgstr "نام"
+
+# @ rcp
+#: templates/card-update-form.php:12
+#, fuzzy
+msgid "Type:"
+msgstr "نوع"
+
+# @ rcp
+#: templates/card-update-form.php:13
+#, fuzzy
+msgid "Last 4:"
+msgstr "هفته گذشته"
+
+#: templates/card-update-form.php:14
+msgid "Exp:"
+msgstr ""
+
+# @ rcp
+#: templates/card-update-form.php:58
+msgid "Update Card"
+msgstr "به روز رسانی کارت"
+
+# @ rcp
+#: templates/change-password.php:7
+msgid "Password changed successfully"
+msgstr "رمز عبور با موفقیت تغییر"
+
+# @ rcp
+#: templates/change-password.php:13 templates/profile-editor.php:55
+msgid "New Password"
+msgstr "کلمه عبور جدید"
+
+# @ rcp
+#: templates/change-password.php:17
+msgid "Password Confirm"
+msgstr "تایید کلمه عبور"
+
+# @ rcp
+#: templates/invoice.php:10 templates/invoice.php:195 templates/invoice.php:205
+#, fuzzy
+msgid "Invoice %s"
+msgstr "فاکتور#%d"
+
+#: templates/invoice.php:232
+msgid "Bill To:"
+msgstr ""
+
+# @ rcp
+#: templates/invoice.php:245
+#, fuzzy
+msgid "Invoice Items:"
+msgstr "آیتم فاکتور"
+
+# @ rcp
+#: templates/invoice.php:257
+#, fuzzy
+msgid "Total Price:"
+msgstr "مجموع درآمد"
+
+# @ rcp
+#: templates/invoice.php:263
+#, fuzzy
+msgid "Payment Status:"
+msgstr "وضعیت پی پال:"
+
+# @ rcp
+#: templates/invoice.php:273
+#, fuzzy
+msgid "Additional Info:"
+msgstr "یادداشت های تکمیلی"
+
+# @ rcp
+#: templates/invoice.php:276
+#, fuzzy
+msgid "Payment Date:"
+msgstr "تاریخ پرداخت"
+
+#: templates/invoice.php:292
+msgid "Print"
+msgstr ""
+
+# @ rcp
+#: templates/login.php:16 templates/register-single.php:45
+#: templates/register.php:44
+msgid "Password"
+msgstr "کلمه عبور"
+
+# @ rcp
+#: templates/login.php:22
+#, fuzzy
+msgid "Remember me"
+msgstr "یادآوری"
+
+# @ rcp
+#: templates/login.php:24
+msgid "Lost your password?"
+msgstr "کله عبور خود را فراموش کرده اید؟"
+
+# @ rcp
+#: templates/login.php:29
+#, fuzzy
+msgid "Login"
+msgstr "صفحه ورود"
+
+# @ rcp
+#: templates/login.php:38 templates/lostpassword.php:28
+#: templates/lostpassword_checkemail.php:10
+#, fuzzy
+msgid "Log out"
+msgstr "لاگ"
+
+# @ rcp
+#: templates/lostpassword.php:11
+#, fuzzy
+msgid "Username or E-mail:"
+msgstr "ایمبل کاربر"
+
+# @ rcp
+#: templates/lostpassword.php:19
+#, fuzzy
+msgid "Request Password Reset"
+msgstr "تکرار مجدد کلمه عبور"
+
+#: templates/lostpassword_checkemail.php:5
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+# @ rcp
+#: templates/paypal-express-confirm.php:3
+msgid "Please confirm your payment"
+msgstr "لطفا پرداخت خود را تایید کنید"
+
+# @ rcp
+#: templates/paypal-express-confirm.php:5
+msgid "PayPal Status:"
+msgstr "وضعیت پی پال:"
+
+# @ rcp
+#: templates/paypal-express-confirm.php:6
+msgid "Email:"
+msgstr "ایمیل:"
+
+# @ rcp
+#: templates/paypal-express-confirm.php:13
+msgid "Recurs"
+msgstr "تمدید ها"
+
+# @ rcp
+#: templates/paypal-express-confirm.php:18
+msgid "Subscription Cost"
+msgstr "هزینه اشتراک"
+
+# @ subscriptionduration
+#: templates/paypal-express-confirm.php:27
+#, fuzzy
+msgid "Every %d %s"
+msgstr "هر %d %s"
+
+# @ rcp
+#: templates/paypal-express-confirm.php:49
+msgid "Confirm"
+msgstr "تایید"
+
+# @ rcp
+#: templates/profile-editor.php:16
+msgid "Success"
+msgstr "موفق"
+
+# @ rcp
+#: templates/profile-editor.php:16
+msgid "Your profile has been updated."
+msgstr "پروفایل شما بروز رسانی شد."
+
+# @ rcp
+#: templates/profile-editor.php:23
+msgid "Change your Name"
+msgstr "نام خود را تغییر دهید"
+
+# @ rcp
+#: templates/profile-editor.php:33
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+# @ rcp
+#: templates/profile-editor.php:49
+msgid "Email Address"
+msgstr "آدرس ایمیل"
+
+# @ rcp
+#: templates/profile-editor.php:53
+msgid "Change your Password"
+msgstr "کلمه عبور خود را تغییر دهید"
+
+# @ rcp
+#: templates/profile-editor.php:59
+msgid "Re-enter Password"
+msgstr "تکرار مجدد کلمه عبور"
+
+# @ rcp
+#: templates/profile-editor.php:62
+msgid "Please note after changing your password, you must log back in."
+msgstr "توجه کنید که بعد از تغییر کلمه عبور می بایست مجددا ورود نمایید ."
+
+# @ rcp
+#: templates/profile-editor.php:67
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+# @ rcp
+#: templates/register-single.php:7 templates/register.php:5
+msgid "Register New Account"
+msgstr "ثبت نام اکانت جدید"
+
+# @ rcp
+#: templates/register-single.php:11 templates/register.php:9
+msgid "Upgrade Your Subscription"
+msgstr "ارتقاء اشتراک"
+
+# @ rcp
+#: templates/register-single.php:49 templates/register.php:48
+msgid "Password Again"
+msgstr "تکرار کلمه عبور"
+
+# @ rcp
+#: templates/register-single.php:62 templates/register.php:87
+msgid "Discount Code"
+msgstr "کد تخفیف"
+
+# @ rcp
+#: templates/register-single.php:63 templates/register.php:88
+msgid "Valid"
+msgstr "معتبر"
+
+# @ rcp
+#: templates/register-single.php:64 templates/register.php:89
+msgid "Invalid"
+msgstr "نامعتبر"
+
+# @ rcp
+#: templates/register-single.php:87 templates/register.php:110
+msgid "Choose Your Payment Method"
+msgstr "روش پرداخت خود را انتخاب کنید"
+
+# @ rcp
+#: templates/register-total-details.php:26
+#, fuzzy
+msgid "Discounts and Fees"
+msgstr "کد تخفیف"
+
+# @ rcp
+#: templates/register-total-details.php:54
+#, fuzzy
+msgid "Total Today"
+msgstr "جمع کل"
+
+# @ rcp
+#: templates/register-total-details.php:63
+#, fuzzy
+msgid "Total Recurring Per %s"
+msgstr "غیر دوره ای (پی پال)"
+
+# @ rcp
+#: templates/register-total-details.php:65
+#, fuzzy
+msgid "Total Recurring Every %s %s"
+msgstr "غیر دوره ای (پی پال)"
+
+#: templates/register.php:21
+msgid ""
+"<a href=\"%s\">Log in</a> if you wish to renew an existing subscription."
+msgstr ""
+
+# @ rcp
+#: templates/register.php:62
+msgid "Choose your subscription level"
+msgstr "سطح اشتراک خود را انتخاب کنید"
+
+# @ rcp
+#: templates/register.php:79
+msgid "You have not created any subscription levels yet"
+msgstr "شما هنوز هیچ سطح اشتراکی ایجاد نکرده اید ."
+
+# @ rcp
+#: templates/subscription.php:10
+msgid "Your profile has been successfully cancelled."
+msgstr "اشتراک شما با موفقیت لغو شد."
+
+# @ rcp
+#: templates/subscription.php:18
+msgid "Renewal Date"
+msgstr "تاریخ تمدید"
+
+# @ rcp
+#: templates/subscription.php:34
+msgid "Renew your subscription"
+msgstr "تمدید اشتراک "
+
+# @ rcp
+#: templates/subscription.php:38
+#, fuzzy
+msgid "Upgrade or change your subscription"
+msgstr "ارتقا سطح اشتراک"
+
+# @ rcp
+#: templates/subscription.php:42
+msgid "Cancel your subscription"
+msgstr "لغو اشتراک"
+
+# @ rcp
+#: templates/subscription.php:56
+msgid "Invoice #"
+msgstr "# فاکتور"
+
+# @ rcp
+#: templates/subscription.php:71
+#, fuzzy
+msgid "View Receipt"
+msgstr "رسید PDF"
+
+# @ rcp
+#: templates/subscription.php:75
+msgid "You have not made any payments."
+msgstr "شما هنوز پرداختی انجام نداده اید."
+
+#. Description of the plugin/theme
+msgid ""
+"Set up a complete subscription system for your WordPress site and deliver "
+"premium content to your subscribers. Unlimited subscription packages, "
+"membership management, discount codes, registration / login forms, and more."
+msgstr ""
+
+#: includes/admin/payments/payments-page.php:87
+msgctxt "The payment amount shown in the user column on smaller devices"
+msgid " (%s) "
+msgstr ""
+
+# @ rcp
+#, fuzzy
+#~ msgid ""
+#~ "Stripe customer could not be created, please try again or contact support "
+#~ "if the issue persists."
+#~ msgstr ""
+#~ "از دست رفته نشانه رمز خط خطی، لطفا دوباره سعی کنید و یا تماس بگیرید اگر "
+#~ "مشکل ادامه یافت."
+
+# @ rcp
+#~ msgid "Change Password"
+#~ msgstr "تغییر کلمه عبور"
+
+# @ rcp
+#~ msgid "Either"
+#~ msgstr "در هر دو صورت"
+
+# @ rcp
+#~ msgid "Enable Access"
+#~ msgstr "فعال کردن دسترسی"
+
+# @ rcp
+#~ msgid "Restrict this entry to active paid users only."
+#~ msgstr ""
+#~ "محدودکردن این مطلب فقط برای کسانی که اشتراک فعال دارند (کاربران VIP)"
+
+# @ rcp
+#~ msgid "Show Excerpt?"
+#~ msgstr "نمایش چکیده"
+
+# @ rcp
+#~ msgid ""
+#~ "Allow non active users to view the excerpt? If left unchecked, the "
+#~ "message defined in settings will be used."
+#~ msgstr ""
+#~ "اجازه به کاربران غیرفعال ( پرداخت نکرده) برای مشاهده چکیده (excerpt) "
+#~ "مطلب ؟ اگر چک باکس تیک نخورد ، پیام تعریف شده در تنظیمات استفاده میشود ."
+
+# @ rcp
+#~ msgid "Hide from Feed?"
+#~ msgstr "پنهان کردن از خوراک(Feed)؟"
+
+# @ rcp
+#~ msgid "Hide the excerpt of this post / page from the Feed?"
+#~ msgstr "مخفی کردن چکیده این مطلب از Feed "
+
+# @ rcp
+#~ msgid ""
+#~ "Choose the access level required see this content. The access level is "
+#~ "determined by the subscription the member is subscribed to."
+#~ msgstr ""
+#~ "سطح دسترسی لازم برای مشاده این محتوا را تعیین کنید.سطح دسترسی از طریق سطح "
+#~ "دسترسی ای که کاربر در آن اشتراک دارد تعیین میشود."
+
+# @ rcp
+#~ msgid "Choose the subscription levels allowed to view this content."
+#~ msgstr "تعیین سطح اشتراک لازم برای مشاهده این محتوا ."
+
+# @ rcp
+#~ msgid "User Level"
+#~ msgstr "سطح کاربر"
+
+# @ rcp
+#~ msgid ""
+#~ "Choose the user level that can see this post / page's content. Users of "
+#~ "this level and higher will be the only ones able to view the content."
+#~ msgstr ""
+#~ "کاربرانی که بالاتر از سطح تعیین شده توسط شما هستند می توانند این مطلب را "
+#~ "ببینند"
+
+# @ rcp
+#~ msgid "Note 1"
+#~ msgstr "تبصره 1"
+
+# @ rcp
+#~ msgid ""
+#~ "To hide this content from logged-out users, but allow free and paid, set "
+#~ "the User Level to \"Subscriber\"."
+#~ msgstr ""
+#~ "برای مخفی کردن این محتوا از کاربران لاگین نشده ولی مشاهده توسط کاربران "
+#~ "رایگان و پرداخت شده ، سطح کاربر را بر روی Subscriber (مشترک) قرار دهید ."
+
+# @ rcp
+#~ msgid "Note 2"
+#~ msgstr "تبصره 2"
+
+# @ rcp
+#~ msgid ""
+#~ "Access level, subscription level, and user level can all be combined to "
+#~ "require the user meet all three specifications."
+#~ msgstr ""
+#~ "سطح دسترسی ، سطح اشتراک و سطح کاربر می تواند در هم ادغام شود و کاربر باید "
+#~ "در هر سه شرط صدق کند ."
+
+# @ rcp
+#~ msgid "Download Invoice"
+#~ msgstr "دانلود فاکتور"
+
+# @ rcp
+#~ msgid "PDF Invoices"
+#~ msgstr "فاکتور PDF"
+
+# @ rcp
+#~ msgid "Choose the page that has the [register_form] short code."
+#~ msgstr "صفحه ای که دارای کد کوتاه  [register_form]  هست را انتخاب نمایید ."
+
+# @ rcp
+#~ msgid "When should the renewal reminder be sent?"
+#~ msgstr "زمانی که اشتراک در حال انقضا است باید ایمیل یادآوری را ارسال کنید؟"
+
+# @ rcp
+#~ msgid ""
+#~ "Enter the company name that will be shown on the invoice. This is only "
+#~ "displayed if no logo image is uploaded above."
+#~ msgstr ""
+#~ "نام شرکت در بالای صورت حساب نمایش داده خواهد شد لطفا نام را وارد کنید و "
+#~ "این را به خاطر داشته باشید که فقط نام به نمایش در می آید و لوگو به نمایش "
+#~ "در نمی اید"
+
+# @ rcp
+#~ msgid "Characters not displaying correctly?"
+#~ msgstr "آیا کارکتر ها به درستی نمایش داده می شوند."
+
+# @ rcp
+#~ msgid ""
+#~ "Check to enable the Free Sans/Free Serif font replacing Open Sans/"
+#~ "Helvetica/Times. Only do this if you have characters which do not display "
+#~ "correctly (e.g. Greek characters)"
+#~ msgstr ""
+#~ "فعال کردن فونت بدون قابلیت های مااند Sans/Free Serif و Sans/Helvetica/"
+#~ "Times البته اگر این قابلیت ها غیر فعال شوند کارکتر کلمات تقریبا به درستی "
+#~ "نمایش داده می شوند"
+
+# @ rcp_stripe
+#~ msgid "Signup Fee for %s"
+#~ msgstr "هزینه ثبت نام برای %s"
+
+# @ rcp_stripe
+#~ msgid "Signup Discount for %s"
+#~ msgstr "تخفیف ثبت نام برای %s"
+
+# @ rcp
+#~ msgid "Invoice Date"
+#~ msgstr "تاریخ فاکتور"
+
+# @ rcp
+#~ msgid "Invoice ID"
+#~ msgstr "شناسه فاکتور:"
+
+# @ rcp
+#~ msgid "Payment Method"
+#~ msgstr "شیوه پرداخت"
+
+# @ rcp
+#~ msgid "Invoice Totals"
+#~ msgstr "مجموع فاکتور"
+
+# @ rcp
+#~ msgid "Swiss Franc"
+#~ msgstr "فرانک سوئیس"
+
+# @ rcp
+#~ msgid "Russian Rubles"
+#~ msgstr "روبل روسیه"
+
+# @ rcp
+#~ msgid ""
+#~ "Are you sure you wish to revoke this member's access? This will not "
+#~ "cancel their payment plan."
+#~ msgstr ""
+#~ "آیا شما مطمئن هستید که میخواهید لغو دسترسی این عضو است؟ این طرح پرداخت "
+#~ "خود را لغو کنید."
+
+# @ rcp
+#~ msgid "Free subscriptions cannot be automatically renewed"
+#~ msgstr "اشتراک رایگان می توانید به صورت خودکار نمی تواند تمدید"
+
+# @ default
+#~ msgid "reCaptcha Public Key"
+#~ msgstr "کلید reCAPTCHA عمومی"
+
+# @ rcp
+#~ msgid "This your own personal reCaptcha Public key. Go to"
+#~ msgstr "این کلید عمومی reCaptcha شخصی خود را. برو به"
+
+# @ rcp
+#~ msgid ""
+#~ "then click on your domain (or add a new one) to find your public key."
+#~ msgstr ""
+#~ "برای پیدا کردن کلید عمومی برای reCaptcha روی دامنه خود کلیک کنید و یک "
+#~ "دامنه جدید اضفه کنید"
+
+# @ rcp
+#~ msgid "reCaptcha Style"
+#~ msgstr "استایل reCaptcha"
+
+# @ rcp
+#~ msgid "The words/numbers you entered did not match the reCaptcha"
+#~ msgstr "کلمات / شماره که وارد کردید reCAPTCHA مطابقت ندارد"
+
+# @ rcp
+#~ msgid "Logout"
+#~ msgstr "خروج"
+
+# @ rcp
+#~ msgid "Choose the style you wish to use for your reCaptcha form."
+#~ msgstr "استایلی که برای reCaptcha فرم مد نظر دارید را انتخاب کنید."
+
+# @ rcp
+#~ msgid "You need to login to edit your profile."
+#~ msgstr "برای ویرایش پروفایل می بایست وارد شوید."

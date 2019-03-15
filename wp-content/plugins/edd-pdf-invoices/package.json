@@ -1,0 +1,14 @@
+{
+  "name": "edd-pdf-invoices",
+  "version": "2.2.23",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-force-task": "^2.0.0",
+    "grunt-wp-i18n": "^1.0.2",
+    "load-grunt-tasks": "^3.5.2",
+    "makepot": "^0.3.0",
+    "time-grunt": "~0.2.5"
+  }
+}

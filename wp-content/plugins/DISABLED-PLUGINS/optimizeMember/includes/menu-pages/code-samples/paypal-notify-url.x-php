@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_PAYPAL_NOTIFY_URL; ?>
+This will output something like: http://www.example.com/?optimizemember_paypal_notify=1
+( this is used silently behind the scenes to communicate back and forth with PayPal )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_PAYPAL_NOTIFY_URL" /]

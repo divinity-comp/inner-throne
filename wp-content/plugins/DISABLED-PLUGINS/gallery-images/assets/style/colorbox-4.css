@@ -1,0 +1,62 @@
+/*
+    gicolorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#gicolorbox, #gicboxOverlay, #gicboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#gicboxWrapper {max-width:none;}
+#gicboxOverlay{position:fixed; width:100%; height:100%;}
+#gicboxMiddleLeft, #gicboxBottomLeft{clear:left;}
+#gicboxContent{position:relative;}
+#gicboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#gicboxTitle{margin:0;}
+#gicboxLoadingOverlay, #gicboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#gicboxPrevious, #gicboxNext, #gicboxClose, #gicboxSlideshow{cursor:pointer;}
+.gicboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.gicboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#gicolorbox, #gicboxContent, #gicboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of gicolorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#gicboxOverlay{background:#fff;}
+#gicolorbox{outline:0;}
+    #gicboxTopLeft{width:25px; height:25px; background:url(../images/4/border1.png) no-repeat 0 0;}
+    #gicboxTopCenter{height:25px; background:url(../images/4/border1.png) repeat-x 0 -50px;}
+    #gicboxTopRight{width:25px; height:25px; background:url(../images/4/border1.png) no-repeat -25px 0;}
+    #gicboxBottomLeft{width:25px; height:25px; background:url(../images/4/border1.png) no-repeat 0 -25px;}
+    #gicboxBottomCenter{height:25px; background:url(../images/4/border1.png) repeat-x 0 -75px;}
+    #gicboxBottomRight{width:25px; height:25px; background:url(../images/4/border1.png) no-repeat -25px -25px;}
+    #gicboxMiddleLeft{width:25px; background:url(../images/4/border2.png) repeat-y 0 0;}
+    #gicboxMiddleRight{width:25px; background:url(../images/4/border2.png) repeat-y -25px 0;}
+    #gicboxContent{background:#fff; overflow:hidden;}
+        .gicboxIframe{background:#fff;}
+        #gicboxError{padding:50px; border:1px solid #ccc;}
+        #gicboxLoadedContent{margin-bottom:20px;}
+        #gicboxTitle{position:absolute; bottom:0px; left:0; text-align:center; width:100%; color:#999;}
+        #gicboxCurrent{position:absolute; bottom:-5px; left:160px; color:#999;}
+        #gicboxLoadingOverlay{background:#fff url(../images/4/loading.gif) no-repeat 5px 5px;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #gicboxPrevious, #gicboxNext, #gicboxSlideshow, #gicboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #gicboxPrevious:active, #gicboxNext:active, #gicboxSlideshow:active, #gicboxClose:active {outline:0;}
+
+        #gicboxSlideshow{position:absolute; bottom:0px; right:72px; color:#444;}
+        #gicboxPrevious{position:absolute; bottom:0px; left:0; color:#444;}
+        #gicboxNext{position:absolute; bottom:0px; left:100px; color:#444;}
+        #gicboxClose{position:absolute; bottom:0; right:0; display:block; color:#444;}
+
+
+.gicboxIE #gicboxTopLeft,
+.gicboxIE #gicboxTopCenter,
+.gicboxIE #gicboxTopRight,
+.gicboxIE #gicboxBottomLeft,
+.gicboxIE #gicboxBottomCenter,
+.gicboxIE #gicboxBottomRight,
+.gicboxIE #gicboxMiddleLeft,
+.gicboxIE #gicboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}

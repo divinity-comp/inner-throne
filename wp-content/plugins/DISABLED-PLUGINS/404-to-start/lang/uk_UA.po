@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: f042start\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-03 12:59+0100\n"
+"PO-Revision-Date: 2014-05-22 16:15+0200\n"
+"Last-Translator: Michael Yunat <Michael.Yunat@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: c:\\Programme\\xampp\\htdocs\\blog\\\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: wp-content\\plugins\\404-to-start\n"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:76
+#: wp-content\plugins\404-to-start/404-to-start.php:93
+msgid "404 to Start Settings"
+msgstr "404 Пуск Налаштування"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:83
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Ви не маєте достатньо прав для доступу до цієї сторінки."
+
+#: wp-content\plugins\404-to-start/404-to-start.php:103
+msgid "404 Redirect"
+msgstr "404 перенаправлення"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:107
+msgid "off"
+msgstr "вимкнути"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:108
+msgid "301 - Moved permanently"
+msgstr "301 - переміщенно на постійне місце"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:109
+msgid "302 - Found/ Moved temporarily (not recommended)"
+msgstr "302 - Знайдено/тимчасово переміщена (не рекомендується)"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:114
+msgid "Target Url: (Start with http://)"
+msgstr "Цільова Адреса: (починатися з http://)"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:123
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: wp-content\plugins\404-to-start/404-to-start.php:137
+msgid "This is not a valid Url"
+msgstr "Це не є допустимою адресою"

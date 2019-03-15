@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_CURRENT_USER_DOWNLOADS_CURRENTLY; ?>
+This will output the number of files they've downloaded recently.
+( that is, the number of files within the last X days, according to your configuration )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_CURRENT_USER_DOWNLOADS_CURRENTLY" /]

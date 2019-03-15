@@ -1,0 +1,5 @@
+"User Email","First Name","Last Name","User Login","User Password","User ID","Subscription Key","Expiration","Payment Profile ID","Recurring","Join Date"
+jimclass@test.com,Jim,Glass,jimg,testpassword,,1f8608bd504aa78b40f6f496311c3b35,none,cus_9xxxxxxxxxxx,1,"January 1, 2017"
+jango@jon.com,Jango,Johnson,jango,,,,"October 15, 2018",,,
+johnsonb@test.com,John,Smith,johns,,,,,,1,
+john10@test.com,John,Doe,john10,,20,,"December 31, 2020",,,

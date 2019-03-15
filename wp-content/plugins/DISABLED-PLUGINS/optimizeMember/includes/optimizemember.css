@@ -1,0 +1,640 @@
+/**
+* Core CSS stylesheet for the optimizeMember plugin.
+*
+* Copyright: © 2009-2011
+* {@link http://www.optimizepress.com/ optimizePress, Inc.}
+* ( coded in the USA )
+*
+* Released under the terms of the GNU General Public License.
+* You should have received a copy of the GNU General Public License,
+* along with this software. In the main directory, see: /licensing/
+* If not, see: {@link http://www.gnu.org/licenses/}.
+*
+* @package optimizeMember
+* @since 3.0
+*/
+/*
+Structural styles for optimizeMember Security Badge.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+div.ws-plugin--optimizemember-s-badge
+	{
+		text-align: center;
+		margin: 0 auto 0 auto;
+	}
+/*
+Structural styles for Password strength indicators.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+div.ws-plugin--optimizemember-password-strength
+	{
+		padding: 3px;
+		color: #000000;
+		background-color: #EEEEEE;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		margin-top: 3px;
+	}
+div.ws-plugin--optimizemember-password-strength-short
+	{
+		background-color: #FFA0A0;
+	}
+div.ws-plugin--optimizemember-password-strength-bad
+	{
+		background-color: #FFB78C;
+	}
+div.ws-plugin--optimizemember-password-strength-good
+	{
+		background-color: #FFEC8B;
+	}
+div.ws-plugin--optimizemember-password-strength-strong
+	{
+		background-color: #C3FF88;
+	}
+div.ws-plugin--optimizemember-password-strength-mismatch
+	{
+		background-color: #D6C1AB;
+	}
+/*
+Structural styles for Multisite Integration Forms.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+div#content > div.mu_register,
+div#content > div.mu_register h2
+	{
+		margin: 0; /* Get rid of margins. */
+		padding: 0; /* Get rid of padding. */
+		width: 100%; /* Expand to 100%. */
+	}
+div#content > div.mu_register > form#setupform input[type="text"],
+div#content > div.mu_register > form#setupform input[type="email"],
+div#content > div.mu_register > form#setupform input[type="password"],
+div#content > div.mu_register > form#setupform input[type="submit"],
+div#content > div.mu_register > form#setupform textarea,
+div#content > div.mu_register > form#setupform select
+	{
+		width: 100%; /* 100% does not work across all browsers. */
+		width: 98% !ie<8; /* 100% does not work in IE browsers < 8. */
+		box-sizing: border-box; /* Make all fields behave the same. */
+		-ms-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		margin: 5px 0 5px 0;
+		font-size: 16px;
+	}
+div#content > div.mu_register > form#setupform input[type="checkbox"],
+div#content > div.mu_register > form#setupform input[type="radio"]
+	{
+		margin: 0 3px 0 0;
+		vertical-align: middle;
+	}
+div#content > div.mu_register > form#setupform input[type="submit"]
+	{
+		width: 100% !ie<8; /* This width required in IE < 8. */
+	}
+div#content > div.mu_register > form#setupform p.submit
+	{
+		margin-bottom: 0; /* Remove bottom margin. */
+	}
+div#content > div.mu_register > form#setupform select
+	{
+		width: 99.5% !ie<8; /* Required in IE < 8. */
+	}
+div#content > div.mu_register > form#setupform label
+	{
+		cursor: pointer;
+		margin: 15px 0 0 0;
+	}
+div#content > div.mu_register > form#setupform label.ws-plugin--optimizemember-custom-reg-field-op-l
+	{
+		opacity: 0.7;
+		font-size: 90%;
+		vertical-align: middle;
+	}
+div#content > div.mu_register > form#setupform div.ws-plugin--optimizemember-custom-reg-field-divider-section
+	{
+		height: 1px;
+		border: 0 solid;
+		line-height: 1px;
+		margin: 15px 0 15px 0;
+		border-width: 0 0 1px 0;
+	}
+div#content > div.mu_register > form#setupform div.ws-plugin--optimizemember-custom-reg-field-divider-section-title
+	{
+		border: 0 solid;
+		font-size: 110%;
+		margin: 15px 0 15px 0;
+		border-width: 0 0 1px 0;
+		padding: 0 0 12px 0;
+	}
+div#content > div.mu_register > div.mu_alert
+	{
+		display: none;
+	}
+/*
+Structural styles for Return Pages.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+body.s2member-return-body
+	{
+		color: #000000;
+		font-size: 14px;
+		background: #CCCCCC;
+	}
+body.s2member-return-body a
+	{
+		color: #333333;
+		text-decoration: none;
+		border-bottom: 1px dotted;
+	}
+body.s2member-return-body a:hover
+	{
+		color: #000000;
+	}
+body.s2member-return-body *
+	{
+		font-family: 'Trebuchet MS', 'Arial', 'Helvetica', sans-serif;
+	}
+body.s2member-return-body pre,
+body.s2member-return-body pre *,
+body.s2member-return-body code,
+body.s2member-return-body code *
+	{
+		font-family: 'Consolas', 'Courier New', monospace;
+	}
+div.s2member-return-section
+	{
+		margin: 20px auto 20px auto;
+	}
+div.s2member-return-header-section
+	{
+		padding: 0;
+		width: 800px;
+		font-size: 120%;
+	}
+div.s2member-return-response-section
+	{
+		width: 768px;
+		padding: 15px;
+		background: #FFFFFF;
+		border: 1px solid #666666;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-moz-box-shadow: 1px 1px 1px #999999, -1px -1px 1px #999999;
+		-webkit-box-shadow: 1px 1px 1px #999999, -1px -1px 1px #999999;
+		box-shadow: 1px 1px 0 #999999, -1px -1px 1px #999999;
+	}
+div.s2member-return-response-section div.s2member-return-continue
+	{
+		margin: 20px auto 0 auto;
+	}
+div.s2member-return-response-section div.s2member-return-continue a
+	{
+		border: 0;
+		padding: 8px;
+		display: block;
+		font-size: 120%;
+		text-align: center;
+		background: #EEEEEE;
+		border: 1px solid #999999;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-moz-box-shadow: 1px 1px 3px #CCCCCC, -1px -1px 3px #CCCCCC;
+		-webkit-box-shadow: 1px 1px 3px #CCCCCC, -1px -1px 3px #CCCCCC;
+		box-shadow: 1px 1px 3px #CCCCCC, -1px -1px 3px #CCCCCC;
+	}
+div.s2member-return-response-section div.s2member-return-continue a:hover,
+div.s2member-return-response-section div.s2member-return-continue a:active,
+div.s2member-return-response-section div.s2member-return-continue a:focus
+	{
+		color: #FFFFFF;
+		background: #151515;
+		border: 1px solid #FFFFFF;
+	}
+div.s2member-return-support-section
+	{
+		padding: 0;
+		width: 800px;
+		text-align: center;
+	}
+div.s2member-return-support-section div.cc-reminder
+	{
+		padding: 15px;
+		text-align: center;
+		background: #FFFFFF;
+		margin: 20px auto 0 auto;
+		border: 1px solid #666666;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-moz-box-shadow: 1px 1px 1px #999999, -1px -1px 1px #999999;
+		-webkit-box-shadow: 1px 1px 1px #999999, -1px -1px 1px #999999;
+		box-shadow: 1px 1px 0 #999999, -1px -1px 1px #999999;
+	}
+/*
+Structural styles for Shortcode Profile Editing panel.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+div#ws-plugin--optimizemember-profile-saved
+	{
+		margin-bottom: 15px;
+		font-weight: bold;
+		font-size: 110%;
+	}
+form#ws-plugin--optimizemember-profile table
+	{
+		border: 0;
+		margin: 0;
+		width: 100%;
+	}
+form#ws-plugin--optimizemember-profile table td
+	{
+		padding: 7px 0 7px 0;
+		border: 0; /* Tweak 2010 theme. */
+	}
+form#ws-plugin--optimizemember-profile input[type="text"],
+form#ws-plugin--optimizemember-profile input[type="password"],
+form#ws-plugin--optimizemember-profile input[type="submit"],
+form#ws-plugin--optimizemember-profile textarea,
+form#ws-plugin--optimizemember-profile select
+	{
+		margin: 0; /* Tweak. Zeros out margins in 2010 theme. */
+		width: 100%; /* 100% does not work across all browsers. */
+		width: 98% !ie<8; /* 100% does not work in IE browsers < 8. */
+		box-sizing: border-box; /* Make all fields behave the same. */
+		-ms-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+form#ws-plugin--optimizemember-profile input[type="checkbox"],
+form#ws-plugin--optimizemember-profile input[type="radio"]
+	{
+		margin: 0 3px 0 0;
+		vertical-align: middle;
+	}
+form#ws-plugin--optimizemember-profile input[type="submit"]
+	{
+		width: 100% !ie<8; /* This width required in IE < 8. */
+	}
+form#ws-plugin--optimizemember-profile select
+	{
+		width: 99.5% !ie<8; /* Required in IE < 8. */
+	}
+form#ws-plugin--optimizemember-profile label
+	{
+		cursor: pointer;
+	}
+form#ws-plugin--optimizemember-profile label.ws-plugin--optimizemember-custom-reg-field-op-l
+	{
+		opacity: 0.7;
+		font-size: 90%;
+		vertical-align: middle;
+	}
+form#ws-plugin--optimizemember-profile input#ws-plugin--optimizemember-profile-password2
+	{
+		margin-top: 5px;
+	}
+form#ws-plugin--optimizemember-profile div.ws-plugin--optimizemember-profile-field-divider-section
+	{
+		margin: 0;
+		height: 1px;
+		border: 0 solid;
+		line-height: 1px;
+		border-width: 0 0 1px 0;
+	}
+form#ws-plugin--optimizemember-profile div.ws-plugin--optimizemember-profile-field-divider-section-title
+	{
+		margin: 0;
+		border: 0 solid;
+		font-size: 110%;
+		border-width: 0 0 1px 0;
+		padding: 0 0 7px 0;
+	}
+/*
+Structural styles for BuddyPress Profile Field items.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+body.profile.public div.ws-plugin--optimizemember-profile-field-4bp-divider-section
+	{
+		margin: 0;
+		height: 1px;
+		border: 0 solid;
+		line-height: 1px;
+		border-width: 0 0 1px 0;
+	}
+body.profile.public div.ws-plugin--optimizemember-profile-field-4bp-divider-section-title
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 120%;
+	}
+/*
+Structural styles for BuddyPress Registration Fields.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section
+	{
+		width: 48%;
+		float: right;
+	}
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-container
+	{
+		margin-right: 7.5%;
+	}
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section input[type="text"],
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section input[type="password"],
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section textarea,
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section select
+	{
+		width: 100%; /* 100% does not work across all browsers. */
+		width: 98% !ie<8; /* 100% does not work in IE browsers < 8. */
+		box-sizing: border-box; /* Make all fields behave the same. */
+		-ms-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section input[type="checkbox"],
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section input[type="radio"]
+	{
+		margin: 0 3px 0 0;
+		vertical-align: middle;
+	}
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section select
+	{
+		width: 99.5% !ie<8; /* Required in IE < 8. */
+	}
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section label.ws-plugin--optimizemember-custom-reg-field-op-l
+	{
+		opacity: 0.7;
+		font-size: 90%;
+		vertical-align: middle;
+	}
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section div.ws-plugin--optimizemember-custom-reg-field-4bp-divider-section
+	{
+		margin: 0;
+		height: 1px;
+		border: 0 solid;
+		line-height: 1px;
+		margin: 10px 0 10px 0;
+		border-width: 0 0 1px 0;
+	}
+body.registration form div#ws-plugin--optimizemember-custom-reg-fields-4bp-section div.ws-plugin--optimizemember-custom-reg-field-4bp-divider-section-title
+	{
+		margin: 0;
+		border: 0 solid;
+		font-size: 120%;
+		margin: 10px 0 10px 0;
+		border-width: 0 0 1px 0;
+		padding: 0 0 7px 0;
+	}
+/*
+Structural styles for BuddyPress Profile Field integrations.
+
+These are basic CSS rules. You can override any of these
+through the `/style.css` file for your WordPress theme.
+*/
+body.logged-in.profile.profile-edit form#profile-edit-form div.editfield input[type="text"],
+body.logged-in.profile.profile-edit form#profile-edit-form div.editfield input[type="email"],
+body.logged-in.profile.profile-edit form input.ws-plugin--optimizemember-profile-field-4bp[type="text"],
+body.logged-in.profile.profile-edit form input.ws-plugin--optimizemember-profile-field-4bp[type="password"],
+body.logged-in.profile.profile-edit form textarea.ws-plugin--optimizemember-profile-field-4bp,
+body.logged-in.profile.profile-edit form select.ws-plugin--optimizemember-profile-field-4bp
+	{
+		width: 100%; /* 100% does not work across all browsers. */
+		width: 98% !ie<8; /* 100% does not work in IE browsers < 8. */
+		box-sizing: border-box; /* Make all fields behave the same. */
+		-ms-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+body.logged-in.profile.profile-edit form input.ws-plugin--optimizemember-profile-field-4bp[type="checkbox"],
+body.logged-in.profile.profile-edit form input.ws-plugin--optimizemember-profile-field-4bp[type="radio"]
+	{
+		margin: 0 3px 0 0;
+		vertical-align: middle;
+	}
+body.logged-in.profile.profile-edit form select.ws-plugin--optimizemember-profile-field-4bp
+	{
+		width: 99.5% !ie<8; /* Required in IE < 8. */
+	}
+body.logged-in.profile.profile-edit form label.ws-plugin--optimizemember-custom-reg-field-op-l
+	{
+		opacity: 0.7;
+		font-size: 90%;
+		vertical-align: middle;
+	}
+body.logged-in.profile.profile-edit form div.ws-plugin--optimizemember-profile-field-4bp-divider-section
+	{
+		margin: 0;
+		height: 1px;
+		border: 0 solid;
+		line-height: 1px;
+		margin: 10px 0 10px 0;
+		border-width: 0 0 1px 0;
+	}
+body.logged-in.profile.profile-edit form div.ws-plugin--optimizemember-profile-field-4bp-divider-section-title
+	{
+		margin: 0;
+		border: 0 solid;
+		font-size: 120%;
+		margin: 10px 0 10px 0;
+		border-width: 0 0 1px 0;
+		padding: 0 0 7px 0;
+	}
+
+
+/**
+ **************************
+ * Optimiepress specifics *
+ **************************
+ */
+
+/**
+ * General elements
+ */
+code {
+	line-height: 1.1em;
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+	display: inline-block;
+}
+
+table.ws-menu-page-table div.ws-menu-page-group table.form-table>tbody>tr>td>textarea	 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.ws-menu-page {
+	background: #fff;
+}
+
+.op-bsw-header {
+	width: 100%;
+}
+
+.op-bsw-header h2 {
+	margin: 30px 0px;
+	color: #fff;
+	text-shadow: none;
+}
+
+.align-top,
+.form-table .align-top {
+	vertical-align: top;
+}
+
+.ws-menu-page-group-header,
+.ws-menu-page-group-header:hover,
+table.ws-menu-page-table div.ws-menu-page-group-header,
+table.ws-menu-page-table div.ws-menu-page-group-header:hover,
+.ws-menu-page-group-header.open,
+table.ws-menu-page-table div.ws-menu-page-group-header.open {
+	margin: 25px 0 0;
+	padding: 1em 0;
+	padding-left: 25px;
+	height: auto;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #004a80;
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	text-shadow: 0 0 1px #fff, 0 0 1px #fff;
+	-webkit-box-shadow: inset 0 1px 0 0 #fff;
+	-moz-box-shadow: inset 0 1px 0 0 #fff;
+	box-shadow: inset 0 1px 0 0 #fff;
+	border-radius: 3px;
+}
+
+.ws-menu-page-group-header,
+.ws-menu-page-group {
+	margin-right: 0 !important;
+}
+
+.ws-menu-page-group-header.open,
+table.ws-menu-page-table div.ws-menu-page-group-header.open {
+	border-radius: 3px 3px 0 0;
+}
+
+table.ws-menu-page-table div.ws-menu-page-group-header > ins {
+	display: none;
+}
+
+table.ws-menu-page-table div.ws-menu-page-group,
+table.ws-menu-page-table div.ws-menu-page-r-group {
+	margin: -25px 0 0;
+	margin: 0;
+	padding: 25px !important;
+	border-radius: 0 0 3px 3px;
+	border-top: none;
+	background: #fff;
+}
+
+.ws-menu-page-groups-show,
+.ws-menu-page-groups-hide {
+	display: none;
+}
+
+table.ws-menu-page-table p.submit {
+	margin: 25px 0 0;
+}
+
+.ws-menu-page-table {
+	margin-top: 15px;
+}
+
+.form-table td {
+	vertical-align: middle;
+}
+
+.input-inline,
+.op-bsw-wizard .input-inline[type="text"],
+.op-bsw-wizard .input-inline[type="password"] {
+	padding: 2px 5px 1px;
+	vertical-align: top;
+}
+
+.op-bsw-wizard .inline-input-fields input[type="text"],
+.op-bsw-wizard .inline-input-fields input[type="password"],
+.op-bsw-wizard .inline-input-fields input[type="email"],
+.op-bsw-wizard .inline-input-fields textarea,
+.op-bsw-wizard .inline-input-fields select {
+	padding: 3px 5px;
+	width: auto;
+	font-size: 12px;
+	background: #fff;
+	height: auto;
+	vertical-align: middle;
+}
+
+.op-bsw-wizard .inline-input-fields input[type="button"] {
+	height: auto;
+	font-size: 11px;
+}
+
+.op-bsw-wizard .inline-input-fields select {
+	margin: 0 !important;
+}
+
+.op-bsw-wizard .button-primary:active {
+	vertical-align: middle;
+}
+
+.op-wp-shortcode {
+	width: 98% !important;
+}
+
+/**
+ * Page related stuff
+ */
+.op-bsw-wizard .inline-input-fields input:focus,
+.op-bsw-wizard .inline-input-fields textarea:focus,
+.op-bsw-wizard .inline-input-fields select:focus {
+	border: 1px solid #666;
+}
+
+.paypal-buttons-subscription-select,
+.alipay-buttons-subscription-select,
+.ccBill-buttons-subscription-select,
+.google-checkout-buttons-subscription-select {
+	max-width: 264px;
+}
+
+.clickbank-buttons-subscription-select {
+	max-width: 307px;
+}
+
+.paypal-buttons-checkout-page-style-input,
+.alipay-buttons-checkout-page-style-input,
+.ccBill-buttons-checkout-page-style-input {
+	max-width: 103px;
+	max-width: 96px;
+}
+
+.paypal-buttons-description-input,
+.alipay-buttons-description-input,
+.ccBill-buttons-description-input,
+.google-checkout-buttons-description-input {
+	max-width: 396px;
+}
+
+.clickbank-buttons-description-input {
+	max-width:  381px;
+}

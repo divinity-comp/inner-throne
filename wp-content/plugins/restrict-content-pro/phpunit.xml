@@ -1,0 +1,34 @@
+<phpunit
+	codecoverage="true"
+	bootstrap="tests/bootstrap.php"
+	backupGlobals="false"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	>
+	<testsuites>
+		<testsuite>
+			<directory prefix="test-" suffix=".php">./tests/</directory>
+		</testsuite>
+	</testsuites>
+
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">includes</directory>
+			<file>restrict-content-pro.php</file>
+			<exclude>
+				<directory>./includes/admin</directory>
+				<directory>./includes/libraries</directory>
+				<directory>./includes/integrations</directory>
+				<directory>./includes/js</directory>
+				<directory>./includes/css</directory>
+				<directory>./includes/images</directory>
+				<directory>./includes/deprecated</directory>
+				<file>./includes/class-rcp-export-members.php</file>
+				<file>./includes/class-rcp-export-payments.php</file>
+			</exclude>
+		</whitelist>
+	</filter>
+
+</phpunit>

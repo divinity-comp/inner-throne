@@ -1,0 +1,7 @@
+<?php echo OPTIMIZEMEMBER_PAYPAL_API_USERNAME; ?>
+This may output something like: example-pro_api1.example.com
+( or whatever you have configured as your PayPal API Username )
+
+---- OptimizeMember Shortcode Equivalent ----
+
+[opmGet constant="OPTIMIZEMEMBER_PAYPAL_API_USERNAME" /]
