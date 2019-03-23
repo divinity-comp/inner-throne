@@ -7,756 +7,20 @@ Version:     0.1
 Author:      Eivind Figenschau Skjellum
 */
 
-function create_stretch_goal_posttype() {
-	$labels = array(
-		'name' => __('Stretch Goal') ,
-		'singular_name' => __('Stretch Goal') ,
-		'menu_name' => __('Stretch Goal') ,
-		'parent_item_colon' => __('Parent -Stretch Goal') ,
-		'all_items' => __('All Stretch Goals') ,
-		'view_item' => __('View Stretch Goal') ,
-		'add_new_item' => __('Add new Stretch Goal') ,
-		'add_new' => __('Add new Stretch Goal') ,
-		'edit_item' => __('Edit Stretch Goal') ,
-		'update_item' => __('Edit Stretch Goal') ,
-		'search_items' => __('Search Stretch Goals') ,
-		'not_found' => __('Not found') ,
-		'not_found_in_trash' => __('Not found in Trash') ,
-	);
+// */* Constants
+/************************** FELLOWSHIP constants **************************/
+define("RYIT_DIR", "ryit/", true);
 
-	$args = array(
-		'public' => true,
-		'show_ui' => true,
-		'show_in_menu' => true,
-		'show_in_nav_menus' => true,
-		'show_in_admin_bar' => true,
-		'has_archive' => true,
-		'labels' => $labels,
-		'menu_icon' => get_stylesheet_directory_uri() . '/images/ryit-crown-icon.png',
-		'taxonomies' => array(
-			'post_tag'
-		) ,
-		'supports' => array(
-			'title',
-			'editor',
-			'author',
-			'thumbnail',
-			'excerpt',
-			'comments'
-		) ,
-		'rewrite' => array(
-			'slug' => 'stretch-goal'
-		) ,
-		'can_export' => true,
-		'publicly_queryable' => true,
-	);
-
-	// Registering your Custom Post Type
-	register_post_type('stretch-goal', $args);
-}
-
-add_action('init', 'create_stretch_goal_posttype');
-
-
-function create_fellowship_call_posttype() {
-	flush_rewrite_rules();
-	$labels = array(
-		'name' => __('Fellowship Call') ,
-		'singular_name' => __('Fellowship Call') ,
-		'menu_name' => __('Fellowship Call') ,
-		'parent_item_colon' => __('Fellowship Call') ,
-		'all_items' => __('All Fellowship Calls') ,
-		'view_item' => __('View Fellowship Calls') ,
-		'add_new_item' => __('Add new Fellowship Calls') ,
-		'add_new' => __('Add new Fellowship Call') ,
-		'edit_item' => __('Edit Fellowship Call') ,
-		'update_item' => __('Edit Fellowship Call') ,
-		'search_items' => __('Search Fellowship Calls') ,
-		'not_found' => __('Not found') ,
-		'not_found_in_trash' => __('Not found in Trash') ,
-	);
-
-	$args = array(
-		'public' => true,
-		'show_ui' => true,
-		'show_in_menu' => true,
-		'show_in_nav_menus' => true,
-		'show_in_admin_bar' => true,
-		'has_archive' => true,
-		'labels' => $labels,
-		'menu_icon' => get_stylesheet_directory_uri() . '/images/ryit-crown-icon.png',
-		'taxonomies' => array(
-			'post_tag'
-		) ,
-		'supports' => array(
-			'title',
-			'editor',
-			'author',
-			'thumbnail',
-			'excerpt',
-			'comments'
-		) ,
-		'rewrite' => array(
-			'slug' => 'membership-calls'
-		) ,
-		'can_export' => true,
-		'publicly_queryable' => true,
-	);
-
-	// Registering your Custom Post Type
-	register_post_type('membership-call', $args);
-}
-
-add_action('init', 'create_fellowship_call_posttype');
-
-
-function ryit_user_get_fellowship_level($user_id) {
-	if(empty($user_id)) {
-		$user_id = ryit_get_user_ID();
-	}
-
-	$fellowship_level = get_field('ryit_user_fellowship_level', 'user_' . $user_id);
-	$subscription_id = rcp_get_subscription_id($user_id);
-
-	if(!empty($fellowship_level) && $fellowship_level != 'none') {
-		return $fellowship_level;
-	}
-	else {
-		if(user_can($user_id,'edit_pages')) { //leadership team
-			return 'gold';
-		}
-		if($subscription_id == 6) {
-			return 'silver';
-		}
-		if(ryit_user_is_alumnus($user_id)) {
-			return 'bronze';
-		}
-		if($subscription_id==1) {
-			return 'bronze';
-		}
-		if(ryit_user_is_current($user_id)) {
-			return 'initiate';
-		}
-	}
-}
-
-
-function ryit_get_user_ID() {
-	if(!empty($_GET['user_id'])) {
-		$user_id = $_GET['user_id'];
-	}
-
-	if(empty($user_id)) {
-		$user_id = get_current_user_id();
-	}
-
-	return $user_id;
-}
-
-//Return view mode if no paramater defined. When checking for view_mode, returns boolean
-function ryit_get_user_view_mode($user_id=false,$view_mode=false) {
-	if(!$user_id) {
-		$user_id = ryit_get_user_ID();
-	}
-
-	if(!$view_mode) {
-		$view_mode = empty($_GET['view-mode']) ? get_user_meta($user_id,'ryit_user_profile_viewmode',true) : $_GET['view-mode'];
-		return $view_mode;
-	}
-	else {
-		$user_view_mode = get_user_meta($user_id,'ryit_user_profile_viewmode',true);		
-		if($user_view_mode == $view_mode) {
-			return true;
-		}
-		else {
-			return false;
-		}
-	}
-}
-
-	
-function ryit_update_user_login_count($login) {
-	//get_current_user_id() doesn't work in wp_login action
-	$user = get_user_by('login',$login);
-   $user_id = $user->ID;
-
-	
-	if(ryit_user_is_current($user_id) && !user_can($user_id, 'edit_pages')) {
-		$login_count = get_user_meta($user_id, 'ryit_user_initiation_login_count', true);
-		$new_login_count = !isset($login_count) ? 0 : $login_count+1;
-		update_user_meta($user_id, 'ryit_user_initiation_login_count', $new_login_count);
-	}
-	else {
-		$login_count = get_user_meta($user_id, 'ryit_user_fellowship_login_count', true);
-		$new_login_count = !isset($login_count) ? 0 : $login_count+1;
-		update_user_meta($user_id, 'ryit_user_fellowship_login_count', $new_login_count);
-	}
-}
-
-add_action('wp_login', 'ryit_update_user_login_count',99);
-
-
-function ryit_login_popup() {
-	$welcome_video_played = get_user_meta(get_current_user_id(), 'ryit_user_welcome_video_played', true);
-	if(is_fellowship_page() && is_user_logged_in() && empty($welcome_video_played)) {
-		$login_count = get_user_meta(get_current_user_id(), 'ryit_user_fellowship_login_count', true);
-		if(empty($login_count) || $login_count <= 1) {
-			ob_start();
-		?>
-		<script src="https://player.vimeo.com/api/player.js"></script>
-		<script type="text/javascript">
-			jQuery('document').ready(function($j) {
-				var iframe = $j('#login-popup iframe');
-				var player = new Vimeo.Player(iframe);
-
-				player.on('ended', function() {
-					hide_popup();
-				});
-
-				$j('#login-popup .button').on('click', function() {
-					$j('#login-popup p.info').fadeOut(1000);
-					hide_popup();
-				});
-
-				setTimeout(function() { $j('#login-popup p.info').animate({ opacity: 0},1000); }, 8000);
-
-				function hide_popup() {
-					$j('#login-popup .video, #login-popup .button').animate({
-						opacity: 0,
-						maxHeight: 0
-					}, 500, function() {
-						$j('#login-popup .video, #login-popup .button').remove();
-						$j('#login-popup .text.hide').removeClass('hide');
-						$j('#setup-guide').removeClass('inactive');
-						$j('#setup-guide').addClass('animate');
-						setTimeout(
-							function() { 
-								$j('#login-popup').animate({
-									opacity: 0
-								}, 1000, function() {
-									$j('#login-popup').remove();
-									$j('#setup-guide').removeClass('animate');
-									$j('#setup-guide').addClass('minimized');
-								});
-							}, 6000);
-						});
-				}
-			});
-		</script>
-		<?php
-			echo '<div id="login-popup">';
-			echo '<div class="innerwrap">';
-			echo '<p class="info"><i class="fa fa-volume-up"></i> Please enable sound in the Video player <img src="' . get_stylesheet_directory_uri() . '/images/vimeo-volume.png" /></p>';
-			echo '<div style="padding:56.25% 0 0 0;position:relative;" class="video"><iframe src="https://player.vimeo.com/video/313825945?autoplay=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
-			echo '<p class="button button_simple">Skip ahead</p>';
-			echo '<h3 class="text hide">Initiating Fellowship Portal</h3>';
-			echo '</div>';
-			echo '</div>';
-		}
-	}
-	update_user_meta(get_current_user_id(), 'ryit_user_welcome_video_played', true);
-}
-
-//add_action('wp_head','ryit_login_popup',100);
-
-
-
-function ryit_beta_feedback() {
-	if(is_fellowship_page()) {
-		$echo = "";
-		$echo .= ryit_get_fp_javascript('user-feedback');
-		$echo .= '<div id="ryit-feedback" class="minimized">';
-		$echo .= '<i class="far fa-comments"></i>';
-		$echo .= '<div class="text">';
-		$echo .= '<p>This system is in beta. If you have problems, please help us fix them and improve your experience by sending feedback using <a href="/helpdesk" target="_blank">the helpdesk</a>. Thank you!</p>';
-		$echo .= '</div></div>';
-		echo $echo;
-	}
-}
-
-add_action('avada_before_body_content', 'ryit_beta_feedback',101);
-
-
-
-function ryit_add_fellowship_styles() {
-	global $post;
-	if(is_single() || is_archive()) {
-		$post_type = get_post_type($post->ID);
-		if($post_type == 'membership-call') {
-			echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_directory_uri() . '/css/fellowship.css" />';
-		}
-	}
-}
-
-add_action('wp_head', 'ryit_add_fellowship_styles', 101);
-
-
+	// */* Put initial functions in a file
+include_once(RYIT_DIR ."initial-functions.php");
 /************************** THE FELLOWSHIP MEMBER DIRECTORY **************************/
 
-add_action('wp_ajax_member_directory', 'ryit_member_directory');
 
-function ryit_member_directory() {
-	$user_id = ryit_get_user_ID();
-	if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-		$is_ajax = false;
-		$display_type = get_user_meta($user_id, "alumnus_directory_display_type", true);
-		$sort_type = get_user_meta($user_id, "alumnus_directory_sort_type", true);
-		$filter_type = get_user_meta($user_id, "alumnus_directory_filter_type", true);
-		if (!isset($display_type)) $display_type = 0;
-		if (!isset($sort_type)) $sort_type = 0;
-		if (!isset($filter_type)) $filter_type = 0;
-	}
-	else {
-		$is_ajax = true;
+		// */* Put directory code in a file
+include_once(RYIT_DIR ."directory.php");
 
-		if (isset($_GET['display_type'])) {
-			$display_type = $_GET['display_type'];
-			update_user_meta($user_id, "alumnus_directory_display_type", $display_type);
-		}
-		if (isset($_GET['sort_type'])) {
-			$sort_type = $_GET['sort_type'];
-			update_user_meta($user_id, "alumnus_directory_sort_type", $sort_type);
-		}
-		if (isset($_GET['filter_type'])) {
-			$filter_type = $_GET['filter_type'];
-			update_user_meta($user_id, "alumnus_directory_filter_type", $filter_type);
-		}
-	}
-
-	$header_echo = "";
-
-	if (ryit_user_is_current() && !user_can($user_id,'edit_pages')) {
-		$header_echo .= '<h1 class="title-heading-center"><p style="text-align:center;">The Fellowship</p></h1>';
-		$header_echo .= '<div class="fusion-text maxwidth-600" style="margin-bottom: 40px;"><p style="text-align: center;">The men traveling with you through the Realm of Forgotten Kings.</p>
-		</div>';
-	}
-	else {
-		$header_echo .= '<h1 class="title-heading-center"><p style="text-align:center;">The Fellowship</p></h1>';
-		$header_echo .= '<div class="fusion-text maxwidth-600" style="margin-bottom: 40px;"><p style="text-align: center;">The full Member Directory.<br/>Display of other member\'s profiles still incomplete.</p></div>';
-	}
-
-	//Gather members
-	if ($filter_type == 0) { //all members
-		//echo "fellowship";
-		$fellowship = rcp_get_members('active', 1, 0, 999999, 'ASC');
-		$alumni = rcp_get_members('free', 2, 0, 999999, 'ASC');
-		$current = rcp_get_members('free', 3, 0, 999999, 'ASC');
-		$members = array_merge($fellowship, $alumni, $current);
-	}
-	else if ($filter_type == 2) { //RYIT current & alumni
-		//echo "not fellowship";
-		$alumni = rcp_get_members('free', 2, 0, 999999, 'ASC');
-		$current = rcp_get_members('free', 3, 0, 999999, 'ASC');
-		$members = array_merge($alumni, $current);
-	}
-	else if ($filter_type == 12) { //In my country
-		$alumni = rcp_get_members('free', 2, 0, 999999, 'ASC');
-		$current = rcp_get_members('free', 3, 0, 999999, 'ASC');
-		$members = array_merge($alumni, $current);
-		$my_country = sanitize_title(get_field('ryit_user_profile_country','user_' . $user_id));
-		foreach ($members as $key=>$member) {
-			$country = get_field('ryit_user_profile_country','user_' . $member->ID);
-			if(sanitize_title($country) != $my_country || empty($country)) {
-				unset($members[$key]);
-			}
-		}	
-	}
-	else if ($filter_type == 13) { //In my city
-		$alumni = rcp_get_members('free', 2, 0, 999999, 'ASC');
-		$current = rcp_get_members('free', 3, 0, 999999, 'ASC');
-		$members = array_merge($alumni, $current);
-		$my_city = sanitize_title(get_field('ryit_user_profile_city','user_' . $user_id));
-		foreach ($members as $key=>$member) {
-			$city = get_field('ryit_user_profile_city','user_' . $member->ID);
-			if(sanitize_title($city) != $my_city || empty($city)) {
-				unset($members[$key]);
-			}
-		}	
-	}
-	else if ($filter_type == 14) { //Stretch goal
-		$alumni = rcp_get_members('free', 2, 0, 999999, 'ASC');
-		$current = rcp_get_members('free', 3, 0, 999999, 'ASC');
-		$members = array_merge($alumni, $current);
-		foreach ($members as $key=>$member) {
-			if(!ryit_user_stretch_goal_is_initiated($member->ID)) {
-				unset($members[$key]);
-			}
-		}		
-	}
-	/*
-	else if ($filter_type == 3) { //RYIT Leaders
-		//echo "not fellowship";
-		$alumni = rcp_get_members('free', 2, 0, 999999, 'ASC');
-		$current = rcp_get_members('free', 3, 0, 999999, 'ASC');
-		$members = array_merge($alumni, $current);
-	}
-	*/
-
-	//Ignore members (developer account etc)
-	$ignore_members = array(
-		84,
-		252
-	);
-
-	if ($sort_type == 0) { //Sort by name
-		foreach ($members as $member) {
-			if (in_array($member->ID, $ignore_members)) continue;
-			$member_data = get_userdata($member->ID);
-			$key = ucfirst($member_data->first_name) . " " . ucfirst($member_data->last_name);
-			$alumni_names[$key]['first_name'] = ucfirst($member_data->first_name);
-			$alumni_names[$key]['last_name'] = ucfirst($member_data->last_name);
-			$alumni_names[$key]['id'] = $member_data->ID;
-		}
-		ksort($alumni_names);
-	}
-	else if ($sort_type == 1) { //Sort by RYIT round
-		$rounds = array();
-		$round_number_last = 0;
-		foreach ($members as $member) {
-			if (in_array($member->ID, $ignore_members)) continue;
-			$round_number = get_field('ryit_round_number', 'user_' . $member->ID);
-			$comma_index = strpos($round_number, ','); //If user took part in several rounds then...
-			if (!empty($comma_index)) {
-				$round_number = substr($round_number, 0, strpos($round_number, ',')); //....list them as participating in only the first
-				
-			}
-			if (isset($round_number)) {
-				$rounds[$round_number][] = $member->ID;
-			}
-		}
-		ksort($rounds);
-	}
-	else if ($sort_type == 2) {
-
-	}
-
-	//set up AJAX javascript
-	ob_start();
-	if (!$is_ajax):
-
-	//prepare popup that shows when user changaes view settings
-	//ryit_ui_feedback_popup('<img src="' . get_stylesheet_directory_uri() . '/images/spinner.gif" class="loader" /><p>Refreshing View ...</p>', true);
-
-	ryit_get_fp_javascript('member-directory');
-	endif;
-
-	$form_js = ob_get_clean();
-
-	/**************** CREATE SEARCH AND FILTER FORM *****************/
-
-	if (!ryit_user_is_current() || (ryit_user_is_current() && user_can($user_id,'edit_pages'))) {
-		$display_types = array();
-		$display_types[] = array(
-			'display_name',
-			'Name only'
-		);
-		$display_types[] = array(
-			'display_portrait',
-			'Name & Portrait'
-		);
-
-		$sort_types = array();
-
-		$sort_types[] = array(
-			'sort_by_name',
-			'Name'
-		);
-		if (ryit_user_is_alumnus() || (ryit_user_is_current() && user_can($user_id,'edit_pages'))) {
-			$sort_types[] = array(
-				'sort_by_round',
-				'RYIT Round'
-			);
-		}
-
-		$filter_types[] = array(
-			'filter_fellowship',
-			'All members'
-		);
-		$filter_types[] = array(
-			'filter_ryit_header',
-			'Reclaim your Inner Throne',
-			true
-		);
-		$filter_types[] = array(
-			'filter_ryit_alumni',
-			'-- The alumni'
-		);
-		$filter_types[] = array(
-			'filter_ryit_myround',
-			'-- Men from my round *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_ryit_leadership',
-			'Leadership team *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_fellowship',
-			'The Fellowship *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_fellowship_free',
-			'-- Free members *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_fellowship_bronze',
-			'-- Bronze members *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_fellowship_silver',
-			'-- Silver members *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_fellowship_bronze',
-			'-- Gold members *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_my_skills',
-			'Men with my skills *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_skills_needed',
-			'Men with skills I\'m in need of *coming*',
-			true
-		);
-		$filter_types[] = array(
-			'filter_my_country',
-			'Men in my country',
-		);
-		$filter_types[] = array(
-			'filter_my_city',
-			'Men in my city',
-		);
-		$filter_types[] = array(
-			'filter_stretch_goal',
-			'Men with active stretch goal',
-		);
-		if(ryit_user_is_alumnus()) {
-			$filter_types[] = array(
-				'filter_my_round',
-				'Men from my RYIT *coming*',
-				true
-			);
-		}
-
-		$form_echo = "";
-		$form_echo .= "<form id='member_directory_settings' class='clearfix'>";
-		$form_echo .= "<div id='display_type'><h3>View type</h3>";
-		$form_echo .= "<select id='display_type_input'>";
-
-		$i = 0;
-		foreach ($display_types as $type) {
-			$form_echo .= '<option id="' . $type[0] . '"' . ' value="' . $type[0] . '"';
-			if ($display_type == $i) $form_echo .= " selected='selected'";
-			$form_echo .= "'>" . $type[1] . "</option>";
-			$i++;
-		}
-
-		$form_echo .= "</select>";
-		$form_echo .= "</div>";
-		$form_echo .= "<div id='sort_type'><h3>Sort by</h3>";
-		$form_echo .= "<select id='sort_type_input'>";
-
-		if (ryit_user_is_current() && !user_can($user_id,'edit_pages')) {
-			$form_echo .= '<option disabled selected="selected">Not available</option>';
-		}
-		else {
-			$i = 0;
-			foreach ($sort_types as $type) {
-				$form_echo .= "<option id='" . $type[0] . "'";
-				if ($sort_type == $i) $form_echo .= " selected='selected'";
-				$form_echo .= ">" . $type[1] . "</option>";
-				$i++;
-			}
-		}
-
-		$form_echo .= "</select>";
-		$form_echo .= "</div>";
-		$form_echo .= "<div id='filter_type'><h3>Filter</h3>";
-		$form_echo .= "<select id='filter_type_input'>";
-		$i = 0;
-		foreach ($filter_types as $type) {
-			$form_echo .= "<option id='" . $type[0] . "'";
-			if ($filter_type == $i) $form_echo .= " selected='selected'";
-			if(!empty($type[2])) {
-				if($type[2]) $form_echo .= " disabled";
-			}
-			$form_echo .= ">" . $type[1] . "</option>";
-			$i++;
-		}
-		$form_echo .= "</select>";
-		$form_echo .= "</div>";
-		$form_echo .= "</form>";
-
-		$echo = "";
-	}
-
-	/**************** LIST USERS *****************/
-
-	//Define default avatar
-	$upload_dir = wp_upload_dir();
-	$default_avatar =  $upload_dir['baseurl'] . "/2014/12/crown-logo.png";
-
-	//only show current round to men undergoing their initiation
-	if (ryit_user_is_current() && !user_can($user_id,'edit_pages')) {
-		$curr_round = get_field('ryit_round_number', 'options');
-		$temp_rounds = $rounds[$curr_round];
-		$rounds = array();
-		$rounds[$curr_round] = $temp_rounds;
-	}
-
-	if ($sort_type == 0) { /************* Sort alumni by name ******************/
-		foreach ($alumni_names as $alumnus) {
-			$alumnus_data = get_userdata($alumnus['id']);
-			$user_id = $alumnus_data->ID;
-
-			$avatar_status = "";
-			$avatar = get_field('field_5a576ed8b86eb', 'user_' . $user_id);
-			if (empty($avatar)) {
-				$args = array(
-					'size' => 150,
-					'default' => 'blank'
-				);
-				$avatar = get_avatar_url($user_id, $args);
-				$avatar_status = " has-avatar";
-			}
-			else {
-				$avatar_status = " has-avatar";
-			}
-
-			if(empty($first_letter)) $first_letter = "";
-			if(empty($first_letter_prev)) $first_letter_prev = "";
-
-			switch ($display_type) { //Return HTML based on display type				
-				case 0: //Show name only
-					$first_letter = mb_substr($alumnus['first_name'], 0, 1);
-					if ($first_letter != $first_letter_prev || empty($first_letter_prev)) $echo .= '<li class="letter">' . $first_letter . '</li>';
-					$echo .= "<li><a href='/user-profile?user_id=" . $alumnus_data->ID . "'>" . $alumnus['first_name'] . " " . $alumnus['last_name'] . "</a></li>";
-					$first_letter_prev = $first_letter;
-					break;
-				case 1: //Show name and photo
-					$first_letter = mb_substr($alumnus['first_name'], 0, 1);
-					if ($first_letter != $first_letter_prev || empty($first_letter_prev)) {
-						$echo .= "<div class='member letter'><div class='portrait'><span>" . $first_letter . "</span></div><h4></h4></div>";
-						$first_letter_prev = $first_letter;
-					}
-					$echo .= "<div class='member" . $avatar_status . "'><div class='default_img'></div>";
-					$echo .= "<a href='/user-profile?user_id=" . $alumnus_data->ID . "'><div class='portrait' style='background-image: url(" . $avatar . ");'>";
-					//$echo .= "<div class='hover'><div class='hover_bg'></div></a></div>";
-					$echo .= "</div></a>";
-					$echo .= "<h4><a href='/user-profile?user_id=" . $alumnus_data->ID . "'>" . $alumnus_data->first_name . " " . $alumnus_data->last_name . "</a></h4>";
-					$echo .= "</div>";
-				break;
-			}
-		}
-
-		$title = "<h2>Sorted by First Name <span>Count: " . count($alumni_names) . "</span></h2>";
-
-		if ($display_type == 0) {
-			$echo = $title . "<ul id='alumnus_names'>" . $echo . "</ul>";
-		}
-		else {
-			$echo = $title . $echo;
-		}
-
-		if (!$is_ajax) {
-			$echo = $header_echo . $form_js . $form_echo . "<div id='directory_listing'><div class='member-group'>" . $echo . "</div></div>";
-		}
-		else {
-			$echo = "<div class='member-group'>" . $echo . "</div>";
-		}
-		//End sort type 0
-		
-	}
-	else if ($sort_type == 1) { /******* Sort alumni by RYIT round ********/
-		foreach ($rounds as $round_number => $users) {
-			$round_echo = "";
-
-			foreach ($users as $user_id) {
-				$alumnus = get_userdata($user_id);
-				$avatar = get_field('field_5a576ed8b86eb', 'user_' . $user_id);
-				if (empty($avatar)) {
-					$avatar = $default_avatar;
-					$avatar_status = "";
-				}
-				else {
-					$avatar_status = " has-avatar";
-				}
-
-				switch ($display_type) { //Gather
-					case 0: //Show name only
-						$round_echo .= "<li class='member'><h4><a href='/user-profile?user_id=" . $alumnus->ID . "'>" . $alumnus->first_name . " " . $alumnus->last_name . "</a></h4></li>";
-					break;
-					case 1:
-						$round_echo .= "<div class='member" . $avatar_status . "'>";
-						$round_echo .= "<a href='/user-profile?user_id=" . $alumnus->ID . "'><div class='portrait' style='background-image: url(" . $avatar . ");'>";
-						//$echo .= "<div class='hover'><div class='hover_bg'></div></a></div>";
-						$round_echo .= "</div></a>";
-						$round_echo .= "<h4><a href='/user-profile?user_id=" . $alumnus->ID . "'>" . $alumnus->first_name . " " . $alumnus->last_name . "</a></h4>";
-						$round_echo .= "</div>";
-					break;
-				}
-			}
-
-			switch ($display_type) { //Gather
-				case 0: //Show name only
-					$echo .= "<div class='member-group'>";
-					$echo .= "<h2>Round " . $round_number . "</h2>";
-					$echo .= "<ul>" . $round_echo . "</ul>";
-					$echo .= "</div>";
-				break;
-				case 1: //Show name and photo
-					$echo .= "<div class='member-group'>";
-					$echo .= "<h2>Round " . $round_number . "</h2>";
-					$echo .= $round_echo;
-					$echo .= "</div>";
-				break;
-			}
-		}
-		if ($is_ajax) {
-			$echo = "<div id='rounds'>" . $echo . "</div>";
-		}
-		else {
-			$echo = $header_echo . $form_js . $form_echo . "<div id='directory_listing'><div id='rounds'>" . $echo . "</div></div>";
-		}
-	}
-	else {
-		$echo = $header_echo . $form_js . $form_echo . "<div id='directory_listing'><div class='member-group'>" . $echo . "</div></div>";
-	}
-
-	if (ryit_user_is_current() && !user_can($user_id,'edit_pages')) {
-		$echo .= '<div style="clear:both; padding-top: 80px;"><p style="text-align: center; max-width: 600px; margin: -0.5em auto 3em; color: #999;">When you complete the training, the full alumni will be visible to you here, with networking opportunities etc.</p></div>';
-	}
-
-	if ($is_ajax) {
-		$return['echo'] = $echo;
-		if (isset($display_type)) {
-			$return['display_type'] = $display_type;
-		}
-		if (isset($sort_type)) {
-			$return['sort_type'] = $sort_type;
-		}
-		if (isset($filter_type)) {
-			$return['filter_type'] = $filter_type;
-		}
-		wp_send_json_success($return);
-		die();
-	}
-	else {
-		return $echo;
-	}
-}
-
-add_shortcode('member_directory', 'ryit_member_directory');
-
-
+// */* Functions Charlie added
+include_once(RYIT_DIR ."stretch-goal-utilities.php");
 //**Custom Gravatar**/
 /*
 add_filter( 'avatar_defaults', 'ryit_custom_gravatar' );
@@ -778,37 +42,7 @@ function ryit_init_startup_guide() {
 		ob_start();
 	?>
 		<script type="text/javascript">
-			jQuery('document').ready(function($j) {
-				$j('#setup-guide .toggle').on('click', function() {
-					if($j(this).parents('#setup-guide').hasClass('maximized')) {
-						$j(this).parents('#setup-guide').removeClass('maximized');
-						$j(this).parents('#setup-guide').addClass('minimized');
-						var mode = "minimized";
-					}
-					else {
-						$j(this).parents('#setup-guide').removeClass('minimized');
-						$j(this).parents('#setup-guide').addClass('maximized');
-						var mode = "maximized";
-					}
-
-					var data = {
-						action: 'update_setup_state',
-						mode: mode,
-						user_id: $j('body').attr('user_id')
-					};
-
-					$j.ajax({
-						url: ajaxurl,
-						type: 'GET', // the kind of data we are sending
-						data: data,        
-						dataType: 'json',
-						success: function(response) {
-						}, error: function() {
-							console.log("Something went wrong");
-						}
-					});
-				});
-			});
+			<?php echo file_get_contents(RYIT_DIR . "js/guide-control.js", FILE_USE_INCLUDE_PATH); ?>
 		</script>
 	<?php
 		$echo = ob_get_clean();
@@ -1279,9 +513,9 @@ if((ryit_user_is_alumnus($current_user_id) || ryit_user_is_fellowship($current_u
 		
 
 		$fields_echo = '<div id="field-groups">' . $fields_echo . '</div>';
-
+		// */* added check for easy digital downloads to stop shortcode showing
 		//Add RCP profile and purchase history sections
-		if ($user_id == $current_user_id) {
+		if ($user_id == $current_user_id && is_plugin_active("easy-digital-downloads")) {
 			$echo .= '<div class="field-group" id="field-group-edit-account">';
 			ob_start();
 			echo do_shortcode('[edd_profile_editor]');
@@ -1295,6 +529,9 @@ if((ryit_user_is_alumnus($current_user_id) || ryit_user_is_fellowship($current_u
 			$content = ob_get_clean();
 			$echo .= '<div class="field">' . $content . '</div>';
 			$echo .= '</div>';
+		}
+		else {
+
 		}
 
 		//do_shortcode('[edd_subscriptions]')
@@ -1374,6 +611,7 @@ function ryit_get_help_popups() {
 			$setup_help_popups = get_user_meta($user_id, 'ryit_user_setup_popups', true);
 	
 			//var_dump($setup_help_popups);
+				$echo = ryit_get_help_popup(3,true);
 
 			if(empty($setup_help_popups)) {
 				update_user_meta($user_id,'ryit_user_setup_popups',$setup_progress);
@@ -1412,7 +650,7 @@ function ryit_get_help_popup($popup_id,$first_display = false,$include_wrap=true
 	if($popup_id == 1) {
 		return false;
 	}
-	if($popup_id == 2) {
+	else if($popup_id == 2) {
 		$echo .= '<h3>Vision & Mission</h3>';
 		if($first_display) {
 			$echo .= '<p>Okay, thank you for filling in your Life Assessment! (you will be returning to it regularly when you do your stretch goal)</p>';
@@ -1610,6 +848,8 @@ function ryit_get_profile_navigation($user_id, $fields,$is_ajax=false) {
 
 	//echo $view_mode;
 
+    // */* made code shorter - same effect
+
 	if(!empty($_GET['active-section'])) {
 		//echo "not empty";
 		$active_section = $_GET['active-section'];	
@@ -1618,29 +858,16 @@ function ryit_get_profile_navigation($user_id, $fields,$is_ajax=false) {
 		if($view_mode == 'ryit') {
 			$active_section = 'call-to-adventure';	
 		}
-		else {
-			if(!ryit_is_ajax()) {
-				if(ryit_user_is_setting_up($user_id)) {
-					$active_section = sanitize_title($fields[ryit_user_get_setup_progress($current_user_id)-1][0]);
-				}
-				else {
-					if($user_id == $current_user_id) {
-						$active_section = 'life-assessment';	
-					}
-					else {
-						$active_section = 'vision-mission';
-					}
-				}
-			}
-			else {
-				if($user_id == $current_user_id) {
-					$active_section = 'life-assessment';	
-				}
-				else {
-					$active_section = 'vision-mission';
-				}
-			}
+		else if(!ryit_is_ajax() && ryit_user_is_setting_up($user_id)) {
+            $active_section = sanitize_title($fields[ryit_user_get_setup_progress($current_user_id)-1][0]);
 		}
+        
+        if($user_id == $current_user_id) {
+            $active_section = 'life-assessment';	
+        }
+        else {
+            $active_section = 'vision-mission';
+        }
 	}
 
 	$setup_progress = empty(ryit_user_get_setup_progress($user_id)) ? 1 : ryit_user_get_setup_progress($user_id);
@@ -1679,6 +906,7 @@ function ryit_get_profile_navigation($user_id, $fields,$is_ajax=false) {
 
 	if($is_ajax) {
 		return $dropdown_echo;
+        die();
 	}
 
 	$nav_echo .= $dropdown_echo;
@@ -1826,7 +1054,10 @@ function ryit_get_profile_stretch_goals($user_id=false) {
 	$fields = array('ryit_user_stretch_goal_title', 'ryit_user_stretch_goal_start');
 
 	$stretch_goal_start = get_field('ryit_user_stretch_goal_start', 'user_' . $user_id);
-	$start_timecode = date('Ymd', $stretch_goal_start);
+	$start_timecode = date('Ymd', time());
+
+	if($stretch_goal_start != "")
+		$start_timecode = date('Ymd', $stretch_goal_start);
 	$server_timecode = date('Ymd', time());
 
 	/*
@@ -2269,8 +1500,9 @@ function ryit_user_get_badges($user_id) {
 		$echo .= '</li>';
 	}
 
-	$trainings = get_field('ryit_user_trainings_participated', 'user_' . $user_id);
-
+	$trainings = get_field('ryit_user_trainings_taken', 'user_' . $user_id);
+	if($trainings != "" && $trainings != null) {
+		
 	if(in_array('uima', $trainings)) {
 		$echo .= '<li id="fellowship-academy" class="active">';
 
@@ -2279,6 +1511,7 @@ function ryit_user_get_badges($user_id) {
 		$echo .= '<div class="image_wrap"><img src="' . get_stylesheet_directory_uri() . '/images/badges/badge-academy.png" /></div>';
 		$echo .= '</li>';
 	}
+}
 
 	$fellowship_level = ryit_user_get_fellowship_level($user_id);
 
@@ -2293,7 +1526,7 @@ function ryit_user_get_badges($user_id) {
 		$echo .= '</li>';
 	}
 
-	$trainings = get_field('ryit_user_trainings_participated', 'user_' . $user_id);
+	if($trainings != "" && $trainings != null) {
 	if(in_array('coaching', $trainings)) {
 		$echo .= '<li id="fellowship-coaching" class="active">';
 
@@ -2302,7 +1535,7 @@ function ryit_user_get_badges($user_id) {
 		$echo .= '<div class="image_wrap"><img src="' . get_stylesheet_directory_uri() . '/images/badges/badge-coaching.png" /></div>';
 		$echo .= '</li>';
 	}
-
+	}
 
 	if(ryit_user_stretch_goal_is_initiated()) {
 		$stretch_goal_start = get_field('ryit_user_stretch_goal_start', 'user_' . $user_id);
@@ -2997,10 +2230,39 @@ function ryit_get_fp_javascript($context = false,$args=false) {
 		ob_start();
 	 //echo get_user_meta($user_id, 'ryit_user_life_assessment_purpose_average', true);
 	?>
+<button id="usertest">button</button>
 		<script type="text/javascript">
 			var ajaxurl = '<?php echo admin_url("admin-ajax.php"); ?>';
 			var theme_path = '<?php echo get_stylesheet_directory_uri(); ?>';
 			jQuery('document').ready(function($j) {
+
+				// */* test to add email reminder
+				var data = {
+					
+					action: 'create_goal_reminder',
+					subject: 'test',
+					message: '<p>Please <a href="https://www.inner-throne.com/member_login">log in</a> as you normally do and then go to your <a href="https://www.inner-throne.com/user-profile/">User Profile</a> under My Accounts. Assign yourself to the right triad, feed your results from early work on this training into the system and ensure that all your triad members join. This is the start of an amazing new feature, that will only expand in the coming weeks.</p>',
+					days: 3,
+				};
+         // */*  added a button for testing of the email system        
+			$j(document).on('click', '#usertest', function(e) {
+				e.preventDefault();
+				$j.ajax({
+					url: ajaxurl,
+					type: 'POST', // the kind of data we are sending
+					data: data,        
+					dataType: 'json',
+					success: function(response) {
+						console.log(response);
+					},
+					error: function(response) {
+						console.log(response);
+					}
+				});
+			});
+
+					// end test
+
 				$j('body').removeClass('is-loading');
 				$j.urlParam = function(name){ //get URL parameter
 				    var results = new RegExp('[\?&]' + name + '=([^]*)').exec(window.location.href);

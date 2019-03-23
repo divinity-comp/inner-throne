@@ -2249,4 +2249,83 @@ function df_terms_clauses($clauses, $taxonomy, $args) {
 
 add_filter('terms_clauses', 'df_terms_clauses', 10, 3);
 
+
+// */* 
+// Can add anyone to email reminder + any subject or message
+
+/* 
+Post request
+
+subject - text
+message - text/html
+days - float / interger 
+userid - int
+
+User id can only be set if they are admin
+
+*/
+function create_user_email_reminder() {
+	
+
+		if(isset($_POST["subject"]) && isset($_POST["message"])) {
+			$subject = $_POST["subject"];
+			$message = $_POST["message"];
+		}
+		if(isset($_POST["days"])) {
+			$amountOfDays = floatval($_POST["days"]);
+		}
+		if(isset($_POST["userid"])) {
+				$user_id = intval($_POST["userid"]);
+		}
+	
+		if(!is_numeric($amountOfDays)) {
+			wp_send_json_error( "Invalid days set" ); 
+		}
+		if(!isset($subject) || !isset($message)) {
+			wp_send_json_error( "Either the subject or message is empty, both need values" ); 
+		}
+		// this checks if the user is they have set an id, if not checks if they are admin, otherwise they cant create the reminder
+		if($user_id) {
+			if(!is_user_admin()) {
+				wp_send_json_error( "Admin access required" ); 
+			}
+		}
+		else {
+			// dont bother checking if user is logged in, as this ajax can only run when they are
+			$user_id = get_current_user_id();
+		}
+			$emailDataString = json_encode(array( 'subject' => $subject, 'message' => $message,'date' => time(),'timeAfter' => $amountOfDays )); 
+			add_user_meta( $user_id, 'user_email_reminder', $emailDataString);
+			
+			wp_send_json_success(json_decode($emailDataString));
+}
+add_action("wp_ajax_create_goal_reminder", "create_user_email_reminder");
+
+if ( ! wp_next_scheduled( 'ryit_email_reminder_hook' ) ) {
+  wp_schedule_event( time(), 'hourly', 'ryit_email_reminder_hook' );
+}
+
+add_action( 'ryit_email_reminder_hook', 'check_user_email_reminders' );
+// the cron job that will run hourly, this only runs when goes on the site, meaning if no one goes on the site they will build up until someone does (ideally this need to be connected to the system cron)
+function check_user_email_reminders() {
+	global $wpdb;
+	$activeReminders = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}usermeta WHERE meta_key = 'user_email_reminder'" );
+
+	$triggeredReminders = array();
+	foreach ( $activeReminders as $reminder ) 
+	{
+		$reminderMeta = json_decode($reminder->meta_value);
+
+		$dayToMeet = $reminderMeta->date + (86400 * $reminderMeta->timeAfter);
+		if($dayToMeet < time()) {
+
+			$user_info = get_userdata($reminder->user_id);
+			// time is past trigger date || commented only to stop send
+			// wp_mail( $user_info->user_email, $reminderMeta->subject, $reminderMeta->message);
+		}
+	}
+}
+
+
+
 ?>
